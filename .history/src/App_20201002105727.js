@@ -5,7 +5,6 @@ import "./App.css";
 // Loc
 // Dung
 // A Loc thui
-// World team
 function App() {
   return (
     <div className="App">
