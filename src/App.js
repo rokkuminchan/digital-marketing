@@ -4,7 +4,7 @@ import "./App.css";
 
 // Loc
 // Dung
-
+// A Loc thui
 function App() {
   return (
     <div className="App">
