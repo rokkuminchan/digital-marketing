@@ -7,16 +7,16 @@ const AboutUsData = {
         alt: "",
     },
     mission: {
-        title: "",
-        descripsion: "",
+        title: "ミッション",
+        descripsion: "高度IT人材で日本のDXに貢献する。",
         image: {
             src: "",
             alt: "",
         },
     },
     vision: {
-        title: "",
-        descripsion: "",
+        title: "ビジョン",
+        descripsion: "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
         image: {
             src: "",
             alt: "",
@@ -38,8 +38,8 @@ const AboutUsData = {
         ],
     },
     teamCharacteristic: {
-        title: "",
-        descripsion: "",
+        title: "ITチームの特徴",
+        descripsion: "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります。",
         image: {
             src: "",
             alt: "",
@@ -50,73 +50,73 @@ const AboutUsData = {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "アジリティが高い 高い実装能力を持ち、変更にも強い。",
             },
             {
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です。",
             },
             {
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "小規模から大規模まで納期と予算に合わせたチームをご提案します。",
             },
             {
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります。",
             },
         ],
     },
     memberCharacteristic: {
-        title: "",
-        descripsion: "",
+        title: "ITチームメンバーの特徴",
+        descripsion: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
 
         items: [
             {
-                title: "",
+                title: "日本が好きで",
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
             },
             {
-                title: "",
+                title: "日本が好き",
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "全員が日本在住。日本に興味を持って一生懸命に日本語を学び、日本で暮らし日本人と働いて、日本の良さを体験している技術者です。言葉や文化、そして業務の理解力で違いが出ます。",
             },
             {
-                title: "",
+                title: "技術が好き",
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "全員が中高時代からITに興味を持ち、ベトナムまたは、日本で情報処理系の教育を受けた技術者です。好きなことだから頑張れる。また、最先端の技術を常に学んでいます。",
             },
             {
-                title: "",
+                title: "チームが好き",
                 image: {
                     src: "",
                     alt: "",
                 },
-                descripsion: "",
+                descripsion: "お互いを理解しあい、強い絆で結ばれたチームです。技術の習得も仕事も力を合わせて、最高の結果を出します。",
             },
         ],
     },
     memberIntroduction: {
-        title: "",
-        descripsion: "",
+        title: "メンバー紹介",
+        descripsion: "我々は優秀なベトナム人エンジン中心としたチームです。レベルの高いべトナム大学の情報処理学科を卒業し、実務経験も豊富にあります。",
         items: [
             {
                 title: "",
