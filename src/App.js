@@ -1,6 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+<<<<<<< HEAD
+=======
+
+// TML
+>>>>>>> 4d1c70e68d0cb51dddb5459e124e0096d56c15fe
 
 // Loc
 // Dung
