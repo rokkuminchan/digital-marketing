@@ -37,7 +37,7 @@ const AboutUsData = {
             },
         ],
     },
-    TeamCharacteristic: {
+    teamCharacteristic: {
         title: "",
         descripsion: "",
         image: {
@@ -75,7 +75,7 @@ const AboutUsData = {
             },
         ],
     },
-    MemberCharacteristic: {
+    memberCharacteristic: {
         title: "",
         descripsion: "",
 
@@ -114,7 +114,7 @@ const AboutUsData = {
             },
         ],
     },
-    MemberIntroduction: {
+    memberIntroduction: {
         title: "",
         descripsion: "",
         items: [
@@ -170,7 +170,7 @@ const AboutUsData = {
         ],
 
     },
-    WorldRecruitHistory: {
+    worldRecruitHistory: {
         title: "",
         descripsion: "",
         image: {
@@ -178,7 +178,7 @@ const AboutUsData = {
             alt: "",
         },
     },
-    VietnamUniversity: {
+    vietnamUniversity: {
         title: "",
         descripsion: "",
 
@@ -213,7 +213,7 @@ const AboutUsData = {
         ]
 
     },
-    VietnamAndJapan: {
+    vietnamAndJapan: {
         title: "",
         descripsion: "",
         image: {
