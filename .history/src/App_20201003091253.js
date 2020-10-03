@@ -1,13 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
-// TML
-// Loc
-// Dung
-// A Loc thui
-// World team
-// tien
 function App() {
   return (
     <div className="App">
