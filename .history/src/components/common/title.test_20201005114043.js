@@ -19,7 +19,13 @@ afterEach(() => {
 });
 
 it("can render a title from data", () => {
-  ReactDOM.render(<Title data={Data} />, container);
+  ReactDOM.render(<Card data={Data} />, container);
   const title = container.querySelector("h3");
+  const description = container.querySelector("p");
+  const img = container.querySelector("img");
+
+  expect(img.src).toMatch(new RegExp(Data.img.src));
+  expect(img.alt).toContain(Data.img.alt);
   expect(title.textContent).toBe(Data.title);
+  expect(description.textContent).toBe(Data.description);
 });

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Relationship.css";
-
+import Title from "../../../components/common/Title";
 export default function Relationship({ data }) {
   return (
     <div className="relationship">
