@@ -28,11 +28,17 @@ afterEach(() => {
 
 it("can render a component from data", () => {
   ReactDOM.render(<MemberCharacteristic data={Data} />, container);
+<<<<<<< HEAD
   const title = container.querySelector("Title");
   const description = container.querySelector("p");
   const items = container.querySelectorAll("div.p");
 
   expect(title.textContent).toBe(Data.title);
+=======
+  const description = container.querySelector("p");
+  const items = container.querySelector("div");
+
+>>>>>>> d10d42b9cb1bd0922e94506ae460bfb0f37cbeb9
   expect(description.textContent).toBe(Data.description);
   for (let item in items) {
     expect(items[item].title).toMatch(new RegExp(Data.item.title));
