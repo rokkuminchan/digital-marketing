@@ -1,11 +1,12 @@
 :root {
   --header-menu-height: 68px;
-  --page-header-img-height: 400px;
+  --page-header-img-height: 500px;
 }
 
 .page-header {
   margin-top: var(--header-menu-height);
   height: calc(100vh - var(--header-menu-height));
+  background-color: #eff9ff;
 }
 
 .page-header__banner {
@@ -56,4 +57,5 @@
   font: normal normal normal 24px/32px Roboto;
   letter-spacing: 0px;
   color: #373f41;
+  line-height: 50px;
 }
