@@ -1,6 +1,4 @@
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import vnjp from "../img/AboutUs/vnjp.jpg";
-
+import vnjprelationship from "../img/AboutUs/vnjprelationship";
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
@@ -164,8 +162,8 @@ const AboutUsData = {
     description:
       "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
     image: {
-      src: wrh,
-      alt: "WorldRecruitHistory",
+      src: "",
+      alt: "",
     },
   },
   vietnamUniversity: {
@@ -210,7 +208,7 @@ const AboutUsData = {
     description:
       "2009年に日・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました。",
     image: {
-      src: vnjp,
+      src: vnjprelationship,
       alt: "about-us-vietnam-and-japan",
     },
   },

@@ -1,6 +1,4 @@
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import vnjp from "../img/AboutUs/vnjp.jpg";
-
+import vnjp from "../img/AboutUs/vnjp";
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
@@ -164,8 +162,8 @@ const AboutUsData = {
     description:
       "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
     image: {
-      src: wrh,
-      alt: "WorldRecruitHistory",
+      src: "",
+      alt: "",
     },
   },
   vietnamUniversity: {
