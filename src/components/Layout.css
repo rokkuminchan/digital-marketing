@@ -1,4 +1,9 @@
 /* Box sizing rules */
+* {
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 *,
 *::before,
 *::after {
@@ -78,5 +83,5 @@ select {
 }
 
 main {
-  margin-top: 60px;
+  margin-top: 68px;
 }

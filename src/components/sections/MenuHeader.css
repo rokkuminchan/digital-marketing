@@ -27,6 +27,7 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #376cc2;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
 .menu-header__navigation-link:hover,
@@ -37,7 +38,7 @@ a {
 .menu-header__logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 3em;
   padding: 10px 20px;
   text-decoration: none;
 }
