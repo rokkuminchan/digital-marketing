@@ -3,19 +3,19 @@ import "./MenuHeader.css";
 
 export default function MenuHeader(props) {
   return (
-    <header class="menu-header">
-      <a href="#." class="menu-header__logo">
+    <header className="menu-header">
+      <a href="#." className="menu-header__logo">
         World logo
       </a>
       <input
-        class="menu-header__visibility-btn"
+        className="menu-header__visibility-btn"
         type="checkbox"
         id="menu-btn"
       />
-      <label class="menu-header__icon" for="menu-btn">
-        <span class="menu-header__navicon"></span>
+      <label className="menu-header__icon" htmlFor="menu-btn">
+        <span className="menu-header__navicon"></span>
       </label>
-      <ul class="menu-header__navigation">
+      <ul className="menu-header__navigation">
         <li className="menu-header__navigation-item">
           <a className="menu-header__navigation-link" href="#Home">
             Home
