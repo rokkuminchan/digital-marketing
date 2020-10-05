@@ -7,7 +7,12 @@ export default function MemberCharacteristic({data}) {
         <div className="member-characteristic">
             <Title title={data.title} />
             <p className="member-characteristic__description">{data.description}</p>
-            <div className="member-characterstic__items">{data.items}</div>
+            <div className="member-characterstic__items">
+                <div>
+                    <p>{data.items.title}</p>
+                </div>
+                <p>{data.items.description}</p>                                
+            </div>
         </div>
     );
 }
