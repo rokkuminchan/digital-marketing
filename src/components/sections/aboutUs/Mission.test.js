@@ -8,8 +8,8 @@ const Data = {
   title: "ミッション",
   description: "高度IT人材で日本のDXに貢献する。",
   img: {
-    src: "",
-    alt: "",
+    src: "about-us-mission",
+    alt: "about-us-mission",
   },
 };
 
