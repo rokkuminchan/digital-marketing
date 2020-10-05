@@ -5,9 +5,6 @@ export default function Title({data}) {
   return (
     <div className="title">
       <h3 className="title">{data}</h3>
-      {
-        console.log(data)
-      }
     </div>
   );
 }

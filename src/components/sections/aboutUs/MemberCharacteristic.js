@@ -1,7 +1,6 @@
 import React from 'react';
 import './MemberCharacteristic.css';
 import Title from "../../common/Title.js";
-import '../../common/Title.css';
 
 export default function MemberCharacteristic({data}) {
 

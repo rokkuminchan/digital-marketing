@@ -4,9 +4,7 @@ import Title from "./Title";
 
 let container;
 
-const Data = {
-  title: "ミッション",
-};
+const Data = "ミッション";
 
 beforeEach(() => {
   container = document.createElement("div");
@@ -21,5 +19,5 @@ afterEach(() => {
 it("can render a title from data", () => {
   ReactDOM.render(<Title data={Data} />, container);
   const title = container.querySelector("h3");
-  expect(title.textContent).toBe(Data.title);
+  expect(title.textContent).toBe(Data);
 });
