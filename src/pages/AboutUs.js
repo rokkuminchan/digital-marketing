@@ -7,13 +7,20 @@ import TeamCharacteristic from "../components/sections/aboutUs/MemberCharacteris
 import Relationship from "../components/sections/aboutUs/Relationship";
 import AboutUsData from "../data/AboutUs";
 import Vision from "../components/sections/aboutUs/Vision";
+import MemberIntro from '../components/sections/aboutUs/MemberIntro';
 export default function AboutUs({ data }) {
   var { memberCharacteristic, vision, mission } = AboutUsData;
+  var {worldRecruitHistory, memberIntroduction, relationship} = AboutUsData;
+  var {teamCharacteristic} = AboutUsData;
   return (
     <Layout>
       <Mission data={mission} />
-      <MemberCharacteristic data={memberCharacteristic} />
       <Vision data={vision} />
+      <MemberCharacteristic data={memberCharacteristic} />
+      <TeamCharacteristic data={teamCharacteristic} />
+      <MemberIntro data={memberIntroduction} />
+      <WorldRecruitHistory data={worldRecruitHistory} />
+      <Relationship data={relationship} />
     </Layout>
   );
 }
