@@ -11,7 +11,7 @@ const AboutUsData = {
         image: {
           src: "",
           alt: "",
-        },
+        }
     },
     vision: {
         title: "ビジョン",
@@ -69,7 +69,7 @@ const AboutUsData = {
         items: [
             {
                 title: "日本が好きで",
-            description: "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
+                description: "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
             },
             {
                 title: "日本が好き",
@@ -147,8 +147,7 @@ const AboutUsData = {
         image: {
           src: "",
           alt: "",
-        },
-      description: "",
+        }      
       },
   vietnamUniversity: {
     title: "ベトナムの大学",

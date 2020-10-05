@@ -1,10 +1,13 @@
 import React from "react";
 import "./Title.css";
 
-export default function Title({ data }) {
+export default function Title({data}) {
   return (
     <div className="title">
-      <h3 className="title">{data.title}</h3>
+      <h3 className="title">{data}</h3>
+      {
+        console.log(data)
+      }
     </div>
   );
 }

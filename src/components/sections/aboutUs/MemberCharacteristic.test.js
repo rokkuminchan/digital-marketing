@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import './MemberCharacteristic.js';
+import ReactDOM from 'react-dom';
+import MemberCharacteristic from './MemberCharacteristic.js';
 
 let container;
 
@@ -24,7 +24,7 @@ afterEach(() => {
 });
 
 it("can render a component from data", () => {
-    ReactDOM.render(<Card data={Data} />, container);
+    ReactDOM.render(<MemberCharacteristic data={Data} />, container);
     const title = container.querySelector("Title");
     const description = container.querySelector("p");
     const items = container.querySelector("div");
