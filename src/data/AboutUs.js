@@ -1,5 +1,6 @@
 import wrh from "../img/AboutUs/world-recruit-history.jpeg";
 import vnjp from "../img/AboutUs/vnjp.jpg";
+import mission from "../img/AboutUs/mission.png"
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
@@ -13,8 +14,8 @@ const AboutUsData = {
     title: "ミッション",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
-      src: "",
-      alt: "",
+      src: mission,
+      alt: "mission",
     },
   },
   vision: {
