@@ -1,7 +1,4 @@
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import vnjp from "../img/AboutUs/vnjp.jpg";
-import mission from "../img/AboutUs/mission.png"
-
+import relationship from "../img/digital-marketing-images/私たちのチーム　イメージ/about-us-vietnam-and-japan";
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
@@ -14,17 +11,18 @@ const AboutUsData = {
     title: "ミッション",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
-      src: mission,
-      alt: "mission",
+      src: "",
+      alt: "",
     },
   },
   vision: {
     title: "ビジョン",
-    description: "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-    // image: {
-    //   src: "",
-    //   alt: "",
-    // },
+    description:
+      "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
+    image: {
+      src: "",
+      alt: "",
+    },
     items: [
       {
         title: "言葉の壁",
@@ -164,8 +162,8 @@ const AboutUsData = {
     description:
       "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
     image: {
-      src: wrh,
-      alt: "WorldRecruitHistory",
+      src: "",
+      alt: "",
     },
   },
   vietnamUniversity: {
@@ -210,7 +208,7 @@ const AboutUsData = {
     description:
       "2009年に日・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました。",
     image: {
-      src: vnjp,
+      src: "relationship.jpg",
       alt: "about-us-vietnam-and-japan",
     },
   },
