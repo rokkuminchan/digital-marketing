@@ -1,4 +1,5 @@
-import vnjp from "../img/AboutUs/vnjp";
+import vnjp from "../img/AboutUs/vnjp.jpg";
+
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
