@@ -8,7 +8,10 @@ export default function Layout(props) {
   return (
     <React.Fragment>
       <MenuHeader />
-      <main>{props.children}</main>
+      <main>
+        <PageHeader />
+        {props.children}
+      </main>
       <Footer />
     </React.Fragment>
   );

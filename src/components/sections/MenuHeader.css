@@ -8,6 +8,8 @@ a {
   background-color: #2361c4;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
+  top: 0;
+  height: 68px;
   width: 100%;
   z-index: 3;
 }
