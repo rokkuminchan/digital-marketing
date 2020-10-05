@@ -1,18 +1,24 @@
 import React from 'react';
 import './MemberCharacteristic.css';
 import Title from "../../common/Title.js";
+import '../../common/Title.css';
 
 export default function MemberCharacteristic({data}) {
+
     return (
         <div className="member-characteristic">
-            <Title title={data.title} />
+            <Title data={data.title} />
             <p className="member-characteristic__description">{data.description}</p>
-            <div className="member-characterstic__items">
-                <div>
-                    <p>{data.items.title}</p>
+            {
+                data.items.map((item, index) => 
+                <div className="member-characterstic__items" key={index}>
+                    <div>
+                        <p>{item.title}</p>
+                    </div>
+                    <p>{item.description}</p>                                
                 </div>
-                <p>{data.items.description}</p>                                
-            </div>
-        </div>
+                )
+            }
+        </div>    
     );
 }
