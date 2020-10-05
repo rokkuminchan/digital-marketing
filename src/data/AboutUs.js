@@ -16,10 +16,10 @@ const AboutUsData = {
   vision: {
     title: "ビジョン",
     description: "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-    image: {
-      src: "",
-      alt: "",
-    },
+    // image: {
+    //   src: "",
+    //   alt: "",
+    // },
     items: [
       {
         title: "言葉の壁",
