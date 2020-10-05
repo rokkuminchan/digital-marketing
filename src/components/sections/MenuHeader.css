@@ -97,27 +97,6 @@ a {
   max-height: 240px;
 }
 
-.menu-header__visibility-btn:checked ~ .menu-header__navicon {
-  background: transparent;
-}
-
-.menu-header__visibility-btn:checked ~ .menu-header__navicon:before {
-  transform: rotate(-45deg);
-}
-
-.menu-header__visibility-btn:checked ~ .menu-header__navicon:after {
-  transform: rotate(45deg);
-}
-
-.menu-header__visibility-btn:checked
-  ~ .menu-header__icon:not(.steps)
-  .menu-header__navicon:before,
-.menu-header__visibility-btn:checked
-  ~ .menu-header__icon:not(.steps)
-  .menu-header__navicon:after {
-  top: 0;
-}
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
