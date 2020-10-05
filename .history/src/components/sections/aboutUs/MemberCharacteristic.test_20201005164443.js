@@ -30,7 +30,7 @@ it("can render a component from data", () => {
   ReactDOM.render(<MemberCharacteristic data={Data} />, container);
   const title = container.querySelector("Title");
   const description = container.querySelector("p");
-  const items = container.querySelectorAll("div.p");
+  const items = container.querySelectorAll("div");
 
   expect(title.textContent).toBe(Data.title);
   expect(description.textContent).toBe(Data.description);
