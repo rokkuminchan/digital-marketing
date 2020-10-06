@@ -1,25 +1,21 @@
-import vnjp from "../img/AboutUs/vnjp.jpg";
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import mission from "../img/AboutUs/mission.png";
-import szksensei from "../img/AboutUs/szksensei.jpg";
-import huy from "../img/AboutUs/huy.jpg";
-import loc from "../img/AboutUs/loc.jpg";
-import yen from "../img/AboutUs/yen.jpg";
-import vien from "../img/AboutUs/vien.jpg";
-import duc from "../img/AboutUs/duc.jpg";
-import bkhn from "../img/AboutUs/bkhn.jpg";
-import bkdn from "../img/AboutUs/bkdn.jpg";
-import bcvt from "../img/AboutUs/bcvt.jpg";
-import box from "../img/AboutUs/box.svg";
-import key from "../img/AboutUs/key.svg";
-import vision from "../img/AboutUs/vision.jpeg";
-import briefcase from "../img/AboutUs/briefcase.svg";
-import lifebuoy from "../img/AboutUs/lifebuoy.svg";
-import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
-<<<<<<< HEAD
-//import vision from "../img/AboutUs/vision.jpeg";
-=======
->>>>>>> 783857d7cabc65a61c59a5fa0c990c0171fde005
+import vnjp from "../../img/AboutUs/vnjp.jpg";
+import wrh from "../../img/AboutUs/world-recruit-history.jpeg";
+import mission from "../../img/AboutUs/mission.png";
+import szksensei from "../../img/AboutUs/szksensei.jpg";
+import huy from "../../img/AboutUs/huy.jpg";
+import loc from "../../img/AboutUs/loc.jpg";
+import yen from "../../img/AboutUs/yen.jpg";
+import vien from "../../img/AboutUs/vien.jpg";
+import duc from "../../img/AboutUs/duc.jpg";
+import bkhn from "../../img/AboutUs/bkhn.jpg";
+import bkdn from "../../img/AboutUs/bkdn.jpg";
+import bcvt from "../../img/AboutUs/bcvt.jpg";
+import box from "../../img/AboutUs/box.svg";
+import key from "../../img/AboutUs/key.svg";
+import briefcase from "../../img/AboutUs/briefcase.svg";
+import lifebuoy from "../../img/AboutUs/lifebuoy.svg";
+import teamcharacteristic from "../../img/AboutUs/teamcharacristic.jpeg";
+import vision from "../../img/AboutUs/vision.jpeg";
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
