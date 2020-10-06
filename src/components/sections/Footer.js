@@ -9,6 +9,11 @@ export default function Footer({ data }) {
       <a herf="Info@https://world-works.co.jp" className="footer__link">
         Info@https://world-works.co.jp{" "}
       </a>
+      <p className="footer__description">
+        住所: 〒500-8856 岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
+      </p>
+      <p className="footer__description">TEL: 058-255-3066</p>
+      <p className="footer__description">FAX: 058-255-3633</p>
       <div className="footer__items">
         <ul>
           <li>
