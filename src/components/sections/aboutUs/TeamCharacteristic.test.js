@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TeamChracteristic from "./TeamCharacteristic";
+import TeamCharacteristic from "./TeamCharacteristic";
 
 let container;
 
@@ -27,7 +27,7 @@ afterEach(() => {
 });
 
 it("can render a component from data", () => {
-  ReactDOM.render(<TeamChracteristic data={Data} />, container);
+  ReactDOM.render(<TeamCharacteristic data={Data} />, container);
 
   const description = container.querySelector("p");
   expect(description.textContent).toBe(Data.description);

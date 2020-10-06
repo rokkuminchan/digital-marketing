@@ -1,6 +1,6 @@
 import React from "react";
 import DescriptiveIcon from "../../common/DescriptiveIcon";
-import "./TeamChracteristic.css";
+import "./TeamCharacteristic.css";
 import Title from "../../common/Title";
 
 const TeamCharacteristic = ({ data }) => {
