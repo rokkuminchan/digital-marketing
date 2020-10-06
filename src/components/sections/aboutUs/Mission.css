@@ -1,0 +1,46 @@
+.mission{
+    padding-top: 90px;
+    text-align: 1.8em;
+}
+.mission__description{
+    text-align: center;
+    text-align: 2em;
+}
+.mission__img {
+    width: 90%;
+    height: auto;
+}
+@media only screen and (max-width: 320px) {
+    .mission{
+     padding-top: 10px;
+     text-align: 1.5em;
+    }
+    .mission__description {
+      padding: 10px;
+      font-size: 1.4em;
+      text-align: center;
+    }
+    .mission__img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .mission__description {
+      padding: 10px;
+      text-align: center;
+      font-size: 1.4em;
+    }
+    .mission__img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
