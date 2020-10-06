@@ -9,7 +9,7 @@ a {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
-  height: 68px;
+  height: var(--header-menu-height);
   width: 100%;
   z-index: 3;
 }
@@ -27,7 +27,7 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #376cc2;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .menu-header__navigation-link:hover,
@@ -97,7 +97,7 @@ a {
 }
 
 .menu-header__visibility-btn:checked ~ .menu-header__navigation {
-  max-height: 240px;
+  max-height: 280px;
 }
 
 /* 48em = 768px */
