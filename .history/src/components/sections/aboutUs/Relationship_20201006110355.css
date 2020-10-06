@@ -1,8 +1,9 @@
 @media only screen and (max-width: 768px) {
   .relationship__description {
-    padding: 30px;
+    padding: auto;
     text-align: justify;
     font-size: 1.4em;
+    width: 80%;
   }
   .relationship__img {
     display: block;

@@ -1,13 +1,4 @@
 import vnjp from "../img/AboutUs/vnjp.jpg";
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import mission from "../img/AboutUs/mission.png";
-import szksensei from "../img/AboutUs/szksensei.jpg";
-import huy from "../img/AboutUs/huy.jpg";
-import loc from "../img/AboutUs/loc.jpg";
-import yen from "../img/AboutUs/yen.jpg";
-import vien from "../img/AboutUs/vien.jpg";
-import duc from "../img/AboutUs/duc.jpg";
-
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
@@ -28,7 +19,10 @@ const AboutUsData = {
     title: "ビジョン",
     description:
       "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-
+    // image: {
+    //   src: "",
+    //   alt: "",
+    // },
     items: [
       {
         title: "言葉の壁",

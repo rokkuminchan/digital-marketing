@@ -3,6 +3,7 @@
     padding: 30px;
     text-align: justify;
     font-size: 1.4em;
+    with: 80%;
   }
   .relationship__img {
     display: block;

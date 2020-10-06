@@ -2,7 +2,7 @@
   .relationship__description {
     padding: 30px;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   .relationship__img {
     display: block;
@@ -20,7 +20,6 @@
     font-size: 2em;
   }
   .relationship__img {
-    padding-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
