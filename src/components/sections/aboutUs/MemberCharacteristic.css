@@ -1,8 +1,30 @@
 .member-characteristic {
+  background: #eff9ff 0% 0% no-repeat padding-box;
 }
-.member-characteristic__description {
+@media only screen and (max-width: 768px) {
+  .member-characteristic {
+    text-align: center;
+    background: #eff9ff 0% 0% no-repeat padding-box;
+  }
+  .member-characteristic__description {
+    font-size: 1.4em;
+  }
+  .member-characteristic__items {
+  }
+  .member-characterstic__items-title {
+    border: 4px solid #de7c7c;
+    position: relative;
+    right: 30%;
+  }
 }
-.member-characteristic__items {
-}
-.member-characterstic__items-title {
+@media only screen and (min-width: 768px) {
+  .member-characteristic {
+  }
+  .member-characteristic__description {
+    font-size: 2em;
+  }
+  .member-characteristic__items {
+  }
+  .member-characterstic__items-title {
+  }
 }
