@@ -10,6 +10,13 @@ import duc from "../img/AboutUs/duc.jpg";
 import bkhn from '../img/AboutUs/bkhn.jpg';
 import bkdn from '../img/AboutUs/bkdn.jpg';
 import bcvt from '../img/AboutUs/bcvt.jpg';
+import box from '../img/AboutUs/box.svg';
+import key from '../img/AboutUs/key.svg';
+import briefcase from '../img/AboutUs/briefcase.svg';
+import lifebuoy from '../img/AboutUs/lifebuoy.svg';
+import teamcharacteristic from '../img/AboutUs/teamcharacristic.jpeg';
+
+
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
@@ -53,26 +60,26 @@ const AboutUsData = {
     description:
       "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります。",
     image: {
-      src: "",
-      alt: "",
+      src: teamcharacteristic,
+      alt: "teamcharacteristic",
     },
     items: [
       {
-        title: "",
+        icon:{src:box,alt:"icon1"} ,
         description: "アジリティが高い 高い実装能力を持ち、変更にも強い。",
       },
       {
-        title: "",
+        icon:{src:key,alt:"icon2"} ,
         description:
           "要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です。",
       },
       {
-        title: "",
+        icon:{src:briefcase,alt:"icon3"} ,
         description:
           "小規模から大規模まで納期と予算に合わせたチームをご提案します。",
       },
       {
-        title: "",
+        icon:{src:lifebuoy,alt:"icon4"} ,
         description:
           "生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります。",
       },
