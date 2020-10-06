@@ -7,19 +7,6 @@ import loc from "../img/AboutUs/loc.jpg";
 import yen from "../img/AboutUs/yen.jpg";
 import vien from "../img/AboutUs/vien.jpg";
 import duc from "../img/AboutUs/duc.jpg";
-<<<<<<< HEAD
-import bkhn from '../img/AboutUs/bkhn.jpg';
-import bkdn from '../img/AboutUs/bkdn.jpg';
-import bcvt from '../img/AboutUs/bcvt.jpg';
-import box from '../img/AboutUs/box.svg';
-import key from '../img/AboutUs/key.svg';
-import briefcase from '../img/AboutUs/briefcase.svg';
-import lifebuoy from '../img/AboutUs/lifebuoy.svg';
-import teamcharacteristic from '../img/AboutUs/teamcharacristic.jpeg';
-import vision from '../img/AboutUs/vision.jpeg';
-
-
-=======
 import bkhn from "../img/AboutUs/bkhn.jpg";
 import bkdn from "../img/AboutUs/bkdn.jpg";
 import bcvt from "../img/AboutUs/bcvt.jpg";
@@ -28,7 +15,6 @@ import key from "../img/AboutUs/key.svg";
 import briefcase from "../img/AboutUs/briefcase.svg";
 import lifebuoy from "../img/AboutUs/lifebuoy.svg";
 import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
->>>>>>> 587f01fdb6ddbc0f056e18e2f873eaba15f02874
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
@@ -50,10 +36,10 @@ const AboutUsData = {
     title: "ビジョン",
     description:
       "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-      image: {
-        src: vision,
-        alt: "vision",
-      },
+    image: {
+      src: vision,
+      alt: "vision",
+    },
     items: [
       {
         title: "言葉の壁",

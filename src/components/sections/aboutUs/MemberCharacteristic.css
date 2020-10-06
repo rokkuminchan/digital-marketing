@@ -54,5 +54,22 @@
   .member-characteristic__items {
   }
   .member-characterstic__items-title {
+    border-radius: 50% 50%;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    margin: 45px auto 15px auto;
+  }
+  .member-characterstic__items--border-red {
+    border: 10px solid #de7c7c;
+  }
+  .member-characterstic__items--border-yellow {
+    border: 10px solid #ebcf76;
+  }
+  .member-characterstic__items--border-green {
+    border: 10px solid #40948b;
+  }
+  .member-characterstic__items--border-blue {
+    border: 10px solid #3644d6;
   }
 }
