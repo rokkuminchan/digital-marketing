@@ -16,6 +16,10 @@ import vision from "../img/AboutUs/vision.jpeg";
 import briefcase from "../img/AboutUs/briefcase.svg";
 import lifebuoy from "../img/AboutUs/lifebuoy.svg";
 import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
+<<<<<<< HEAD
+//import vision from "../img/AboutUs/vision.jpeg";
+=======
+>>>>>>> 783857d7cabc65a61c59a5fa0c990c0171fde005
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
