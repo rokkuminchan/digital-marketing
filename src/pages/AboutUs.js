@@ -7,7 +7,9 @@ import TeamCharacteristic from "../components/sections/aboutUs/MemberCharacteris
 import MemberIntro from "../components/sections/aboutUs/MemberIntro";
 import WorldRecruitHistory from "../components/sections/aboutUs/WorldRecruitHistory";
 import Relationship from "../components/sections/aboutUs/Relationship";
+import VNUniversity from '../components/sections/aboutUs/VNUniversity';
 import AboutUsData from "../data/AboutUs";
+
 export default function AboutUs({ data }) {
   return (
     <Layout>
@@ -18,6 +20,7 @@ export default function AboutUs({ data }) {
       <MemberIntro data={AboutUsData.memberIntroduction} />
       <WorldRecruitHistory data={AboutUsData.worldRecruitHistory} />
       <Relationship data={AboutUsData.relationship} />
+      <VNUniversity data={AboutUsData.vietnamUniversity} />
     </Layout>
   );
 }

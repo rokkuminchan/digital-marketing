@@ -7,6 +7,9 @@ import loc from "../img/AboutUs/loc.jpg";
 import yen from "../img/AboutUs/yen.jpg";
 import vien from "../img/AboutUs/vien.jpg";
 import duc from "../img/AboutUs/duc.jpg";
+import bkhn from '../img/AboutUs/bkhn.jpg';
+import bkdn from '../img/AboutUs/bkdn.jpg';
+import bcvt from '../img/AboutUs/bcvt.jpg';
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
