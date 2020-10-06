@@ -8,7 +8,9 @@ export default function Vision({ data }) {
     <section className="vision">
       <h3 className="vision__title">{data.title}</h3>
       <p className="vision__description">{data.description}</p>
-      
+      <div className="vision__img">
+				<img src={data.image.src} alt={data.image.alt}></img>
+			</div>
       <div className="vision__item">
 
             {
