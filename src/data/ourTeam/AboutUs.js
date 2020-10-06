@@ -89,15 +89,10 @@ const AboutUsData = {
   },
   memberCharacteristic: {
     title: "ITチームメンバーの特徴",
-    description: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
+    description:
+      "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
 
     items: [
-      {
-        css: "member-characterstic__items--border-red",
-        title: "日本が好きで",
-        description:
-          "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
-      },
       {
         css: "member-characterstic__items--border-yellow",
         title: "日本が好き",
