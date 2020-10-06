@@ -7,7 +7,7 @@ export default function Footer({ data }) {
     <footer className="footer">
       <Title data="WORLD WORKS" />
       <a herf="Info@https://world-works.co.jp" className="footer__link">
-        Info@https://world-works.co.jp{" "}
+        Info@https://world-works.co.jp
       </a>
       <p className="footer__description">
         住所: 〒500-8856 岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
@@ -15,17 +15,15 @@ export default function Footer({ data }) {
       <p className="footer__description">TEL: 058-255-3066</p>
       <p className="footer__description">FAX: 058-255-3633</p>
       <div className="footer__items">
-        <ul>
-          <li>
-            <a herf="Twitter">Twitter</a>
-          </li>
-          <li>
-            <a herf="Facebook">Facebook</a>
-          </li>
-          <li>
-            <a herf="Instagram">Instagram</a>
-          </li>
-        </ul>
+        <a herf="Twitter" className="footer__items">
+          Twitter
+        </a>
+        <a herf="Facebook" className="footer__items">
+          Facebook
+        </a>
+        <a herf="Instagram" className="footer__items">
+          Instagram
+        </a>
       </div>
       <p className="footer__description">
         Copyright
