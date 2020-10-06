@@ -7,13 +7,13 @@
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
-    margin-bottom: 30px;
+    margin: 20px;
   }
-  .card__content{
-      margin: 15px;
+  .card__content {
+    margin: 15px;
   }
   .card__content h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-family: Roboto;
     color: #3c64b1;
     font-weight: bold;
@@ -21,17 +21,14 @@
     padding: 15px 0px;
   }
   .card__content p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     font-family: Roboto;
-    color: #6E6E6E;
-    opacity: 1
+    color: #6e6e6e;
+    opacity: 1;
   }
-  .card__img{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-}
   .card__img img {
     width: 100%;
     height: 200px;
@@ -44,13 +41,88 @@
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
+  .card {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+    margin: 30px 3%;
+  }
+  .card__content {
+    margin: 20px;
+  }
+  .card__content h3 {
+    font-size: 2em;
+    font-family: Roboto;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+  }
+  .card__content p {
+    font-size: 1.6em;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    color: #6e6e6e;
+    opacity: 1;
+  }
+  .card__img img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+  }
 }
 /*Ipad horizontal(1024 x 768)*/
 @media screen and (min-width: 1024px) {
+  .card {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+    margin: 30px 1%;
+  }
+  .card__content {
+    margin: 20px;
+  }
+  .card__content h3 {
+    font-size: 2em;
+    font-family: Roboto;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+  }
+  .card__content p {
+    font-size: 1.8em;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    color: #6e6e6e;
+    opacity: 1;
+  }
+  .card__img img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+  }
 }
 .card:hover {
   box-shadow: 0 0 6px rgb(35 173 255);
   opacity: 0.9;
 }
-
-
+.card__img {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
