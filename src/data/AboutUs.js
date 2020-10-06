@@ -7,6 +7,7 @@ import loc from "../img/AboutUs/loc.jpg";
 import yen from "../img/AboutUs/yen.jpg";
 import vien from "../img/AboutUs/vien.jpg";
 import duc from "../img/AboutUs/duc.jpg";
+<<<<<<< HEAD
 import bkhn from '../img/AboutUs/bkhn.jpg';
 import bkdn from '../img/AboutUs/bkdn.jpg';
 import bcvt from '../img/AboutUs/bcvt.jpg';
@@ -18,6 +19,16 @@ import teamcharacteristic from '../img/AboutUs/teamcharacristic.jpeg';
 import vision from '../img/AboutUs/vision.jpeg';
 
 
+=======
+import bkhn from "../img/AboutUs/bkhn.jpg";
+import bkdn from "../img/AboutUs/bkdn.jpg";
+import bcvt from "../img/AboutUs/bcvt.jpg";
+import box from "../img/AboutUs/box.svg";
+import key from "../img/AboutUs/key.svg";
+import briefcase from "../img/AboutUs/briefcase.svg";
+import lifebuoy from "../img/AboutUs/lifebuoy.svg";
+import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
+>>>>>>> 587f01fdb6ddbc0f056e18e2f873eaba15f02874
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
@@ -69,21 +80,21 @@ const AboutUsData = {
     },
     items: [
       {
-        icon:{src:box,alt:"icon1"} ,
+        icon: { src: box, alt: "icon1" },
         description: "アジリティが高い 高い実装能力を持ち、変更にも強い。",
       },
       {
-        icon:{src:key,alt:"icon2"} ,
+        icon: { src: key, alt: "icon2" },
         description:
           "要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です。",
       },
       {
-        icon:{src:briefcase,alt:"icon3"} ,
+        icon: { src: briefcase, alt: "icon3" },
         description:
           "小規模から大規模まで納期と予算に合わせたチームをご提案します。",
       },
       {
-        icon:{src:lifebuoy,alt:"icon4"} ,
+        icon: { src: lifebuoy, alt: "icon4" },
         description:
           "生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります。",
       },
@@ -95,21 +106,25 @@ const AboutUsData = {
 
     items: [
       {
+        css: "member-characterstic__items--border-red",
         title: "日本が好きで",
         description:
           "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
       },
       {
+        css: "member-characterstic__items--border-yellow",
         title: "日本が好き",
         description:
           "全員が日本在住。日本に興味を持って一生懸命に日本語を学び、日本で暮らし日本人と働いて、日本の良さを体験している技術者です。言葉や文化、そして業務の理解力で違いが出ます。",
       },
       {
+        css: "member-characterstic__items--border-green",
         title: "技術が好き",
         description:
           "全員が中高時代からITに興味を持ち、ベトナムまたは、日本で情報処理系の教育を受けた技術者です。好きなことだから頑張れる。また、最先端の技術を常に学んでいます。",
       },
       {
+        css: "member-characterstic__items--border-blue",
         title: "チームが好き",
         description:
           "お互いを理解しあい、強い絆で結ばれたチームです。技術の習得も仕事も力を合わせて、最高の結果を出します。",

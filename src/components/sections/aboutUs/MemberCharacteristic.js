@@ -10,7 +10,7 @@ export default function MemberCharacteristic({ data }) {
       <div className="member-characterstic__items">
         {data.items.map((item, index) => (
           <div key={index}>
-            <div className="member-characterstic__items-title">
+            <div className={`member-characterstic__items-title ${item.css}`}>
               <p>{item.title}</p>
             </div>
             <p>{item.description}</p>
