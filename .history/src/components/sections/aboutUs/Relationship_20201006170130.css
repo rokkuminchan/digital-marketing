@@ -39,7 +39,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px 0px;
   }
   .relationship__block1 {
     width: 50%;

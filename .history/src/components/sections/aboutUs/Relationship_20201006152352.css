@@ -35,33 +35,53 @@
 /*desktop*/
 @media screen and (min-width: 1024px) {
   .relationship {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px 0px;
+    display: table;
+    width: 90%;
   }
-  .relationship__block1 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
+
+  .col {
+    display: table-cell;
+    padding: 1rem;
   }
-  .relationship__block2 {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
+
+  .col:nth-child(even) {
+    background-color: orange;
   }
+
+  .col:nth-child(odd) {
+    background-color: yellow;
+  }
+
+  /* flexbox */
+
+  .f-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+  }
+
+  .f-grid-col {
+    flex: 1 0;
+    background-color: green;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
   .relationship__description {
+    padding-top: 30px;
+    padding-bottom: 20px;
     text-align: justify;
     font-size: 2em;
   }
   .relationship__img {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     display: block;
-    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     height: auto;
   }
 }
