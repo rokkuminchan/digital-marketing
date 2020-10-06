@@ -12,6 +12,7 @@ import bkdn from "../img/AboutUs/bkdn.jpg";
 import bcvt from "../img/AboutUs/bcvt.jpg";
 import box from "../img/AboutUs/box.svg";
 import key from "../img/AboutUs/key.svg";
+import vision from "../img/AboutUs/vision.jpeg";
 import briefcase from "../img/AboutUs/briefcase.svg";
 import lifebuoy from "../img/AboutUs/lifebuoy.svg";
 import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
