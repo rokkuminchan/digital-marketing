@@ -1,4 +1,13 @@
-import vnjp from "../img/AboutUs/vnjp";
+import wrh from "../img/AboutUs/world-recruit-history.jpeg";
+import vnjp from "../img/AboutUs/vnjp.jpg";
+import mission from "../img/AboutUs/mission.png";
+import szksensei from "../img/AboutUs/szksensei.jpg";
+import huy from "../img/AboutUs/huy.jpg";
+import loc from "../img/AboutUs/loc.jpg";
+import yen from "../img/AboutUs/yen.jpg";
+import vien from "../img/AboutUs/vien.jpg";
+import duc from "../img/AboutUs/duc.jpg";
+
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
@@ -11,18 +20,17 @@ const AboutUsData = {
     title: "ミッション",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
-      src: "",
-      alt: "",
+      src: mission,
+      alt: "mission",
     },
   },
   vision: {
     title: "ビジョン",
-    description:
-      "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-    image: {
-      src: "",
-      alt: "",
-    },
+    description: "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
+    // image: {
+    //   src: "",
+    //   alt: "",
+    // },
     items: [
       {
         title: "言葉の壁",
@@ -104,8 +112,8 @@ const AboutUsData = {
       {
         title: "CTO 鈴木高弘",
         image: {
-          src: "",
-          alt: "",
+          src: szksensei,
+          alt: "szksensei",
         },
         description:
           "ITアーキテクトとして、様々な分野のプロジェクトを成功させた実績があります。オブジェクト指向の教育をする会社の立ち上げや教育コースの設計や技術者の育成も手掛けています。ワールドのITチームでは、これからIT業界で活躍するために必要なスキルを身に着ける為の教育プログラムを監修しています。ベトナムが大好きです。写真は、ベトナムの村のお寺に行った時のものです。",
@@ -113,8 +121,8 @@ const AboutUsData = {
       {
         title: "ヴー・ドゥック・フィー",
         image: {
-          src: "",
-          alt: "",
+          src: huy,
+          alt: "huy",
         },
         description:
           "ベトナムであるハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
@@ -122,8 +130,8 @@ const AboutUsData = {
       {
         title: "チャン・ミン・ロック",
         image: {
-          src: "",
-          alt: "",
+          src: loc,
+          alt: "loc",
         },
         description:
           "ベトナムであるハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
@@ -131,8 +139,8 @@ const AboutUsData = {
       {
         title: "ダオ・ハイ・イエン",
         image: {
-          src: "",
-          alt: "",
+          src: yen,
+          alt: "yen",
         },
         description:
           "私はダオ・ハイ・イエンと申します。郵政電信工芸 学院での専攻はITです。大学卒業して担当したプロジェクトは病院や銀行や電子情 報やイントラネットに関するものです。私はテスターとし て参加していました。プロジェクトの開発環境はジャーバ 、シェアポイント、アイオーエスやアンドロイドなどです 。私は調査、分析、テスト、管理を担当しました。 テストについて単体テスト、結合テストとシステムテストを 担当しました。将来、私は色々 な技術を学びたいです。",
@@ -140,8 +148,8 @@ const AboutUsData = {
       {
         title: "ハ・ラム ・ヴィエン",
         image: {
-          src: "",
-          alt: "",
+          src: vien,
+          alt: "vien",
         },
         description:
           "ダナン工科大学に電子通信学部を卒業した後ベトナムに日本精機株式会社のブランチで働きました。日本精機会社で組込システムのプロジェクトに約二年間働きました。車メータのソフトに関する仕事、詳細設計、コーディング、単体テスト、結合テストなどの開発を経験しました。日本にてITの知識や経験をもっと伸ばしていきたいと思い、ワールド会社に入社して、今まで1年半働いています。プロジェクトの言語は、C、Javaなどを習得しました。特に、C言語は実務経験がありました。日本に就職する目的は、技術・スキルを向上させて、日本語を勉強します。",
@@ -149,8 +157,8 @@ const AboutUsData = {
       {
         title: "ヴー・アイン・ドゥック",
         image: {
-          src: "",
-          alt: "",
+          src: duc,
+          alt: "duc",
         },
         description:
           "どうも、初めまして！ 今期から新たにワルードITチームの一員として活動させていただく事になった山口短期大学情報メディア学部の　ヴ　アインドｳックと言います！出身はベトナムのハノイです。来日してからちょうど２年迎えました。経験が浅くて分からないことが多いかもしれませんがワルードチームでは”一人じゃない”で先輩たちは優しく教え頂いた本当に有り難い！ 顧客満足のため、良い品質、生産性を高めるようにすると考えています。 精一杯頑張りますので、宜しくお願い致します！",
@@ -162,8 +170,8 @@ const AboutUsData = {
     description:
       "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
     image: {
-      src: "",
-      alt: "",
+      src: wrh,
+      alt: "WorldRecruitHistory",
     },
   },
   vietnamUniversity: {

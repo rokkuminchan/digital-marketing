@@ -13,6 +13,11 @@ const Data = {
       description:
         "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
     },
+    {
+      title: "日本が好き",
+      description:
+        "全員が日本在住。日本に興味を持って一生懸命に日本語を学び、日本で暮らし日本人と働いて、日本の良さを体験している技術者です。言葉や文化、そして業務の理解力で違いが出ます。",
+    },
   ],
 };
 
@@ -28,20 +33,19 @@ afterEach(() => {
 
 it("can render a component from data", () => {
   ReactDOM.render(<MemberCharacteristic data={Data} />, container);
-<<<<<<< HEAD
-  const title = container.querySelector("Title");
   const description = container.querySelector("p");
-  const items = container.querySelectorAll("div.p");
+  const itemsTitle = container.querySelectorAll(
+    ".member-characterstic__items-title > p"
+  );
+  const itemsDescription = container.querySelectorAll(
+    ".member-characterstic__items > div > p"
+  );
 
-  expect(title.textContent).toBe(Data.title);
-=======
-  const description = container.querySelector("p");
-  const items = container.querySelector("div");
-
->>>>>>> d10d42b9cb1bd0922e94506ae460bfb0f37cbeb9
   expect(description.textContent).toBe(Data.description);
-  for (let item in items) {
-    expect(items[item].title).toMatch(new RegExp(Data.item.title));
-    expect(items[item].description).toContain(Data.item.description);
+  for (let item = 0; item < Data.items.length; item++) {
+    expect(itemsTitle[item].textContent).toBe(Data.items[item].title);
+    expect(itemsDescription[item].textContent).toBe(
+      Data.items[item].description
+    );
   }
 });
