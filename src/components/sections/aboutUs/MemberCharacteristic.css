@@ -12,18 +12,17 @@
     margin: 0 50px;
   }
   .member-characteristic__items {
-    padding-top: 20px;
   }
   .member-characterstic__items > div > p {
     font-size: 1.3em;
-    margin: 0 30px;
+    margin: 0 40px;
   }
   .member-characterstic__items-title {
     border-radius: 50% 50%;
     position: relative;
     height: 121px;
     width: 121px;
-    margin: 40px auto 40px auto;
+    margin: 45px auto 15px auto;
   }
   .member-characterstic__items--border-red {
     border: 4px solid #de7c7c;
