@@ -1,11 +1,32 @@
-.vnUniversity {
-  background-color: #eff9ff;
-  padding: 3rem 4rem;
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+  .vnUniversity {
+    background-color: #eff9ff;
+    padding: 3rem 4rem;
+  }
+  .vnUniversity__desc {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3rem 0;
+  }
 }
-.vnUniversity__desc {
-  font-size: 1.4rem;
-  text-align: center;
-  padding: 3rem 0;
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .vnUniversity {
+    padding: 3rem 4rem;
+  }
+  .vnUniversity__desc {
+    font-size: 2rem;
+  }
 }
-.vnUniversity__list {
+
+@media screen and (min-width: 768px) {
+  .vnUniversity__container {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+  .vnUniversity__desc {
+    font-size: 2rem;
+    padding: 3rem 5rem;
+  }
 }

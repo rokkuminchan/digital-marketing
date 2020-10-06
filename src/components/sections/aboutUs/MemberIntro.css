@@ -11,7 +11,7 @@
     margin-right: auto;
     font-family: Roboto;
     color: #373F41;
-    opacity: 1  
+    opacity: 1,
   }  
   .memberIntro__items{
     display: flex;
@@ -34,7 +34,7 @@
     margin-right: auto;
     font-family: Roboto;
     color: #373F41;
-    opacity: 1  
+    opacity: 1,  
   }  
   .memberIntro__items{
     display: flex;
@@ -58,7 +58,7 @@
     margin-right: auto;
     font-family: Roboto;
     color: #373F41;
-    opacity: 1  
+    opacity: 1, 
   }  
   .memberIntro__items{
     display: flex;
