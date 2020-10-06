@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-import vnjp from "../img/AboutUs/vnjp.jpg";
-=======
-import wrh from "../img/AboutUs/world-recruit-history.jpeg";
-import vnjp from "../img/AboutUs/vnjp.jpg";
+import vnjp from '../img/AboutUs/vnjp.jpg';
+import wrh from '../img/AboutUs/world-recruit-history.jpeg';
 import mission from "../img/AboutUs/mission.png";
 import szksensei from "../img/AboutUs/szksensei.jpg";
 import huy from "../img/AboutUs/huy.jpg";
@@ -11,7 +8,6 @@ import yen from "../img/AboutUs/yen.jpg";
 import vien from "../img/AboutUs/vien.jpg";
 import duc from "../img/AboutUs/duc.jpg";
 
->>>>>>> 9d68cf7fd73355ed29abb7c26684e3e663be84ec
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   description:
