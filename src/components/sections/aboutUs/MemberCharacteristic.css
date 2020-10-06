@@ -4,24 +4,42 @@
 @media only screen and (max-width: 768px) {
   .member-characteristic {
     text-align: center;
-    background: #eff9ff 0% 0% no-repeat padding-box;
+    padding-bottom: 60px;
   }
   .member-characteristic__description {
     font-size: 1.4em;
+    padding-top: 20px;
+    margin: 0 50px;
   }
   .member-characteristic__items {
+    padding-top: 20px;
+  }
+  .member-characterstic__items > div > p {
+    font-size: 1.3em;
+    margin: 0 30px;
   }
   .member-characterstic__items-title {
+    border-radius: 50% 50%;
     border: 4px solid #de7c7c;
     position: relative;
-    right: 30%;
+    height: 121px;
+    width: 121px;
+    margin: 40px auto 40px auto;
+  }
+  .member-characterstic__items-title > p {
+    font-weight: bold;
+    font-size: 1.8em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media only screen and (min-width: 768px) {
   .member-characteristic {
   }
   .member-characteristic__description {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   .member-characteristic__items {
   }
