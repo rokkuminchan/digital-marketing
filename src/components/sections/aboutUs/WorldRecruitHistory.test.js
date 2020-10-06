@@ -29,7 +29,7 @@ it("can render a component from data", () => {
   ReactDOM.render(<WorldRecruitHistory data={Data} />, container);
   const title = container.querySelector("h3");
   const description = container.querySelector("p");
-  const image = container.querySelector("image");
+  const image = container.querySelector("img");
 
   expect(title.textContent).toBe(Data.title);
   expect(description.textContent).toBe(Data.description);
