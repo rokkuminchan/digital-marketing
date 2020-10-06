@@ -1,36 +1,47 @@
 .mission{
-    padding-top: 90px;
+
     text-align: 1.8em;
+    top: 540px;
+    left: 24px;
+
 }
 .mission__description{
+    text-align: justify;
     text-align: center;
     text-align: 2em;
+    padding-bottom: 10px;
+
 }
 .mission__img {
-    width: 90%;
+    width: 375px;
     height: auto;
 }
 @media only screen and (max-width: 320px) {
     .mission{
-     padding-top: 10px;
      text-align: 1.5em;
+     top: 588px;
+    left: 24px;
     }
     .mission__description {
+      text-align: justify;
       padding: 10px;
       font-size: 1.4em;
       text-align: center;
+
     }
     .mission__img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      height: auto;
+        display: block;
+        max-width:375px;
+        max-height:103px;
+        width: auto;
+        height: auto;
+      
     }
   }
   
   @media only screen and (min-width: 768px) {
     .mission__description {
+        text-align: justify;
       padding: 10px;
       text-align: center;
       font-size: 1.4em;
@@ -39,7 +50,7 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 100%;
+      width: auto;
       height: auto;
     }
   }

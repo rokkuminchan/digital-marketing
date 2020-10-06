@@ -1,3 +1,7 @@
+:root {
+  --header-menu-height: 76px;
+}
+
 /* Box sizing rules */
 * {
   font-size: 10px;
@@ -83,5 +87,5 @@ select {
 }
 
 main {
-  margin-top: 68px;
+  margin-top: var(--header-menu-height);
 }
