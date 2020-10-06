@@ -12,14 +12,14 @@ import VNUniversity from "../components/sections/aboutUs/VNUniversity";
 export default function AboutUs({ data }) {
   return (
     <Layout>
-      {/* <Mission data={data.ourTeamJson.mission} /> */}
-      <Vision data={data.ourTeamJson.vision} />
+      <Mission data={data.ourTeamJson.mission} />
+      {/* <Vision data={data.ourTeamJson.vision} />
       <MemberCharacteristic data={data.ourTeamJson.memberCharacteristic} />
       <TeamCharacteristic data={data.ourTeamJson.teamCharacteristic} />
       <MemberIntro data={data.ourTeamJson.memberIntroduction} />
       <WorldRecruitHistory data={data.ourTeamJson.worldRecruitHistory} />
       <Relationship data={data.ourTeamJson.relationship} />
-      <VNUniversity data={data.ourTeamJson.vietnamUniversity} />
+      <VNUniversity data={data.ourTeamJson.vietnamUniversity} /> */}
     </Layout>
   );
 }
