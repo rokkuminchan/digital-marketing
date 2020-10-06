@@ -26,7 +26,8 @@ const AboutUsData = {
   },
   vision: {
     title: "ビジョン",
-    description: "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
+    description:
+      "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
     // image: {
     //   src: "",
     //   alt: "",
@@ -225,6 +226,26 @@ const AboutUsData = {
     phone: "TEL 058-255-3066",
     fax: "FAX 058-255-3633",
   },
+  // footer: {
+  //   title: "WORLD WORKS",
+  //   link: "Info@https://world-works.co.jp",
+  //   description:
+  //     "Copyright (C)　愛知・岐阜・三重の人材派遣や業務請負など総合人材サービスはワールドグループ",
+  //   items: [
+  //     {
+  //       title: "icon1",
+  //       descripsion: "Twitter",
+  //     },
+  //     {
+  //       title: "icon2",
+  //       descripsion: "Facebook",
+  //     },
+  //     {
+  //       title: "icon3",
+  //       descripsion: "Instagram",
+  //     },
+  //   ],
+  // },
 };
 
 export default AboutUsData;
