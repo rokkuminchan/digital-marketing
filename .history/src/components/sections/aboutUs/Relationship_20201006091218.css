@@ -1,8 +1,9 @@
-@media only screen and (max-width: 768px) {
+/*Ipad-横(1024 x 768)*/
+@media screen and (max-width: 1024px) {
   .relationship__description {
     padding: 30px;
     text-align: justify;
-    font-size: 1em;
+    font-size: 2em;
   }
   .relationship__img {
     display: block;
@@ -12,8 +13,12 @@
     height: auto;
   }
 }
+/*Ipad-縦(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
 
-@media only screen and (min-width: 720px) {
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
   .relationship__description {
     padding: 30px;
     text-align: justify;
@@ -26,4 +31,7 @@
     width: 36%;
     height: auto;
   }
+}
+/*Smart phone 小さいな画面*/
+@media screen and (max-width: 240px) {
 }

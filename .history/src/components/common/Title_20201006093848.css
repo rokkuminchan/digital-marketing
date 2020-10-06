@@ -1,0 +1,28 @@
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 3em;
+    font-family: Roboto;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 1.5em;
+    font-family: Roboto;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+/*Smart phone 小さいな画面*/
+.title {
+  font-size: 1.4em;
+  font-family: Roboto;
+  color: #3c64b1;
+  font-weight: bold;
+  text-align: center;
+}

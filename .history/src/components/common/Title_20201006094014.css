@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
   .title {
-    font-size: 1.2em;
+    font-size: 4em;
     font-family: Roboto;
     color: #3c64b1;
     font-weight: bold;
@@ -8,7 +8,8 @@
   }
 }
 
-@media only screen and (min-width: 720px) {
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
   .title {
     font-size: 1.5em;
     font-family: Roboto;
@@ -16,4 +17,12 @@
     font-weight: bold;
     text-align: center;
   }
+}
+/*Smart phone 小さいな画面*/
+.title {
+  font-size: 1.4em;
+  font-family: Roboto;
+  color: #3c64b1;
+  font-weight: bold;
+  text-align: center;
 }
