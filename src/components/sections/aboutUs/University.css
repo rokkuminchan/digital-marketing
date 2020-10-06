@@ -1,28 +1,31 @@
 .university {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .university:before {
   content: "";
   position: absolute;
   top: 0;
-  left: auto;
-  width: 100%;
-  border: 0.1px solid #000;
+  left: 50%;
+  transform: translate(-50%);
+  height: 1px;
+  width: 80%;
+  border-bottom: 1px solid #000;
 }
 .university__title {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
   color: #3c64b1;
-  padding: 2rem 0;
+  padding: 3rem 0 1rem;
 }
-.university__image img {
+.university__image {
   display: block;
-  object-fit: cover;
-  height: 50px;
   padding: 2rem 0;
   overflow: hidden;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 .university__desc {
   padding: 2rem 0;
