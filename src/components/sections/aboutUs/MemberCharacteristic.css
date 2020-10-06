@@ -20,11 +20,22 @@
   }
   .member-characterstic__items-title {
     border-radius: 50% 50%;
-    border: 4px solid #de7c7c;
     position: relative;
     height: 121px;
     width: 121px;
     margin: 40px auto 40px auto;
+  }
+  .member-characterstic__items--border-red {
+    border: 4px solid #de7c7c;
+  }
+  .member-characterstic__items--border-yellow {
+    border: 4px solid #ebcf76;
+  }
+  .member-characterstic__items--border-green {
+    border: 4px solid #40948b;
+  }
+  .member-characterstic__items--border-blue {
+    border: 4px solid #3644d6;
   }
   .member-characterstic__items-title > p {
     font-weight: bold;
