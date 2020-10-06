@@ -4,10 +4,10 @@ import "./TeamChracteristic.css"
 import Title from "../../common/Title"
 
 const TeamCharacteristic = ({data}) => {
-    console.log(data);
+
     return (
         <div className ="team-characteristic">
-            <div className ="team-characteristic__img">
+            <div className ="team-characteristic__imgbg">
                 <div className ="team-characteristic__title">
                     <Title data={data.title}/>
                 </div>
