@@ -18,22 +18,22 @@ export default function MenuHeader(props) {
       <ul className="menu-header__navigation">
         <li className="menu-header__navigation-item">
           <a className="menu-header__navigation-link" href="#Home">
-            Home
+            ホーム
           </a>
         </li>
         <li className="menu-header__navigation-item">
           <a className="menu-header__navigation-link" href="#Services">
-            Services
+            サービス
           </a>
         </li>
         <li className="menu-header__navigation-item">
           <a className="menu-header__navigation-link" href="#Technology">
-            Technology
+            技術
           </a>
         </li>
         <li className="menu-header__navigation-item">
           <a className="menu-header__navigation-link" href="#AboutUs">
-            About us
+            我のチーム
           </a>
         </li>
       </ul>

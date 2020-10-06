@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Mission from "../components/sections/aboutUs/Mission"
+import Mission from "../components/sections/aboutUs/Mission";
 import MemberCharacteristic from "../components/sections/aboutUs/MemberCharacteristic";
 import WorldRecruitHistory from "../components/sections/aboutUs/WorldRecruitHistory";
 import TeamCharacteristic from "../components/sections/aboutUs/MemberCharacteristic";
