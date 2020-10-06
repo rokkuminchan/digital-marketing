@@ -1,7 +1,7 @@
 import React from "react";
+import "./UniSubDesc.css";
 
 const UniSubDesc = ({ data }) => {
-  console.log(data.subtitle);
   return (
     <div className="uniSubDesc">
       <h3 className="uniSubDesc__title">{data.title}</h3>

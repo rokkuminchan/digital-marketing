@@ -1,10 +1,11 @@
 import React from "react";
 import UniSubDesc from "./UniSubDesc";
+import "./University.css";
 
 const University = ({ data }) => {
   return (
     <div className="university">
-      <h3>{data.title}</h3>
+      <h3 className="university__title">{data.title}</h3>
       <img
         className="university__image"
         src={data.image.src}
