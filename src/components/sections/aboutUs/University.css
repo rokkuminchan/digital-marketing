@@ -1,0 +1,40 @@
+.university {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.university:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 1px;
+  width: 80%;
+  border-bottom: 1px solid #000;
+}
+.university__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #3c64b1;
+  padding: 3rem 0 1rem;
+}
+.university__image {
+  display: block;
+  padding: 2rem 0;
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.university__desc {
+  padding: 2rem 0;
+  color: #707070;
+}
+.university__link {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  color: #707070;
+  text-decoration: none;
+  cursor: pointer;
+}

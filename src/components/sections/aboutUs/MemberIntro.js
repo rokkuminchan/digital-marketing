@@ -8,7 +8,7 @@ export default function MemberIntro({ data }) {
     <section className="memberIntro">
       <Title data={data.title} />
       <p className="memberIntro__description">{data.description}</p>
-      <div className="memberIntro__member-list">
+      <div className="memberIntro__items">
         {data.items.map((member, index) => {
           return <Card key={index} data={member} />;
         })}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+  .footer__link {
+    padding: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer__description {
+    padding: 30px;
+    text-align: justify;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .footer__link {
+    padding: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer__description {
+    padding: 30px;
+    text-align: justify;
+    font-size: 2em;
+  }
+}

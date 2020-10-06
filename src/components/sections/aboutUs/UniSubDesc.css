@@ -1,0 +1,14 @@
+.uniSubDesc {
+  font-size: 1.4rem;
+}
+.uniSubDesc__title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.uniSubDesc__desc {
+  font-size: inherit;
+  font-weight: normal;
+  text-indent: 3.5rem;
+  padding: 0.5rem 0;
+  text-align: justify;
+}

@@ -1,13 +1,35 @@
-.memberIntro__title{
-  font-size: 1em;
-
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px){
+  .memberIntro{
+    margin-bottom: 40px; 
+  }
+  .memberIntro__description{
+    font-size: 1.4em;
+    padding: 15px 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    color: #373F41;
+    opacity: 1  
+  }  
+  .memberIntro__items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+  }
 }
-.memberIntro__description{
-  font-size: 1em;
 
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px){
+  .col-s-5 {
+    width: 41.66%;
+  }
 }
-
-.memberIntro__items{
-  font-size: 1em;
-
+/*Ipad horizontal(1024 x 768)*/
+@media screen and (min-width: 1024px){
+  .col-3 {
+    width: 25%;
+  }  
 }
