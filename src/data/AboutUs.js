@@ -62,10 +62,6 @@ const AboutUsData = {
     title: "ITチームの特徴",
     description:
       "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります。",
-    image: {
-      src: teamcharacteristic,
-      alt: "teamcharacteristic",
-    },
     items: [
       {
         icon: { src: box, alt: "icon1" },
