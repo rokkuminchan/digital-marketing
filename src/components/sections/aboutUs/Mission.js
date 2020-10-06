@@ -6,7 +6,7 @@ export default function Mission({ data }) {
     <section className="mission">
       <h3 className="mission__title">{data.title}</h3>
       <p className="mission__description">{data.description}</p>
-      <img className="mission__img" src={data.img.src} alt={data.img.alt}></img>
+      <img className="mission__img" src={data.image.src} alt={data.image.alt}></img>
     </section>
   );
 }

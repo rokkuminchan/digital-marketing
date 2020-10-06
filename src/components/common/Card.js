@@ -2,11 +2,15 @@ import React from "react";
 import "./Card.css";
 
 export default function Card({ data }) {
-  return (
-    <div className="card">
-      <img className="card__img" src={data.image.src} alt={data.image.alt}></img>
-      <h3 className="card__title">{data.title}</h3>
-      <p className="card__description">{data.description}</p>
-    </div>
-  );
+	return (
+		<div className="card">
+			<div className="card__img">
+				<img src={data.image.src} alt={data.image.alt}></img>
+			</div>
+			<div className="card__content">
+				<h3>{data.title}</h3>
+				<p>{data.description}</p>
+			</div>
+		</div>
+	);
 }
