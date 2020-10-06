@@ -11,7 +11,7 @@ const TeamCharacteristic = ({data}) => {
                 <div className ="team-characteristic__title">
                     <Title data={data.title}/>
                 </div>
-                <p className = "team-characteristic__description">{data.description}</p>
+                <br/><p className = "team-characteristic__description">{data.description}</p>
             </div>
             
             <div className = "team-characteristic__items">
