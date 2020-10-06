@@ -15,6 +15,7 @@ import key from '../img/AboutUs/key.svg';
 import briefcase from '../img/AboutUs/briefcase.svg';
 import lifebuoy from '../img/AboutUs/lifebuoy.svg';
 import teamcharacteristic from '../img/AboutUs/teamcharacristic.jpeg';
+import vision from '../img/AboutUs/vision.jpeg';
 
 
 
@@ -38,7 +39,10 @@ const AboutUsData = {
     title: "ビジョン",
     description:
       "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-
+      image: {
+        src: vision,
+        alt: "vision",
+      },
     items: [
       {
         title: "言葉の壁",
