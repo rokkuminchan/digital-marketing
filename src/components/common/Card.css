@@ -54,7 +54,7 @@
     padding: 15px 0px;
   }
   .card__content p {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   .card__img img {
     width: 100%;
@@ -75,7 +75,6 @@
   opacity: 0.9;
 }
 .card__content h3 {
-  font-family: Roboto;
   color: #3c64b1;
   font-weight: bold;
   text-align: center;
@@ -84,7 +83,6 @@
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  font-family: Roboto;
   color: #6e6e6e;
   opacity: 1;
 }
