@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql } from "gatsby";
+
 import Layout from "../components/layout";
 import Mission from "../components/sections/aboutUs/Mission";
 import Vision from "../components/sections/aboutUs/Vision";
@@ -23,3 +25,144 @@ export default function AboutUs({ data }) {
     </Layout>
   );
 }
+
+export const query = graphql`
+  {
+    ourTeamJson {
+      vision {
+        title
+        description
+        items {
+          description
+          title
+        }
+        image {
+          alt
+          src {
+            publicURL
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
+      }
+      vietnamUniversity {
+        description
+        title
+        items {
+          description {
+            subtitle
+            title
+          }
+          link
+          title
+          image {
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+            alt
+          }
+        }
+      }
+      worldRecruitHistory {
+        title
+        description
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
+      }
+      title
+      description
+      companyInformation {
+        address
+        fax
+        phone
+      }
+      relationship {
+        description
+        title
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
+      }
+      teamCharacteristic {
+        title
+        description
+        items {
+          description
+          icon {
+            alt
+            src {
+              publicURL
+            }
+          }
+        }
+      }
+      mission {
+        description
+        title
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
+      }
+      memberIntroduction {
+        description
+        title
+        items {
+          description
+          title
+          image {
+            alt
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+          }
+        }
+      }
+      memberCharacteristic {
+        description
+        title
+        items {
+          css
+          description
+          title
+        }
+      }
+      image {
+        alt
+        src
+      }
+    }
+  }
+`;

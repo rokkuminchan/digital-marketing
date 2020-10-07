@@ -1,17 +1,14 @@
 import React from "react";
 import UniSubDesc from "./UniSubDesc";
 import "./University.css";
+import Image from "../../common/Image";
 
 const University = ({ data }) => {
   return (
     <div className="university">
       <div className="university_title-image">
         <h3 className="university__title">{data.title}</h3>
-        <img
-          className="university__image"
-          src={data.image.src}
-          alt={data.image.alt}
-        />
+        <Image className="university__image" {...data.image} />
       </div>
       <div className="university__desc-link">
         <div className="university__desc">

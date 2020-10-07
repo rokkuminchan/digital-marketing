@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WorldRecruitHistory from "./WorldRecruitHistory.js";
-import wrh from "../../../img/AboutUs/world-recruit-history.jpeg";
+import wrh from "../../../images/AboutUs/world-recruit-history.jpeg";
 
 let container;
 

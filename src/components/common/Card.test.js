@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Card from "./Card";
-import szksensei from "../../img/AboutUs/szksensei.jpg";
-
+import szksensei from "../../images/AboutUs/szksensei.jpg";
 
 let container;
 
@@ -12,7 +11,8 @@ const Data = {
     alt: "szksensei",
   },
   title: "CTO 鈴木高弘",
-  description: "ITアーキテクトとして、様々な分野のプロジェクトを成功させた実績があります。オブジェクト指向の教育をする会社の立ち上げや教育コースの設計や技術者の育成も手掛けています。ワールドのITチームでは、これからIT業界で活躍するために必要なスキルを身に着ける為の教育プログラムを監修しています。ベトナムが大好きです。写真は、ベトナムの村のお寺に行った時のものです。",
+  description:
+    "ITアーキテクトとして、様々な分野のプロジェクトを成功させた実績があります。オブジェクト指向の教育をする会社の立ち上げや教育コースの設計や技術者の育成も手掛けています。ワールドのITチームでは、これからIT業界で活躍するために必要なスキルを身に着ける為の教育プログラムを監修しています。ベトナムが大好きです。写真は、ベトナムの村のお寺に行った時のものです。",
 };
 
 beforeEach(() => {

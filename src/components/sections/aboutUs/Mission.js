@@ -1,8 +1,10 @@
 import React from "react";
 import "./Mission.css";
 import Title from "../../common/Title";
+import Image from "../../common/Image";
 
 export default function Mission({ data }) {
+  console.log("Mission", data.image);
   return (
     <section className="mission">
       <div className="combine">
@@ -11,11 +13,7 @@ export default function Mission({ data }) {
         <p className="mission__description">{data.description}</p>
       </div>
       <div className="combineImg">
-        <img
-          className="mission__img"
-          src={data.image.src}
-          alt={data.image.alt}
-        ></img>
+        <Image className="mission__img" {...data.image} />
       </div>
     </section>
   );

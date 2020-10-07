@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Mission from "./Mission";
-import mission from "../../../img/AboutUs/mission.png";
+import mission from "../../../images/AboutUs/mission.png";
 
 let container;
 

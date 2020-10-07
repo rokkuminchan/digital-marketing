@@ -1,12 +1,12 @@
 import React from "react";
 import "./MenuHeader.css";
-import Logo from "../../img/AboutUs/world-logo.png";
+import Logo from "../../images/AboutUs/world-logo.png";
 
 export default function MenuHeader(props) {
   return (
     <header className="menu-header">
       <a href="#." className="menu-header__logo">
-        <img src={Logo} alt="" id="logo"></img>
+        <img id="logo" src={Logo} alt="" />
       </a>
       <input
         className="menu-header__visibility-btn"

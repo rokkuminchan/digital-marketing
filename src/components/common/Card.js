@@ -3,6 +3,7 @@ import "./Card.css";
 import Image from "./Image";
 
 export default function Card({ data }) {
+  console.log("Card", data.image);
   return (
     <div className="card">
       <div className="card__img">

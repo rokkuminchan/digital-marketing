@@ -1,18 +1,16 @@
 import React from "react";
 import "./WorldRecruitHistory.css";
 import Title from "../../common/Title.js";
+import Image from "../../common/Image";
 
 export default function WorldReruitHistory({ data }) {
+  console.log("WorldReruitHistory", data.image);
   return (
     <section className="worldrecruitristory">
       <Title data={data.title} />
       <p className="worldrecruitristory__description">{data.description}</p>
       <div>
-        <img
-          className="worldrecruitristory__img"
-          src={data.image.src}
-          alt={data.image.alt}
-        ></img>
+        <Image className="worldrecruitristory__img" {...data.image} />
       </div>
     </section>
   );
