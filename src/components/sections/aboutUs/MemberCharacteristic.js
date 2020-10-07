@@ -9,7 +9,7 @@ export default function MemberCharacteristic({ data }) {
       <p className="member-characteristic__description">{data.description}</p>
       <div className="member-characterstic__items">
         {data.items.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="member-characterstic__items--inline">
             <div className={`member-characterstic__items-title ${item.css}`}>
               <p>{item.title}</p>
             </div>
