@@ -2,20 +2,23 @@ import React from "react";
 import "./Relationship.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
-import Image from "../../common/Image";
+
 export default function Relationship({ data }) {
   return (
     <div className="relationship">
       <div className="relationship__block1">
-        <Title data={data.title} />
-        <div className="relationship__description">
-          <Description data={data.description} />
-        </div>
+        <Title className="111" data={data.title} />
+        <Description
+          className="relationship__description"
+          data={data.description}
+        />
       </div>
       <div className="relationship__block2">
-        <div className="relationship__img">
-          <Image {...data.image} />
-        </div>
+        <img
+          className="relationship__img"
+          src={data.image.src}
+          alt={data.image.alt}
+        ></img>
       </div>
     </div>
   );

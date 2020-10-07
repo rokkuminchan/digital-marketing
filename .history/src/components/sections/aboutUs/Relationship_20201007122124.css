@@ -52,7 +52,8 @@
   }
 
   .relationship__description {
-    text-align: justify;
+    text-align: left;
+    color: crimson;
   }
   .relationship__img {
     padding-top: 50px;

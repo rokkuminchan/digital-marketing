@@ -52,7 +52,7 @@
   }
 
   .relationship__description {
-    text-align: justify;
+    text-align: left;
   }
   .relationship__img {
     padding-top: 50px;
