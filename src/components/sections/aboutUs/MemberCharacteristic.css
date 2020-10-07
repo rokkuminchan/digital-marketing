@@ -31,12 +31,9 @@
 }
 /* Mobile*/
 @media only screen and (max-width: 768px) {
-  .title {
-    margin-top: 70px;
-  }
-  p.description {
+  /* p.description {
     margin: 0 -30px;
-  }
+  } */
   .member-characteristic__items {
     font-size: 1.4em;
   }
