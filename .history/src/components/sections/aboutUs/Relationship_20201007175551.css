@@ -59,8 +59,8 @@
     opacity: 0.8;
   }
   .relationship__img {
-    padding-top: 40px;
-
+    padding: 150px;
+    padding-bottom: 60px;
     display: block;
     width: 90%;
     height: auto;
