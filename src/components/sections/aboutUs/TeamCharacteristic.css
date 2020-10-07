@@ -12,23 +12,23 @@
     "items items";
 }
 .team-characteristic__title div h3 {
-  color: rgb(27, 4, 129);
+  /* color: rgb(27, 4, 129); */
   opacity: 1;
+  padding: 10%;
 }
 
 .team-characteristic__description {
   text-align: center;
   font-size: 2em;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   width: 80%;
-  margin: 10% auto auto;
-  font-weight: 500;
+  margin: -8% auto;
 }
 .team-characteristic__imgbg {
   grid-area: imgbg;
   width: 100%;
   height: auto;
-  background: url("../../../images/AboutUs/teamcharacristic.png") 0% 0%
+  background: url("../../../images/AboutUs/teamcharacteristic.png") 0% 0%
     no-repeat padding-box;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,7 +60,7 @@
   .team-characteristic__description {
     text-align: center;
     letter-spacing: 0px;
-    margin: 5% auto 10% auto;
+    margin: -5% auto 10% auto;
     font-size: 1.4em;
   }
 
@@ -79,6 +79,9 @@
       "items items";
   }
   .team-characteristic__description {
-    margin: 5% auto 10% auto;
+    margin: -5% auto 10% auto;
+  }
+  .team-characteristic__title .title {
+    margin-top: 0%;
   }
 }
