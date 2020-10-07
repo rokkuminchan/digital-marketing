@@ -9,6 +9,7 @@ export default function Relationship({ data }) {
       <div className="relationship__block1">
         <Title data={data.title} />
         <Description data={data.description} />
+        <p className="relationship__description">{data.description}</p>
       </div>
       <div className="relationship__block2">
         <img

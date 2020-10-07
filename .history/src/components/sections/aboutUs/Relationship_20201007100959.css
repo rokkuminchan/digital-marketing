@@ -55,10 +55,10 @@
   }
   .relationship__description {
     text-align: justify;
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .relationship__img {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 40px;
     display: block;
     width: 81%;
