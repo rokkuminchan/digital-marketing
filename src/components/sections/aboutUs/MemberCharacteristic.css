@@ -6,6 +6,7 @@
   text-align: center;
   padding-top: 20px;
 }
+
 .member-characterstic__items-title {
   border-radius: 50% 50%;
   position: relative;
@@ -25,7 +26,6 @@
 /* Mobile*/
 @media only screen and (max-width: 768px) {
   .member-characteristic__description {
-    margin: 0 45px;
     font-size: 1.4em;
   }
   .member-characteristic__items {
@@ -59,19 +59,13 @@
 /* Desktop */
 @media only screen and (min-width: 768px) {
   .member-characteristic__description {
-<<<<<<< HEAD
-    margin: 0 90px;
     font-size: 1.8em;
-=======
-    font-size: 2em;
->>>>>>> 9729dc96deb65019a3e7ab47527f3ad0e5456727
   }
   .member-characterstic__items--inline {
     display: table-cell;
     width: 30%;
   }
   .member-characteristic__items {
-    margin: 0 90px;
     font-size: 1.8em;
   }
   .member-characterstic__items-title {
