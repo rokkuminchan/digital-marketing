@@ -5,6 +5,7 @@
 /* Box sizing rules */
 * {
   font-size: 10px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ",
     Meiryo, Osaka, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
 }

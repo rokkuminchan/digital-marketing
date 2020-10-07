@@ -2,6 +2,7 @@
 @media screen and (min-width: 320px) {
   .description {
     font-size: 1.4em;
+    font-family: Roboto;
     text-align: center;
     padding: 20px;
   }
@@ -11,6 +12,7 @@
 @media screen and (min-width: 768px) {
   .description {
     font-size: 1.8em;
+    font-family: Roboto;
     text-align: center;
     padding: 20px;
   }
@@ -20,6 +22,7 @@
 @media screen and (min-width: 1024px) {
   .description {
     font-size: 1.6em;
+    font-family: Meryo UI;
     text-align: center;
     padding: 20px;
   }
