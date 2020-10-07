@@ -1,16 +1,25 @@
 {
   "title": "私たちは第二世代のベトナム人ITエンジニアのチームです。",
   "description": "高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます。また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します。",
-  "image": { "src": "", "alt": "" },
+  "image": {
+    "src": "",
+    "alt": ""
+  },
   "mission": {
-    "title": "MISSION",
+    "title": "Misson",
     "description": "高度IT人材で日本のDXに貢献する。",
-    "image": { "src": "../../images/AboutUs/mission.png", "alt": "mission" }
+    "image": {
+      "src": "../../images/AboutUs/mission.png",
+      "alt": "mission"
+    }
   },
   "vision": {
     "title": "ビジョン",
     "description": "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
-    "image": { "src": "../../images/AboutUs/vision.jpeg", "alt": "vision" },
+    "image": {
+      "src": "../../images/AboutUs/vision.jpeg",
+      "alt": "vision"
+    },
     "items": [
       {
         "title": "言葉の壁",
@@ -31,19 +40,31 @@
     "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります。",
     "items": [
       {
-        "icon": { "src": "../../images/AboutUs/box.svg", "alt": "icon1" },
+        "icon": {
+          "src": "../../images/AboutUs/box.svg",
+          "alt": "icon1"
+        },
         "description": "アジリティが高い 高い実装能力を持ち、変更にも強い。"
       },
       {
-        "icon": { "src": "../../images/AboutUs/key.svg", "alt": "icon2" },
+        "icon": {
+          "src": "../../images/AboutUs/key.svg",
+          "alt": "icon2"
+        },
         "description": "要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です。"
       },
       {
-        "icon": { "src": "../../images/AboutUs/briefcase.svg", "alt": "icon3" },
+        "icon": {
+          "src": "../../images/AboutUs/briefcase.svg",
+          "alt": "icon3"
+        },
         "description": "小規模から大規模まで納期と予算に合わせたチームをご提案します。"
       },
       {
-        "icon": { "src": "../../images/AboutUs/lifebuoy.svg", "alt": "icon4" },
+        "icon": {
+          "src": "../../images/AboutUs/lifebuoy.svg",
+          "alt": "icon4"
+        },
         "description": "生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります。"
       }
     ]
@@ -83,27 +104,42 @@
       },
       {
         "title": "ヴー・ドゥック・フィー",
-        "image": { "src": "../../images/AboutUs/huy.jpg", "alt": "huy" },
+        "image": {
+          "src": "../../images/AboutUs/huy.jpg",
+          "alt": "huy"
+        },
         "description": "ハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。"
       },
       {
         "title": "チャン・ミン・ロック",
-        "image": { "src": "../../images/AboutUs/loc.jpg", "alt": "loc" },
+        "image": {
+          "src": "../../images/AboutUs/loc.jpg",
+          "alt": "loc"
+        },
         "description": "ハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。"
       },
       {
         "title": "ダオ・ハイ・イエン",
-        "image": { "src": "../../images/AboutUs/yen.jpg", "alt": "yen" },
+        "image": {
+          "src": "../../images/AboutUs/yen.jpg",
+          "alt": "yen"
+        },
         "description": "郵政電信工芸 学院での専攻はITです。大学卒業して担当したプロジェクトは病院や銀行や電子情 報やイントラネットに関するものです。私はテスターとし て参加していました。プロジェクトの開発環境はジャーバ 、シェアポイント、アイオーエスやアンドロイドなどです 。調査、分析、テスト、管理を担当しました。将来、色々 な技術を学びたいです。"
       },
       {
         "title": "ハ・ラム ・ヴィエン",
-        "image": { "src": "../../images/AboutUs/vien.jpg", "alt": "vien" },
+        "image": {
+          "src": "../../images/AboutUs/vien.jpg",
+          "alt": "vien"
+        },
         "description": "ダナン工科大学の電子通信学部を卒業した後組込システムに約二年間働きました。車メータのソフトに関する仕事、詳細設計・コーディング・テストなどの開発を経験しました。日本にてITの知識や経験をもっと伸ばしていきたいと思い、ワールド会社に入社して、今まで1年半働いています。日本に就職する目的は、技術・スキルを向上させて、日本語を勉強します。"
       },
       {
         "title": "ヴー・アイン・ドゥック",
-        "image": { "src": "../../images/AboutUs/duc.jpg", "alt": "duc" },
+        "image": {
+          "src": "../../images/AboutUs/duc.jpg",
+          "alt": "duc"
+        },
         "description": "山口短期大学情報メディア学部を卒業しました。出身はベトナムのハノイです。来日してからちょうど２年迎えました。経験が浅くて分からないことが多いかもしれませんがワルードチームでは”一人じゃない”で先輩たちは優しく教え頂いた本当に有り難い！ 顧客満足のため、良い品質、生産性を高めるようにすると考えています。 精一杯頑張りますので、宜しくお願い致します！"
       }
     ]
@@ -122,9 +158,15 @@
     "items": [
       {
         "title": "ハノイ 工科大学",
-        "image": { "src": "../../images/AboutUs/bkhn.jpg", "alt": "bkhn" },
+        "image": {
+          "src": "../../images/AboutUs/bkhn.jpg",
+          "alt": "bkhn"
+        },
         "description": [
-          { "title": "■経歴", "subtitle": ["1956 創立"] },
+          {
+            "title": "■経歴",
+            "subtitle": ["1956 創立"]
+          },
           {
             "title": "■特徴",
             "subtitle": [
@@ -143,9 +185,15 @@
       },
       {
         "title": "ダナン工科大学",
-        "image": { "src": "../../images/AboutUs/bkdn.jpg", "alt": "bkdn" },
+        "image": {
+          "src": "../../images/AboutUs/bkdn.jpg",
+          "alt": "bkdn"
+        },
         "description": [
-          { "title": "■経歴", "subtitle": ["1953 創立"] },
+          {
+            "title": "■経歴",
+            "subtitle": ["1953 創立"]
+          },
           {
             "title": "■特徴",
             "subtitle": [
@@ -164,9 +212,15 @@
       },
       {
         "title": "郵政電信工芸学院",
-        "image": { "src": "../../images/AboutUs/bcvt.jpg", "alt": "bcvt" },
+        "image": {
+          "src": "../../images/AboutUs/bcvt.jpg",
+          "alt": "bcvt"
+        },
         "description": [
-          { "title": "■経歴", "subtitle": ["1975 創立"] },
+          {
+            "title": "■経歴",
+            "subtitle": ["1975 創立"]
+          },
           {
             "title": "■特徴",
             "subtitle": [
