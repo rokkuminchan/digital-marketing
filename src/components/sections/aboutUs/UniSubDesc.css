@@ -15,7 +15,7 @@
     text-align: justify;
   }
 }
-
+/* test */
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .uniSubDesc {
