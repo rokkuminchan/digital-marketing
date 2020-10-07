@@ -1,8 +1,8 @@
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .mission__description {
-    padding: 30px;
-    text-align: justify;
+    padding: 10px;
+    text-align: center;
     font-size: 1.4em;
   }
   .mission__img {
@@ -18,7 +18,7 @@
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .mission__description {
-    text-align: justify;
+    text-align: center;
     font-size: 2em;
   }
   .mission__img {
@@ -40,11 +40,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 0px;
+    overflow: auto;
   }
   .mission__block1 {
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding-top: 5%;
+
     margin-left: 5%;
   }
   .mission__block2 {
@@ -56,7 +59,7 @@
   }
   .mission__description {
     text-align: justify;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
   }
   .mission__img {

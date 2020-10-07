@@ -8,10 +8,8 @@ export default function Relationship({ data }) {
     <div className="relationship">
       <div className="relationship__block1">
         <Title data={data.title} />
-        <Description
-          className="relationship__description"
-          data={data.description}
-        />
+        <Description data={data.description} />
+        <p className="relationship__description">{data.description}</p>
       </div>
       <div className="relationship__block2">
         <img

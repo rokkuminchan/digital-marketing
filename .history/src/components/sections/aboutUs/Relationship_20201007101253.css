@@ -54,11 +54,11 @@
     margin-right: 5%;
   }
   .relationship__description {
-    text-align: left;
-    color: brown;
+    text-align: justify;
+    font-size: 1em;
   }
   .relationship__img {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 40px;
     display: block;
     width: 81%;
