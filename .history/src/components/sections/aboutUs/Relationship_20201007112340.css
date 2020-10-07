@@ -54,8 +54,7 @@
     margin-right: 5%;
   }
   .relationship__description {
-    text-align: left;
-    color: brown;
+    text-align: justify;
   }
   .relationship__img {
     padding-top: 70px;

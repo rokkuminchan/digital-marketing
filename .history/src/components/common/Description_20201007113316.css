@@ -3,18 +3,16 @@
   .description {
     font-size: 1.4em;
     text-align: center;
-    padding: 3% 15%;
-    opacity: 0.9;
+    padding: 20px;
   }
 }
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .description {
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-align: center;
-    padding: 3% 10%;
-    opacity: 0.9;
+    padding: 20px;
   }
 }
 
@@ -23,7 +21,7 @@
   .description {
     font-size: 1.8em;
     text-align: center;
-    padding: 2% 5%;
+    padding: 20px;
     opacity: 0.9;
   }
 }
