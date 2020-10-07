@@ -14,7 +14,6 @@ import box from "../../img/AboutUs/box.svg";
 import key from "../../img/AboutUs/key.svg";
 import briefcase from "../../img/AboutUs/briefcase.svg";
 import lifebuoy from "../../img/AboutUs/lifebuoy.svg";
-import teamcharacteristic from "../../img/AboutUs/teamcharacristic.jpeg";
 import vision from "../../img/AboutUs/vision.jpeg";
 
 const AboutUsData = {
@@ -61,10 +60,6 @@ const AboutUsData = {
     title: "ITチームの特徴",
     description:
       "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります。",
-    image: {
-      src: teamcharacteristic,
-      alt: "teamcharacteristic",
-    },
     items: [
       {
         icon: {src: box, alt: "icon1"},
@@ -143,7 +138,7 @@ const AboutUsData = {
           alt: "loc",
         },
         description:
-          "ハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
+          "ワールドで働く事は私にとって本当に楽しいです。 技術だけでなく日本の働き方もたくさん学びました。 ここで私は自分の創造性を活用できるので、チームを助けます。ITチームはまた、仕事と学習のモチベーションをたくさん与えてくれます。 我々は常に互いに助け合っています。 我々は一緒に問題を解決します。 だからこそ、世界のITは本当に急速に拡大していくと確信しています。",
       },
       {
         title: "ダオ・ハイ・イエン",
