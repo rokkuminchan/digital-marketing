@@ -26,7 +26,7 @@ const AboutUsData = {
     alt: "",
   },
   mission: {
-    title: "MISSION",
+    title: "mission",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
       src: mission,
