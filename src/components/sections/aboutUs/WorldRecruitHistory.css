@@ -8,8 +8,8 @@
   padding-bottom: 20px;
 }
 .worldrecruitristory__img {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: 220px;
 }
 @media only screen and (max-width: 550px) {
   .worldrecruitristory__description {
