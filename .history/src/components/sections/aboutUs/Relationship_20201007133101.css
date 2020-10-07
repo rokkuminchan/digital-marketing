@@ -1,5 +1,7 @@
 .relationship__description {
+  text-align: unset;
   text-align: justify;
+  color: unset;
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
@@ -39,16 +41,17 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .relationship__block2 {
     width: 30%;
     display: flex;
     flex-direction: column;
-    /* margin-right: 5%; */
+    margin-right: 5%;
   }
+
   .relationship__img {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 40px;
     display: block;
     width: 81%;

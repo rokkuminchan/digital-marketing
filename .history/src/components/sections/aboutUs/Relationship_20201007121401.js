@@ -2,7 +2,7 @@ import React from "react";
 import "./Relationship.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
-import Image from "../../common/Image";
+
 export default function Relationship({ data }) {
   return (
     <div className="relationship">
@@ -13,9 +13,11 @@ export default function Relationship({ data }) {
         </div>
       </div>
       <div className="relationship__block2">
-        <div className="relationship__img">
-          <Image {...data.image} />
-        </div>
+        <img
+          className="relationship__img"
+          src={data.image.src}
+          alt={data.image.alt}
+        ></img>
       </div>
     </div>
   );
