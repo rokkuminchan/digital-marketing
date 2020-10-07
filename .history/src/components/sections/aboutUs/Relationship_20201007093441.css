@@ -52,6 +52,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 5%;
+    margin-bottom: 1%;
   }
   .relationship__description {
     text-align: justify;
@@ -61,7 +62,7 @@
     padding-top: 50px;
     padding-bottom: 40px;
     display: block;
-    width: 81%;
+    width: 82%;
     height: auto;
   }
 }

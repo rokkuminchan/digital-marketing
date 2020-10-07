@@ -19,6 +19,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.member-characteristic__items > div > p {
+  text-align: justify;
+}
 /* Mobile*/
 @media only screen and (max-width: 768px) {
   .member-characteristic__description {
