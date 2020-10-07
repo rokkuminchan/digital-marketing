@@ -42,20 +42,20 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .relationship__block2 {
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-right: 6%;
+    margin-right: 5%;
   }
 
   .relationship__description {
     text-align: justify;
   }
   .relationship__img {
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 40px;
     display: block;
     width: 75%;

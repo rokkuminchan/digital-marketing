@@ -1,9 +1,9 @@
 @media screen and (min-width: 320px) {
-  .worldrecruithistory {
+  .relationship {
     padding-top: 30px;
     background-color: #eff9ff;
   }
-  .worldrecruithistory__description {
+  .relationship {
     font-size: 1.4em;
     text-align: center;
     margin-left: auto;
@@ -14,7 +14,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .worldrecruithistory__img {
+  .relationship {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -24,7 +24,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .worldrecruithistory__description {
+  .relationship__description {
     font-size: 1.8em;
     text-align: center;
     margin-left: auto;
@@ -33,7 +33,7 @@
     width: 620px;
     height: auto;
   }
-  .worldrecruithistory__img {
+  .relationship__img {
     padding-bottom: 50px;
     display: block;
     margin-left: auto;
@@ -44,7 +44,7 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .worldrecruithistory {
+  .relationship {
     padding-top: 30px;
     background-color: #eff9ff;
     display: flex;
@@ -53,21 +53,21 @@
     justify-content: space-around;
     margin: 50px 0px;
   }
-  .worldrecruithistory__block1 {
+  .relationship__block1 {
     padding-top: 5%;
     width: 40%;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
   }
-  .worldrecruithistory__block2 {
+  .relationship__block2 {
     padding-top: 5%;
     width: 30%;
     display: flex;
     flex-direction: column;
     margin-right: 10%;
   }
-  .worldrecruithistory__description {
+  .relationship__description {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 1.8em;
@@ -77,7 +77,7 @@
     word-break: break-word;
     text-align: center;
   }
-  .worldrecruithistory__img {
+  .relationship__img {
     display: block;
     padding-top: 40px;
     height: 70%;
