@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
+//Home page
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
