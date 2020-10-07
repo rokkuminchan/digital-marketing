@@ -15,7 +15,6 @@ import key from "../img/AboutUs/key.svg";
 import vision from "../img/AboutUs/vision.jpeg";
 import briefcase from "../img/AboutUs/briefcase.svg";
 import lifebuoy from "../img/AboutUs/lifebuoy.svg";
-import teamcharacteristic from "../img/AboutUs/teamcharacristic.jpeg";
 //import vision from "../img/AboutUs/vision.jpeg";
 
 const AboutUsData = {
@@ -27,7 +26,7 @@ const AboutUsData = {
     alt: "",
   },
   mission: {
-    title: "MISSION",
+    title: "mission",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
       src: mission,

@@ -5,7 +5,7 @@
   }
   .uniSubDesc__title {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: inherit;
   }
   .uniSubDesc__desc {
     font-size: inherit;
@@ -26,7 +26,7 @@
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1024px) {
   .uniSubDesc__desc {
     text-indent: 4.5rem;
   }
