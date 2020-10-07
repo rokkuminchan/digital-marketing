@@ -1,3 +1,73 @@
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+  .mission__description {
+    padding: 30px;
+    text-align: justify;
+    font-size: 1.4em;
+  }
+  .mission__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .mission__description {
+    text-align: justify;
+    font-size: 2em;
+  }
+  .mission__img {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  .mission {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+  }
+  .mission__block1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .mission__block2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    transform: translateX(10%, 10%);
+  }
+  .mission__description {
+    text-align: justify;
+    font-size: 3em;
+    text-align: center;
+  }
+  .mission__img {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+}
+
 /* .mission {
   top: 540px;
   left: 24px;
@@ -12,7 +82,7 @@
   width: 375px;
   height: auto;
 } */
-@media only screen and (min-width: 320px) {
+/* @media only screen and (min-width: 320px) {
   .mission {
     width: 375px;
     height: 347px;
@@ -69,7 +139,7 @@
   width: auto;
   padding-left: 15%;
   /* transform: scaleX(170%, -50%); */
-}
+/* }
 
 .mission__description {
   font-family: Roboto;
@@ -79,8 +149,8 @@
 }
 
 .mission__img {
-  /* position: absolute; */
+
   width: 572px;
   height: 275px;
   overflow: hidden;
-}
+}  */
