@@ -1,6 +1,7 @@
 import React from "react";
 import "./Mission.css";
 import Title from "../../common/Title";
+import Description from "../../common/Description";
 
 export default function Mission({ data }) {
   return (
@@ -8,7 +9,8 @@ export default function Mission({ data }) {
       <div className="mission__block1">
         <Title data={data.title} />
         {/* <h3 className="mission__title">{data.title}</h3> */}
-        <p className="mission__description">{data.description}</p>
+        {/* <p className="mission__description">{data.description}</p> */}
+        <Description data={data.description} />
       </div>
       <div className="mission__block2">
         <img

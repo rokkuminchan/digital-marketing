@@ -1,0 +1,26 @@
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+  .description {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 1.6em;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  .description {
+    font-size: 1.6em;
+    text-align: center;
+    padding: 20px;
+  }
+}
