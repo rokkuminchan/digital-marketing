@@ -1,86 +1,81 @@
-/* .mission {
-  top: 540px;
-  left: 24px;
-}
-.mission__description {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  text-align: 2em;
-  padding-bottom: 10px;
-}
-.mission__img {
-  width: 375px;
-  height: auto;
-} */
-@media only screen and (min-width: 320px) {
-  .mission {
-    width: 375px;
-    height: 347px;
-  }
-  .combine {
-    top: 70%;
-    left: 10%;
-  }
-  .mission__description {
-    text-align: center;
-    padding: 10px;
-    font-size: 1.4em;
-    font-family: Roboto;
-  }
-  .mission__img {
-    width: auto;
-    height: auto;
-    align-self: center;
-    overflow: hidden;
-  }
+/*Iphone(480 x 640)*/
+
+@media screen and (min-width: 320px) {
+    .mission {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .mission__block1 {
+        padding-top: -20%;
+        padding-bottom: 5%;
+        margin-top: -10%;
+        width: auto;
+        line-height: 0.8;
+    }
+    .mission__img {
+        display: block;
+        width: 100%;
+        height: 120px;
+        margin-bottom: -30%;
+        margin-top: -10%;
+    }
 }
 
-@media only screen and (min-width: 768px) {
-  .mission {
-    width: 768px;
-    height: 589px;
-  }
-  .mission__description {
-    font-family: Roboto;
-    text-align: center;
-    font-size: 1.4em;
-  }
-  .mission__img {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-  }
+/*Ipad vertical(768 x 1024)*/
+
+@media screen and (min-width: 768px) {
+    div.mission__block1 {
+        padding-bottom: 0%;
+        padding-top: 10%;
+        line-height: 0.8;
+    }
+    .mission__img {
+        display: block;
+        width: 90%;
+        height: 260px;
+        margin: auto;
+        margin-bottom: -10%;
+    }
 }
+
+/*desktop*/
+
 @media screen and (min-width: 1024px) {
-  .mission {
-    width: 1920px;
-    height: 644px;
-    display: flex;
-    padding-top: 182px;
-    padding-bottom: 190px;
-    text-align: center;
-  }
-}
-.mission__title {
-  padding-bottom: 10%;
-}
-.combine {
-  width: auto;
-  padding-left: 15%;
-  /* transform: scaleX(170%, -50%); */
-}
-
-.mission__description {
-  font-family: Roboto;
-  letter-spacing: 0.9px;
-  font-size: 4em;
-  padding-top: 4%;
-}
-
-.mission__img {
-  /* position: absolute; */
-  width: 572px;
-  height: 275px;
-  overflow: hidden;
+    .mission {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px 0px;
+        overflow: auto;
+        margin-bottom: 5%;
+    }
+    div.mission__block1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        width: 40%;
+    }
+    div.mission__block2 {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+        transform: translateX(10%, 10%);
+        padding-top: 5%;
+    }
+    /* .mission__description {
+        text-align: justify;
+        font-size: 2.5em;
+        text-align: center;
+    } */
+    .mission__img {
+        padding-top: 35%;
+        padding-bottom: 40px;
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 18% 0% 10% 10%;
+    }
 }

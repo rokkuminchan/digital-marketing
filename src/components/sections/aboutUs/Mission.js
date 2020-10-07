@@ -1,20 +1,27 @@
 import React from "react";
 import "./Mission.css";
 import Title from "../../common/Title";
+import Description from "../../common/Description";
 import Image from "../../common/Image";
 
 export default function Mission({ data }) {
-  console.log("Mission", data.image);
   return (
     <section className="mission">
-      <div className="combine">
-        <Title data={data.title} />
-        {/* <h3 className="mission__title">{data.title}</h3> */}
-        <p className="mission__description">{data.description}</p>
+            
+      <div className="mission__block1">
+                
+        <Title className="mission__title" data={data.title} />
+                
+        <Description className="mission__description" data={data.description} />
+              
       </div>
-      <div className="combineImg">
+            
+      <div className="mission__block2">
+                                
         <Image className="mission__img" {...data.image} />
+              
       </div>
+          
     </section>
   );
 }
