@@ -1,6 +1,6 @@
 /*Iphone(480 x 640)*/
 
-/* @media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
     .mission {
         display: block;
         width: auto;
@@ -20,16 +20,14 @@
         margin-bottom: -30%;
         margin-top: -10%;
     }
-} */
+}
 
 /*Ipad vertical(768 x 1024)*/
 
-/* 
 @media screen and (min-width: 768px) {
     div.mission__block1 {
         padding-bottom: 0%;
         padding-top: 10%;
-        width: auto;
         line-height: 0.8;
     }
     .mission__img {
@@ -39,7 +37,7 @@
         margin: auto;
         margin-bottom: -10%;
     }
-} */
+}
 
 /*desktop*/
 
@@ -51,16 +49,16 @@
         justify-content: space-around;
         margin: 50px 0px;
         overflow: auto;
+        margin-bottom: 5%;
     }
-    .mission__block1 {
-        width: 40%;
+    div.mission__block1 {
         display: flex;
         flex-direction: column;
-        padding-top: 4%;
-        margin-left: 5%;
+        margin-top: 3%;
+        width: 40%;
     }
-    .mission__block2 {
-        width: 30%;
+    div.mission__block2 {
+        width: 35%;
         display: flex;
         flex-direction: column;
         margin-right: 10%;
@@ -73,10 +71,11 @@
         text-align: center;
     } */
     .mission__img {
-        padding-top: 50%;
+        padding-top: 35%;
         padding-bottom: 40px;
         display: block;
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 18% 0% 10% 10%;
     }
 }
