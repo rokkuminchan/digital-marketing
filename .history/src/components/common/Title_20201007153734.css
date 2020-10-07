@@ -11,13 +11,11 @@
 }
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
-  .title {
-    font-size: 1.7em;
-    font-family: Roboto;
-    color: #3c64b1;
-    font-weight: bold;
+  .description {
+    font-size: 1.8em;
     text-align: center;
-    padding-top: 20px;
+    padding: 3% 10%;
+    opacity: 0.8;
   }
 }
 /*desktop*/
