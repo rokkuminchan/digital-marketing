@@ -42,7 +42,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .relationship__block2 {
     width: 40%;
@@ -53,6 +53,7 @@
 
   .relationship__description {
     text-align: justify;
+    width: 120;
   }
   .relationship__img {
     padding-top: 120px;
