@@ -6,6 +6,7 @@
 .member-characteristic__description {
   padding-top: 20px;
   margin: 0 45px;
+  text-align: justify;
 }
 .member-characterstic__items-title {
   border-radius: 50% 50%;
