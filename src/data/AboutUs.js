@@ -89,25 +89,25 @@ const AboutUsData = {
 
     items: [
       {
-        css: "member-characterstic__items--border-red",
+        css: "member-characteristic__items--border-red",
         title: "日本が好きで",
         description:
           "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
       },
       {
-        css: "member-characterstic__items--border-yellow",
+        css: "member-characteristic__items--border-yellow",
         title: "日本が好き",
         description:
           "全員が日本在住。日本に興味を持って一生懸命に日本語を学び、日本で暮らし日本人と働いて、日本の良さを体験している技術者です。言葉や文化、そして業務の理解力で違いが出ます。",
       },
       {
-        css: "member-characterstic__items--border-green",
+        css: "member-characteristic__items--border-green",
         title: "技術が好き",
         description:
           "全員が中高時代からITに興味を持ち、ベトナムまたは、日本で情報処理系の教育を受けた技術者です。好きなことだから頑張れる。また、最先端の技術を常に学んでいます。",
       },
       {
-        css: "member-characterstic__items--border-blue",
+        css: "member-characteristic__items--border-blue",
         title: "チームが好き",
         description:
           "お互いを理解しあい、強い絆で結ばれたチームです。技術の習得も仕事も力を合わせて、最高の結果を出します。",

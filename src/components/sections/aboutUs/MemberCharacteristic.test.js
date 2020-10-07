@@ -33,15 +33,13 @@ afterEach(() => {
 
 it("can render a component from data", () => {
   ReactDOM.render(<MemberCharacteristic data={Data} />, container);
-  const description = container.querySelector("p");
   const itemsTitle = container.querySelectorAll(
-    ".member-characterstic__items-title > p"
+    ".member-characteristic__items-title > p"
   );
   const itemsDescription = container.querySelectorAll(
-    ".member-characterstic__items > div > p"
+    ".member-characteristic__items > div > p"
   );
 
-  expect(description.textContent).toBe(Data.description);
   for (let item = 0; item < Data.items.length; item++) {
     expect(itemsTitle[item].textContent).toBe(Data.items[item].title);
     expect(itemsDescription[item].textContent).toBe(
