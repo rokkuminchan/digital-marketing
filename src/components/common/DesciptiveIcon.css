@@ -1,10 +1,18 @@
 .descriptive-icon__wrap img {
-  margin: 5% auto;
-  text-align: center;
+  margin: 12% auto auto;
+  width: 7%;
+  height: auto;
 }
+
 .descriptive-icon__description {
-  width: 85%;
+  margin: auto;
+  font-size: 2em;
   text-align: center;
-  margin: 7% auto;
-  font-size: 1.5em;
+  width: 50%;
+}
+@media only screen and (max-width: 720px) {
+  .descriptive-icon__description {
+    font-size: 1.4em;
+    width: 80%;
+  }
 }
