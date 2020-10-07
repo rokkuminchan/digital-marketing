@@ -14,29 +14,27 @@
     width: 70%;
     border-bottom: 1px solid #000;
   }
+  .university:first-child {
+    margin-top: 2rem;
+  }
   .university__title {
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
     color: #3c64b1;
-    padding: 4rem 0 1rem;
+    padding: 3rem 0 1rem;
   }
   .university__image {
-    display: block;
-    padding: 2rem 0;
-    overflow: hidden;
-    height: 200px;
+    height: 140px;
     width: 100%;
-    object-fit: cover;
   }
   .university__desc {
     padding: 2rem 0;
     color: #707070;
   }
   .university__link {
-    padding: 2rem 0;
-    font-size: 1.5rem;
-    color: #707070;
+    font-size: 1.4rem;
+    color: #3349f0;
     text-decoration: none;
     cursor: pointer;
   }
@@ -54,10 +52,7 @@
     font-size: 2rem;
   }
   .university__image {
-    padding: 2rem 0;
-    overflow: hidden;
     height: 300px;
-    width: 100%;
   }
   .university__link {
     font-size: 2rem;
@@ -87,6 +82,11 @@
   }
   .university__image {
     height: 300px;
-    width: 100%;
+  }
+  .university:first-child {
+    margin-top: 4rem;
+  }
+  .university:before {
+    width: 45%;
   }
 }

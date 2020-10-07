@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../../common/Title";
 import University from "./University";
+import Description from "../../common/Description";
 import "./VNUniversity.css";
 
 const VNUniversity = ({ data }) => {
@@ -8,7 +9,7 @@ const VNUniversity = ({ data }) => {
     <section className="vnUniversity">
       <div className="vnUniversity__container">
         <Title data={data.title} />
-        <p className="vnUniversity__desc">{data.description}</p>
+        <Description data={data.description} className="vnUniversity__desc" />
         <div className="vnUniversity__list">
           {data.items.map((university, index) => {
             return <University key={index} data={university} />;
