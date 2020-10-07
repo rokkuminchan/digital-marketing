@@ -1,81 +1,41 @@
 /*Iphone(480 x 640)*/
-
 @media screen and (min-width: 320px) {
-    .mission {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-    .mission__block1 {
-        padding-top: -20%;
-        padding-bottom: 5%;
-        margin-top: -10%;
-        width: auto;
-        line-height: 0.8;
-    }
-    .mission__img {
-        display: block;
-        width: 100%;
-        height: 120px;
-        margin-bottom: -30%;
-        margin-top: -10%;
-    }
+  .mission__img {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
 }
-
 /*Ipad vertical(768 x 1024)*/
-
 @media screen and (min-width: 768px) {
-    div.mission__block1 {
-        padding-bottom: 0%;
-        padding-top: 10%;
-        line-height: 0.8;
-    }
-    .mission__img {
-        display: block;
-        width: 90%;
-        height: 260px;
-        margin: auto;
-        margin-bottom: -10%;
-    }
+  .mission__img {
+    width: 480px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
 }
-
 /*desktop*/
-
 @media screen and (min-width: 1024px) {
-    .mission {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 50px 0px;
-        overflow: auto;
-        margin-bottom: 5%;
-    }
-    div.mission__block1 {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3%;
-        width: 40%;
-    }
-    div.mission__block2 {
-        width: 35%;
-        display: flex;
-        flex-direction: column;
-        margin-right: 10%;
-        transform: translateX(10%, 10%);
-        padding-top: 5%;
-    }
-    /* .mission__description {
-        text-align: justify;
-        font-size: 2.5em;
-        text-align: center;
-    } */
-    .mission__img {
-        padding-top: 35%;
-        padding-bottom: 40px;
-        display: block;
-        width: 90%;
-        height: auto;
-        margin: 18% 0% 10% 10%;
-    }
+  .mission {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 12%;
+  }
+  .mission__block1 {
+    width: 60%;
+    flex-direction: column;
+  }
+  .mission__block2 {
+    width: 40%;
+  }
+  .mission__img {
+    display: block;
+    width: 300px;
+    height: 170px;
+    margin-left: 0px;
+  }
 }
+
