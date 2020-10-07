@@ -1,16 +1,17 @@
 import React from "react";
 import "./MemberCharacteristic.css";
 import Title from "../../common/Title.js";
+import Description from "../../common/Description.js";
 
 export default function MemberCharacteristic({ data }) {
   return (
     <div className="member-characteristic">
       <Title data={data.title} />
-      <p className="member-characteristic__description">{data.description}</p>
-      <div className="member-characterstic__items">
+      <Description data={data.description} />
+      <div className="member-characteristic__items">
         {data.items.map((item, index) => (
-          <div key={index} className="member-characterstic__items--inline">
-            <div className={`member-characterstic__items-title ${item.css}`}>
+          <div key={index} className="member-characteristic__items--inline">
+            <div className={`member-characteristic__items-title ${item.css}`}>
               <p>{item.title}</p>
             </div>
             <p>{item.description}</p>
