@@ -1,0 +1,86 @@
+/* .mission {
+  top: 540px;
+  left: 24px;
+}
+.mission__description {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-align: 2em;
+  padding-bottom: 10px;
+}
+.mission__img {
+  width: 375px;
+  height: auto;
+} */
+@media only screen and (min-width: 320px) {
+  .mission {
+    width: 375px;
+    height: 347px;
+  }
+  .combine {
+    top: 70%;
+    left: 10%;
+  }
+  .mission__description {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4em;
+    font-family: Roboto;
+  }
+  .mission__img {
+    width: auto;
+    height: auto;
+    align-self: center;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mission {
+    width: 768px;
+    height: 589px;
+  }
+  .mission__description {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .mission__img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mission {
+    width: 1920px;
+    height: 644px;
+    display: flex;
+    padding-top: 182px;
+    padding-bottom: 190px;
+    text-align: center;
+  }
+}
+.mission__title {
+  padding-bottom: 10%;
+}
+.combine {
+  width: auto;
+  padding-left: 15%;
+  /* transform: scaleX(170%, -50%); */
+}
+
+.mission__description {
+  font-family: Roboto;
+  letter-spacing: 0.9px;
+  font-size: 4em;
+  padding-top: 4%;
+}
+
+.mission__img {
+  /* position: absolute; */
+  width: 572px;
+  height: 275px;
+  overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.descriptive-icon__wrap img {
+  margin: 5% auto;
+  text-align: center;
+}
+.descriptive-icon__description {
+  width: 85%;
+  text-align: center;
+  margin: 7% auto;
+  font-size: 1.5em;
+}
