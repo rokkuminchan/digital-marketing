@@ -9,9 +9,7 @@ export default function WorldReruitHistory({ data }) {
     <section className="worldrecruitristory">
       <Title data={data.title} />
       <p className="worldrecruitristory__description">{data.description}</p>
-      <div>
-        <Image className="worldrecruitristory__img" {...data.image} />
-      </div>
+      <Image className="worldrecruitristory__img" {...data.image} />
     </section>
   );
 }
