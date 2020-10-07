@@ -2,6 +2,7 @@ import React from "react";
 import "./Mission.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
+import Image from "../../common/Image";
 
 export default function Mission({ data }) {
   return (
@@ -13,11 +14,12 @@ export default function Mission({ data }) {
         <Description data={data.description} />
       </div>
       <div className="mission__block2">
-        <img
+        {/* <img
           className="mission__img"
           src={data.image.src}
           alt={data.image.alt}
-        ></img>
+        ></img> */}
+        <Image {...data.image} />
       </div>
     </section>
   );
