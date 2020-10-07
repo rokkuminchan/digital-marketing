@@ -6,9 +6,7 @@ export default function Card({ data }) {
   console.log("Card", data.image);
   return (
     <div className="card">
-      <div className="card__img">
-        <Image {...data.image} />
-      </div>
+      <Image className="card__img" {...data.image} />
       <div className="card__content">
         <h3>{data.title}</h3>
         <p>{data.description}</p>

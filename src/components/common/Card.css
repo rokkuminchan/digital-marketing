@@ -1,7 +1,7 @@
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .card {
-    width: 70%;    
+    width: 70%;
     margin: 20px;
   }
   .card__content {
@@ -13,10 +13,6 @@
   }
   .card__content p {
     font-size: 1.4em;
-  }
-  .card__img img {
-    width: 100%;
-    height: 200px;
   }
 }
 /*Ipad vertical(768 x 1024)*/
@@ -35,10 +31,6 @@
   .card__content p {
     font-size: 1.6em;
   }
-  .card__img img {
-    width: 100%;
-    height: 300px;
-  }
 }
 /*Ipad horizontal(1024 x 768)*/
 @media screen and (min-width: 1024px) {
@@ -55,10 +47,6 @@
   }
   .card__content p {
     font-size: 1.8em;
-  }
-  .card__img img {
-    width: 100%;
-    height: 350px;
   }
 }
 /*Commom style for card*/
@@ -89,11 +77,7 @@
   opacity: 1;
 }
 .card__img {
+  height: 300px;
+  width: 100%;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-}
-.card__img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  object-fit: cover;
 }
