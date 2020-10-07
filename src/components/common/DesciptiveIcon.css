@@ -1,10 +1,29 @@
-.descriptive-icon__wrap img {
-  margin: 5% auto;
+.descriptive-icon {
   text-align: center;
 }
+.descriptive-icon__wrap img {
+  margin: 5% auto;
+  width: 10%;
+}
 .descriptive-icon__description {
-  width: 85%;
-  text-align: center;
-  margin: 7% auto;
-  font-size: 1.5em;
+  width: 70%;
+  font-size: 2em;
+  margin: auto;
+}
+.descriptive-icon__description p {
+  margin: auto 5%;
+}
+@media only screen and (max-width: 720px) {
+  .descriptive-icon__description {
+    width: 80%;
+    font-size: 1.4em;
+  }
+  .descriptive-icon__wrap img {
+    width: 7%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .descriptive-icon__wrap img {
+    width: 8%;
+  }
 }
