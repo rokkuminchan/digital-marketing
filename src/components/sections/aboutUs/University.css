@@ -14,12 +14,15 @@
     width: 70%;
     border-bottom: 1px solid #000;
   }
+  .university:first-child {
+    margin-top: 2rem;
+  }
   .university__title {
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
     color: #3c64b1;
-    padding: 4rem 0 1rem;
+    padding: 3rem 0 1rem;
   }
   .university__image {
     display: block;
@@ -94,5 +97,11 @@
   .university__image {
     height: 300px;
     width: 100%;
+  }
+  .university:first-child {
+    margin-top: 4rem;
+  }
+  .university:before {
+    width: 45%;
   }
 }
