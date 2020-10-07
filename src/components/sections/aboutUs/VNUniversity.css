@@ -20,10 +20,10 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .vnUniversity__container {
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1140px;
   }
   .vnUniversity__desc {
     font-size: 2rem;
