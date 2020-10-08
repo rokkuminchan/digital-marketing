@@ -29,10 +29,9 @@
 }
 
 .page-header__title {
-  text-align: left;
+  text-align: center;
   letter-spacing: 0px;
   color: #2d5ebe;
-  font-size: 4em;
 }
 
 .page-header__description {
@@ -43,7 +42,7 @@
 }
 
 .page-header__sub-description-wrapper {
-  width: 80%;
+  width: 90%;
   margin: auto;
   height: calc(
     100vh - var(--page-header-img-height) - var(--header-menu-height)
@@ -61,8 +60,7 @@
   font-size: 2em;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
   .page-header {
     height: 400px;
   }
@@ -73,7 +71,7 @@
 
   .page-header__sub-description-wrapper {
     width: 90%;
-    height: auto;
+    height: 200px;
   }
 
   .page-header__title {
@@ -88,64 +86,44 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .page-header {
-    height: 500px;
-  }
-
-  .page-header__title {
-    font-size: 4em;
-  }
-
-  .page-header__description {
-    text-align: center;
-    font-size: 3em;
+    height: 600px;
   }
 
   .page-header__img {
     height: 300px;
   }
 
-  .page-header__sub-description {
-    line-height: 35px;
-    font-size: 2em;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .page-header {
-    height: 820px;
-  }
-
-  .page-header__img {
-    height: 365px;
-  }
-
   .page-header__title {
-    text-align: center;
-    font-size: 6em;
-  }
-
-  .page-header__description {
-    font-size: 4em;
-  }
-
-  .page-header__sub-description {
     font-size: 3em;
   }
 
+  .page-header__description {
+    font-size: 2.5em;
+  }
+
+  .page-header__sub-description {
+    font-size: 2em;
+  }
+
   .page-header__sub-description-wrapper {
-    height: auto;
+    height: 300px;
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-header {
     margin-top: var(--header-menu-height);
     height: calc(100vh - var(--header-menu-height));
+  }
+
+  .page-header__title {
+    font-size: 4em;
+  }
+
+  .page-header__description {
+    font-size: 3em;
   }
 
   .page-header__img {
@@ -160,5 +138,21 @@
 
   .page-header__sub-description {
     line-height: 45px;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .page-header__title {
+    font-size: 6em;
+  }
+
+  .page-header__description {
+    font-size: 3em;
+  }
+
+  .page-header__sub-description {
+    line-height: 45px;
+    font-size: 2.5em;
   }
 }
