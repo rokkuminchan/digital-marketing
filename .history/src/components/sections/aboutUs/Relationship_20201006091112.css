@@ -1,0 +1,25 @@
+/*Ipad-横(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Ipad-縦(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .relationship__description {
+    padding: 30px;
+    text-align: justify;
+  }
+  .relationship__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    height: auto;
+    font-size: 1.5em;
+  }
+}
+/*Smart phone 小さいな画面*/
+@media screen and (max-width: 240px) {
+}
