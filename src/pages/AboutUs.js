@@ -14,8 +14,8 @@ export default function AboutUs({ data }) {
     <Layout>
       <Mission data={data.ourTeamJson.mission} />
       <Vision data={data.ourTeamJson.vision} />
-      <MemberCharacteristic data={data.ourTeamJson.memberCharacteristic} />
       <TeamCharacteristic data={data.ourTeamJson.teamCharacteristic} />
+      <MemberCharacteristic data={data.ourTeamJson.memberCharacteristic} />
       <MemberIntro data={data.ourTeamJson.memberIntroduction} />
       <WorldRecruitHistory data={data.ourTeamJson.worldRecruitHistory} />
       <Relationship data={data.ourTeamJson.relationship} />

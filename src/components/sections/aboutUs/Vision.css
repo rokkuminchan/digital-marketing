@@ -1,0 +1,27 @@
+.vision {
+  background: #eff9ff 0% 0% no-repeat padding-box;
+  padding-bottom: 10%;
+  text-align: center;
+}
+.vision__items {
+  margin: 0 10%;
+}
+.vision__items p {
+  font-size: 1.4em;
+}
+.vision__items-title {
+  background-color: red;
+  color: #ffffff;
+  border-radius: 50% 50%;
+  position: relative;
+  margin: 45px auto 15px auto;
+  width: 80px;
+  height: 80px;
+}
+.vision__items-title > p {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
