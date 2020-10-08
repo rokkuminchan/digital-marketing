@@ -2,12 +2,16 @@
 @media screen and (min-width: 320px) {
   .relationship__description {
     text-align: justify;
+    padding: 3% 10%;
+    margin-bottom: 1.5rem;
+    font-size: 1.4em;
+    opacity: 0.8;
   }
   .relationship__img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 60%;
     height: auto;
     padding-bottom: 30px;
   }
@@ -15,17 +19,26 @@
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
+  .relationship {
+    padding-top: 25px;
+  }
   .relationship__description {
     text-align: justify;
+    padding: 3% 10%;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 1.7em;
+    opacity: 0.8;
   }
   .relationship__img {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 40%;
     height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
   }
 }
 
@@ -39,26 +52,26 @@
     margin: 50px 0px;
   }
   .relationship__block1 {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .relationship__block2 {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    margin-right: 6%;
+    margin-right: 5%;
   }
-
   .relationship__description {
     text-align: justify;
+    font-size: 1.8em;
+    opacity: 0.8;
   }
   .relationship__img {
-    padding-top: 120px;
-    padding-bottom: 40px;
     display: block;
-    width: 75%;
-    height: auto;
+    width: 380px;
+    height: 240px;
+    margin: 5% 0% 10% 10%;
   }
 }
