@@ -1,18 +1,31 @@
+.descriptive-icon {
+  text-align: center;
+}
 .descriptive-icon__wrap img {
-  margin: 12% auto auto;
-  width: 7%;
-  height: auto;
+  margin: 10% auto auto;
+  width: 10%;
 }
 
 .descriptive-icon__description {
   margin: auto;
   font-size: 2em;
-  text-align: center;
   width: 50%;
 }
 @media only screen and (max-width: 720px) {
   .descriptive-icon__description {
     font-size: 1.4em;
     width: 80%;
+  }
+  .descriptive-icon__description {
+    padding-bottom: 7%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .descriptive-icon__description {
+    font-size: 1.8em;
+    width: 65%;
+  }
+  .descriptive-icon__description {
+    padding-bottom: 7%;
   }
 }
