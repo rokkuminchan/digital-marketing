@@ -28,8 +28,8 @@
   grid-area: imgbg;
   width: 100%;
   height: auto;
-  background: transparent url("../../../img/AboutUs/teamcharacteristic.png") 0%
-    0% no-repeat padding-box;
+  background: transparent url("../../../images/AboutUs/teamcharacteristic.png")
+    0% 0% no-repeat padding-box;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
