@@ -4,6 +4,8 @@
 }
 
 .member-characteristic__items-title {
+  height: 120px;
+  width: 120px;
   border-radius: 50% 50%;
   position: relative;
   margin: 45px auto 15px auto;
@@ -35,10 +37,6 @@
 @media only screen and (max-width: 768px) {
   .member-characteristic__items {
     font-size: 1.4em;
-  }
-  .member-characteristic__items-title {
-    height: 120px;
-    width: 120px;
   }
   .member-characteristic__items-title > p {
     font-size: 1.4em;
