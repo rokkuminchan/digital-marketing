@@ -1,36 +1,30 @@
 .vision {
   background: #eff9ff 0% 0% no-repeat padding-box;
   padding: 10% 0;
-  text-align: center;
 }
 .vision p {
   font-size: 1.4em;
+  text-align: center;
 }
 .vision-header {
-  background: url("../../../img/AboutUs/vision.jpeg");
+  background-image: url("../../../img/AboutUs/vision.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
-  padding: 15% 0;
-  opacity: 0.8;
+  padding-top: 12%;
+  padding-bottom: 40%;
 }
-.vision-header > h3 {
-  font-size: 2em;
+.vision__title {
+  font-size: 1.8em;
   font-family: Roboto;
   color: #3c64b1;
   font-weight: bold;
 }
-.vision-header-inline {
-  display: table-cell;
-  width: 50%;
-  left: 50%;
-  top: 50%;
-  margin: 0 auto;
-}
 .vision__items {
   margin: 0 10%;
 }
-
 .vision__items-title {
+  font-weight: bold;
   color: #ffffff;
   border-radius: 50% 50%;
   position: relative;
@@ -53,4 +47,67 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+/* Iphone and Ipad */
+@media screen and (max-width: 1024px) {
+  .vision__title {
+    padding: 2% 8%;
+    float: left;
+    width: 40%;
+  }
+  .vision__description {
+    padding: 0 5%;
+    float: right;
+    width: 60%;
+  }
+}
+/* Ipad Style*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .vision-header {
+    padding-top: 12%;
+    padding-bottom: 40%;
+  }
+  .vision p {
+    font-size: 2em;
+  }
+  .vision__title {
+    font-size: 2em;
+    width: 30%;
+    padding-left: 10%;
+  }
+  .vision__description {
+    width: 70%;
+    font-size: 1.3em;
+  }
+  .vision__items-title {
+    width: 120px;
+    height: 120px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .vision p {
+    font-size: 2em;
+  }
+  .vision-header {
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .vision__title {
+    padding: 2%;
+    font-size: 3em;
+  }
+  .vision__description {
+    padding: 0 10%;
+    font-size: 1.5em;
+  }
+  .vision__items-title {
+    width: 140px;
+    height: 140px;
+  }
+  .vision__items--inline {
+    padding-right: 5%;
+    display: table-cell;
+    width: 33%;
+  }
 }

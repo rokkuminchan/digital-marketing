@@ -6,14 +6,16 @@ export default function Vision({ data }) {
     <section className="vision">
       <div>
         <div className="vision-header">
-          <h3 className="vision__title vision-header-inline">{data.title}</h3>
-          <p className="vision__description vision-header-inline">
-            {data.description}
-          </p>
+          <div className="vision__title">
+            <p>{data.title}</p>
+          </div>
+          <div className="vision__description">
+            <p>{data.description}</p>
+          </div>
         </div>
         <div className="vision__items">
           {data.items.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="vision__items--inline">
               <div className={`vision__items-title ${item.css}`}>
                 <p>{item.title}</p>
               </div>
