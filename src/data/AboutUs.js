@@ -34,24 +34,27 @@ const AboutUsData = {
     },
   },
   vision: {
-    title: "ビジョン",
+    title: "Vision",
     description:
-      "外国人IT技術者の「３つの壁」を乗り超え、、最先端のIT技術を駆使して日本をサポートする。",
+      "外国人IT技術者の「３つの壁」を乗り超え、最先端のIT技術を駆使して日本をサポートする。",
     image: {
       src: vision,
       alt: "vision",
     },
     items: [
       {
+        css: "vision__items-title--bg-blue",
         title: "言葉の壁",
         description:
           "普通の日本人と同じように、日本語の読み書きや会話ができる。",
       },
       {
+        css: "vision__items-title--bg-green",
         title: "文化の壁",
-        description: "日本の文化を理解し、尊重する。、保存する。",
+        description: "日本の文化を理解し、尊重し、保存する。",
       },
       {
+        css: "vision__items-title--bg-pink",
         title: "業務の壁",
         description: "日本人の働き方を学び、仕事に役立つシステムを設計する。",
       },

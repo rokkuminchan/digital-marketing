@@ -1,22 +1,51 @@
 .vision {
   background: #eff9ff 0% 0% no-repeat padding-box;
-  padding-bottom: 10%;
+  padding: 10% 0;
   text-align: center;
+}
+.vision p {
+  font-size: 1.4em;
+}
+.vision-header {
+  background: url("../../../img/AboutUs/vision.jpeg");
+  background-size: cover;
+  background-position: center center;
+  padding: 15% 0;
+  opacity: 0.8;
+}
+.vision-header > h3 {
+  font-size: 2em;
+  font-family: Roboto;
+  color: #3c64b1;
+  font-weight: bold;
+}
+.vision-header-inline {
+  display: table-cell;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  margin: 0 auto;
 }
 .vision__items {
   margin: 0 10%;
 }
-.vision__items p {
-  font-size: 1.4em;
-}
+
 .vision__items-title {
-  background-color: red;
   color: #ffffff;
   border-radius: 50% 50%;
   position: relative;
   margin: 45px auto 15px auto;
   width: 80px;
   height: 80px;
+}
+.vision__items-title--bg-blue {
+  background-color: #16b2ec;
+}
+.vision__items-title--bg-green {
+  background-color: #23e790;
+}
+.vision__items-title--bg-pink {
+  background-color: #ff8a90;
 }
 .vision__items-title > p {
   width: 100%;
