@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./components/pages/AboutUs";
 import AboutUsData from "./data/ourTeam/AboutUs";
 
 function App() {
