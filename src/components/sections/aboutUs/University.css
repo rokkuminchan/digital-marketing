@@ -3,6 +3,7 @@
   .university {
     position: relative;
     margin-bottom: 2rem;
+    padding: 3% 4%;
   }
   .university:before {
     content: "";
@@ -44,6 +45,7 @@
 @media screen and (min-width: 768px) {
   .university {
     margin-bottom: 5rem;
+    padding: 3% 8%;
   }
   .university__title {
     font-size: 3rem;
