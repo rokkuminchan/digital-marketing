@@ -3,6 +3,9 @@
   padding-bottom: 60px;
 }
 
+.member-characteristic__items p {
+  font-size: 1.4em;
+}
 .member-characteristic__items-title {
   height: 120px;
   width: 120px;
@@ -35,14 +38,14 @@
 }
 /* Mobile*/
 @media only screen and (max-width: 768px) {
-  .member-characteristic__items {
+  /* .member-characteristic__items {
     font-size: 1.4em;
   }
   .member-characteristic__items-title > p {
     font-size: 1.4em;
-  }
+  } */
   .member-characteristic__items > div > p {
-    font-size: 1.4em;
+    /* font-size: 1.4em; */
     margin: 0 45px;
   }
 }
