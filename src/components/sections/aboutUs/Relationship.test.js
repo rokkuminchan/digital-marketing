@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Relationship from "./Relationship";
-import vnjp from "../../../img/AboutUs/vnjp.jpg";
+import vnjp from "../../../images/AboutUs/vnjp.jpg";
 
 let container;
 
@@ -12,8 +12,8 @@ const Data = {
 
   image: {
     src: vnjp,
-    alt: "relationship",
-  },
+    alt: "relationship"
+  }
 };
 
 beforeEach(() => {

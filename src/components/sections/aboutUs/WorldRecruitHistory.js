@@ -12,11 +12,6 @@ export default function WorldReruitHistory({ data }) {
       </div>
       <div className="worldrecruithistory__block2">
         <Image className="worldrecruithistory__img" {...data.image} />
-        {/* <img
-          className="worldrecruithistory__img"
-          src={data.image.src}
-          alt={data.image.alt}
-        ></img> */}
       </div>
     </section>
   );

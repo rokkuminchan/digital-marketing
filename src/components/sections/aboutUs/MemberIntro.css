@@ -1,31 +1,30 @@
 /*Iphone(480 x 640)*/
-@media screen and (min-width: 320px) {
-  .memberIntro__items {
-    padding: 0%;
+@media screen and (min-width: 320px){
+  .memberIntro__items{
+    padding: 0%; 
   }
 }
 
 /*Ipad vertical(768 x 1024)*/
-@media screen and (min-width: 768px) {
-  .memberIntro__items {
-    padding: 0% 8%;
+@media screen and (min-width: 768px){ 
+  .memberIntro__items{
+    padding: 0% 8%; 
   }
 }
 /*Ipad horizontal(1024 x 768)*/
-@media screen and (min-width: 1024px) {
-  .memberIntro__items {
-    padding: 0% 5%;
-  }
+@media screen and (min-width: 1024px){ 
+  .memberIntro__items{
+    padding: 0% 5%; 
+  } 
 }
 
 /*style for common*/
-/* .memberIntro {
-  margin: 30px;
-} */
-.memberIntro__items {
-  margin: 30px;
+.memberIntro{
+  margin: 30px; 
+}
+.memberIntro__items{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around; 
 }

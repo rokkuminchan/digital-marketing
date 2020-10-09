@@ -2,8 +2,8 @@ import React from "react";
 import "./Vision.css";
 
 export default function Vision({ data }) {
-  const backgroundImage = {
-    background: `url(${data.image.src}) center center / cover no-repeat`,
+    const backgroundImage = {
+    background: `url(${data.image.src}) center center / cover no-repeat`
   };
 
   return (
@@ -23,7 +23,7 @@ export default function Vision({ data }) {
               <div className={`vision__items-title ${item.css}`}>
                 <p>{item.title}</p>
               </div>
-              <p className="vision__items-description">{item.description}</p>
+              <p>{item.description}</p>
             </div>
           ))}
         </div>

@@ -1,12 +1,9 @@
-.relationship__description {
-  line-height: 30px;
-}
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .relationship__description {
     text-align: justify;
     padding: 5% 10%;
-    /* margin-bottom: 0.8rem; */
+    /* margin-bottom: 1rem; */
     font-size: 1.4em;
     opacity: 0.8;
   }
@@ -16,8 +13,7 @@
     margin-right: auto;
     width: 60%;
     height: auto;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 
@@ -25,7 +21,7 @@
 @media screen and (min-width: 768px) {
   .relationship__description {
     text-align: justify;
-    padding: 3% 10%;
+    padding: 5% 10%;
     /* margin-bottom: 1rem; */
     text-align: justify;
     font-size: 1.7em;
@@ -72,8 +68,7 @@
   .relationship__img {
     display: block;
     width: 380px;
-    /* height: 240px; */
-    margin: auto;
-    padding: 10% 0%;
+    height: 240px;
+    margin: 5% 0% 10% 10%;
   }
 }
