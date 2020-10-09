@@ -54,7 +54,12 @@ export default function MenuHeader() {
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
           <a className="menu-header__navigation-link" href="#AboutUs">
-            我のチーム
+            お問い合わせ
+          </a>
+        </li>
+        <li className="menu-header__navigation-item" onClick={hideMenu}>
+          <a className="menu-header__navigation-link" href="#AboutUs">
+            我々について
           </a>
         </li>
       </ul>
