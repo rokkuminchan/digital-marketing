@@ -2,8 +2,8 @@
 @media screen and (min-width: 320px) {
   .relationship__description {
     text-align: justify;
-    padding: 3% 10%;
-    margin-bottom: 1.5rem;
+    padding: 5% 10%;
+    /* margin-bottom: 1rem; */
     font-size: 1.4em;
     opacity: 0.8;
   }
@@ -19,13 +19,10 @@
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
-  .relationship {
-    padding-top: 25px;
-  }
   .relationship__description {
     text-align: justify;
-    padding: 3% 10%;
-    margin-bottom: 1rem;
+    padding: 5% 10%;
+    /* margin-bottom: 1rem; */
     text-align: justify;
     font-size: 1.7em;
     opacity: 0.8;
