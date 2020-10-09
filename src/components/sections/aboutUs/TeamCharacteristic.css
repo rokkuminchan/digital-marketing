@@ -13,16 +13,17 @@
 }
 .team-characteristic__title .title {
   color: #3c64b1;
-  padding-top: 7%;
+  padding-top: 5%;
+  font-size: 3.5em;
+  font-weight: bold;
 }
 
 .team-characteristic__description {
   text-align: center;
-  font-size: 2em;
-  letter-spacing: 5px;
+  font-size: 2.8em;
+  letter-spacing: 2px;
   width: 80%;
-  margin: 2% auto auto;
-  font-weight: 500;
+  margin: 2% auto;
 }
 .team-characteristic__imgbg {
   grid-area: imgbg;
@@ -30,11 +31,9 @@
   height: auto;
   background: transparent url("../../../images/AboutUs/teamcharacteristic.png")
     0% 0% no-repeat padding-box;
-  background-repeat: no-repeat;
   background-size: cover;
   height: auto;
   object-fit: cover;
-  position: relative;
 }
 
 .team-characteristic__items {
@@ -57,11 +56,15 @@
       "imgbg"
       "items";
   }
+  .team-characteristic__title .title {
+    font-size: 2em;
+    padding-top: 10%;
+  }
   .team-characteristic__description {
     text-align: center;
-    letter-spacing: 0px;
     margin: 5% auto 10% auto;
     font-size: 1.4em;
+    letter-spacing: 1px;
   }
 
   .team-characteristic__items {
@@ -69,7 +72,7 @@
     display: inline-block;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
   .team-characteristic {
     height: auto;
     grid-template-columns: 1fr 1fr;
@@ -80,8 +83,10 @@
   }
   .team-characteristic__description {
     margin: 5% auto 10% auto;
+    letter-spacing: 1px;
+    font-size: 2.5em;
   }
   .team-characteristic__title .title {
-    padding-top: 8%;
+    padding-top: 10%;
   }
 }

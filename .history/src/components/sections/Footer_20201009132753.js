@@ -3,16 +3,17 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer-distributed">
-      <div className="footer-left">
+    <footer className="footer__distributed">
+      <div className="footer__left">
         <h3>WORLD WORKS</h3>
-        <p className="footer-links">
+        <p className="footer__links">
           <a href="#"> ホーム </a>｜｜<a href="#">サービス</a>｜｜
+          <a href="#">お問い合わせ</a>｜｜
           <a href="#">技術</a>｜｜<a href="#">我々について</a>
         </p>
       </div>
 
-      <div className="footer-center">
+      <div className="footer__center">
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
@@ -31,8 +32,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="footer-right">
-        <div className="footer-icons">
+      <div className="footer__right">
+        <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
             <i class="fa fa-facebook"></i>
           </a>
@@ -43,10 +44,10 @@ export default function Footer() {
             <i className="fa fa-linkedin"></i>
           </a>
           <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-github"></i>
+            <i className="fa fa-instagram"></i>
           </a>
         </div>
-        <p className="footer-copyright">
+        <p className="footer__copyright">
           Copyright © 2020 by 株式会社ワールド. All rights reserved
         </p>
       </div>
