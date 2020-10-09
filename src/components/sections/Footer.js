@@ -4,23 +4,12 @@ import Title from "../common/Title";
 
 export default function Footer({ data }) {
   return (
-<<<<<<< HEAD
-    <footer className="footer__distributed">
-      <div className="footer__left">
-        <h3>WORLD WORKS</h3>
-        <p className="footer__links">
-          <a href="#"> ホーム </a>｜｜<a href="#">サービス</a>｜｜
-          <a href="#">お問い合わせ</a>｜｜
-          <a href="#">技術</a>｜｜<a href="#">我々について</a>
-        </p>
-=======
     <footer className="footer">
       <Title data="WORLD WORKS" />
       <div>
         <a herf="Info@https://world-works.co.jp" className="footer__link">
           Info@https://world-works.co.jp
         </a>
->>>>>>> 4fa5ae2f66d6a6eafee668f1d6e534fd421b7b13
       </div>
 
       <div className="footer__address">
