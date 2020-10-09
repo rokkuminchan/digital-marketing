@@ -4,7 +4,7 @@ import adobe from "../../images/Technology/adobe-xd.png";
 import bem from "../../images/Technology/bem.png";
 import github from "../../images/Technology/github.png";
 import jam from "../../images/Technology/jam-stack.png";
-import jest from "../../images/Technology/jest.png";
+import jest from "../../images/Technology/Jest.png";
 import material from "../../images/Technology/material-design.png";
 import react from "../../images/Technology/react-js.png";
 import tpd from "../../images/Technology/technology-pageheader.png";
@@ -24,8 +24,8 @@ const TechnologyData = {
         link: "https://web.dev/progressive-web-apps/",
         image: {
           src: pwa,
-          alt: "PWA",
-        },
+          alt: "PWA"
+        }
       },
       {
         title: "AMP",
@@ -34,8 +34,8 @@ const TechnologyData = {
         link: "https://amp.dev/",
         image: {
           src: amp,
-          alt: "AMP",
-        },
+          alt: "AMP"
+        }
       },
       {
         title: "BEM",
@@ -44,8 +44,8 @@ const TechnologyData = {
         link: "https://en.bem.info/",
         image: {
           src: bem,
-          alt: "BEM",
-        },
+          alt: "BEM"
+        }
       },
       {
         title: "GitHub",
@@ -54,8 +54,8 @@ const TechnologyData = {
         link: "https://github.com/",
         image: {
           src: github,
-          alt: "GitHub",
-        },
+          alt: "GitHub"
+        }
       },
       {
         title: "JAM Stack",
@@ -64,8 +64,8 @@ const TechnologyData = {
         link: "https://jamstack.org/",
         image: {
           src: jam,
-          alt: "JAM Stack",
-        },
+          alt: "JAM Stack"
+        }
       },
       {
         title: "JEST",
@@ -74,8 +74,8 @@ const TechnologyData = {
         link: "https://jestjs.io/",
         image: {
           src: jest,
-          alt: "JEST",
-        },
+          alt: "JEST"
+        }
       },
       {
         title: "Material Design",
@@ -84,8 +84,8 @@ const TechnologyData = {
         link: "https://material.io/",
         image: {
           src: material,
-          alt: "Material Design",
-        },
+          alt: "Material Design"
+        }
       },
       {
         title: "React",
@@ -94,8 +94,8 @@ const TechnologyData = {
         link: "https://reactjs.org/",
         image: {
           src: react,
-          alt: "React",
-        },
+          alt: "React"
+        }
       },
       {
         title: "Trello",
@@ -104,8 +104,8 @@ const TechnologyData = {
         link: "https://trello.com/",
         image: {
           src: trello,
-          alt: "Trello",
-        },
+          alt: "Trello"
+        }
       },
       {
         title: "Visual Studio Code",
@@ -114,8 +114,8 @@ const TechnologyData = {
         link: "https://code.visualstudio.com/",
         image: {
           src: vscode,
-          alt: "Visual Studio Code",
-        },
+          alt: "Visual Studio Code"
+        }
       },
       {
         title: "XD",
@@ -124,8 +124,8 @@ const TechnologyData = {
         link: "https://www.adobe.com/jp/products/xd.html",
         image: {
           src: adobe,
-          alt: "Adobe XD",
-        },
+          alt: "Adobe XD"
+        }
       },
       {
         title: "",
@@ -133,11 +133,11 @@ const TechnologyData = {
         link: "",
         image: {
           src: "",
-          alt: "",
-        },
-      },
-    ],
-  },
+          alt: ""
+        }
+      }
+    ]
+  }
 };
 
 export default TechnologyData;

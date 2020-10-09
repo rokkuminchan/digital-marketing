@@ -2,9 +2,13 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+// Components
 import AboutUs from "./components/pages/AboutUs";
-import AboutUsData from "./data/ourTeam/AboutUs";
 import Technology from "./components/pages/Technology";
+
+// Data
+import AboutUsData from "./data/ourTeam/AboutUs";
+import TechnologyData from "./data/technology/Technology";
 
 function App() {
   return (
@@ -15,7 +19,7 @@ function App() {
             <AboutUs data={{ ourTeamJson: AboutUsData }} />
           </Route>
           <Route path="/technology">
-            <Technology />
+            <Technology data={{ technologyJson: TechnologyData }} />
           </Route>
         </Switch>
       </Router>
