@@ -8,6 +8,8 @@
 public/
 .cache/
 
+.history/
+
 # testing
 /coverage
 
