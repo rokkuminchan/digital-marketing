@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .footer__distributed {
   background-color: #292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -30,7 +29,7 @@
   color: #ffffff;
   margin: 20px 0 12px;
   padding: 0;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 .footer__distributed .footer__links a {
@@ -88,70 +87,56 @@
 .footer__distributed .footer__right {
   width: 23%;
 }
-=======
-@media only screen and (min-width: 720px) {
-  .footer__address {
-    padding-top: 60px;
-    padding-left: 40%;
-    float: left;
-  }
-  .footer__address-a {
-    padding-left: 20px;
-    padding-top: 60px;
-    float: left;
-  }
->>>>>>> 4fa5ae2f66d6a6eafee668f1d6e534fd421b7b13
 
-  .footer__items {
-    padding: 20px 30px;
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .footer__description {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-  }
-  .footer__link {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    padding-top: 30px;
-  }
+.footer__distributed .footer__icons {
+  margin-top: 25px;
 }
-@media only screen and (max-width: 768px) {
-  .footer__address {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 10%;
-    float: left;
-    font-size: 1.4em;
-  }
-  .footer__address-a {
-    padding-left: 10px;
-    padding-top: 40px;
-    float: left;
-    font-size: 1.4em;
+
+.footer__distributed .footer__icons a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #3366cc;
+  border-radius: 2px;
+  font-size: 2.3em;
+  color: #ffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer__distributed .footer__icons a:hover {
+  background-color: #ffff;
+  color: #3366cc;
+}
+
+@media (max-width: 880px) {
+  .footer__distributed {
+    font: 1.4em sans-serif;
   }
 
-  .footer__items {
-    padding: 10px 20px;
+  .footer__distributed .footer__left,
+  .footer__distributed .footer__center,
+  .footer__distributed .footer__right {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 1.4em;
   }
-
-  .footer__description {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 1.4em;
+  .footer__distributed h3 {
+    color: #ffffff;
+    font: normal 28px "Cookie", cursive;
+    margin: 0;
   }
-  .footer__link {
-    position: absolute;
-    left: 40%;
-    transform: translate(-31%, -40%);
-    font-size: 1.4em;
-    padding-top: 20px;
+  .footer__distributed .footer__center i {
+    margin-left: 0;
+  }
+  .footer__distributed .footer__center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 1.6em;
   }
 }
