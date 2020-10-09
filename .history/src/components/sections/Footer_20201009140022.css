@@ -111,7 +111,7 @@
   color: #3366cc;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .footer__distributed {
     font: 1.4em sans-serif;
   }
@@ -131,16 +131,6 @@
   }
   .footer__distributed .footer__center i {
     margin-left: 0;
-    background-color: #33383b;
-    color: #ffffff;
-    font-size: 2.2em;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
   }
   .footer__distributed .footer__center p {
     display: inline-block;
@@ -148,12 +138,5 @@
     vertical-align: middle;
     margin: 0;
     font-size: 1.6em;
-  }
-  .footer__distributed .footer__copyright {
-    color: #8f9296;
-    font-size: 1.3em;
-    font-weight: normal;
-    margin: 0;
-    padding-top: 20px;
   }
 }

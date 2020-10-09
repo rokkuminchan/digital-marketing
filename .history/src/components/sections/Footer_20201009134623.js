@@ -7,9 +7,8 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD WORKS</h3>
         <p className="footer__links">
-          <a href="#"> ホーム </a>｜｜<a href="#">サービス</a>｜｜{" "}
-          <a href="#">技術</a>｜｜
-          <a href="#">お問い合わせ</a>｜｜<a href="#">我々について</a>
+          <a href="#"> ホーム </a>｜｜<a href="#">サービス</a>｜｜
+          <a href="#">技術</a>｜｜<a href="#">我々について</a>
         </p>
       </div>
 
