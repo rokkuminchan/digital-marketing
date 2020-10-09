@@ -12,7 +12,7 @@ export default function TechnologyList({ data }) {
         <Description data={data.description} />
         <div className="technologylist__items">
           {data.items.map((list, index) => {
-            <ToolCard key={index} data={list} />;
+            return <ToolCard key={index} data={list} />;
           })}
         </div>
       </div>
