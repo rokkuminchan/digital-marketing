@@ -1,9 +1,12 @@
+.description {
+  line-height: 30px;
+}
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .description {
     font-size: 1.4em;
     text-align: center;
-    padding: 3% 10%;
+    padding: 5% 10%;
     opacity: 0.8;
   }
 }
