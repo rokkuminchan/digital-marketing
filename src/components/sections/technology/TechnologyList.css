@@ -1,6 +1,18 @@
 .technologylist {
   background-color: white;
 }
-.technologylist__items {
-  background-color: white;
+.technology-list__title {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3%;
+}
+.technology-list__title-large {
+  font-size: 3em;
+  color: #3c64b1;
+}
+.technology-list__title-small {
+  font-size: 2em;
+  padding-left: 1%;
+  opacity: 0.6;
 }
