@@ -92,6 +92,7 @@
   }
   .vision__items {
     padding-top: 5%;
+    margin: 0 8%;
   }
   .vision__title {
     padding: 2%;
@@ -106,7 +107,7 @@
     height: 140px;
   }
   .vision__items--inline {
-    padding: 0 5%;
+    padding: 0 2%;
     display: table-cell;
     width: 33%;
   }
