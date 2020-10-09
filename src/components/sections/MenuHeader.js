@@ -1,7 +1,6 @@
 import React from "react";
 import "./MenuHeader.css";
-import Logo from "../../images/AboutUs/world-logo.png";
-import Image from "../common/Image";
+import Logo from "../../img/AboutUs/world-logo.png";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
@@ -25,7 +24,7 @@ export default function MenuHeader() {
   return (
     <header className="menu-header">
       <a href="#." className="menu-header__logo">
-        <Image src={Logo} alt="" id="logo" />
+        <img src={Logo} alt="" id="logo"></img>
       </a>
       <input
         className="menu-header__visibility-btn"
@@ -54,12 +53,7 @@ export default function MenuHeader() {
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
           <a className="menu-header__navigation-link" href="#AboutUs">
-            お問い合わせ
-          </a>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#AboutUs">
-            我々について
+            我のチーム
           </a>
         </li>
       </ul>

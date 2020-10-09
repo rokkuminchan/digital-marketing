@@ -1,6 +1,6 @@
 import React from "react";
 import "./PageHeader.css";
-import Background from "../../../images/AboutUs/page-header.png";
+import Background from "../../img/AboutUs/page-header.png";
 
 export default function PageHeader() {
   return (
@@ -11,7 +11,7 @@ export default function PageHeader() {
             background: `transparent url(${Background})`,
             "background-size": `cover`,
             "background-repeat": `no-repeat`,
-            "background-position": `center center`
+            "background-position": `center center`,
           }}
           className="page-header__img"
         ></div>

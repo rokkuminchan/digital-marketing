@@ -5,6 +5,7 @@
 .vision p {
   font-size: 1.4em;
   text-align: center;
+  /* opacity: 0.8; */
 }
 .vision-header {
   padding-top: 12%;
@@ -17,8 +18,14 @@
   color: #3c64b1;
   font-weight: bold;
 }
+.vision__description {
+  opacity: 0.8;
+}
 .vision__items {
   margin: 0 10%;
+}
+.vision__items-description {
+  opacity: 0.8;
 }
 .vision__items-title {
   font-weight: bold;
@@ -66,12 +73,14 @@
   .vision__title {
     font-size: 2em;
     width: 30%;
-    padding-left: 10%;
+    padding-left: 12%;
   }
   .vision__description {
     padding: 0 10%;
     width: 70%;
     font-size: 1.3em;
+    opacity: 0.8;
+    padding-left: 3%;
   }
   .vision__items-title {
     width: 120px;

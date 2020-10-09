@@ -1,5 +1,5 @@
 .menu-header {
-  background-color: #78acfd;
+  background-color: #2361c4;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -13,13 +13,13 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #78acfd;
+  background-color: #2361c4;
 }
 
 .menu-header__navigation-link {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #78acfd;
+  border-right: 1px solid #376cc2;
   text-decoration: none;
   font-size: 2em;
   color: rgb(255, 255, 255);
@@ -27,16 +27,14 @@
 
 .menu-header__navigation-link:hover,
 .menu-header__visibility-btn:hover {
-  font-weight: bold;
+  background-color: #336bc5;
 }
 
 .menu-header__logo {
   display: block;
   float: left;
   font-size: 3em;
-  padding: 15px 20px;
-  width: 195px;
-  height: 40px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -95,13 +93,14 @@
   max-height: 280px;
 }
 
-@media screen and (min-width: 768px) {
+/* 48em = 768px */
+@media (min-width: 48em) {
   .menu-header__navigation-item {
     float: left;
   }
 
   .menu-header__navigation-link {
-    padding: 20px 10px;
+    padding: 20px 30px;
   }
 
   .menu-header__navigation {

@@ -1,7 +1,6 @@
 import React from "react";
-import Layout from "../layout";
+import Layout from "../components/layout";
 
-export default function Technology({ data }) {
-  console.log(data.technologyJson);
+export default function Technology(props) {
   return <Layout></Layout>;
 }

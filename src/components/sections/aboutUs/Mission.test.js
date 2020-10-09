@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Mission from "./Mission";
-import mission from "../../../images/AboutUs/mission.png";
+import mission from "../../../img/AboutUs/mission.png";
 
 let container;
 
@@ -10,8 +10,8 @@ const Data = {
   description: "高度IT人材で日本のDXに貢献する。",
   image: {
     src: mission,
-    alt: "about-us-mission"
-  }
+    alt: "about-us-mission",
+  },
 };
 
 beforeEach(() => {

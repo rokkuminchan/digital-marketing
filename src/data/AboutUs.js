@@ -1,20 +1,20 @@
-import vnjp from "../../img/AboutUs/vnjp.jpg";
-import wrh from "../../images/AboutUs/world-recruit-history.jpeg";
-import mission from "../../img/AboutUs/mission.png";
-import szksensei from "../../images/AboutUs/szksensei.jpg";
-import huy from "../../images/AboutUs/huy.jpg";
-import loc from "../../images/AboutUs/loc.jpg";
-import yen from "../../images/AboutUs/yen.jpg";
-import vien from "../../images/AboutUs/vien.jpg";
-import duc from "../../images/AboutUs/duc.jpg";
-import bkhn from "../../img/AboutUs/bkhn.jpg";
-import bkdn from "../../img/AboutUs/bkdn.jpg";
-import bcvt from "../../img/AboutUs/bcvt.jpg";
-import box from "../../img/AboutUs/box.svg";
-import key from "../../img/AboutUs/key.svg";
-import briefcase from "../../img/AboutUs/briefcase.svg";
-import lifebuoy from "../../img/AboutUs/lifebuoy.svg";
-import vision from "../../img/AboutUs/vision.jpeg";
+import vnjp from "../img/AboutUs/vnjp.jpg";
+import wrh from "../img/AboutUs/world-recruit-history.jpeg";
+import mission from "../img/AboutUs/mission.png";
+import szksensei from "../img/AboutUs/szksensei.jpg";
+import huy from "../img/AboutUs/huy.jpg";
+import loc from "../img/AboutUs/loc.jpg";
+import yen from "../img/AboutUs/yen.jpg";
+import vien from "../img/AboutUs/vien.jpg";
+import duc from "../img/AboutUs/duc.jpg";
+import bkhn from "../img/AboutUs/bkhn.jpg";
+import bkdn from "../img/AboutUs/bkdn.jpg";
+import bcvt from "../img/AboutUs/bcvt.jpg";
+import box from "../img/AboutUs/box.svg";
+import key from "../img/AboutUs/key.svg";
+import vision from "../img/AboutUs/vision.jpeg";
+import briefcase from "../img/AboutUs/briefcase.svg";
+import lifebuoy from "../img/AboutUs/lifebuoy.svg";
 
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
@@ -25,7 +25,7 @@ const AboutUsData = {
     alt: "",
   },
   mission: {
-    title: "MISSION",
+    title: "mission",
     description: "高度IT人材で日本のDXに貢献する。",
     image: {
       src: mission,
@@ -87,10 +87,15 @@ const AboutUsData = {
   },
   memberCharacteristic: {
     title: "ITチームメンバーの特徴",
-    description:
-      "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
+    description: "私たちは第二世代のベトナム人ITエンジニアのチームです。",
 
     items: [
+      {
+        css: "member-characteristic__items--border-red",
+        title: "日本が好きで",
+        description:
+          "技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です。",
+      },
       {
         css: "member-characteristic__items--border-yellow",
         title: "日本が好き",
@@ -132,7 +137,7 @@ const AboutUsData = {
           alt: "huy",
         },
         description:
-          "ハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
+          "ベトナムであるハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
       },
       {
         title: "チャン・ミン・ロック",
@@ -141,7 +146,7 @@ const AboutUsData = {
           alt: "loc",
         },
         description:
-          "ワールドで働く事は私にとって本当に楽しいです。 技術だけでなく日本の働き方もたくさん学びました。 ここで私は自分の創造性を活用できるので、チームを助けます。ITチームはまた、仕事と学習のモチベーションをたくさん与えてくれます。 我々は常に互いに助け合っています。 我々は一緒に問題を解決します。 だからこそ、世界のITは本当に急速に拡大していくと確信しています。",
+          "ベトナムであるハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています。",
       },
       {
         title: "ダオ・ハイ・イエン",
@@ -150,7 +155,7 @@ const AboutUsData = {
           alt: "yen",
         },
         description:
-          "郵政電信工芸学院での専攻はITです。大学卒業して担当したプロジェクトは病院や銀行や電子情報やイントラネットに関するものです。私はテスターとして参加していました。プロジェクトの開発環境はジャーバ、シェアポイント、アイオーエスやアンドロイドなどです。調査、分析、テスト、管理を担当しました。将来、色々な技術を学びたいです。",
+          "私はダオ・ハイ・イエンと申します。郵政電信工芸 学院での専攻はITです。大学卒業して担当したプロジェクトは病院や銀行や電子情 報やイントラネットに関するものです。私はテスターとし て参加していました。プロジェクトの開発環境はジャーバ 、シェアポイント、アイオーエスやアンドロイドなどです 。私は調査、分析、テスト、管理を担当しました。 テストについて単体テスト、結合テストとシステムテストを 担当しました。将来、私は色々 な技術を学びたいです。",
       },
       {
         title: "ハ・ラム ・ヴィエン",
@@ -159,7 +164,7 @@ const AboutUsData = {
           alt: "vien",
         },
         description:
-          "ダナン工科大学の電子通信学部を卒業した後組込システムに約二年間働きました。車メータのソフトに関する仕事、詳細設計・コーディング・テストなどの開発を経験しました。日本にてITの知識や経験をもっと伸ばしていきたいと思い、ワールド会社に入社して、今まで1年半働いています。日本に就職の目的は、技術を向上させて日本語を勉強します。",
+          "ダナン工科大学に電子通信学部を卒業した後ベトナムに日本精機株式会社のブランチで働きました。日本精機会社で組込システムのプロジェクトに約二年間働きました。車メータのソフトに関する仕事、詳細設計、コーディング、単体テスト、結合テストなどの開発を経験しました。日本にてITの知識や経験をもっと伸ばしていきたいと思い、ワールド会社に入社して、今まで1年半働いています。プロジェクトの言語は、C、Javaなどを習得しました。特に、C言語は実務経験がありました。日本に就職する目的は、技術・スキルを向上させて、日本語を勉強します。",
       },
       {
         title: "ヴー・アイン・ドゥック",
@@ -168,7 +173,7 @@ const AboutUsData = {
           alt: "duc",
         },
         description:
-          "山口短期大学情報メディア学部を卒業しました。出身はベトナムのハノイです。来日してからちょうど２年迎えました。経験が浅くて分からないことが多いかもしれませんがワルードチームでは”一人じゃない”で先輩たちは優しく教え頂いた本当に有り難い！ 顧客満足のため、良い品質、生産性を高めるようにすると考えています。精一杯頑張ります！",
+          "どうも、初めまして！ 今期から新たにワルードITチームの一員として活動させていただく事になった山口短期大学情報メディア学部の　ヴ　アインドｳックと言います！出身はベトナムのハノイです。来日してからちょうど２年迎えました。経験が浅くて分からないことが多いかもしれませんがワルードチームでは”一人じゃない”で先輩たちは優しく教え頂いた本当に有り難い！ 顧客満足のため、良い品質、生産性を高めるようにすると考えています。 精一杯頑張りますので、宜しくお願い致します！",
       },
     ],
   },

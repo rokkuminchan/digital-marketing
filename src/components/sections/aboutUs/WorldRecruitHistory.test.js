@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WorldRecruitHistory from "./WorldRecruitHistory.js";
-import wrh from "../../../images/AboutUs/world-recruit-history.jpeg";
+import wrh from "../../../img/AboutUs/world-recruit-history.jpeg";
 
 let container;
 
@@ -11,8 +11,8 @@ const Data = {
     "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
   image: {
     src: wrh,
-    alt: "WorldRecruitHistory"
-  }
+    alt: "WorldRecruitHistory",
+  },
 };
 
 beforeEach(() => {
