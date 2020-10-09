@@ -1,6 +1,6 @@
 import React from "react";
 import "./MenuHeader.css";
-import Logo from "../../img/AboutUs/world-logo.png";
+import Logo from "../../images/AboutUs/world-logo.png";
 import Image from "../common/Image";
 
 const menuClass = "menu-header__navigation";
