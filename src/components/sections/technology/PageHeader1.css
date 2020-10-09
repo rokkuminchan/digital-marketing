@@ -1,27 +1,29 @@
 .tech-page-header {
-    background-color: aquamarine;
+  background-color: #eff9ff;
 }
 
 .tech-page-header__title {
-    font-size: 3em;
-    text-align: center;
-    padding: 2rem;
+  font-size: 3em;
+  text-align: center;
+  padding: 2rem;
+  color: #3c64b1;
 }
 
 .tech-page-header__description {
-    font-size: 1.8em;
-    padding: 3rem 4rem;
-    text-align: center;
+  font-size: 1.8em;
+  padding: 3rem 4rem;
+  text-align: center;
 }
 
 .tech-page-header__img {
-    background-color: white;
-    display: flex;
-    justify-content: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .tech-image {
-    max-width: 80%;
+  max-width: 80%;
 }
 
-@media screen and (min-width: 320px) {}
+@media screen and (min-width: 320px) {
+}
