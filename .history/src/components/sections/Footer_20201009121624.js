@@ -43,7 +43,7 @@ export default function Footer() {
             <i className="fa fa-linkedin"></i>
           </a>
           <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-instagram"></i>
+            <i className="fa fa-github"></i>
           </a>
         </div>
         <p className="footer__copyright">
