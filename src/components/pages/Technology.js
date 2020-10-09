@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../layout";
-import PageHeader from "../sections/technology/PageHeader";
+import TechPageHeader from "../sections/technology/TechPageHeader";
 
-export default function Technology(props) {
+export default function Technology({ data }) {
   return (
     <Layout>
-      <PageHeader />
+      <TechPageHeader data={data.technologyJson.technologyHeader} />
     </Layout>
   );
 }
