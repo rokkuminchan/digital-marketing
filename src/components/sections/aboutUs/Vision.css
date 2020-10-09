@@ -9,6 +9,7 @@
 .vision-header {
   padding-top: 12%;
   padding-bottom: 40%;
+  opacity: 0.8;
 }
 .vision__title {
   font-size: 1.8em;
@@ -68,6 +69,7 @@
     padding-left: 10%;
   }
   .vision__description {
+    padding: 0 10%;
     width: 70%;
     font-size: 1.3em;
   }
@@ -93,7 +95,7 @@
   }
   .vision__title {
     padding: 2%;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .vision__description {
     padding: 0 10%;
@@ -104,11 +106,12 @@
     height: 140px;
   }
   .vision__items--inline {
-    padding-right: 5%;
+    padding: 0 5%;
     display: table-cell;
     width: 33%;
   }
   .vision__items-title:hover {
     box-shadow: 0 0 6px rgb(35 173 255);
+    opacity: 0.8;
   }
 }
