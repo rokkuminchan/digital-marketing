@@ -1,13 +1,16 @@
 .descriptive-icon {
   text-align: center;
 }
+.descriptive-icon:nth-child(n) {
+  padding-top: 10%;
+}
 .descriptive-icon__wrap img {
-  margin: 10% auto auto;
   width: 10%;
+  margin: auto;
 }
 
 .descriptive-icon__description {
-  margin: 0% auto;
+  margin: 0 auto;
   font-size: 2em;
   width: 50%;
   opacity: 0.8;
@@ -17,8 +20,8 @@
     font-size: 1.4em;
     width: 80%;
   }
-  .descriptive-icon__description {
-    padding-bottom: 7%;
+  .descriptive-icon:nth-child(4) {
+    padding-bottom: 10%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
@@ -26,7 +29,10 @@
     font-size: 1.8em;
     width: 65%;
   }
-  .descriptive-icon__description {
-    padding-bottom: 7%;
+  .descriptive-icon:nth-child(3) {
+    padding-bottom: 10%;
+  }
+  .descriptive-icon:nth-child(4) {
+    padding-bottom: 10%;
   }
 }

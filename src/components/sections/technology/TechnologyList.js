@@ -1,6 +1,8 @@
 import React from "react";
-import "./Technology.css";
+import "./TechnologyList.css";
 import ToolCard from "../../common/ToolCard.js";
+import Title from "../../common/Title";
+import Description from "../../common/Description";
 
 export default function TechnologyList({ data }) {
   return (
@@ -10,7 +12,7 @@ export default function TechnologyList({ data }) {
         <Description data={data.description} />
         <div className="technologylist__items">
           {data.items.map((list, index) => {
-            return <ToolCard key={index} data={list} />;
+            <ToolCard key={index} data={list} />;
           })}
         </div>
       </div>
