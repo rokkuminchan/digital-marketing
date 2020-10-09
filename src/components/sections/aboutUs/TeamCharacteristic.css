@@ -1,6 +1,5 @@
 .team-characteristic {
   background: #ffffff 0% 0% no-repeat padding-box;
-  /* justify-items: center; */
   display: grid;
   height: 160vh;
   text-align: center;
@@ -41,7 +40,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   font-size: 2em;
-  height: 100%;
 }
 
 @media only screen and (max-width: 720px) {
