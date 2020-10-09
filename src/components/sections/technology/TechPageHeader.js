@@ -4,11 +4,15 @@ import Image from "../../common/Image";
 export default function TechPageHeader({ data }) {
   return (
     <section className="tech-page-header">
-      <h1 className="tech-page-header__title">{data.title} </h1>
-      <div className="tech-page-header__img">
-        <Image className="tech-img" {...data.image} />
+      <div className="tech-page-header__block1">
+        <h1 className="tech-page-header__title">{data.title} </h1>
+        <div className="tech-page-header__img">
+          <Image className="tech-img" {...data.image} />
+        </div>
       </div>
-      <p className="tech-page-header__description"> {data.description} </p>
+      <div className="tech-page-header__block2">
+        <p className="tech-page-header__description"> {data.description} </p>
+      </div>
     </section>
   );
 }
