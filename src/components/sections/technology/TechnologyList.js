@@ -1,6 +1,6 @@
 import React from "react";
 import "./Technology.css";
-import Card from "../../common/Card.js";
+import ToolCard from "../../common/ToolCard.js";
 
 export default function TechnologyList({ data }) {
   return (
@@ -9,8 +9,8 @@ export default function TechnologyList({ data }) {
         <Title data={data.title} />
         <Description data={data.description} />
         <div className="technologylist__items">
-          {data.items.map((member, index) => {
-            return <Card key={index} data={member} />;
+          {data.items.map((list, index) => {
+            return <ToolCard key={index} data={list} />;
           })}
         </div>
       </div>
