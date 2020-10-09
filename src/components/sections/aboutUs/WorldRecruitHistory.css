@@ -6,10 +6,11 @@
   .worldrecruithistory__description {
     font-size: 1.4em;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     color: #707070;
-    width: 310px;
+    width: 325px;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -45,23 +46,21 @@
 }
 @media screen and (min-width: 1024px) {
   .worldrecruithistory {
-    padding-top: 30px;
     background-color: #eff9ff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 0px;
+    height: 320px;
   }
   .worldrecruithistory__block1 {
-    padding-top: 5%;
     width: 40%;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
   }
   .worldrecruithistory__block2 {
-    padding-top: 5%;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -79,7 +78,7 @@
   }
   .worldrecruithistory__img {
     display: block;
-    padding-top: 40px;
+    padding-top: 30px;
     height: 70%;
     object-fit: cover;
   }
