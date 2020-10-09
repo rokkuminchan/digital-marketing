@@ -3,16 +3,10 @@
 }
 
 .tech-page-header__title {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   padding: 2rem;
   color: #3c64b1;
-}
-
-.tech-page-header__description {
-  font-size: 1.8em;
-  padding: 3rem 4rem;
-  text-align: center;
 }
 
 .tech-page-header__img {
@@ -21,9 +15,30 @@
   justify-content: center;
 }
 
-.tech-image {
+.tech-img {
   max-width: 80%;
 }
 
 @media screen and (min-width: 320px) {
+  .tech-page-header__description {
+    font-size: 1.8rem;
+    padding: 3rem 4rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tech-img {
+    max-width: 60%;
+  }
+  .tech-page-header__title {
+    font-size: 5rem;
+    padding: 2rem 0 1rem;
+  }
+  .tech-page-header__description {
+    font-size: 2rem;
+    padding: 4rem 7rem;
+    text-align: center;
+    line-height: 1.8;
+  }
 }
