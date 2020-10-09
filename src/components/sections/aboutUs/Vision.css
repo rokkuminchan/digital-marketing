@@ -17,8 +17,14 @@
   color: #3c64b1;
   font-weight: bold;
 }
+.vision__description {
+  opacity: 0.8;
+}
 .vision__items {
   margin: 0 10%;
+}
+.vision__items-description {
+  opacity: 0.8;
 }
 .vision__items-title {
   font-weight: bold;
@@ -66,11 +72,13 @@
   .vision__title {
     font-size: 2em;
     width: 30%;
-    padding-left: 10%;
+    padding-left: 12%;
   }
   .vision__description {
-    padding: 0 10%;
+    /* padding: 0 10%; */
     width: 70%;
+    padding-left: 3%;
+    opacity: 0.8;
     font-size: 1.3em;
   }
   .vision__items-title {
