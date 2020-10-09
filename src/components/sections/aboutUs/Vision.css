@@ -7,10 +7,6 @@
   text-align: center;
 }
 .vision-header {
-  background-image: url("../../../img/AboutUs/vision.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   padding-top: 12%;
   padding-bottom: 40%;
 }
@@ -63,10 +59,6 @@
 }
 /* Ipad Style*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .vision-header {
-    padding-top: 12%;
-    padding-bottom: 40%;
-  }
   .vision p {
     font-size: 2em;
   }
@@ -86,12 +78,18 @@
 }
 /* Desktop */
 @media only screen and (min-width: 1024px) {
+  .vision {
+    padding: 5% 0;
+  }
   .vision p {
     font-size: 2em;
   }
   .vision-header {
     padding-top: 5%;
     padding-bottom: 15%;
+  }
+  .vision__items {
+    padding-top: 5%;
   }
   .vision__title {
     padding: 2%;
@@ -109,5 +107,8 @@
     padding-right: 5%;
     display: table-cell;
     width: 33%;
+  }
+  .vision__items-title:hover {
+    box-shadow: 0 0 6px rgb(35 173 255);
   }
 }

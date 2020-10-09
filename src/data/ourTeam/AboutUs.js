@@ -1,5 +1,5 @@
 import vnjp from "../../img/AboutUs/vnjp.jpg";
-import wrh from "../../img/AboutUs/world-recruit-history.jpeg";
+import wrh from "../../images/AboutUs/world-recruit-history.jpeg";
 import mission from "../../img/AboutUs/mission.png";
 import szksensei from "../../images/AboutUs/szksensei.jpg";
 import huy from "../../images/AboutUs/huy.jpg";
