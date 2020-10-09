@@ -12,127 +12,141 @@ import trello from "../../images/Technology/trello.png";
 import vscode from "../../images/Technology/vs-code.png";
 
 const TechnologyData = {
-    technologyHeader: {
-        title: "技術",
+  technologyHeader: {
+    title: "技術",
+    image: {
+      src: tpd,
+      alt: "Technology",
+    },
+    description:
+      "World ITチーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
+  },
+  technologyList: {
+    title: "技術リスト",
+    description:
+      "主要なテクノロジーやツールをご紹介しています。詳細は、リンクからオフィシャル・サイトをご覧ください",
+    item: [
+      {
+        title: "PWA",
+        description:
+          "PWAとは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです",
+        link: "https://web.dev/progressive-web-apps/",
         image: {
-            src: tpd,
-            alt: "Technology",
+          src: pwa,
+          alt: "PWA",
         },
-        description: "World ITチーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
-    },
-    technologyList: {
-        title: "技術リスト",
-        description: "主要なテクノロジーやツールをご紹介しています。詳細は、リンクからオフィシャル・サイトをご覧ください",
-        item: [{
-                title: "PWA",
-                subtitle: "PWAとは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです",
-                link: "https://web.dev/progressive-web-apps/",
-                image: {
-                    src: pwa,
-                    alt: "PWA",
-                },
-            },
-            {
-                title: "AMP",
-                subtitle: "AMPは、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです",
-                link: "https://amp.dev/",
-                image: {
-                    src: amp,
-                    alt: "AMP",
-                },
-            },
-            {
-                title: "BEM",
-                subtitle: "BEM(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です",
-                link: "https://en.bem.info/",
-                image: {
-                    src: bem,
-                    alt: "BEM",
-                },
-            },
-            {
-                title: "GitHub",
-                subtitle: "GitHub（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです",
-                link: "https://github.com/",
-                image: {
-                    src: github,
-                    alt: "GitHub",
-                },
-            },
-            {
-                title: "JAM Stack",
-                subtitle: "JAM Stackは、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです",
-                link: "https://jamstack.org/",
-                image: {
-                    src: jam,
-                    alt: "JAM Stack",
-                },
-            },
-            {
-                title: "JEST",
-                subtitle: "Jest はシンプルさを重視した、快適な JavaScript テスティングフレームワークです",
-                link: "https://jestjs.io/",
-                image: {
-                    src: jest,
-                    alt: "JEST",
-                },
-            },
-            {
-                title: "Material Design",
-                subtitle: "チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです",
-                link: "https://material.io/",
-                image: {
-                    src: material,
-                    alt: "Material Design",
-                },
-            },
-            {
-                title: "React",
-                subtitle: "React は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです",
-                link: "https://reactjs.org/",
-                image: {
-                    src: react,
-                    alt: "React",
-                },
-            },
-            {
-                title: "Trello",
-                subtitle: "Trelloは、アジャイル・プロジェクトに最適なタスク管理ツールです",
-                link: "https://trello.com/",
-                image: {
-                    src: trello,
-                    alt: "Trello",
-                },
-            },
-            {
-                title: "Visual Studio Code",
-                subtitle: "オープンソースで開発され様々なプラットフォームで動作するエディターです",
-                link: "https://code.visualstudio.com/",
-                image: {
-                    src: vscode,
-                    alt: "Visual Studio Code",
-                },
-            },
-            {
-                title: "XD",
-                subtitle: "webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
-                link: "https://www.adobe.com/jp/products/xd.html",
-                image: {
-                    src: adobe,
-                    alt: "Adobe XD",
-                },
-            },
-            {
-                title: "",
-                subtitle: "",
-                link: "",
-                image: {
-                    src: "",
-                    alt: "",
-                },
-            },
-        ],
-    },
+      },
+      {
+        title: "AMP",
+        description:
+          "AMPは、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです",
+        link: "https://amp.dev/",
+        image: {
+          src: amp,
+          alt: "AMP",
+        },
+      },
+      {
+        title: "BEM",
+        description:
+          "BEM(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です",
+        link: "https://en.bem.info/",
+        image: {
+          src: bem,
+          alt: "BEM",
+        },
+      },
+      {
+        title: "GitHub",
+        description:
+          "GitHub（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです",
+        link: "https://github.com/",
+        image: {
+          src: github,
+          alt: "GitHub",
+        },
+      },
+      {
+        title: "JAM Stack",
+        description:
+          "JAM Stackは、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです",
+        link: "https://jamstack.org/",
+        image: {
+          src: jam,
+          alt: "JAM Stack",
+        },
+      },
+      {
+        title: "JEST",
+        description:
+          "Jest はシンプルさを重視した、快適な JavaScript テスティングフレームワークです",
+        link: "https://jestjs.io/",
+        image: {
+          src: jest,
+          alt: "JEST",
+        },
+      },
+      {
+        title: "Material Design",
+        description:
+          "チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです",
+        link: "https://material.io/",
+        image: {
+          src: material,
+          alt: "Material Design",
+        },
+      },
+      {
+        title: "React",
+        description:
+          "React は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです",
+        link: "https://reactjs.org/",
+        image: {
+          src: react,
+          alt: "React",
+        },
+      },
+      {
+        title: "Trello",
+        description:
+          "Trelloは、アジャイル・プロジェクトに最適なタスク管理ツールです",
+        link: "https://trello.com/",
+        image: {
+          src: trello,
+          alt: "Trello",
+        },
+      },
+      {
+        title: "Visual Studio Code",
+        description:
+          "オープンソースで開発され様々なプラットフォームで動作するエディターです",
+        link: "https://code.visualstudio.com/",
+        image: {
+          src: vscode,
+          alt: "Visual Studio Code",
+        },
+      },
+      {
+        title: "XD",
+        description:
+          "webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
+        link: "https://www.adobe.com/jp/products/xd.html",
+        image: {
+          src: adobe,
+          alt: "Adobe XD",
+        },
+      },
+      {
+        title: "",
+        description: "",
+        link: "",
+        image: {
+          src: "",
+          alt: "",
+        },
+      },
+    ],
+  },
 };
 
 export default TechnologyData;
