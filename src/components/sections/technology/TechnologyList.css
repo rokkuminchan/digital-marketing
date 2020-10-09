@@ -16,3 +16,12 @@
   padding-left: 1%;
   opacity: 0.6;
 }
+@media screen and (min-width: 768px) {
+  .technology-list__title-large {
+    font-size: 5em;
+  }
+  .technology-list__title-small {
+    font-size: 4em;
+    padding-left: 1%;
+  }
+}
