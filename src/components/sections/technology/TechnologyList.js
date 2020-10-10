@@ -6,14 +6,16 @@ import Description from "../../common/Description";
 
 export default function TechnologyList({ data }) {
   return (
-    <section className="technologylist">
+    <section className="technology-list">
       <div>
-        <Title data={data.title} />
-        <Description data={data.description} />
+        <div className="technology-list__header">
+          <Title data={data.title} />
+          <Description data={data.description} />
+        </div>
         <div className="technologylist__items">
-          {data.items.map((list, index) => {
-            return <ToolCard key={index} data={list} />;
-          })}
+          {data.items.map((list, index) => (
+            <ToolCard key={index} data={list} />
+          ))}
         </div>
       </div>
     </section>
