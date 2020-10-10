@@ -17,7 +17,8 @@ export default function Footer() {
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            <span>〒500-8856</span> 岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
+            <span>〒500-8856</span>
+            岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
           </p>
         </div>
 
@@ -35,7 +36,7 @@ export default function Footer() {
       <div className="footer__right">
         <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
-            <i class="fa fa-facebook"></i>
+            <i className="fa fa-facebook"></i>
           </a>
           <a href="https://www.facebook.com/worldworks.vietnam">
             <i className="fa fa-twitter"></i>
@@ -44,7 +45,7 @@ export default function Footer() {
             <i className="fa fa-linkedin"></i>
           </a>
           <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-github"></i>
+            <i className="fa fa-instagram"></i>
           </a>
         </div>
         <p className="footer__copyright">
