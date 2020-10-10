@@ -1,5 +1,6 @@
 :root {
   --tech-page-header__block1: 60vh;
+  --tech-page-header__title: 8vh;
 }
 .tech-page-header {
   background-color: #eff9ff;
@@ -14,50 +15,60 @@
 
 .tech-page-header__img {
   background-color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.tech-img {
-  max-width: 80%;
 }
 
 @media screen and (min-width: 320px) {
   .tech-page-header__description {
-    font-size: 1.8rem;
-    padding: 3rem 4rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 4.5rem;
     text-align: center;
+    line-height: 3rem;
+  }
+  .tech-page-header__img {
+    padding: 3rem 0rem;
+  }
+  .tech-img {
+    max-width: 100%;
+    object-fit: cover;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .tech-img {
-    max-width: 60%;
-  }
   .tech-page-header__title {
-    font-size: 5rem;
-    padding: 2rem 0 1rem;
+    font-size: 4rem;
+    padding: 3rem 0 2rem;
   }
   .tech-page-header__description {
     font-size: 2rem;
-    padding: 4rem 7rem;
-    text-align: center;
-    line-height: 1.8;
+    padding: 6rem 6rem;
+    line-height: 4.5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .tech-page-header__title {
+    height: var(--tech-page-header__title);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
   .tech-page-header {
     height: calc(100vh - var(--header-menu-height));
   }
   .tech-page-header__block1 {
     height: var(--tech-page-header__block1);
   }
-  .tech-page-header__title {
-    padding: 5rem 0 4rem;
+  .tech-page-header__img {
+    height: calc(
+      var(--tech-page-header__block1) - var(--tech-page-header__title)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .tech-img {
-    max-width: 100%;
+    height: 35vh;
   }
   .tech-page-header__block2 {
     height: calc(
@@ -68,7 +79,7 @@
     align-items: center;
   }
   .tech-page-header__description {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 0 10%;
   }
 }
