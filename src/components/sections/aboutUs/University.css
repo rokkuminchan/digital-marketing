@@ -41,7 +41,8 @@
   }
   .university__desc {
     padding: 2rem 0;
-    color: #707070;
+    opacity: 0.8;
+    /* color: #707070; */
   }
   .university__link {
     font-size: 1.4rem;
