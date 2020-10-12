@@ -15,14 +15,15 @@
     font-size: 1.4em;
   }
   .card__img {
-    height: 220px;
+    width: 65%;
+    height: 150px;  
+    padding-top: 15px;
   }
 }
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .card {
-    width: 42%;
-    margin: 30px 3%;
+    width: 43%;
   }
   .card__content {
     margin: 20px;
@@ -35,7 +36,9 @@
     font-size: 1.6em;
   }
   .card__img {
-    height: 220px;
+    width: 65%;
+    height: 190px;  
+    padding-top: 25px;
   }
 }
 /*Ipad horizontal(1024 x 768)*/
@@ -55,7 +58,9 @@
     font-size: 1.7em;
   }
   .card__img{
-    height: 70%;
+    width: 65%;
+    height: 190px;  
+    padding-top: 25px;
   }
 }
 /*Commom style for card*/
@@ -65,8 +70,8 @@
   border-radius: 3px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out;
-  margin: 20px;
   background-color: #eff9ff;
+  margin: 20px 0px;
 }
 .card:hover {
   box-shadow: 0 0 6px rgb(35 173 255);
@@ -83,8 +88,11 @@
   margin-right: auto;
   opacity: 0.9;
 }
-.card__img {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  width: 100%;
+.card__img{
+  cursor: pointer;
+  display: block; 
+  margin: 0px auto;
+  object-fit: cover;
 }
+
 
