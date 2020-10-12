@@ -96,6 +96,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .menu-header {
+    padding-right:40px;
+  }
+
   .menu-header__navigation-item {
     float: left;
   }
