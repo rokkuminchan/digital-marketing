@@ -1,3 +1,6 @@
+.toolcard__content-description-bold {
+  font-weight: bold;
+}
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .toolcard {
@@ -29,7 +32,7 @@
     background-color: #bdbac9ea;
     z-index: -1;
   }
-  .toolcard__content p {
+  .toolcard__content span {
     font-size: 1.4em;
     word-break: break-word;
   }
@@ -52,10 +55,12 @@
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
-    margin: 50px;
+    margin: 4% 2%;
     width: 300px;
   }
   .toolcard__content {
+    word-break: break-word;
+    height: 200px;
     margin: 20px;
   }
   .toolcard__content h3 {

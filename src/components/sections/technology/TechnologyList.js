@@ -9,7 +9,10 @@ export default function TechnologyList({ data }) {
     <section className="technology-list">
       <div>
         <div className="technology-list__header">
-          <Title data={data.title} />
+          <div className="technology-list__header-title">
+            <span className="technology-list__header-title-large">{data.title.large}</span>
+            <span className="technology-list__header-title-small">{data.title.small}</span>
+          </div>
           <Description data={data.description} />
         </div>
         <div className="technology-list__items">

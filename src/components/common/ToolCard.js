@@ -6,8 +6,10 @@ export default function Card({ data }) {
   return (
     <section className="toolcard">
       <div className="toolcard__content">
-        <h3>{data.title}</h3>
-        <p>{data.description}</p>
+        <div className="toolcard__content-title">
+          <h3>{data.title}</h3>
+        </div>    
+            <span className="toolcard__content-description-bold">{data.description.bold}</span><span>{data.description.normal}</span>
         <a className="toolcard__link" href={data.link}>
           {data.link}
         </a>

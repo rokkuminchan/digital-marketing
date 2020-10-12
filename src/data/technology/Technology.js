@@ -22,14 +22,19 @@ const TechnologyData = {
       "World ITチーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
   },
   technologyList: {
-    title: "技術リスト",
+    title: {
+      large:"技術",
+      small:"リスト",
+    },
     description:
       "主要なテクノロジーやツールをご紹介しています。詳細は、リンクからオフィシャル・サイトをご覧ください",
     items: [
       {
         title: "PWA  　――",
-        description:
-          "PWAとは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです",
+        description:{
+          bold: "PWA",
+          normal:"とは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです",
+        },    
         link: "https://web.dev/progressive-web-apps/",
         image: {
           src: pwa,
@@ -38,8 +43,11 @@ const TechnologyData = {
       },
       {
         title: "AMP  　――",
-        description:
-          "AMPは、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです",
+        description:{
+          bold: "AMP",
+          normal:"は、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです",
+        },    
+          
         link: "https://amp.dev/",
         image: {
           src: amp,
@@ -48,8 +56,11 @@ const TechnologyData = {
       },
       {
         title: "BEM  　――",
-        description:
-          "BEM(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です",
+        description:{
+          bold: "BEM",
+          normal:"(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です",
+        },    
+          
         link: "https://en.bem.info/",
         image: {
           src: bem,
@@ -58,8 +69,11 @@ const TechnologyData = {
       },
       {
         title: "GitHub  　――",
-        description:
-          "GitHub（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです",
+        description:{
+          bold: "GitHub",
+          normal: "（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです",
+        },
+         
         link: "https://github.com/",
         image: {
           src: github,
@@ -68,8 +82,11 @@ const TechnologyData = {
       },
       {
         title: "JAM Stack  　――",
-        description:
-          "JAM Stackは、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです",
+        description:{
+          bold: "JAM Stack",
+          normal: "は、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです",
+        },
+          
         link: "https://jamstack.org/",
         image: {
           src: jam,
@@ -78,8 +95,11 @@ const TechnologyData = {
       },
       {
         title: "JEST  　――",
-        description:
-          "Jest はシンプルさを重視した、快適な JavaScript テスティングフレームワークです",
+        description:{
+          bold: "Jest ",
+          normal: "はシンプルさを重視した、快適な JavaScript テスティングフレームワークです",
+        },
+          
         link: "https://jestjs.io/",
         image: {
           src: jest,
@@ -88,8 +108,11 @@ const TechnologyData = {
       },
       {
         title: "Material Design  　――",
-        description:
-          "チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです",
+        description:{
+          bold: "",
+          normal: "チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです",
+        },
+          
         link: "https://material.io/",
         image: {
           src: material,
@@ -98,8 +121,11 @@ const TechnologyData = {
       },
       {
         title: "React  　――",
-        description:
-          "React は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです",
+        description:{
+          bold: "React",
+          normal: "は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです",
+        },
+          
         link: "https://reactjs.org/",
         image: {
           src: react,
@@ -108,8 +134,11 @@ const TechnologyData = {
       },
       {
         title: "Trello  　――",
-        description:
-          "Trelloは、アジャイル・プロジェクトに最適なタスク管理ツールです",
+        description:{
+          bold: "Trello",
+          normal: "は、アジャイル・プロジェクトに最適なタスク管理ツールです",
+        },
+          
         link: "https://trello.com/",
         image: {
           src: trello,
@@ -118,8 +147,11 @@ const TechnologyData = {
       },
       {
         title: "Visual Studio Code  　――",
-        description:
-          "オープンソースで開発され様々なプラットフォームで動作するエディターです",
+        description:{
+          bold: "Visual Studio Code",
+          normal: "とは、オープンソースで開発され様々なプラットフォームで動作するエディターです",
+        },
+          
         link: "https://code.visualstudio.com/",
         image: {
           src: vscode,
@@ -128,8 +160,11 @@ const TechnologyData = {
       },
       {
         title: "XD  　――",
-        description:
-          "webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
+        description:{
+          bold: "",
+          normal: "Webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
+        },
+          
         link: "https://www.adobe.com/jp/products/xd.html",
         image: {
           src: adobe,
@@ -138,7 +173,10 @@ const TechnologyData = {
       },
       {
         title: "",
-        description: "",
+        description: {
+          bold: "",
+          normal: "",
+        },
         link: "",
         image: {
           src: "",
