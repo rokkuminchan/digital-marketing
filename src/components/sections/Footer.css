@@ -18,9 +18,8 @@
 .footer__distributed .footer__links a:hover {
   color: yellow;
 }
-
 .footer__distributed .footer__center i:hover {
-  color: #fff;
+  color: #00cc00;
 }
 
 .footer__distributed .footer__icons {
