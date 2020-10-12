@@ -18,7 +18,7 @@ const University = ({ data }) => {
             return <UniSubDesc key={index} data={sub} />;
           })}
         </div>
-        <a className="university__link" href={data.link}>
+        <a className="university__link" href={data.link} target="_blank" rel="noreferrer noopener">
           {data.link}
         </a>
       </div>

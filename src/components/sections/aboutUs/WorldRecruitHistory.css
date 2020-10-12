@@ -9,12 +9,12 @@
   }
   .worldrecruithistory__description {
     font-size: 1.4em;
-    text-align: center;
+    text-align: justify;
     margin: auto;
     /* margin-left: auto;
     margin-right: auto; */
     opacity: 0.8;
-    width: 325px;
+    width: 83%;
     height: auto;
     padding: 5% 0%;
   }

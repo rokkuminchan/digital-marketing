@@ -27,7 +27,7 @@ const TechnologyData = {
       "主要なテクノロジーやツールをご紹介しています。詳細は、リンクからオフィシャル・サイトをご覧ください",
     items: [
       {
-        title: "PWA",
+        title: "PWA  　――",
         description:
           "PWAとは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです",
         link: "https://web.dev/progressive-web-apps/",
@@ -37,7 +37,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "AMP",
+        title: "AMP  　――",
         description:
           "AMPは、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです",
         link: "https://amp.dev/",
@@ -47,7 +47,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "BEM",
+        title: "BEM  　――",
         description:
           "BEM(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です",
         link: "https://en.bem.info/",
@@ -57,7 +57,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "GitHub",
+        title: "GitHub  　――",
         description:
           "GitHub（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです",
         link: "https://github.com/",
@@ -67,7 +67,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "JAM Stack",
+        title: "JAM Stack  　――",
         description:
           "JAM Stackは、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです",
         link: "https://jamstack.org/",
@@ -77,7 +77,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "JEST",
+        title: "JEST  　――",
         description:
           "Jest はシンプルさを重視した、快適な JavaScript テスティングフレームワークです",
         link: "https://jestjs.io/",
@@ -87,7 +87,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "Material Design",
+        title: "Material Design  　――",
         description:
           "チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです",
         link: "https://material.io/",
@@ -97,7 +97,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "React",
+        title: "React  　――",
         description:
           "React は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです",
         link: "https://reactjs.org/",
@@ -107,7 +107,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "Trello",
+        title: "Trello  　――",
         description:
           "Trelloは、アジャイル・プロジェクトに最適なタスク管理ツールです",
         link: "https://trello.com/",
@@ -117,7 +117,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "Visual Studio Code",
+        title: "Visual Studio Code  　――",
         description:
           "オープンソースで開発され様々なプラットフォームで動作するエディターです",
         link: "https://code.visualstudio.com/",
@@ -127,7 +127,7 @@ const TechnologyData = {
         },
       },
       {
-        title: "XD",
+        title: "XD  　――",
         description:
           "webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
         link: "https://www.adobe.com/jp/products/xd.html",

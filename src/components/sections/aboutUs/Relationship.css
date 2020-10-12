@@ -1,5 +1,6 @@
 .relationship__description {
   line-height: 30px;
+  letter-spacing: 1px;
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {

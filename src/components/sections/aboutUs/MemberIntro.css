@@ -3,12 +3,20 @@
   .memberIntro__items {
     padding: 0%;
   }
+  .memberIntro {
+    margin: auto;
+    padding: 0px 30px 30px 30px;
+  }
 }
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .memberIntro__items {
-    padding: 0% 8%;
+    padding: 0% 3%;
+  }
+  .memberIntro {
+    margin: auto;
+    padding: 0px 30px 30px 30px;
   }
 }
 /*Ipad horizontal(1024 x 768)*/
@@ -16,13 +24,13 @@
   .memberIntro__items {
     padding: 0% 5%;
   }
+  .memberIntro {
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+  }
 }
 
 /*style for common*/
-.memberIntro {
-  margin: auto;
-  padding: 0px 30px;
-}
 .memberIntro__items {
   display: flex;
   flex-direction: row;

@@ -1,6 +1,9 @@
 .vnUniversity {
   background-color: #eff9ff;
 }
+.vnUniversity__container .description {
+  padding: 3% 10%;
+}
 @media screen and (min-width: 320px) {
   .vnUniversity__list {
     padding: 0 3rem 1rem 3rem;
