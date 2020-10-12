@@ -1,6 +1,36 @@
-.technologylist {
-  background-color: white;
+@media screen and (min-width: 320px) {
+  .technology-list__items {
+    padding: 0%;
+  }
 }
-.technologylist__items {
-  background-color: white;
+@media screen and (min-width: 768px) {
+  .technology-list__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .technology-list__title {
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  .technology-list__title-large {
+    font-size: 3em;
+    color: #3c64b1;
+  }
+  .technology-list__title-small {
+    font-size: 2em;
+    padding-left: 1%;
+    opacity: 0.6;
+  }
+  .technology-list__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
