@@ -6,7 +6,7 @@
   }
   .mission__title {
     font-size: 2em;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     color: #3c64b1;
     font-weight: bold;
     text-align: center;
@@ -36,7 +36,7 @@
   }
   .mission__title {
     font-size: 3em;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     color: #3c64b1;
     font-weight: bold;
     text-align: center;
@@ -79,7 +79,7 @@
   }
   .mission__title {
     font-size: 3em;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     color: #3c64b1;
     font-weight: bold;
     text-align: center;

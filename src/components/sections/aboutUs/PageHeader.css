@@ -53,7 +53,7 @@
 }
 
 .page-header__sub-description {
-  text-align: center;
+  text-align: justify;
   letter-spacing: 0px;
   color: #373f41;
   line-height: 50px;
@@ -80,7 +80,7 @@
   }
 
   .page-header__sub-description {
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
     font-size: 1.5em;
   }
@@ -123,7 +123,8 @@
 
   .page-header__sub-description {
     line-height: 45px;
-    font-size: 2em;
+    font-size: 2.5em;
+    text-align: justify;
   }
 
   .page-header {

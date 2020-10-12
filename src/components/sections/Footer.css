@@ -20,7 +20,7 @@
 }
 
 .footer__distributed .footer__center i:hover {
-  color: #00cc00;
+  color: #fff;
 }
 
 .footer__distributed .footer__icons {
@@ -86,7 +86,7 @@
     line-height: 42px;
     margin: 10px 10px 10px 0px;
     vertical-align: middle;
-    color: #00cc00;
+    color: #fff;
   }
 
   .footer__distributed .footer__center p {
