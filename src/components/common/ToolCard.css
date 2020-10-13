@@ -103,10 +103,6 @@
   .toolcard__content p {
     font-size: 1.6em;
   }
-  .toolcard__content a {
-    display: block;
-    text-decoration: none;
-  }
   .toolcard__img {
     height: 220px;
   }
@@ -154,8 +150,6 @@
   }
   .toolcard__content a {
     font-size: 1.6em;
-    display: block;
-    text-decoration: none;
   }
   .toolcard__img {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
