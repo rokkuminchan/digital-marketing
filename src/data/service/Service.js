@@ -1,61 +1,58 @@
-// import wrh from "../../images/AboutUs/world-recruit-history.jpeg";
-
+import servicePH from "../../images/Service/servicePH.jpg";
 const ServiceData = {
-    PageHeader: {
-        title: "サービス",
-        description:
-            "高品質な次世代型Webアプリを迅速に開発するチーム",
-        image: {
-            src: "",
-            alt: ""
-        },
-        subDescription:
-            "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
+  ServiceHeader: {
+    title: "サービス",
+    description: "高品質な次世代型Webアプリを迅速に開発するチーム",
+    image: {
+      src: servicePH,
+      alt: "service-page-header",
     },
-    WebApplication: {
-        title: "",
+    subDescription:
+      "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
+  },
+  WebApplication: {
+    title: "",
+    description: "",
+    items: {
+      icon: "",
+      description: "",
+    },
+    image: {
+      src: "",
+      alt: "",
+    },
+    subDescription: "",
+  },
+  WebApplicationRequirement: {
+    title: "",
+    image: {
+      src: "",
+      alt: "",
+    },
+    items: {
+      subTitle: "",
+      subItems: {
+        icon: "",
         description: "",
-        items: {
-            icon: "",
-            description: "",
-        },
-        image: {
-            src: "",
-            alt: ""
-        },
-        subDescription: "",
+      },
     },
-    WebApplicationRequirement: {
-        title: "",
-        image: {
-            src: "",
-            alt: ""
-        },
-        items: {
-            subTitle: "",
-            subItems: {
-                icon: "",
-                description: "",
-            },
-        },
-        description: {
-            title: "",
-            content: "",
-
-        },
+    description: {
+      title: "",
+      content: "",
     },
-    AgileTeamComposition: {
-        title: "",
-        description: "",
-        items: {
-            icon: "",
-            description: "",
-        },
-        image: {
-            src: "",
-            alt: ""
-        },
+  },
+  AgileTeamComposition: {
+    title: "",
+    description: "",
+    items: {
+      icon: "",
+      description: "",
     },
+    image: {
+      src: "",
+      alt: "",
+    },
+  },
 };
 
 export default ServiceData;
