@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import {FiCircle, FiSquare, FiTriangle, FiHexagon} from "react-icons/fi";
-=======
->>>>>>> 66295818806fe5d38f67c9d8e4031aa72abaf8c0
 import servicePH from "../../images/Service/servicePH.jpg";
 const ServiceData = {
   ServiceHeader: {
