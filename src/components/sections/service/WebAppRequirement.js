@@ -21,6 +21,15 @@ const WebAppRequirment = ({data}) => {
                     })
                 }
             </div>
+            <div>
+                {
+                    data.comment.map((item,index) => {
+                        return(
+                            <p key = {index}>{item}</p>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

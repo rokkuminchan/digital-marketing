@@ -6,7 +6,13 @@ const WebAppReqItem = ({data}) => {
     return(
         <div>
             <div>
-                <h3>{data.title}</h3>
+                {
+                    data.title.map((item,index) => {
+                        return(
+                            <h3 key = {index}>{item}</h3>
+                        )
+                    })
+                }
             </div>
             <div>
                 {
