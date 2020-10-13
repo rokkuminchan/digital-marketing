@@ -12,6 +12,7 @@
 }
 
 .row .row__icon svg {
+	font-size: medium;
 }
 
 .row .row__description {

@@ -4,8 +4,8 @@ import './WebAppReqItem.css'
 
 const WebAppReqItem = ({data}) => {
     return(
-        <div>
-            <div>
+        <div className = "web-app-req-item">
+            <div className = "web-app-req-item__title">
                 {
                     data.title.map((item,index) => {
                         return(
@@ -14,7 +14,7 @@ const WebAppReqItem = ({data}) => {
                     })
                 }
             </div>
-            <div>
+            <div className = "web-app-req-item__content">
                 {
                     data.row.map((item,index) => {
                         return (
