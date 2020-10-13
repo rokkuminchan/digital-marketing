@@ -8,18 +8,28 @@ import Image from "../../common/Image";
 export default function WebApplication({data}){
     return (
       <div className="web-application">
-        <Title className="web-application__title" data={data.title} />
-        <Description data={data.description} />
+        <div className="web-application__title">
+          <Title  data={data.title} />
+        </div>
+        <div className="web-application__desciption">
+          <Description data={data.description} />
+        </div>        
         {
           data.items.map((item, index) => (
             <div key={index} className="web-application__items">
-              <Image className="web-application__items-icon" {...item.icon} />
+              <div className="web-application__items-icon" >
+                <Image {...item.icon} />
+              </div>              
               <p className="web-application__items-description">{item.description}</p>
             </div>
           ))
         }
-        <Description className="web-application__sub-description" data={data.subDescription} />
-        <Image className="web-application__image" {...data.image}/>
+        <div className="web-application__sub-description">
+          <Description data={data.subDescription} />
+        </div>
+        <div className="web-application__image">
+          <Image {...data.image}/>
+        </div>             
       </div>
     );
 } 
