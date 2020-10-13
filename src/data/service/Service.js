@@ -1,6 +1,5 @@
-import {FiCircle, FiSquare, FiTriangle} from "react-icons/fi";
+import {FiCircle, FiSquare, FiTriangle, FiHexagon} from "react-icons/fi";
 import servicePH from "../../images/Service/servicePH.jpg";
-
 const ServiceData = {
   ServiceHeader: {
     title: "サービス",
@@ -13,23 +12,34 @@ const ServiceData = {
       "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
   },
   WebApplication: {
-    title: "",
+    title: "急速に進化を続けるWebアプリーケーション",
+    description: "この次世代Webアプリを車に例えると、夢のような車になります。",
+    items: [
+      {
+        icon: FiCircle,
+        description: "10倍早く走る",
+      },
+      {
+        icon: FiSquare,
+        description: "燃費が10倍良い",
+      },
+      {
+        icon: FiTriangle,
+        description: "安全性が高い",
+      },
+      {
+        icon: FiHexagon,
+        description: "車の価格は２分の1",
+      },
+    ],
+    subDescription1: "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。",
+    subDescription2: "WorldのITチームお勧めの最新テクノロジーはこちら",
     image: {
       src: "",
-      alt: "",
-    },
-    items: {
-      subTitle: "",
-      subItems: {
-        icon: "",
-        description: "",
+      alt: "Image",
       },
-    },
-    description: {
-      title: "",
-      content: "",
-    },
   },
+    
   WebApplicationRequirment: {
     title: "Webアプリケーション開発チームに求められる要件にとは",
     items: [
