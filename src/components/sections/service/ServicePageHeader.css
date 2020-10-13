@@ -1,7 +1,12 @@
-:root {
+.service-page-header {
   background-color: #eff3fa;
 }
-
+.service-page-header__title {
+  padding-top: 2rem;
+}
+.service-page-header__description {
+  padding: 0 2rem;
+}
 .service-page-header__block1 {
   text-align: center;
 }
@@ -10,12 +15,13 @@
   text-align: center;
 }
 .service-page-header__block3 {
-  margin-bottom: 5rem;
+  padding-bottom: 4rem;
 }
+.service-img {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 320px) {
-  .service-page-header__block1 {
-    margin-top: 10rem;
-  }
   .service-page-header__title {
     font-size: 2.8rem;
   }
