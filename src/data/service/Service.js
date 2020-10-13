@@ -1,60 +1,60 @@
 // import wrh from "../../images/AboutUs/world-recruit-history.jpeg";
 
 const ServiceData = {
-    PageHeader :{
+    PageHeader: {
         title: "サービス",
         description:
-          "高品質な次世代型Webアプリを迅速に開発するチーム",
+            "高品質な次世代型Webアプリを迅速に開発するチーム",
         image: {
-          src: "",
-          alt: ""
+            src: "",
+            alt: ""
         },
         subDescription:
-        "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
+            "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
     },
-    WebApplication :{
+    WebApplication: {
         title: "",
-        description:"",
+        description: "",
         items: {
-            icon:"",
-            description:"",
+            icon: "",
+            description: "",
         },
         image: {
-          src: "",
-          alt: ""
+            src: "",
+            alt: ""
         },
-        subDescription:"",
-    }, 
-    WebApplicationRequirement :{
+        subDescription: "",
+    },
+    WebApplicationRequirement: {
         title: "",
         image: {
             src: "",
             alt: ""
-          },
+        },
         items: {
-            subTitle:"",
+            subTitle: "",
             subItems: {
-                icon :"",
-                description:"",
+                icon: "",
+                description: "",
             },
         },
-        description:{
-            title:"",
-            content:"",
+        description: {
+            title: "",
+            content: "",
 
         },
     },
-    AgileTeamComposition :{
+    AgileTeamComposition: {
         title: "",
-        description:"",
+        description: "",
         items: {
-            icon:"",
-            description:"",
-        },        
+            icon: "",
+            description: "",
+        },
         image: {
             src: "",
             alt: ""
-          },
+        },
     },
 };
 
