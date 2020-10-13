@@ -1,10 +1,9 @@
 import React from "react";
 import "./TechnologyList.css";
 import ToolCard from "../../common/ToolCard.js";
-import Title from "../../common/Title";
-import Description from "../../common/Description";
 
 export default function TechnologyList({ data }) {
+  const description = `<div class="technology-list__header-description-padding">${data.description}</div>`;
   return (
     <section className="technology-list">
       <div>
@@ -13,7 +12,7 @@ export default function TechnologyList({ data }) {
             <span className="technology-list__header-title-large">{data.title.large}</span>
             <span className="technology-list__header-title-small">{data.title.small}</span>
           </div>
-          <Description data={data.description} />
+          <div dangerouslySetInnerHTML={{__html: description}} />          
         </div>
         <div className="technology-list__items">
           {data.items.map((list, index) => (

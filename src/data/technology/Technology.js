@@ -27,7 +27,7 @@ const TechnologyData = {
       small:"リスト",
     },
     description:
-      "主要なテクノロジーやツールをご紹介しています。詳細は、リンクからオフィシャル・サイトをご覧ください",
+      "<span class='technology-list__header-description'>主要な<span class='technology-list__header-description technology-list__header-description-bold'>テクノロジーやツールをご紹介しています。</span>詳細は、リンクからオフィシャル・サイトをご覧ください</span>",
     items: [
       {
         title: "PWA  　――",
