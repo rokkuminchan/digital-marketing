@@ -3,4 +3,26 @@
 }
 .web-application__title {
   padding: 0 12%;
+  text-align: center;
+}
+.web-application__desciption > p {
+  text-align: center;
+}
+.web-application__items {
+  padding-top: 1%;
+  padding-left: 30%;
+}
+.web-application__items-icon > svg {
+  font-size: medium;
+}
+.web-application__items-description {
+  font-size: 1.5em;
+  padding-left: 10%;
+}
+.web-application__sub-description {
+  margin: 5% 8%;
+}
+.web-application__sub-description > p {
+  margin: 0;
+  padding: 0;
 }
