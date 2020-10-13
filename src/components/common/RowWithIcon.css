@@ -1,0 +1,17 @@
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.row .row__icon {
+}
+
+.row .row__icon svg {
+	margin-left: 40vw;
+}
+
+.row .row__description {
+}
+
+.row .row__description p {
+}
