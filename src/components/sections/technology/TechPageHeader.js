@@ -11,8 +11,7 @@ export default function TechPageHeader({ data }) {
         </div>
       </div>
       <div className="tech-page-header__block2">
-        {/* <p className="tech-page-header__description"> {data.description} </p> */}
-        <p className="tech-page-header__description"> <span className="strong-decs">World ITチーム</span>全員が最新の<span className="strong-decs">テクノロジー</span>に習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます</p>
+        <div dangerouslySetInnerHTML={{__html: data.description}} />
       </div>
     </section>
   );

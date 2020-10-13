@@ -18,8 +18,7 @@ const TechnologyData = {
       src: tpd,
       alt: "Technology",
     },
-    description:
-      "World ITチーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
+    description: "<p class='tech-page-header__description'><span class='strong-decs'>World ITチーム</span>全員が最新の<span class='strong-decs'>テクノロジー</span>に習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます</p>",
   },
   technologyList: {
     title: {
