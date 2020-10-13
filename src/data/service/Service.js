@@ -15,25 +15,25 @@ const ServiceData = {
     description: "この次世代Webアプリを車に例えると、夢のような車になります。",
     items: [
       {
-      icon: "",
+      icon: { src: "", alt: "icon" },
       description: "10倍早く走る",
       },
       {
-        icon: "",
+        icon: { src: "", alt: "icon" },
         description: "燃費が10倍良い",
       },
       {
-        icon: "",
+        icon: { src: "", alt: "icon" },
         description: "安全性が高い",
       },
       {
-        icon: "",
+        icon: { src: "", alt: "icon" },
         description: "車の価格は２分の1",
       },
     ],
     image: {
       src: "",
-      alt: "",
+      alt: "Image",
     },
     subDescription: "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。 WorldのITチームお勧めの最新テクノロジーはこちら",
   },
