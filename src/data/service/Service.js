@@ -11,17 +11,31 @@ const ServiceData = {
       "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
   },
   WebApplication: {
-    title: "",
-    description: "",
-    items: {
+    title: "急速に進化を続けるWebアプリーケーション",
+    description: "この次世代Webアプリを車に例えると、夢のような車になります。",
+    items: [
+      {
       icon: "",
-      description: "",
-    },
+      description: "10倍早く走る",
+      },
+      {
+        icon: "",
+        description: "燃費が10倍良い",
+      },
+      {
+        icon: "",
+        description: "安全性が高い",
+      },
+      {
+        icon: "",
+        description: "車の価格は２分の1",
+      },
+    ],
     image: {
       src: "",
       alt: "",
     },
-    subDescription: "",
+    subDescription: "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。 WorldのITチームお勧めの最新テクノロジーはこちら",
   },
   WebApplicationRequirement: {
     title: "",
