@@ -1,0 +1,23 @@
+.web-app-requirment {
+}
+
+.web-app-requirment .web-app-requirment__title {
+}
+
+.web-app-requirment .web-app-requirment__image {
+}
+
+.web-app-requirment .web-app-requirment__content {
+}
+
+.web-app-requirment .web-app-requirment__comment {
+	margin-bottom: 30px;
+}
+
+.web-app-requirment .web-app-requirment__comment > p {
+	text-align: center;
+}
+
+.web-app-requirment .web-app-requirment__comment > p:first-of-type {
+	margin-bottom: 10px;
+}

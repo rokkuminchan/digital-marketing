@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 }
 
 .row .row__icon {
@@ -20,6 +20,7 @@
 }
 
 .row .row__description p {
+	font-size: 1.5em;
 	text-align: justify;
 }
 
