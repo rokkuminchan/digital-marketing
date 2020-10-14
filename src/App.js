@@ -5,13 +5,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // Components
 import AboutUs from "./components/pages/AboutUs";
 import Technology from "./components/pages/Technology";
-// import Services from "./components/pages/Services"
+import Services from "./components/pages/Services"
 
-// // Data
-// import AboutUsData from "./data/ourTeam/AboutUs";
-// import TechnologyData from "./data/technology/Technology";
-// import ServiceData from "./data/service/Service";
-// import Image from "./components/common/Image";
+// Data
+import ServiceData from "./data/service/Service";
 
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
 import technologyJsonData from "./data/technology/technologyData.json"
@@ -27,9 +24,9 @@ function App() {
           <Route path="/technology">
             <Technology data={technologyJsonData} />
           </Route>
-          {/*<Route path="/services">
+          <Route path="/services">
             <Services data={{ servicesJson: ServiceData }} />
-          </Route> */}
+          </Route>
         </Switch>
       </Router>
     </div>

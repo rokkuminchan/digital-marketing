@@ -2,7 +2,7 @@ import React from "react";
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
-import Image from "../../common/Image";
+import NewImage from "../../common/NewImage";
 
 
 export default function WebApplication({data}){
@@ -29,7 +29,7 @@ export default function WebApplication({data}){
         </div>
           
         <div className="web-application__image">
-          <Image {...data.image}/>
+          <NewImage {...data.image}/>
         </div>             
       </div>
     );

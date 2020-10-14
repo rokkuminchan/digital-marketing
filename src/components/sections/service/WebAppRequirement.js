@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../../common/Title'
-import Image from '../../common/Image'
+import NewImage from '../../common/NewImage'
 import WebAppReqItem from './WebAppReqItem'
 import './WebAppRequirement.css'
 
@@ -11,7 +11,7 @@ const WebAppRequirment = ({data}) => {
                 <Title data = {data.title}/>
             </div>
             <div className = "web-app-requirment__image">
-                <Image {...data.image}/>
+                <NewImage {...data.image}/>
             </div>
             <div className = "web-app-requirment__content">
                 {
