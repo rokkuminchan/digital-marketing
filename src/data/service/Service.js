@@ -36,7 +36,7 @@ const ServiceData = {
     subDescription2: "WorldのITチームお勧めの最新テクノロジーは",
     link: {
       title: "こちら",
-      src: "#",
+      src: "../technology",
     },
     image: {
       src: "",

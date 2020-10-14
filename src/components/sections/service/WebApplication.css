@@ -28,6 +28,7 @@
   font-size: 1.4em;
 }
 .web-application__sub-description a {
+  text-decoration: none;
   font-size: 1.1em;
 }
 /*Ipad vertical(768 x 1024)*/
@@ -46,6 +47,7 @@
     font-size: 1.8em;
   }
 }
+/* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
   web-application__items-icon > svg {
     font-size: x-large;
