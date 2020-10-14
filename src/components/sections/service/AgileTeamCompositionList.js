@@ -1,13 +1,19 @@
 import React from "react";
 import "./AgileTeamCompositionList.css";
+import Image from '../../common/Image'
 
 export default function AgileTeamCompositionList ({ data }) {
    console.log(data);
     return (
-      <div className ="AgileTeamCompositionList">
-          <h3>{data.title}</h3>
-          <br/>
-        <p>{data.description}</p>
-      </div>
+      <div className="AgileTeamComposition-List">
+        <div className="AgileTeamComposition-List__img">
+            <Image {...data.image}/>
+        </div>
+        <div className="AgileTeamComposition-List__text">
+            <h1>{data.title}</h1>
+            <br/>
+            <p>{data.description}</p>
+        </div>
+    </div>
     );
 }
