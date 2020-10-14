@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.agileTeamComposition {
+  height: 180vh;
+}
+.agileTeamComposition__description {
+  width: 80%;
+  margin: auto;
+  padding-top: 7%;
+}
+.agileTeamComposition hr {
+  margin: auto;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .agileTeamComposition__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .agileTeamComposition__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

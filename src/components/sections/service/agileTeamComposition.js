@@ -1,10 +1,12 @@
 import React from "react";
-import "./agileTeamComposition.css";
+import "./AgileTeamComposition.css";
 import Title from "../../common/Title";
+import AgileTeamCompositionList from "./AgileTeamCompositionList";
 // import Description from "../../common/Description";
 
 
-export default function AgileTeamComposition ({data}){
+const AgileTeamComposition = ({data}) =>{
+    console.log(data.items)
     return(
         <section className="agileTeamComposition">
            <div className="agileTeamComposition__title">
@@ -13,12 +15,13 @@ export default function AgileTeamComposition ({data}){
            <div className="agileTeamComposition__description">
                 <p>{data.description}</p>
            </div>
+           <br/><hr width="50%" size="5px" color="red"/>
            <div className="agileTeamComposition__items">
             {data.items.map((item, index) => {
-            return <div key={index} data={item} className="agileTeamComposition__items-bg"> 
-            </div>;
+            return <AgileTeamCompositionList data={item} key={index}/>
             })}
-            </div>
+           </div>
         </section>
     );
 }
+export default AgileTeamComposition;

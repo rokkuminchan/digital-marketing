@@ -1,0 +1,54 @@
+.AgileTeamCompositionList {
+  background: transparent url("../../../images/Service/AgileBg.PNG") no-repeat;
+  background-size: 100% 100%;
+  width: 70%;
+  margin: 10% auto;
+  height: 30vh;
+  align-items: center;
+  /* justify-content: center; */
+}
+.AgileTeamCompositionList h3 {
+  /* padding: 10% 10%; */
+  padding-top: 15%;
+  text-align: center;
+  font-size: 1.4em;
+}
+.AgileTeamCompositionList p {
+  /* /* padding: 5% 10%; */
+  padding: auto;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  font-weight: 400;
+}
+.AgileTeamCompositionList:nth-child(1):hover {
+  background: transparent url("../../../images/Service/director.jpg") no-repeat;
+  background-size: cover;
+}
+
+.AgileTeamCompositionList:nth-child(2):hover {
+  background: transparent url("../../../images/Service/designer.jpg") no-repeat;
+  background-size: cover;
+}
+.AgileTeamCompositionList:nth-child(3):hover {
+  background: transparent url("../../../images/Service/frontend.jpeg") no-repeat;
+  background-size: cover;
+}
+.AgileTeamCompositionList:nth-child(4):hover {
+  background: transparent url("../../../images/Service/backend.jpg") no-repeat;
+  background-size: cover;
+}
+.AgileTeamCompositionList:hover {
+  color: aliceblue;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .AgileTeamCompositionList {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .AgileTeamCompositionList {
+    width: 80%;
+  }
+}
