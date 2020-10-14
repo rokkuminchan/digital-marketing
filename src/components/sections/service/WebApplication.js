@@ -23,9 +23,11 @@ export default function WebApplication({data}){
           ))
         }
         <div className="web-application__sub-description web-application__desciption">
-          <Description data={data.subDescription1} />
-          <Description data={data.subDescription2} />
+          <p>{data.subDescription1}</p>
+          <span>{data.subDescription2}</span>
+          <span><a href={data.link.src}>{data.link.title}</a></span>
         </div>
+          
         <div className="web-application__image">
           <Image {...data.image}/>
         </div>             
