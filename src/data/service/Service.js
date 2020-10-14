@@ -1,11 +1,9 @@
-import {FiCircle, FiSquare, FiTriangle, FiHexagon} from "react-icons/fi";
-import servicePH from "../../images/Service/servicePH.jpg";
 const ServiceData = {
   ServiceHeader: {
     title: "サービス",
     description: "高品質な次世代型Webアプリを迅速に開発するチーム",
     image: {
-      src: servicePH,
+      src: "../../images/Service/servicePH.jpg",
       alt: "service-page-header",
     },
     subDescription:
@@ -16,19 +14,31 @@ const ServiceData = {
     description: "この次世代Webアプリを車に例えると、夢のような車になります。",
     items: [
       {
-        icon: FiCircle,
+        icon:{
+          name:"FiCircle",
+          type:"FiCircle"
+        },
         description: "10倍早く走る",
       },
       {
-        icon: FiSquare,
+        icon: {          
+          name:"FiSquare",
+          type:"FiSquare"
+        },
         description: "燃費が10倍良い",
       },
       {
-        icon: FiTriangle,
+        icon: {          
+          name:"FiTriangle",
+          type:"FiTriangle"
+        },
         description: "安全性が高い",
       },
       {
-        icon: FiHexagon,
+        icon: {          
+          name:"FiHexagon",
+          type:"FiHexagon"
+        },
         description: "車の価格は２分の1",
       },
     ],
@@ -51,11 +61,17 @@ const ServiceData = {
         title: ["生産性と品質の高さ"],
         row: [
           {
-            icon: FiCircle,
+            icon:{
+              name:"FiCircle",
+              type:"FiCircle"
+            },
             description: "生産性が高く、予算と納期の範囲内で製品を開発できること"
           },
           {
-            icon: FiSquare,
+            icon:{
+              name:"FiSquare",
+              type:"FiSquare"
+            },
             description: "短いテスト期間でも高品質な製品を開発できること"
           },
         ]
@@ -64,15 +80,24 @@ const ServiceData = {
         title: ["アジリティの高さ"],
         row: [
           {
-            icon: FiCircle,
+            icon:{
+              name:"FiCircle",
+              type:"FiCircle"
+            },
             description: "短いサイクルでリリースを繰り返し行えること"
           },
           {
-            icon: FiSquare,
+            icon:{
+              name:"FiSquare",
+              type:"FiSquare"
+            },
             description: "リリースを繰り返しても生産性が落ちないこと"
           },
           {
-            icon: FiTriangle,
+            icon:{
+              name:"FiTriangle",
+              type:"FiTriangle"
+            },
             description: "リリース直前の変更でも受け入れられること"
           },
         ]
@@ -81,22 +106,31 @@ const ServiceData = {
         title: ["少人数先鋭であること", "(ピザ2枚ルール *)"],
         row: [
           {
-            icon: FiCircle,
+            icon:{
+              name:"FiCircle",
+              type:"FiCircle"
+            },
             description: "チーム編成または会議において、無駄がなく生産性が高いこと"
           },
           {
-            icon: FiSquare,
+            icon:{
+              name:"FiSquare",
+              type:"FiSquare"
+            },
             description: "効率的で各自のモチベーションが高いこと"
           },
           {
-            icon: FiTriangle,
+            icon:{
+              name:"FiTriangle",
+              type:"FiTriangle"
+            },
             description: "お互いをフォローしあい、チームの団結力が強いこと"
           },
         ]
       },
     ],
     image: {
-      src: servicePH,
+      src: "../../images/Service/servicePH.jpg",
       alt: "",
     },
     comment: ["* ピザ2枚ルールとは","ピザ2枚ルールとはAmazonのジェフ・ベゾスが提唱したルールで、1つのチームはピザ2枚を囲める人数以下にしなければならないというものです"],
