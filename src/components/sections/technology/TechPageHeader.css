@@ -1,6 +1,6 @@
 :root {
   --tech-page-header__block1: 60vh;
-  --tech-page-header__title: 8vh;
+  --tech-page-header__title: 10rem;
 }
 .tech-page-header {
   background-color: #eff9ff;
@@ -55,18 +55,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .tech-page-header {
+    height: calc(100vh - var(--header-menu-height));
+  }
+  .tech-page-header__block1 {
+    height: var(--tech-page-header__block1);
+  }
   .tech-page-header__title {
     height: var(--tech-page-header__title);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-  }
-  .tech-page-header {
-    height: calc(100vh - var(--header-menu-height));
-  }
-  .tech-page-header__block1 {
-    height: var(--tech-page-header__block1);
   }
   .tech-page-header__img {
     height: calc(
