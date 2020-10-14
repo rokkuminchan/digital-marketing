@@ -44,14 +44,16 @@
        "items":[
           {
              "icon":{
-                "src":"../../images/AboutUs/box.svg",
+                "name":"box",
+                "type":"svg",
                 "alt":"icon1"
              },
              "description":"アジリティが高い 高い実装能力を持ち、変更にも強い"
           },
           {
              "icon":{
-                "src":"../../images/AboutUs/key.svg",
+                "name":"key",
+                "type":"svg",
                 "alt":"icon2"
              },
              "description":"要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です"
@@ -59,13 +61,16 @@
           {
              "icon":{
                 "src":"../../images/AboutUs/briefcase.svg",
+                "name":"briefcase",
+                "type":"svg",
                 "alt":"icon3"
              },
              "description":"小規模から大規模まで納期と予算に合わせたチームをご提案します"
           },
           {
              "icon":{
-                "src":"../../images/AboutUs/lifebuoy.svg",
+                "name":"lifebuoy",
+                "type":"svg",
                 "alt":"icon4"
              },
              "description":"生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります"

@@ -1,7 +1,7 @@
 import React from "react";
 import UniSubDesc from "./UniSubDesc";
 import "./University.css";
-import NewImage from "../../common/NewImage";
+import Image from "../../common/Image";
 
 const University = ({ data }) => {
   return (
@@ -9,7 +9,7 @@ const University = ({ data }) => {
       <div className="university_title-image">
         <h3 className="university__title">{data.title}</h3>
         <div className="university__image">
-          <NewImage {...data.image} />
+          <Image {...data.image} />
         </div>
       </div>
       <div className="university__desc-link">

@@ -2,7 +2,8 @@ import React from "react";
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
-import NewImage from "../../common/NewImage";
+import Image from "../../common/Image";
+import Icon from "../../common/Icon";
 
 
 export default function WebApplication({data}){
@@ -17,7 +18,7 @@ export default function WebApplication({data}){
         {
           data.items.map((item, index) => (
             <div key={index} className="web-application__items">              
-              <span className="web-application__items-icon"><item.icon /></span>                          
+              <span className="web-application__items-icon"><Icon {...data.icon}/></span>                          
               <span className="web-application__items-description">{item.description}</span>
             </div>
           ))
@@ -29,7 +30,7 @@ export default function WebApplication({data}){
         </div>
           
         <div className="web-application__image">
-          <NewImage {...data.image}/>
+          <Image {...data.image}/>
         </div>             
       </div>
     );
