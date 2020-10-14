@@ -1,6 +1,6 @@
 import React from "react";
 import "./ToolCard.css";
-import NewImage from "./NewImage";
+import Image from "./Image";
 
 export default function Card({ data }) {
   return (
@@ -15,7 +15,7 @@ export default function Card({ data }) {
         </a>
       </div>
       <div>
-        <NewImage className="toolcard__img" {...data.image} />
+        <Image className="toolcard__img" {...data.image} />
       </div>
     </section>
   );
