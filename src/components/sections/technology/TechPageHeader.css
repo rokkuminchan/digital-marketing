@@ -1,0 +1,97 @@
+:root {
+  --tech-page-header__block1: 60vh;
+  --tech-page-header__title: 8vh;
+}
+.tech-page-header {
+  background-color: #eff9ff;
+}
+
+.tech-page-header__title {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  color: #3c64b1;
+}
+
+.tech-page-header__img {
+  background-color: white;
+}
+.strong-decs {
+  font-size: 1.7rem;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ",
+    Meiryo, Osaka, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 320px) {
+  .tech-page-header__description {
+    font-size: 1.5rem;
+    padding: 3.5rem 5rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+  .tech-page-header__img {
+    padding: 3rem 0rem;
+  }
+  .tech-img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tech-page-header__title {
+    font-size: 4rem;
+    padding: 3rem 0 2rem;
+  }
+  .tech-page-header__description {
+    font-size: 2rem;
+    padding: 6rem 6rem;
+    line-height: 4.5rem;
+  }
+  .strong-decs {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tech-page-header__title {
+    height: var(--tech-page-header__title);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .tech-page-header {
+    height: calc(100vh - var(--header-menu-height));
+  }
+  .tech-page-header__block1 {
+    height: var(--tech-page-header__block1);
+  }
+  .tech-page-header__img {
+    height: calc(
+      var(--tech-page-header__block1) - var(--tech-page-header__title)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-img {
+    height: 35vh;
+  }
+  .tech-page-header__block2 {
+    height: calc(
+      100vh - var(--tech-page-header__block1) - var(--header-menu-height)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-page-header__description {
+    font-size: 2.5rem;
+    padding: 0 10%;
+  }
+  .strong-decs {
+    font-size: 3rem;
+  }
+}

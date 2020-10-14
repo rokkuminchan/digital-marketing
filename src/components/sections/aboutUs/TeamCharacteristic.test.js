@@ -11,9 +11,9 @@ const Data = {
   items: [
     {
       icon: { src: "../../../images/box.svg", alt: "icon1" },
-      description: "アジリティが高い 高い実装能力を持ち、変更にも強い。",
-    },
-  ],
+      description: "アジリティが高い 高い実装能力を持ち、変更にも強い。"
+    }
+  ]
 };
 
 beforeEach(() => {

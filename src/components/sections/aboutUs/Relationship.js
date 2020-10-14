@@ -1,7 +1,7 @@
 import React from "react";
 import "./Relationship.css";
 import Title from "../../common/Title";
-import Image from "../../common/Image";
+import NewImage from "../../common/NewImage";
 
 export default function Relationship({ data }) {
   console.log("Relationship", data.image);
@@ -12,7 +12,7 @@ export default function Relationship({ data }) {
         <p className="relationship__description">{data.description}</p>
       </div>
       <div className="relationship__block2">
-        <Image className="relationship__img" {...data.image} />
+        <NewImage className="relationship__img" {...data.image} />
       </div>
     </div>
   );

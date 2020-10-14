@@ -10,8 +10,8 @@ const Data = {
   description: "高度IT人材で日本のDXに貢献する。",
   image: {
     src: mission,
-    alt: "about-us-mission",
-  },
+    alt: "about-us-mission"
+  }
 };
 
 beforeEach(() => {

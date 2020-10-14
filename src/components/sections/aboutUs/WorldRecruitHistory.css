@@ -1,82 +1,92 @@
+.worldrecruithistory__description {
+  opacity: 0.8;
+  line-height: 30px;
+}
 @media screen and (min-width: 320px) {
   .worldrecruithistory {
-    padding-bottom: 30px;
+    /* padding-top: 30px; */
     background-color: #eff9ff;
   }
-  /* .worldrecruithistory__description {
-    font-size: 1.6em;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
+  .worldrecruithistory__description {
+    font-size: 1.4em;
+    text-align: justify;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    opacity: 0.8;
+    width: 83%;
+    height: auto;
+    padding: 5% 0%;
+  }
+  .worldrecruithistory__img {
     margin-left: auto;
     margin-right: auto;
-    color: #707070;
-    width: 350px;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  } */
-  .worldrecruithistory__img {
     width: 100%;
-    height: 150px;
+    height: 200px;
+    padding-bottom: 40px;
+    padding-top: 10px;
     object-fit: cover;
   }
 }
 @media screen and (min-width: 768px) {
-  .worldrecruithistory {
-    padding-bottom: 50px;
-    background-color: #eff9ff;
-  }
-  /* .worldrecruithistory__description {
-    font-size: 1.7em;
-    text-align: center;
+  .worldrecruithistory__description {
+    font-size: 1.8em;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    color: #707070;
-    width: 625px;
+    /* color: #707070; */
+    width: 620px;
     height: auto;
-  } */
+    padding: 3% 0%;
+  }
   .worldrecruithistory__img {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
   }
 }
 @media screen and (min-width: 1024px) {
   .worldrecruithistory {
-    height: 300px;
-    padding-top: 5px;
     background-color: #eff9ff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 0px;
+    padding: 5% 0%;
+    /* height: 320px; */
   }
   .worldrecruithistory__block1 {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
   }
   .worldrecruithistory__block2 {
-    padding-top: 4%;
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 5%;
   }
-  /* .worldrecruithistory__description {
-    padding-top: 30px;
+  .worldrecruithistory__description {
+    /* padding-top: 30px; */
     padding-bottom: 30px;
     font-size: 1.8em;
-    width: 500px;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     word-break: break-word;
-    text-align: center;
-  } */
+    text-align: justify;
+  }
   .worldrecruithistory__img {
-    height: 190px;
-    object-fit: cover;
+    display: block;
+    width: 380px;
+    height: 300px;
+    margin: auto;
+    padding: 8% 0%;
   }
 }

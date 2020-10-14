@@ -1,0 +1,32 @@
+.row {
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto 20px auto;
+}
+
+.row .row__icon {
+	width: 10%;
+}
+
+.row .row__icon svg {
+	font-size: medium;
+}
+
+.row .row__description {
+	width: 80%;
+}
+
+.row .row__description p {
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+	.row {
+		width: 50%;
+	}
+}

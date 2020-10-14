@@ -1,12 +1,11 @@
 import React from "react";
 import "./Card.css";
-import Image from "./Image";
+import NewImage from "./NewImage";
 
 export default function Card({ data }) {
-  console.log("Card", data.image);
   return (
-    <div className="card">
-      <Image className="card__img" {...data.image} />
+    <div className="card">      
+      <NewImage className="card__img" {...data.image} />
       <div className="card__content">
         <h3>{data.title}</h3>
         <p>{data.description}</p>

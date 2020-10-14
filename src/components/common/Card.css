@@ -1,41 +1,40 @@
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .card {
-    width: 70%;
-    margin: 20px;
+    width: 90%;
+    margin: auto;
   }
   .card__content {
     margin: 15px;
   }
   .card__content h3 {
-    font-size: 1.6em;
-    padding: 15px 0px;
+    font-size: 1.4em;
+    padding: 5px 0px;
   }
   .card__content p {
     font-size: 1.4em;
   }
   .card__img {
-    height: 200px;
+    height: 170px;
   }
 }
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .card {
-    width: 42%;
-    margin: 30px 3%;
+    width: 43%;
   }
   .card__content {
     margin: 20px;
   }
   .card__content h3 {
-    font-size: 2em;
-    padding: 15px 0px;
+    font-size: 1.6em;
+    padding: 10px 0px;
   }
   .card__content p {
     font-size: 1.6em;
   }
   .card__img {
-    height: 250px;
+    height: 190px;
   }
 }
 /*Ipad horizontal(1024 x 768)*/
@@ -48,31 +47,31 @@
     margin: 20px;
   }
   .card__content h3 {
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 15px 0px;
   }
   .card__content p {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
   .card__img {
-    height: 300px;
+    height: 220px;
   }
 }
 /*Commom style for card*/
 .card {
   display: flex;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out;
-  margin: 20px;
+  background-color: #eff9ff;
+  margin: 20px 0px;
 }
 .card:hover {
   box-shadow: 0 0 6px rgb(35 173 255);
   opacity: 0.9;
 }
 .card__content h3 {
-  font-family: Roboto;
   color: #3c64b1;
   font-weight: bold;
   text-align: center;
@@ -81,11 +80,13 @@
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  font-family: Roboto;
-  color: #6e6e6e;
-  opacity: 1;
+  opacity: 0.9;
 }
 .card__img {
+  cursor: pointer;
+  display: block;
+  margin: 0px auto;
+  object-fit: cover;
   width: 100%;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 5px 0px 0px;
 }

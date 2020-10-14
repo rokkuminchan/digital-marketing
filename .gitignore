@@ -6,6 +6,11 @@
 .pnp.js
 *.snap
 
+public/
+.cache/
+
+.history/
+
 # testing
 /coverage
 

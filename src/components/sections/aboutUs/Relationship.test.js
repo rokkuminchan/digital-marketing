@@ -12,8 +12,8 @@ const Data = {
 
   image: {
     src: vnjp,
-    alt: "relationship",
-  },
+    alt: "relationship"
+  }
 };
 
 beforeEach(() => {

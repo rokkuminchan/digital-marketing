@@ -1,0 +1,62 @@
+.web-application {
+  margin: 0 5%;
+}
+.web-application__title {
+  padding: 0 12%;
+  text-align: center;
+}
+.web-application__desciption > p {
+  text-align: center;
+}
+.web-application__items {
+  padding-top: 1%;
+  padding-left: 30%;
+}
+.web-application__items-icon > svg {
+  font-size: medium;
+}
+.web-application__items-description {
+  font-size: 1.5em;
+  padding-left: 10%;
+}
+.web-application__sub-description {
+  text-align: center;
+  margin: 4% 6%;
+}
+.web-application__sub-description p,
+.web-application__sub-description span {
+  font-size: 1.4em;
+}
+.web-application__sub-description a {
+  text-decoration: none;
+  font-size: 1.1em;
+}
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .web-application__items-icon > svg {
+    font-size: large;
+  }
+  .web-application__items-description {
+    font-size: 1.8em;
+  }
+  .web-application__sub-description {
+    margin: 4% 5%;
+  }
+  .web-application__sub-description p,
+  .web-application__sub-description span {
+    font-size: 1.8em;
+  }
+}
+/* Ipad Pro and Desktop */
+@media screen and (min-width: 1024px) {
+  web-application__items-icon > svg {
+    font-size: x-large;
+  }
+  .web-application__items-description {
+    font-size: 2em;
+  }
+  .web-application__sub-description p,
+  .web-application__sub-description span {
+    font-size: 2em;
+  }
+}
