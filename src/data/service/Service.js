@@ -105,6 +105,7 @@ const ServiceData = {
       {
         title: "ディレクタ",
         description: "コミュニケーション能力が高く、ディレクションが出来る人材です        ",
+        
       },
       {
         title: "デザイナ",
@@ -119,10 +120,6 @@ const ServiceData = {
         description: "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します",
       },
     ],
-    image: {
-      src: "",
-      alt: "",
-    },
   },
 };
 

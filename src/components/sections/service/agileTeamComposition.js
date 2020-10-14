@@ -1,20 +1,23 @@
 import React from "react";
 import "./agileTeamComposition.css";
 import Title from "../../common/Title";
-import Description from "../../common/Description";
-import AgileSubContent from "./agileSubContent";
+// import Description from "../../common/Description";
+
 
 export default function AgileTeamComposition ({data}){
     return(
-        <section className="agile-team-composition">
-            <div className="agile-team-composition__imgbg">
-                <Title data={data.title}/>
-                <Description data={data.description} />
-            </div>
-            <div className="agile-team-composition__items">
-                    {data.items.map((item, index) => {
-                        return <AgileSubContent key={index} data={item}/>
-                    })}
+        <section className="agileTeamComposition">
+           <div className="agileTeamComposition__title">
+               <Title data={data.title}/>
+           </div>
+           <div className="agileTeamComposition__description">
+                <p>{data.description}</p>
+           </div>
+           <div className="agileTeamComposition__items">
+            {data.items.map((item, index) => {
+            return <div key={index} data={item} className="agileTeamComposition__items-bg"> 
+            </div>;
+            })}
             </div>
         </section>
     );
