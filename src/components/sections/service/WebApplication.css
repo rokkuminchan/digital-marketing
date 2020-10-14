@@ -20,9 +20,41 @@
   padding-left: 10%;
 }
 .web-application__sub-description {
-  margin: 5% 8%;
+  text-align: center;
+  margin: 4% 6%;
 }
-.web-application__sub-description > p {
-  margin: 0;
-  padding: 0;
+.web-application__sub-description p,
+.web-application__sub-description span {
+  font-size: 1.4em;
+}
+.web-application__sub-description a {
+  font-size: 1.1em;
+}
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .web-application__items-icon > svg {
+    font-size: large;
+  }
+  .web-application__items-description {
+    font-size: 1.8em;
+  }
+  .web-application__sub-description {
+    margin: 4% 5%;
+  }
+  .web-application__sub-description p,
+  .web-application__sub-description span {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  web-application__items-icon > svg {
+    font-size: x-large;
+  }
+  .web-application__items-description {
+    font-size: 2em;
+  }
+  .web-application__sub-description p,
+  .web-application__sub-description span {
+    font-size: 2em;
+  }
 }
