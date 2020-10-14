@@ -8,10 +8,9 @@ import Technology from "./components/pages/Technology";
 import Services from "./components/pages/Services"
 
 // Data
-import ServiceData from "./data/service/Service";
-
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
 import technologyJsonData from "./data/technology/technologyData.json"
+import serviceJsonData from "./data/service/serviceData.json";
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
             <Technology data={technologyJsonData} />
           </Route>
           <Route path="/services">
-            <Services data={{ servicesJson: ServiceData }} />
+            <Services data={serviceJsonData} />
           </Route>
         </Switch>
       </Router>

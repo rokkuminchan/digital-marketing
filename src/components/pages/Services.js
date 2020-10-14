@@ -5,13 +5,13 @@ import WebApplication from "../../components/sections/service/WebApplication";
 import WebAppRequirment from "../../components/sections/service/WebAppRequirement";
 import AgileTeamComposition from "../../components/sections/service/AgileTeamComposition";
 export default function Services({ data }) {
-  console.log(data.servicesJson);
+
   return (
     <Layout>
-      <ServicePageHeader data={data.servicesJson.ServiceHeader} />
-      <WebApplication data={data.servicesJson.WebApplication} />
-      <WebAppRequirment data={data.servicesJson.WebApplicationRequirment} />     
-      <AgileTeamComposition data={data.servicesJson.AgileTeamComposition}/>
+      <ServicePageHeader data={data.ServiceHeader} />
+      <WebApplication data={data.WebApplication} />
+      <WebAppRequirment data={data.WebApplicationRequirment} />     
+      <AgileTeamComposition data={data.AgileTeamComposition}/>
     </Layout>
   );
 }
