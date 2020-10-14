@@ -1,0 +1,18 @@
+.web-app-req-item {
+}
+
+.web-app-req-item .web-app-req-item__title {
+	margin: 40px 0 20px 0;
+}
+
+.web-app-req-item .web-app-req-item__title > h3 {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.web-app-req-item .web-app-req-item__title > h3:first-of-type {
+	margin-bottom: 10px;
+}
+
+.web-app-req-item .web-app-req-item__content {
+}
