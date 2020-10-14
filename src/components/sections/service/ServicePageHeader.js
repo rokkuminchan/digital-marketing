@@ -1,6 +1,6 @@
 import React from "react";
 import "./ServicePageHeader.css";
-import Image from "../../common/Image";
+import NewImage from "../../common/NewImage";
 export default function SerivePageHeader({ data }) {
   return (
     <section className="service-page-header">
@@ -10,7 +10,7 @@ export default function SerivePageHeader({ data }) {
           <p className="service-page-header__description">{data.description}</p>
         </div>
         <div className="service-page-header__img">
-          <Image className="service-img" {...data.image} />
+          <NewImage className="service-img" {...data.image} />
         </div>
       </div>
       <div className="service-page-header__block3">

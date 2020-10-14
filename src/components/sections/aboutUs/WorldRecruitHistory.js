@@ -1,7 +1,7 @@
 import React from "react";
 import "./WorldRecruitHistory.css";
 import Title from "../../common/Title.js";
-import Image from "../../common/Image";
+import NewImage from "../../common/NewImage";
 
 export default function WorldReruitHistory({ data }) {
   return (
@@ -11,7 +11,7 @@ export default function WorldReruitHistory({ data }) {
         <p className="worldrecruithistory__description">{data.description}</p>
       </div>
       <div className="worldrecruithistory__block2">
-        <Image className="worldrecruithistory__img" {...data.image} />
+        <NewImage className="worldrecruithistory__img" {...data.image} />
       </div>
     </section>
   );

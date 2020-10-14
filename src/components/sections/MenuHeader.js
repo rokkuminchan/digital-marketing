@@ -1,7 +1,7 @@
 import React from "react";
 import "./MenuHeader.css";
 import Logo from "../../images/AboutUs/world-logo.png";
-import Image from "../common/Image";
+import NewImage from "../common/NewImage";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
@@ -25,7 +25,7 @@ export default function MenuHeader() {
   return (
     <header className="menu-header">
       <a href="#." className="menu-header__logo">
-        <Image src={Logo} alt="" id="logo" />
+        <NewImage src={Logo} alt="" id="logo" />
       </a>
       <input
         className="menu-header__visibility-btn"

@@ -1,21 +1,3 @@
-import vnjp from "../../images/AboutUs/vnjp.jpg";
-import wrh from "../../images/AboutUs/world-recruit-history.jpeg";
-import mission from "../../images/AboutUs/mission.png";
-import szksensei from "../../images/AboutUs/szksensei.jpg";
-import huy from "../../images/AboutUs/huy.jpg";
-import loc from "../../images/AboutUs/loc.jpg";
-import yen from "../../images/AboutUs/yen.jpg";
-import vien from "../../images/AboutUs/vien.jpg";
-import duc from "../../images/AboutUs/duc.jpg";
-import bkhn from "../../images/AboutUs/bkhn.jpg";
-import bkdn from "../../images/AboutUs/bkdn.jpg";
-import bcvt from "../../images/AboutUs/bcvt.jpg";
-import box from "../../images/AboutUs/box.svg";
-import key from "../../images/AboutUs/key.svg";
-import briefcase from "../../images/AboutUs/briefcase.svg";
-import lifebuoy from "../../images/AboutUs/lifebuoy.svg";
-import vision from "../../images/AboutUs/vision.jpeg";
-
 const AboutUsData = {
   title: "私たちは第二世代のベトナム人ITエンジニアのチームです",
   description:
@@ -28,7 +10,7 @@ const AboutUsData = {
     title: "Mission",
     description: "高度IT人材で日本のDXに貢献する",
     image: {
-      src: mission,
+      src: "../../images/AboutUs/mission.png",
       alt: "mission"
     }
   },
@@ -37,7 +19,7 @@ const AboutUsData = {
     description:
       "外国人IT技術者の「３つの壁」を乗り超え、最先端のIT技術を駆使して日本をサポートする",
     image: {
-      src: vision,
+      src: "../../images/AboutUs/vision.jpeg",
       alt: "vision"
     },
     items: [
@@ -65,21 +47,21 @@ const AboutUsData = {
       "アジリティーが高く要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
     items: [
       {
-        icon: { src: box, alt: "icon1" },
+        icon: { src: "../../images/AboutUs/box.svg", alt: "icon1" },
         description: "アジリティが高い 高い実装能力を持ち、変更にも強い"
       },
       {
-        icon: { src: key, alt: "icon2" },
+        icon: { src: "../../images/AboutUs/key.svg", alt: "icon2" },
         description:
           "要件定義から運用・サポートまでアプリケーション開発の全ての工程に対応可能です"
       },
       {
-        icon: { src: briefcase, alt: "icon3" },
+        icon: { src: "../../images/AboutUs/briefcase.svg", alt: "icon3" },
         description:
           "小規模から大規模まで納期と予算に合わせたチームをご提案します"
       },
       {
-        icon: { src: lifebuoy, alt: "icon4" },
+        icon: { src: "../../images/AboutUs/lifebuoy.svg", alt: "icon4" },
         description:
           "生産性と品質トレーニングされた息の合ったチームだから、生産性と品質の高さに自信があります"
       }
@@ -119,7 +101,7 @@ const AboutUsData = {
       {
         title: "CTO 鈴木高弘",
         image: {
-          src: szksensei,
+          src: "../../images/AboutUs/szksensei.jpg",
           alt: "szksensei"
         },
         description:
@@ -128,7 +110,7 @@ const AboutUsData = {
       {
         title: "ヴー・ドゥック・フィー",
         image: {
-          src: huy,
+          src: "../../images/AboutUs/huy.jpg",
           alt: "huy"
         },
         description:
@@ -137,7 +119,7 @@ const AboutUsData = {
       {
         title: "チャン・ミン・ロック",
         image: {
-          src: loc,
+          src: "../../images/AboutUs/loc.jpg",
           alt: "loc"
         },
         description:
@@ -146,7 +128,7 @@ const AboutUsData = {
       {
         title: "ダオ・ハイ・イエン",
         image: {
-          src: yen,
+          src: "../../images/AboutUs/yen.jpg",
           alt: "yen"
         },
         description:
@@ -155,7 +137,7 @@ const AboutUsData = {
       {
         title: "ハ・ラム ・ヴィエン",
         image: {
-          src: vien,
+          src: "../../images/AboutUs/vien.jpg",
           alt: "vien"
         },
         description:
@@ -164,7 +146,7 @@ const AboutUsData = {
       {
         title: "ヴー・アイン・ドゥック",
         image: {
-          src: duc,
+          src: "../../images/AboutUs/duc.jpg",
           alt: "duc"
         },
         description:
@@ -177,7 +159,7 @@ const AboutUsData = {
     description:
       "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています",
     image: {
-      src: wrh,
+      src: "../../images/AboutUs/world-recruit-history.jpeg",
       alt: "WorldRecruitHistory"
     }
   },
@@ -189,7 +171,7 @@ const AboutUsData = {
       {
         title: "ハノイ 工科大学",
         image: {
-          src: bkhn,
+          src: "../../images/AboutUs/bkhn.jpg",
           alt: "bkhn"
         },
         description: [
@@ -216,7 +198,7 @@ const AboutUsData = {
       {
         title: "ダナン工科大学",
         image: {
-          src: bkdn,
+          src: "../../images/AboutUs/bkdn.jpg",
           alt: "bkdn"
         },
         description: [
@@ -243,7 +225,7 @@ const AboutUsData = {
       {
         title: "郵政電信工芸学院",
         image: {
-          src: bcvt,
+          src: "../../images/AboutUs/bcvt.jpg",
           alt: "bcvt"
         },
         description: [
@@ -274,7 +256,7 @@ const AboutUsData = {
     description:
       "2009年に日本・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました",
     image: {
-      src: vnjp,
+      src: "../../images/AboutUs/vnjp.jpg",
       alt: "about-us-vietnam-and-japan"
     }
   },
@@ -283,26 +265,6 @@ const AboutUsData = {
     phone: "TEL 058-255-3066",
     fax: "FAX 058-255-3633"
   }
-  // footer: {
-  //   title: "WORLD WORKS",
-  //   link: "Info@https://world-works.co.jp",
-  //   description:
-  //     "Copyright (C)　愛知・岐阜・三重の人材派遣や業務請負など総合人材サービスはワールドグループ",
-  //   items: [
-  //     {
-  //       title: "icon1",
-  //       descripsion: "Twitter",
-  //     },
-  //     {
-  //       title: "icon2",
-  //       descripsion: "Facebook",
-  //     },
-  //     {
-  //       title: "icon3",
-  //       descripsion: "Instagram",
-  //     },
-  //   ],
-  // },
 };
 
 export default AboutUsData;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Mission.css";
 // import Title from "../../common/Title";
 // import Description from "../../common/Description";
-import Image from "../../common/Image";
+import NewImage from "../../common/NewImage";
 
 export default function Mission({ data }) {
   return (
@@ -19,7 +19,7 @@ export default function Mission({ data }) {
         </div>
 
         <div className="mission__block2">
-          <Image className="mission__img" {...data.image} />
+          <NewImage className="mission__img" {...data.image} />
         </div>
       </div>
     </section>
