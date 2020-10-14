@@ -20,13 +20,16 @@ function getImg(src) {
 }
 
 export default function Image(props) {
-  console.log(props);
-  return (
-    <Img
-      className={props.className}
-      id={props.id}
-      fluid={props.src.childImageSharp.fluid}
-      atl={props.alt}
-    />
-  );
+  if(!props.src.childImageSharp){
+    return <img {...props}></img>
+  }else{
+    return (
+      <Img
+        className={props.className}
+        id={props.id}
+        fluid={props.src.childImageSharp.fluid}
+        atl={props.alt}
+      />
+    );
+  }
 }
