@@ -11,7 +11,7 @@
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
-    margin: 37px;
+    margin: 32px;
   }
   .toolcard__content {
     padding-left: 10px;
@@ -56,7 +56,7 @@
     height: 150px;
     width: 100%;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
 /*Ipad vertical(768 x 1024)*/
@@ -130,6 +130,7 @@
     color: black;
     font-weight: bold;
     padding-left: 5%;
+    padding-bottom: 20px;
   }
   .toolcard__content h3:before {
     display: block;
@@ -155,6 +156,6 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: scale-down;
   }
 }
