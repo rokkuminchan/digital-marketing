@@ -14,14 +14,14 @@ export default function AboutUs({ data }) {
   return (
     <Layout>
       <PageHeader />
-      <Mission data={data.ourTeamJson.mission} />
-      <Vision data={data.ourTeamJson.vision} />
-      <TeamCharacteristic data={data.ourTeamJson.teamCharacteristic} />
-      <MemberCharacteristic data={data.ourTeamJson.memberCharacteristic} />
-      <MemberIntro data={data.ourTeamJson.memberIntroduction} />
-      <WorldRecruitHistory data={data.ourTeamJson.worldRecruitHistory} />
-      <Relationship data={data.ourTeamJson.relationship} />
-      <VNUniversity data={data.ourTeamJson.vietnamUniversity} />
+      <Mission data={data.mission} />
+      <Vision data={data.vision} />
+      <TeamCharacteristic data={data.teamCharacteristic} />
+      <MemberCharacteristic data={data.memberCharacteristic} />
+      <MemberIntro data={data.memberIntroduction} />
+      <WorldRecruitHistory data={data.worldRecruitHistory} />
+      <Relationship data={data.relationship} />
+      <VNUniversity data={data.vietnamUniversity} />
     </Layout>
   );
 }

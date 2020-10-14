@@ -8,9 +8,10 @@ import Technology from "./components/pages/Technology";
 import Services from "./components/pages/Services"
 
 // Data
-import AboutUsData from "./data/ourTeam/AboutUs";
-import TechnologyData from "./data/technology/Technology";
 import ServiceData from "./data/service/Service";
+
+import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
+import technologyJsonData from "./data/technology/technologyData.json"
 
 function App() {
   return (
@@ -18,10 +19,10 @@ function App() {
       <Router>
         <Switch>
           <Route path="/about-us">
-            <AboutUs data={{ ourTeamJson: AboutUsData }} />
+            <AboutUs data={ourTeamJsonData} />
           </Route>
           <Route path="/technology">
-            <Technology data={{ technologyJson: TechnologyData }} />
+            <Technology data={technologyJsonData} />
           </Route>
           <Route path="/services">
             <Services data={{ servicesJson: ServiceData }} />
