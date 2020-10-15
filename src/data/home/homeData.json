@@ -1,0 +1,102 @@
+{
+    "HomeHeader":{
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "WebApplication": {
+        "title": "",
+        "description": [
+            "",
+            ""
+        ],
+        "backgroundSrc": "",
+        "items": [
+            {
+                "icon": {
+                    "name": "",
+                    "type": ""
+                },
+                "description": ""
+            },
+            {
+                "icon": {
+                    "name": "",
+                    "type": ""
+                },
+                "description": ""
+            },
+            {
+                "icon": {
+                    "name": "",
+                    "type": ""
+                },
+                "description": ""
+            },
+            {
+                "icon": {
+                    "name": "",
+                    "type": ""
+                },
+                "description": ""
+            }
+        ]
+    },
+    "WebApplicationForDigital": {
+        "title": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "DetailedWork": {
+        "title": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "Watashitachi": {
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "TeamCharacteristic": {
+        "title": "",
+        "description": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "MemberCharacteristic": {
+        "title": "",
+        "description": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "Technology": {
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "Contact": {
+
+    }
+}
