@@ -9,7 +9,7 @@
        "title":"Mission",
        "description":"高度IT人材で日本のDXに貢献する",
        "image":{
-          "src":"../../images/AboutUs/mission.png",
+          "src":"../../images/aboutus__mission.png",
           "alt":"mission"
        }
     },
@@ -17,7 +17,7 @@
        "title":"Vision",
        "description":"外国人IT技術者の「３つの壁」を乗り超え、最先端のIT技術を駆使して日本をサポートする",
        "image":{
-          "src":"../../images/AboutUs/vision.jpeg",
+          "src":"../../images/aboutus__vision.jpeg",
           "alt":"vision"
        },
        "items":[
@@ -44,7 +44,7 @@
        "items":[
           {
              "icon":{
-                "name":"box",
+                "name":"aboutus__box",
                 "type":"svg",
                 "alt":"icon1"
              },
@@ -52,7 +52,7 @@
           },
           {
              "icon":{
-                "name":"key",
+                "name":"aboutus__key",
                 "type":"svg",
                 "alt":"icon2"
              },
@@ -60,8 +60,7 @@
           },
           {
              "icon":{
-                "src":"../../images/AboutUs/briefcase.svg",
-                "name":"briefcase",
+                "name":"aboutus__briefcase",
                 "type":"svg",
                 "alt":"icon3"
              },
@@ -69,7 +68,7 @@
           },
           {
              "icon":{
-                "name":"lifebuoy",
+                "name":"aboutus__lifebuoy",
                 "type":"svg",
                 "alt":"icon4"
              },
@@ -105,7 +104,7 @@
           {
              "title":"CTO 鈴木高弘",
              "image":{
-                "src":"../../images/AboutUs/szksensei.jpg",
+                "src":"../../images/aboutus__szksensei.jpg",
                 "alt":"szksensei"
              },
              "description":"ITアーキテクトとして、様々な分野のプロジェクトを成功させた実績があります。オブジェクト指向の教育をする会社の立ち上げや教育コースの設計や技術者の育成も手掛けています。ワールドのITチームでは、これからIT業界で活躍するために必要なスキルを身に着ける為の教育プログラムを監修しています。ベトナムが大好きです。写真は、ベトナムの村のお寺に行った時のものです"
@@ -113,7 +112,7 @@
           {
              "title":"ヴー・ドゥック・フィー",
              "image":{
-                "src":"../../images/AboutUs/huy.jpg",
+                "src":"../../images/aboutus__huy.jpg",
                 "alt":"huy"
              },
              "description":"ハノイ工科大学で情報技術を卒業した後、日本に就職することにしました。私はインターネットというツールの魅力を最大限に活かし、クライアントのビジネスを成功へと導くサイトをつくりあげるプロとして、WEBデザインを手がけてきました。今後も顧客とコミュニケーションをとりながら、多くのサービスを提供できるエンジニアとしてスキルアップしていきたいと考えています"
@@ -121,7 +120,7 @@
           {
              "title":"チャン・ミン・ロック",
              "image":{
-                "src":"../../images/AboutUs/loc.jpg",
+                "src":"../../images/aboutus__loc.jpg",
                 "alt":"loc"
              },
              "description":"ワールドで働く事は私にとって本当に楽しいです。 技術だけでなく日本の働き方もたくさん学びました。 ここで私は自分の創造性を活用できるので、チームを助けます。ITチームはまた、仕事と学習のモチベーションをたくさん与えてくれます。 我々は常に互いに助け合っています。 我々は一緒に問題を解決します。 だからこそ、世界のITは本当に急速に拡大していくと確信しています"
@@ -129,7 +128,7 @@
           {
              "title":"ダオ・ハイ・イエン",
              "image":{
-                "src":"../../images/AboutUs/yen.jpg",
+                "src":"../../images/aboutus__yen.jpg",
                 "alt":"yen"
              },
              "description":"郵政電信工芸学院での専攻はITです。大学卒業して担当したプロジェクトは病院や銀行や電子情報やイントラネットに関するものです。私はテスターとして参加していました。プロジェクトの開発環境はジャーバ、シェアポイント、アイオーエスやアンドロイドなどです。調査、分析、テスト、管理を担当しました。将来、色々な技術を学びたいです"
@@ -137,7 +136,7 @@
           {
              "title":"ハ・ラム ・ヴィエン",
              "image":{
-                "src":"../../images/AboutUs/vien.jpg",
+                "src":"../../images/aboutus__vien.jpg",
                 "alt":"vien"
              },
              "description":"ダナン工科大学の電子通信学部を卒業した後組込システムに約二年間働きました。車メータのソフトに関する仕事、詳細設計・コーディング・テストなどの開発を経験しました。日本にてITの知識や経験をもっと伸ばしていきたいと思い、ワールド会社に入社して、今まで1年半働いています。日本に就職の目的は、技術を向上させて日本語を勉強します"
@@ -145,7 +144,7 @@
           {
              "title":"ヴー・アイン・ドゥック",
              "image":{
-                "src":"../../images/AboutUs/duc.jpg",
+                "src":"../../images/aboutus__duc.jpg",
                 "alt":"duc"
              },
              "description":"山口短期大学情報メディア学部を卒業しました。出身はベトナムのハノイです。来日してからちょうど２年迎えました。経験が浅くて分からないことが多いかもしれませんがワルードチームでは”一人じゃない”で先輩たちは優しく教え頂いた本当に有り難い！ 顧客満足のため、良い品質、生産性を高めるようにすると考えています。精一杯頑張ります！"
@@ -156,7 +155,7 @@
        "title":"ベトナム人技術者の採用",
        "description":"ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています",
        "image":{
-          "src":"../../images/AboutUs/world-recruit-history.jpeg",
+          "src":"../../images/aboutus__world-recruit-history.jpeg",
           "alt":"WorldRecruitHistory"
        }
     },
@@ -167,7 +166,7 @@
           {
              "title":"ハノイ 工科大学",
              "image":{
-                "src":"../../images/AboutUs/bkhn.jpg",
+                "src":"../../images/aboutus__bkhn.jpg",
                 "alt":"bkhn"
              },
              "description":[
@@ -196,7 +195,7 @@
           {
              "title":"ダナン工科大学",
              "image":{
-                "src":"../../images/AboutUs/bkdn.jpg",
+                "src":"../../images/aboutus__bkdn.jpg",
                 "alt":"bkdn"
              },
              "description":[
@@ -225,7 +224,7 @@
           {
              "title":"郵政電信工芸学院",
              "image":{
-                "src":"../../images/AboutUs/bcvt.jpg",
+                "src":"../../images/aboutus__bcvt.jpg",
                 "alt":"bcvt"
              },
              "description":[
@@ -257,7 +256,7 @@
        "title":"ベトナムと日本との関係",
        "description":"2009年に日本・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました",
        "image":{
-          "src":"../../images/AboutUs/vnjp.jpg",
+          "src":"../../images/aboutus__vnjp.jpg",
           "alt":"about-us-vietnam-and-japan"
        }
     },

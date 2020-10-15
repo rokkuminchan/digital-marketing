@@ -1,7 +1,7 @@
 import React from "react";
 import "./MenuHeader.css";
-import Logo from "../../images/AboutUs/world-logo.png";
-import Image from "../common/Image";
+import Logo from "../../images/world-logo.png";
+import { Link } from "react-router-dom";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
@@ -24,9 +24,9 @@ export default function MenuHeader() {
 
   return (
     <header className="menu-header">
-      <a href="#." className="menu-header__logo">
-        <Image src={Logo} alt="" id="logo" />
-      </a>
+      <Link to="/" className="menu-header__logo">
+        <img src={Logo} alt="" id="logo" />
+      </Link>
       <input
         className="menu-header__visibility-btn"
         onClick={toggleMenu}
@@ -38,29 +38,19 @@ export default function MenuHeader() {
       </label>
       <ul className={menuClass}>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#Home">
-            ホーム
-          </a>
+          <Link className="menu-header__navigation-link" to="/">ホーム</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#Services">
-            サービス
-          </a>
+          <Link className="menu-header__navigation-link" to="/services">サービス</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#Technology">
-            技術
-          </a>
+          <Link className="menu-header__navigation-link" to="/technology">技術</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#AboutUs">
-            お問い合わせ
-          </a>
+          <Link className="menu-header__navigation-link" to="/about-us">お問い合わせ</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <a className="menu-header__navigation-link" href="#AboutUs">
-            我々について
-          </a>
+          <Link className="menu-header__navigation-link" to="/about-us">お問い合わせ</Link>
         </li>
       </ul>
     </header>
