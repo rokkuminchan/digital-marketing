@@ -9,6 +9,9 @@ const Technology = ({data}) => {
             <div className = "technology__title">
                 <Title data = {data.title} />
             </div>
+            <div className = "technology__subtitle">
+                <Description data = {data.subtitle} />
+            </div>
             <div className = "technology__image">
                 <Image {...data.image}/>
             </div>
