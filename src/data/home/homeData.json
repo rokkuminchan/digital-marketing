@@ -9,40 +9,40 @@
         "description": ""
     },
     "WebApplication": {
-        "title": "",
+        "title": "次世代Webアプリを車に例えると",
         "description": [
-            "",
-            ""
+            "急速に進化を続けるWebアプリーケーションの世界！",
+            "この次世代Webアプリを車に例えると、夢のような車になります。"
         ],
         "backgroundSrc": "",
         "items": [
             {
                 "icon": {
-                    "name": "",
-                    "type": ""
+                    "name": "FiCircle",
+                    "type": "FiCircle"
                 },
-                "description": ""
+                "description": "10倍早く走る"
             },
             {
                 "icon": {
-                    "name": "",
-                    "type": ""
+                    "name": "FiSquare",
+                    "type": "FiSquare"
                 },
-                "description": ""
+                "description": "燃費が10倍良い"
             },
             {
                 "icon": {
-                    "name": "",
-                    "type": ""
+                    "name": "FiTriangle",
+                    "type": "FiTriangle"
                 },
-                "description": ""
+                "description": "安全性が高い"
             },
             {
                 "icon": {
-                    "name": "",
-                    "type": ""
+                    "name": "FiHexagon",
+                    "type": "FiHexagon"
                 },
-                "description": ""
+                "description": "車の価格は２分の1"
             }
         ]
     },
