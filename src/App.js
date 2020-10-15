@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Components
+import Home from "./components/pages/Home";
 import AboutUs from "./components/pages/AboutUs";
 import Technology from "./components/pages/Technology";
 import Services from "./components/pages/Services"
@@ -11,12 +12,16 @@ import Services from "./components/pages/Services"
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
 import technologyJsonData from "./data/technology/technologyData.json"
 import serviceJsonData from "./data/service/serviceData.json";
+import homeJsonData from "./data/home/homeData.json";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/">
+            <Home data={homeJsonData} />
+          </Route>
           <Route path="/about-us">
             <AboutUs data={ourTeamJsonData} />
           </Route>
