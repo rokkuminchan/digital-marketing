@@ -21,7 +21,6 @@ export const query = graphql`
           description
           icon {
             alt
-            src
             name
             type
           }
