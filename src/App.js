@@ -19,16 +19,16 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home data={homeJsonData} />
           </Route>
-          <Route path="/about-us">
+          <Route exact path="/about-us">
             <AboutUs data={ourTeamJsonData} />
           </Route>
-          <Route path="/technology">
+          <Route exact path="/technology">
             <Technology data={technologyJsonData} />
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services data={serviceJsonData} />
           </Route>
         </Switch>
