@@ -47,20 +47,24 @@
         ]
     },
     "WebApplicationForDigital": {
-        "title": "",
+        "title": "アジャイル・チームの構成",
         "image": {
             "src": "",
             "alt": ""
         },
-        "description": ""
+        "description": "それぞれが得意分野を持ち、全員がコーディング出来るIT技術者のチームです。チームの共通言語は、HTML、CSS、JavaScriptです。必要最小限のドキュメントで迅速に実際に動作するプロダクトを開発します"
+        
     },
     "DetailedWork": {
-        "title": "",
+        "title": "詳しい仕組みは",
         "image": {
             "src": "",
             "alt": ""
         },
-        "description": ""
+        "descriptions": [
+            "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい",
+            "WorldのITチームお勧めの最新テクノロジーはこちら（テクノロジーページへのリンク）"
+        ]    
     },
     "Watashitachi": {
         "title": "",
@@ -72,8 +76,8 @@
         "description": ""
     },
     "TeamCharacteristic": {
-        "title": "",
-        "description": "",
+        "title": "ITチームの特長",
+        "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
         "image": {
             "src": "",
             "alt": ""
@@ -88,13 +92,13 @@
         }
     },
     "Technology": {
-        "title": "",
-        "subtitle": "",
+        "title": "テクノロジー",
+        "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
         "image": {
             "src": "",
             "alt": ""
         },
-        "description": ""
+        "description": "WorldのITチームお勧めの最新テクノロジーはこちら（テクノロジーページへのリンク）"
     },
     "Contact": {
 

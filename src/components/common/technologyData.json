@@ -75,15 +75,15 @@
              }
           },
           {
-             "title":"JEST",
+             "title":"Image",
              "description":{
-                "bold":"Jest ",
+                "bold":"Image ",
                 "normal":"はシンプルさを重視した、快適な JavaScript テスティングフレームワークです"
              },
-             "link":"https://jestjs.io/",
+             "link":"https://Imagejs.io/",
              "image":{
-                "src":"../../images/technology__jest.png",
-                "alt":"JEST"
+                "src":"../../images/technology__Image.png",
+                "alt":"Image"
              }
           },
           {

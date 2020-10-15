@@ -8,12 +8,8 @@ function getImg(src) {
   const category = results[results.length - 2];
 
   switch (category) {
-    case "AboutUs":
-      return require("../../images/AboutUs/" + imgFileName)
-    case "Technology":
-      return require("../../images/Technology/" + imgFileName)
-    case "Service":
-      return require("../../images/Service/" + imgFileName)
+    case "images":
+      return require("../../images/" + imgFileName)
     default:
       return src;
   }
