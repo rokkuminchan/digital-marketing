@@ -1,6 +1,6 @@
 :root {
   --tech-page-header__block1: 60vh;
-  --tech-page-header__title: 10rem;
+  --tech-page-header__title: 8rem;
 }
 .tech-page-header {
   background-color: #eff9ff;
@@ -9,12 +9,12 @@
 .tech-page-header__title {
   font-size: 3rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   color: #3c64b1;
 }
 
 .tech-page-header__img {
-  background-color: white;
+  background-image: linear-gradient(to right, #032637, #36505d);
 }
 .strong-decs {
   font-size: 1.7rem;
@@ -31,7 +31,7 @@
     line-height: 3rem;
   }
   .tech-page-header__img {
-    padding: 3rem 0rem;
+    padding: 5rem 0rem;
   }
   .tech-img {
     max-width: 100%;
@@ -69,15 +69,17 @@
     padding: 0;
   }
   .tech-page-header__img {
+    padding: 0;
     height: calc(
       var(--tech-page-header__block1) - var(--tech-page-header__title)
     );
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-image: linear-gradient(to right, #032637, #36505d); */
   }
   .tech-img {
-    height: 45vh;
+    height: 40vh;
   }
   .tech-page-header__block2 {
     height: calc(
