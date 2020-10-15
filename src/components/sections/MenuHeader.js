@@ -47,9 +47,7 @@ export default function MenuHeader() {
           <Link className="menu-header__navigation-link" to="/technology">技術</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-        <a className="menu-header__navigation-link" href="#AboutUs">
-            我々について
-          </a>
+          <Link className="menu-header__navigation-link" to="/about-us">お問い合わせ</Link>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
           <Link className="menu-header__navigation-link" to="/about-us">お問い合わせ</Link>
