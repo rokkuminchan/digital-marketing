@@ -62,14 +62,14 @@
              "row":[
                 {
                    "icon":{
-                      "name":"FiCircle",
+                      "name":"circle",
                       "type":"FiCircle"
                    },
                    "description":"生産性が高く、予算と納期の範囲内で製品を開発できること"
                 },
                 {
                    "icon":{
-                      "name":"FiSquare",
+                      "name":"rect",
                       "type":"FiSquare"
                    },
                    "description":"短いテスト期間でも高品質な製品を開発できること"
@@ -83,21 +83,21 @@
              "row":[
                 {
                    "icon":{
-                      "name":"FiCircle",
+                      "name":"circle",
                       "type":"FiCircle"
                    },
                    "description":"短いサイクルでリリースを繰り返し行えること"
                 },
                 {
                    "icon":{
-                      "name":"FiSquare",
+                      "name":"rect",
                       "type":"FiSquare"
                    },
                    "description":"リリースを繰り返しても生産性が落ちないこと"
                 },
                 {
                    "icon":{
-                      "name":"FiTriangle",
+                      "name":"path",
                       "type":"FiTriangle"
                    },
                    "description":"リリース直前の変更でも受け入れられること"
@@ -112,21 +112,21 @@
              "row":[
                 {
                    "icon":{
-                      "name":"FiCircle",
+                      "name":"circle",
                       "type":"FiCircle"
                    },
                    "description":"チーム編成または会議において、無駄がなく生産性が高いこと"
                 },
                 {
                    "icon":{
-                      "name":"FiSquare",
+                      "name":"rect",
                       "type":"FiSquare"
                    },
                    "description":"効率的で各自のモチベーションが高いこと"
                 },
                 {
                    "icon":{
-                      "name":"FiTriangle",
+                      "name":"path",
                       "type":"FiTriangle"
                    },
                    "description":"お互いをフォローしあい、チームの団結力が強いこと"

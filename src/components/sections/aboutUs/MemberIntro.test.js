@@ -54,7 +54,7 @@ it("can render MemberIntro from data", () => {
     ".memberIntro__items > .card > .card__content >p"
   );
   const itemsImage = container.querySelectorAll(
-    ".memberIntro__items > .card > .card__img > img"
+    '.memberIntro__items > .card > img'
   );
 
   for (let item = 0; item < Data.items.length; item++) {
