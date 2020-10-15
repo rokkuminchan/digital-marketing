@@ -1,10 +1,10 @@
 import React from "react";
-import vision from "../../../images/AboutUs/vision.jpeg"
+import vision from "../../../images/AboutUs/vision.jpeg";
 import "./Vision.css";
 
 export default function Vision({ data }) {
-    const backgroundImage = {
-    background: `url(${vision}) center center / cover no-repeat`
+  const backgroundImage = {
+    background: `url(${vision}) center center / cover no-repeat`,
   };
 
   return (
