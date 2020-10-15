@@ -1,0 +1,102 @@
+{
+    "HomeHeader":{
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "WebApplication": {
+        "title": "次世代Webアプリを車に例えると",
+        "description": [
+            "急速に進化を続けるWebアプリーケーションの世界！",
+            "この次世代Webアプリを車に例えると、夢のような車になります。"
+        ],
+        "backgroundSrc": "",
+        "items": [
+            {
+                "icon": {
+                    "name": "FiCircle",
+                    "type": "FiCircle"
+                },
+                "description": "10倍早く走る"
+            },
+            {
+                "icon": {
+                    "name": "FiSquare",
+                    "type": "FiSquare"
+                },
+                "description": "燃費が10倍良い"
+            },
+            {
+                "icon": {
+                    "name": "FiTriangle",
+                    "type": "FiTriangle"
+                },
+                "description": "安全性が高い"
+            },
+            {
+                "icon": {
+                    "name": "FiHexagon",
+                    "type": "FiHexagon"
+                },
+                "description": "車の価格は２分の1"
+            }
+        ]
+    },
+    "WebApplicationForDigital": {
+        "title": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "DetailedWork": {
+        "title": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "Watashitachi": {
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "TeamCharacteristic": {
+        "title": "",
+        "description": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "MemberCharacteristic": {
+        "title": "",
+        "description": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "Technology": {
+        "title": "",
+        "subtitle": "",
+        "image": {
+            "src": "",
+            "alt": ""
+        },
+        "description": ""
+    },
+    "Contact": {
+
+    }
+}

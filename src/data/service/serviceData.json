@@ -148,18 +148,34 @@
        "description":"それぞれが得意分野を持ち、全員がコーディング出来るIT技術者のチームです。チームの共通言語は、HTML、CSS、JavaScriptです。必要最小限のドキュメントで迅速に実際に動作するプロダクトを開発します。",
        "items":[
           {
+            "image":{
+               "src":"../../images/Service/director.jpg",
+               "alt":"director"
+            },
              "title":"ディレクタ",
              "description":"コミュニケーション能力が高く、ディレクションが出来る人材です        "
           },
-          {
+          {    
+            "image":{
+               "src":"../../images/Service/designer.jpg",
+               "alt":"designer"
+            },
              "title":"デザイナ",
              "description":"レスポンシブなWebデザインを理解し、XDにより迅速に要求を目に見える形にします"
           },
           {
+            "image":{
+               "src":"../../images/Service/frontend.jpeg",
+               "alt":"frontend"
+            },
              "title":"フロントエド・エンジニア",
              "description":"Reactにより、Webコンポーネントベースの開発を行います。再利用性、保守性の高いコンポーネントの開発により、システムの規模が大きくなっても、開発スピードが落ちることはありません"
           },
           {
+            "image":{
+               "src":"../../images/Service/backend.jpg",
+               "alt":"backend"
+            },
              "title":"バックエンド・エンジニア",
              "description":"クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します"
           }

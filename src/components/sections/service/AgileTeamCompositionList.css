@@ -1,54 +1,44 @@
-.AgileTeamCompositionList {
-  background: transparent url("../../../images/Service/AgileBg.PNG") no-repeat;
-  background-size: 100% 100%;
-  width: 70%;
-  margin: 10% auto;
-  height: 30vh;
-  align-items: center;
-  /* justify-content: center; */
-}
-.AgileTeamCompositionList h3 {
-  /* padding: 10% 10%; */
-  padding-top: 15%;
-  text-align: center;
-  font-size: 1.4em;
-}
-.AgileTeamCompositionList p {
-  /* /* padding: 5% 10%; */
-  padding: auto;
-  text-align: justify;
+.AgileTeamComposition-List {
   width: 80%;
-  margin: auto;
-  font-weight: 400;
-}
-.AgileTeamCompositionList:nth-child(1):hover {
-  background: transparent url("../../../images/Service/director.jpg") no-repeat;
-  background-size: cover;
-}
-
-.AgileTeamCompositionList:nth-child(2):hover {
-  background: transparent url("../../../images/Service/designer.jpg") no-repeat;
-  background-size: cover;
-}
-.AgileTeamCompositionList:nth-child(3):hover {
-  background: transparent url("../../../images/Service/frontend.jpeg") no-repeat;
-  background-size: cover;
-}
-.AgileTeamCompositionList:nth-child(4):hover {
-  background: transparent url("../../../images/Service/backend.jpg") no-repeat;
-  background-size: cover;
-}
-.AgileTeamCompositionList:hover {
-  color: aliceblue;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid;
+  box-shadow: 1px gray;
+  margin: 10% auto;
+  color: #ffffff;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
-  .AgileTeamCompositionList {
-    width: 80%;
-  }
+.AgileTeamComposition-List__img {
+  width: 100%;
+  height: 30vh;
 }
-@media only screen and (min-width: 1025px) {
-  .AgileTeamCompositionList {
-    width: 80%;
-  }
+
+.AgileTeamComposition-List img {
+  width: 100%;
+  height: auto;
+}
+
+.AgileTeamComposition-List__text {
+  width: 100%;
+  height: 10%;
+  padding: auto 10%;
+  background-color: #00000063;
+  position: absolute;
+  transform: rotate(50deg);
+  transform: scale(0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+.AgileTeamComposition-List:hover div.AgileTeamComposition-List__text {
+  transform: rotate(0deg);
+  height: 60%;
+  top: 20%;
+  opacity: 1;
+  transition-delay: 3.3s;
+  transition: 0.3s ease-in-out;
 }
