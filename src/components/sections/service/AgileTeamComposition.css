@@ -3,7 +3,7 @@
   padding: 0;
 }
 .agileTeamComposition {
-  height: 300vh;
+  height: 200vh;
 }
 .agileTeamComposition__description {
   width: 80%;
@@ -12,6 +12,40 @@
 }
 .agileTeamComposition hr {
   margin: auto;
+}
+
+.items-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.items-container:hover div.content {
+  transform: translate(0, -5vh);
+}
+.items-container .AgileTeamComposition-List {
+  z-index: 2;
+}
+.content {
+  width: 80%;
+  overflow: hidden;
+  height: 30vh;
+  border: gainsboro;
+  background: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  left: 10%;
+  top: 0;
+  transform: translate(0, 5vh);
+  transition: 0.5s ease-in-out;
+}
+.content h3 {
+  color: rgb(226, 19, 226);
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
@@ -26,5 +60,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .content {
+    height: 70vh;
+  }
+  .agileTeamComposition {
+    height: 230vh;
   }
 }
