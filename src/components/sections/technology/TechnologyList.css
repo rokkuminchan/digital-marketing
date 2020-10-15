@@ -6,13 +6,13 @@
   font-weight: bold;
 }
 span.technology-list__header-description.technology-list__header-description-bold {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bold;
   opacity: 1;
 }
 .technology-list__header-description {
   font-size: 1.5em;
-  opacity: 0.8;
+  opacity: 1;
 }
 .technology-list__header-description-bold {
   font-size: 0.8em;
@@ -50,8 +50,8 @@ span.technology-list__header-description.technology-list__header-description-bol
     font-size: 3em;
   }
   .technology-list__header-description {
-    font-size: 1.8em;
-    opacity: 0.8;
+    font-size: 2em;
+    opacity: 1;
   }
   .technology-list__header-description-bold {
     font-size: 1.3em;
