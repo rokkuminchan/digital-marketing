@@ -1,5 +1,5 @@
 import React from "react";
-import vision from "../../../images/AboutUs/vision.jpeg";
+import vision from "../../../images/aboutus__vision.jpeg";
 import "./Vision.css";
 
 export default function Vision({ data }) {
