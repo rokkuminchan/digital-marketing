@@ -1,0 +1,10 @@
+.web-application__desciption {
+  text-align: center;
+  padding: 5% 0;
+}
+.web-application__desciption p {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
