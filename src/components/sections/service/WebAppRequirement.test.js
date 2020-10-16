@@ -5,6 +5,25 @@ import WebAppRequirement from './WebAppRequirement';
 let container;
 
 const Data = {
+  title: 'Webアプリケーション開発チームに求められる要件にとは',
+  items: [
+    {
+      title: ['生産性と品質の高さ'],
+      row: [
+        {
+          icon: {
+            name: 'circle',
+            type: 'FiCircle',
+          },
+          description: '生産性が高く、予算と納期の範囲内で製品を開発できること',
+        },
+      ],
+    },
+  ],
+  image: {
+    src: '../../images/service__servicePH.jpg',
+    alt: '',
+  },
   comment: [
     '* ピザ2枚ルールとは',
     'ピザ2枚ルールとはAmazonのジェフ・ベゾスが提唱したルールで、1つのチームはピザ2枚を囲める人数以下にしなければならないというものです',

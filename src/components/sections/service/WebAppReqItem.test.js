@@ -6,6 +6,15 @@ let container;
 
 const Data = {
   title: ['少人数先鋭であること', '(ピザ2枚ルール *)'],
+  row: [
+    {
+      icon: {
+        name: 'circle',
+        type: 'FiCircle',
+      },
+      description: '生産性が高く、予算と納期の範囲内で製品を開発できること',
+    },
+  ],
 };
 
 beforeEach(() => {

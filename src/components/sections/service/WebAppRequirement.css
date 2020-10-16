@@ -1,4 +1,9 @@
 .web-app-requirment {
+	background-color: #eff3fa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .web-app-requirment .web-app-requirment__title {
@@ -8,16 +13,35 @@
 }
 
 .web-app-requirment .web-app-requirment__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	flex: 100%;
 }
 
 .web-app-requirment .web-app-requirment__comment {
-	margin-bottom: 30px;
+	margin: 30px auto;
+	width: 80%;
 }
 
 .web-app-requirment .web-app-requirment__comment > p {
+	font-size: 1.4em;
+	letter-spacing: 1.5px;
+	line-height: 2;
 	text-align: center;
 }
 
 .web-app-requirment .web-app-requirment__comment > p:first-of-type {
 	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+	.web-app-requirment .web-app-requirment__content {
+		flex-direction: row;
+		align-items: flex-start;
+		flex: 33.33%;
+	}
 }
