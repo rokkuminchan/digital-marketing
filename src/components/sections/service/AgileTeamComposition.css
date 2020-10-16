@@ -45,7 +45,7 @@
 .items-container:nth-child(1) .items-content {
   background-color: #bab46a;
 }
-.items-container:nth-child(2) .items-contentt {
+.items-container:nth-child(2) .items-content {
   background-color: #6a9bba;
 }
 .items-container:nth-child(3) .items-content {
@@ -69,7 +69,7 @@
   left: 10%;
   top: 0;
   transform: translate(0, 5vh);
-  transition: 0.7s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .items-content p {
   font-size: 1.5em;
