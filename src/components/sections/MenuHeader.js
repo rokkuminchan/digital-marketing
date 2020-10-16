@@ -1,7 +1,7 @@
 import React from "react";
 import "./MenuHeader.css";
 import Logo from "../../images/world-logo.png";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";

@@ -83,6 +83,16 @@ export const query = graphql`
         }
         title
       }
+      Contact {
+        title
+        description
+        action
+        items {
+          name
+          placehoder
+          type
+        }
+      }
     }
   }
 `
