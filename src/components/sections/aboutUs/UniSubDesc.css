@@ -12,6 +12,7 @@
     text-indent: 3.5rem;
     padding: 0.5rem 0;
     text-align: justify;
+    color: #707070;
   }
 }
 @media screen and (min-width: 768px) {
