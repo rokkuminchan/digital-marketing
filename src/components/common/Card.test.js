@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Card from "./Card";
-import szksensei from "../../images/AboutUs/szksensei.jpg";
+import szksensei from '../../images/aboutus__szksensei.jpg';
 
 let container;
 
