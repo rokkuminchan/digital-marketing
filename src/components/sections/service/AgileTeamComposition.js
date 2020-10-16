@@ -20,7 +20,7 @@ const AgileTeamComposition = ({data}) =>{
             {data.items.map((item, index) => {
             return <div className ="items-container">
                         <AgileTeamCompositionList data={item} key={index}/>
-                        <div className ="content"><h3>{item.title}</h3></div>
+                        <div className ="items-content"><p>{item.title}</p></div>
                     </div>
             })}
            </div>
