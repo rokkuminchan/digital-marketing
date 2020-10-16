@@ -56,81 +56,38 @@
       "title":"Webアプリケーション開発チームに求められる要件にとは",
       "items":[
          {
-            "title":[
-               "生産性と品質の高さ"
-            ],
-            "row":[
-               {
-                  "icon":{
-                     "name":"circle",
-                     "type":"FiCircle"
-                  },
-                  "description":"生産性が高く、予算と納期の範囲内で製品を開発できること"
-               },
-               {
-                  "icon":{
-                     "name":"rect",
-                     "type":"FiSquare"
-                  },
-                  "description":"短いテスト期間でも高品質な製品を開発できること"
-               }
+            "icon":{
+               "name":"MdHighQuality",
+               "type":"MdHighQuality"
+            },
+            "title": "生産性と品質の高さ",
+            "descriptions": [
+               "生産性が高く、予算と納期の範囲内で製品を開発できること",
+               "短いテスト期間でも高品質な製品を開発できること"
             ]
          },
          {
-            "title":[
-               "アジリティの高さ"
-            ],
-            "row":[
-               {
-                  "icon":{
-                     "name":"circle",
-                     "type":"FiCircle"
-                  },
-                  "description":"短いサイクルでリリースを繰り返し行えること"
-               },
-               {
-                  "icon":{
-                     "name":"rect",
-                     "type":"FiSquare"
-                  },
-                  "description":"リリースを繰り返しても生産性が落ちないこと"
-               },
-               {
-                  "icon":{
-                     "name":"path",
-                     "type":"FiTriangle"
-                  },
-                  "description":"リリース直前の変更でも受け入れられること"
-               }
+            "icon":{
+               "name":"BsLightningFill",
+               "type":"BsLightningFill"
+            },
+            "title": "アジリティの高さ",
+            "descriptions":[
+               "短いサイクルでリリースを繰り返し行えること",
+               "リリースを繰り返しても生産性が落ちないこと",
+               "リリース直前の変更でも受け入れられること"
             ]
          },
          {
-            "title":[
-               "少人数先鋭であること",
-               "(ピザ2枚ルール *)"
-            ],
-            "row":[
-               {
-                  "icon":{
-                     "name":"circle",
-                     "type":"FiCircle"
-                  },
-                  "description":"チーム編成または会議において、無駄がなく生産性が高いこと"
-               },
-               {
-                  "icon":{
-                     "name":"rect",
-                     "type":"FiSquare"
-                  },
-                  "description":"効率的で各自のモチベーションが高いこと"
-               },
-               {
-                  "icon":{
-                     "name":"path",
-                     "type":"FiTriangle"
-                  },
-                  "description":"お互いをフォローしあい、チームの団結力が強いこと"
-               }
+            "icon":{
+               "name":"IoIosSwitch",
+               "type":"IoIosSwitch"
+            },
+            "title": "少人数先鋭であること *",
+            "descriptions":[
+               "チーム編成または会議において、無駄がなく生産性が高いこと",
+               "効率的で各自のモチベーションが高いこと",
+               "お互いをフォローしあい、チームの団結力が強いこと"
             ]
          }
       ],

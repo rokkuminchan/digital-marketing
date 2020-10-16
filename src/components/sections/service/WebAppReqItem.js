@@ -1,24 +1,21 @@
 import React from 'react';
-import RowWithIcon from '../../common/RowWithIcon'
+import Icon from '../../common/Icon'
 import './WebAppReqItem.css'
 
 const WebAppReqItem = ({data}) => {
     return(
         <div className = "web-app-req-item">
-            <div className = "web-app-req-item__title">
-                {
-                    data.title.map((item,index) => {
-                        return(
-                            <h3 key = {index}>{item}</h3>
-                        )
-                    })
-                }
+            <div className = "web-app-req-icon">
+                <Icon {...data.icon} />
             </div>
-            <div className = "web-app-req-item__content">
+            <div className = "web-app-req-item__title">
+                <h3>{data.title}</h3>
+            </div>
+            <div className = "web-app-req-item__description">
                 {
-                    data.row.map((item,index) => {
+                    data.descriptions.map((item,index) => {
                         return (
-                            <RowWithIcon key = {index} data = {item} />
+                            <p key = {index}>{item}</p>
                         )
                     })
                 }
