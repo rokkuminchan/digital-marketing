@@ -6,7 +6,7 @@ import AgileTeamCompositionList from "./AgileTeamCompositionList";
 
 
 const AgileTeamComposition = ({data}) =>{
-    console.log(data.items)
+    console.log(data.items);
     return(
         <section className="agileTeamComposition">
            <div className="agileTeamComposition__title">
@@ -18,7 +18,10 @@ const AgileTeamComposition = ({data}) =>{
            <br/><hr width="50%" size="5px" color="red"/>
            <div className="agileTeamComposition__items">
             {data.items.map((item, index) => {
-            return <AgileTeamCompositionList data={item} key={index}/>
+            return <div className ="items-container">
+                        <AgileTeamCompositionList data={item} key={index}/>
+                        <div className ="content"><h3>{item.title}</h3></div>
+                    </div>
             })}
            </div>
         </section>
