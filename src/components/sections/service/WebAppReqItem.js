@@ -5,20 +5,25 @@ import './WebAppReqItem.css'
 const WebAppReqItem = ({data}) => {
     return(
         <div className = "web-app-req-item">
-            <div className = "web-app-req-icon">
-                <Icon {...data.icon} />
-            </div>
             <div className = "web-app-req-item__title">
                 <h3>{data.title}</h3>
             </div>
-            <div className = "web-app-req-item__description">
-                {
-                    data.descriptions.map((item,index) => {
-                        return (
-                            <p key = {index}>{item}</p>
-                        )
-                    })
-                }
+            <div className = "web-app-req-item__content">
+                <div className = "web-app-req-item__icon">
+                    <Icon {...data.icon} />
+                </div>
+                <div className = "web-app-req-item__description">
+                    {
+                        data.descriptions.map((item,index) => {
+                            return (
+                                <p key = {index}>{item}</p>
+                            )
+                        })
+                    }
+                </div>
+                <div className = "web-app-req-item__line">
+                    <div></div>
+                </div>
             </div>
         </div>
     )
