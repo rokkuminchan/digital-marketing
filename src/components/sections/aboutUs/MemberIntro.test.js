@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import MemberIntro from "./MemberIntro.js";
-import szksensei from "../../../images/AboutUs/szksensei.jpg";
-import huy from "../../../images/AboutUs/huy.jpg";
+import szksensei from '../../../images/aboutus__szksensei.jpg';
+import huy from '../../../images/aboutus__huy.jpg';
 
 let container;
 
