@@ -18,7 +18,7 @@ export default function WebApplication({ data }) {
         {data.items.map((item, index) => (
           <div key={index} className="web-application__item">
             <span className="web-application__items-icon">
-              <span>{item.icon.name}</span>
+              <span>{item.name}</span>
             </span>
             <span className="web-application__items-description">
               {item.description}
