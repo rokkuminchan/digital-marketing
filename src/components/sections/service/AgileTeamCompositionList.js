@@ -7,7 +7,7 @@ export default function AgileTeamCompositionList ({ data }) {
     return (
       <div className="AgileTeamComposition-List">
         <div className="AgileTeamComposition-List__img">
-            <Image {...data.image}/>
+            <Image className="Agile-img" {...data.image}/>
         </div>
         <div className="AgileTeamComposition-List__text">
             <h1>{data.title}</h1>
