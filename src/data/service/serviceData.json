@@ -110,6 +110,7 @@
                "alt":"director"
             },
             "title":"ディレクタ",
+            "subtitle":"Director",
             "description":"コミュニケーション能力が高く、ディレクションが出来る人材です        "
          },
          {
@@ -118,6 +119,7 @@
                "alt":"designer"
             },
             "title":"デザイナ",
+            "subtitle":"Designer",
             "description":"レスポンシブなWebデザインを理解し、XDにより迅速に要求を目に見える形にします"
          },
          {
@@ -126,6 +128,7 @@
                "alt":"frontend"
             },
             "title":"フロントエド・エンジニア",
+            "subtitle":"Front End Engineer",
             "description":"Reactにより、Webコンポーネントベースの開発を行います。再利用性、保守性の高いコンポーネントの開発により、システムの規模が大きくなっても、開発スピードが落ちることはありません"
          },
          {
@@ -134,6 +137,7 @@
                "alt":"backend"
             },
             "title":"バックエンド・エンジニア",
+            "subtitle":"Back End Engineer",
             "description":"クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します"
          }
       ]
