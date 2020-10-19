@@ -14,17 +14,19 @@ export default function WebApplication({ data }) {
       <div className="web-application__desciption">
         <Description data={data.description} />
       </div>
-      {data.items.map((item, index) => (
-        <div key={index} className="web-application__items">
-          <span className="web-application__items-icon">
-            <Icon {...item.icon} />
-          </span>
-          <span className="web-application__items-description">
-            {item.description}
-          </span>
-        </div>
-      ))}
-      <div className="web-application__sub-description web-application__desciption">
+      <div className="web-application__items">
+        {data.items.map((item, index) => (
+          <div key={index} className="web-application__item">
+            <span className="web-application__items-icon">
+              <span>{item.icon.name}</span>
+            </span>
+            <span className="web-application__items-description">
+              {item.description}
+            </span>
+          </div>
+        ))}
+      </div>
+      <div className="web-application__sub-description">
         <p>{data.subDescription1}</p>
         <span>{data.subDescription2}</span>
         <span>
