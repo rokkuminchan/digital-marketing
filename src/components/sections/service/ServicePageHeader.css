@@ -1,57 +1,68 @@
 .service-page-header {
   background-color: #eff3fa;
 }
+
 .service-page-header__title {
-  padding-top: 2rem;
+  font-size: 3em;
+  font-family: Roboto;
+  color: #3c64b1;
+  font-weight: bold;
+  text-align: center;
+}
+.service-page-header__description,
+.service-page-header__subDescription {
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ",
+    Meiryo, Osaka, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
 }
 .service-page-header__description {
-  padding: 0 2rem;
+  padding: 0 6rem 1rem 6rem;
 }
-.service-page-header__block1 {
-  text-align: center;
-}
-
 .service-page-header__subDescription {
-  text-align: center;
-}
-.service-page-header__block3 {
-  padding-bottom: 4rem;
-}
-.service-img {
-  max-width: 100%;
+  line-height: 3.5rem;
 }
 
 @media screen and (min-width: 320px) {
-  .service-page-header__title {
-    font-size: 2.8rem;
+  .service-img {
+    width: 100%;
+    object-fit: cover;
   }
-  .service-page-header__description {
-    font-size: 1.6rem;
-    padding: 1rem 7rem;
-  }
-  .service-page-header__img {
-    padding: 2rem 3rem;
-  }
-  .service-page-header__subDescription {
-    font-size: 1.6rem;
-    padding: 1rem 3rem;
-  }
+}
+.service-page-header__subDescription {
+  padding: 2rem 4rem 2rem 4rem;
 }
 @media screen and (min-width: 768px) {
   .service-page-header__description {
-    font-size: 2rem;
-    padding: 1rem 7rem;
+    padding: 0 0 1rem 0;
   }
   .service-page-header__subDescription {
-    font-size: 2rem;
-    padding: 2rem 6rem;
+    padding: 41rem 4rem 2rem 4rem;
   }
   .service-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
   }
 }
 @media screen and (min-width: 1024px) {
+  .service-page-header__title {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .service-page-header__description,
+  .service-page-header__subDescription {
+    font-size: 2em;
+  }
+  .service-page-header__description {
+    padding: 0 0 20px 0;
+  }
+  .service-page-header__subDescription {
+    padding: 25px 0;
+  }
+  .service-img {
+    height: 500px;
+  }
 }
