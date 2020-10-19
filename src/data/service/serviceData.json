@@ -13,18 +13,26 @@
     "description": "この次世代Webアプリを車に例えると、夢のような車になります。",
     "items": [
       {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#FF8A90",
         "number": "01",
         "description": "10倍早く走る"
       },
       {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#2476FCF8",
         "number": "02",
         "description": "燃費が10倍良い"
       },
       {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#32C483",
         "number": "03",
         "description": "安全性が高い"
       },
       {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#16B2EC",
         "number": "04",
         "description": "車の価格は２分の1"
       }
