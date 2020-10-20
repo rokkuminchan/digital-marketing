@@ -2,6 +2,7 @@ import React from "react";
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
+import Image from "../../common/Image";
 import Icon from "../../common/Icon";
 
 export default function WebApplication({ data }) {
@@ -10,23 +11,43 @@ export default function WebApplication({ data }) {
       <div className="web-application__title">
         <Title data={data.title} />
       </div>
+      <div className="web-application__icon">
+        <span className="web-application__icon--shape">
+          <Icon {...data.icon} />
+        </span>
+        <span className="web-application__icon--sub">Web Application</span>
+      </div>
+      <span className="web-application__img">
+        <Image {...data.backgroundSrc} />
+      </span>
       <div className="web-application__desciption">
         {data.description.map((item, index) => (
-          <div key={index}>
-            <Description data={item} />
+          <Description key={index} data={item} />
+        ))}
+      </div>
+      <div className="web-application__items">
+        {data.items.map((item, index) => (
+          <div key={index} className={`web-application__item ${item.cssCol}`}>
+            <div
+              className="web-application__items-number"
+              style={{
+                borderBottom: `${item.cssColor} solid 1px`,
+              }}
+            >
+              <div className={`web-application__items-number--${index}`}>
+                {item.number}
+              </div>
+              <style>
+                {`.web-application__items-number--${index}:before{
+                  background-color: ${item.cssColor}`}
+              </style>
+            </div>
+            <div className="web-application__items-description">
+              <p>{item.description}</p>
+            </div>
           </div>
         ))}
       </div>
-      {data.items.map((item, index) => (
-        <div key={index} className="web-application__items">
-          <span className="web-application__items-icon">
-            <Icon {...item.icon} />
-          </span>
-          <span className="web-application__items-description">
-            {item.description}
-          </span>
-        </div>
-      ))}
     </div>
   );
 }
