@@ -12,7 +12,6 @@ export default function Home({ data }) {
       <DetailedWork data={data.DetailedWork} />
       <TeamCharacteristic data={data.TeamCharacteristic} />
       <Technology data={data.Technology} />
-      <Contact data={data.Contact} />
     </Layout>
   );
 }
