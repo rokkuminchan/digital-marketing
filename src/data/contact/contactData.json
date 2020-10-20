@@ -1,0 +1,38 @@
+{"contact": {
+    "title":"お問い合わせ",
+    "description" : "開発の依頼は、フォームよりお願いします。",
+    "action" : "",
+    "items":[
+{    
+   "type": "text",
+   "name": "entry.44051321",
+   "placeholder": "会社名"
+},
+{    
+    "type": "text",
+    "name": "entry.1893056871",
+    "placeholder": "会社ホームページ"
+ },
+ {    
+    "type": "text",
+    "name": "entry.1001217116",
+    "placeholder": "ご担当（お名前）"
+ },
+ {    
+    "type": "text",
+    "name": "entry.1479082853",
+    "placeholder": "メール"
+ },
+ {    
+    "type": "text",
+    "name": "entry.1031445395",
+    "placeholder": "電話番号"
+ },
+ {    
+    "type": "text",
+    "name": "entry.102739708",
+    "placeholder": "プロジェクトの概要"
+ }
+      ]
+}
+}
