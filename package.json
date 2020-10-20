@@ -30,7 +30,8 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.5.2",
     "prettier": "2.1.2",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.0"
   },
   "keywords": [
     "gatsby"

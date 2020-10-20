@@ -16,13 +16,11 @@ export const query = graphql`
         comment
         title
         items {
+          descriptions
           title
-          row {
-            description
-            icon {
-              name
-              type
-            }
+          icon {
+            name
+            type
           }
         }
         image {
@@ -46,21 +44,26 @@ export const query = graphql`
           title
         }
         items {
+          cssCol
+          cssColor
           description
-          icon {
-            name
-            type
-          }
+          number
         }
         image {
           alt
-          src
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
         }
       }
       ServiceHeader {
-        title
-        subDescription
         description
+        subDescription
+        title
         image {
           alt
           src {
@@ -73,11 +76,7 @@ export const query = graphql`
         }
       }
       AgileTeamComposition {
-        title
-        description
         items {
-          title
-          description
           image {
             alt
             src {
@@ -88,10 +87,13 @@ export const query = graphql`
               }
             }
           }
+          description
+          subtitle
+          title
         }
+        description
+        title
       }
     }
   }
 `
-
-

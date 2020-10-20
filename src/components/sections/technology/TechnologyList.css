@@ -19,7 +19,7 @@ span.technology-list__header-description.technology-list__header-description-bol
 }
 .technology-list__header-description-padding {
   text-align: center;
-  padding: 2% 15%;
+  padding: 2% 12%;
 }
 
 .technology-list__header-title-large {
@@ -64,12 +64,15 @@ span.technology-list__header-description.technology-list__header-description-bol
     font-weight: bold;
     padding-top: 3%;
   }
+  .technology-list__header-title {
+    padding-top: 2%;
+  }
   .technology-list__title-large {
-    font-size: 3em;
+    font-size: 3.2em;
     color: #3c64b1;
   }
   .technology-list__title-small {
-    font-size: 2em;
+    font-size: 2.5em;
     padding-left: 1%;
     opacity: 0.6;
   }
@@ -80,11 +83,10 @@ span.technology-list__header-description.technology-list__header-description-bol
     justify-content: space-around;
   }
   .technology-list__header-description {
-    font-size: 1.8em;
+    font-size: 2.8em;
     text-align: center;
-    opacity: 0.8;
   }
   .technology-list__header-description-bold {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }

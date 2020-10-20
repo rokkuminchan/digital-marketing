@@ -4,31 +4,32 @@
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .toolcard {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
-    margin: 32px;
+    margin: 32px 5%;
   }
   .toolcard__content {
+    margin-top: 5%;
     padding-left: 10px;
     padding-right: 10px;
-    height: 200px;
+    height: 170px;
   }
   .toolcard__content h3 {
-    font-size: 1.6em;
-    padding: 5px 0px;
-    padding-left: 3%;
+    font-size: 2em;
+    padding-left: 2%;
+    padding-bottom: 3%;
   }
   .toolcard__content h3:before {
     display: block;
     position: absolute;
     content: "";
     width: 250px;
-    height: 5px;
+    height: 6px;
     transform: translate(-7%, 195%);
     background-color: #927edfea;
     z-index: -2;
@@ -38,7 +39,7 @@
     position: absolute;
     content: "";
     width: 40px;
-    height: 1px;
+    height: 1.2px;
     transform: translate(60%, 1200%);
     background-color: #000;
     z-index: -1;
@@ -57,7 +58,7 @@
     height: 200px;
     width: 100%;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-    object-fit: scale-down;
+    object-fit: unset;
   }
 }
 /*Ipad vertical(768 x 1024)*/
@@ -73,20 +74,22 @@
   }
   .toolcard__content {
     word-break: break-word;
-    height: 200px;
-    margin: 20px;
+    height: 190px;
+    margin: 5px;
   }
   .toolcard__content h3 {
-    font-size: 1.6em;
-    padding: 10px 0px;
-    padding-left: 5%;
+    margin: 0;
+    font-size: 1.9em;
+    padding: 7% 0;
+    padding-left: 1%;
   }
   .toolcard__content h3:before {
+    margin-left: 3.2%;
     display: block;
     position: absolute;
     content: "";
     width: 270px;
-    height: 5px;
+    height: 6px;
     transform: translate(-16%, 170%);
     background-color: #927edfea;
     z-index: -2;
@@ -96,7 +99,7 @@
     position: absolute;
     content: "";
     width: 40px;
-    height: 1px;
+    height: 1.2px;
     transform: translate(60%, 1100%);
     background-color: #000;
     z-index: -1;
@@ -125,23 +128,27 @@
   }
   .toolcard__content {
     word-break: break-word;
-    height: 200px;
   }
   .toolcard__content h3 {
+    font-size: 2.1em;
     color: black;
     font-weight: bold;
-    padding-left: 5%;
-    padding-bottom: 20px;
+    padding-left: 1%;
+    padding-bottom: 10px;
   }
   .toolcard__content h3:before {
+    margin-left: 2.3%;
     display: block;
     position: absolute;
     content: "";
     width: 270px;
-    height: 5px;
+    height: 6.5px;
     transform: translate(-16%, 170%);
     background-color: #927edfea;
     z-index: -2;
+  }
+  .toolcard__content h3:after {
+    height: 1.3px;
   }
   .toolcard__content p {
     text-align: justify;
@@ -157,6 +164,10 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 200px;
-    object-fit: scale-down;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .toolcard__content h3:before {
+    margin-left: 1.8%;
   }
 }
