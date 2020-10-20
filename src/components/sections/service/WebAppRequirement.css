@@ -14,6 +14,7 @@
 .web-app-requirment .web-app-requirment__image {
 	object-fit: cover;
 	width: 100%;
+	height: auto;
 }
 
 .web-app-requirment .web-app-requirment__content {
@@ -61,5 +62,11 @@
 
 	.web-app-requirment .web-app-req-item__title {
 		padding: 40px 0 20px 0;
+	}
+
+	.web-app-requirment .web-app-requirment__image {
+		height: 100vh;
+		object-fit: cover;
+		object-position: bottom;
 	}
 }
