@@ -14,8 +14,9 @@
   height: 30vh;
 }
 
-.Agile-img {
-  height: 100%;
+.AgileTeamComposition-List img {
+  width: 100%;
+  height: auto;
 }
 
 .AgileTeamComposition-List__text {
