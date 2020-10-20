@@ -6,32 +6,32 @@
 {    
    "type": "text",
    "name": "entry.44051321",
-   "placehoder": "会社名"
+   "placeholder": "会社名"
 },
 {    
     "type": "text",
     "name": "entry.1893056871",
-    "placehoder": "会社ホームページ"
+    "placeholder": "会社ホームページ"
  },
  {    
     "type": "text",
     "name": "entry.1001217116",
-    "placehoder": "ご担当（お名前）"
+    "placeholder": "ご担当（お名前）"
  },
  {    
     "type": "text",
     "name": "entry.1479082853",
-    "placehoder": "メール"
+    "placeholder": "メール"
  },
  {    
     "type": "text",
     "name": "entry.1031445395",
-    "placehoder": "電話番号"
+    "placeholder": "電話番号"
  },
  {    
     "type": "text",
     "name": "entry.102739708",
-    "placehoder": "プロジェクトの概要"
+    "placeholder": "プロジェクトの概要"
  }
       ]
 }
