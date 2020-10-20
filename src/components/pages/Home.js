@@ -4,7 +4,6 @@ import DetailedWork from "../sections/home/DetailedWork";
 import TeamCharacteristic from "../sections/home/TeamCharacteristic";
 import Technology from "../sections/home/Technology";
 import WebApplication from "../sections/home/WebApplication";
-import Contact from "../sections/home/Contact";
 export default function Home({ data }) {
   return (
     <Layout>
