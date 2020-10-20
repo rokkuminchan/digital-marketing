@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../layout";
-import Form from "../sections/contact/Form";
-export default function Contact({ data }) {
+import Contact from "../sections/contact/Contact";
+export default function contact({ data }) {
   return (
     <Layout>
-      <Form data={data.Contact} />
+      <Contact data={data.contact} />
     </Layout>
   );
 }

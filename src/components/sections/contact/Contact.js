@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 
