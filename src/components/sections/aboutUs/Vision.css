@@ -3,12 +3,13 @@
   padding: 10% 0;
 }
 .vision p {
-  font-size: 2rem;
+  font-size: 1.4em;
   text-align: center;
 }
 .vision-header {
   padding-top: 12%;
   padding-bottom: 40%;
+  opacity: 0.8;
 }
 .vision__title {
   font-size: 1.8em;
@@ -50,7 +51,7 @@
   transform: translate(-50%, -50%);
 }
 /* Iphone and Ipad */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .vision__title {
     padding: 2% 8%;
     float: left;
@@ -66,18 +67,19 @@
   }
 }
 /* Ipad Style*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .vision p {
     font-size: 2em;
   }
   .vision__title {
     font-size: 2em;
     width: 30%;
-    padding: 5% 0 0% 9%;
+    padding-left: 12%;
   }
   .vision__description {
-    padding: 6% 10% 0 8%;
+    /* padding: 0 10%; */
     width: 70%;
+    padding-left: 3%;
     opacity: 0.8;
     font-size: 1.3em;
   }

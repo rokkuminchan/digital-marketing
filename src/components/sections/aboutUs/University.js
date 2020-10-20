@@ -8,7 +8,9 @@ const University = ({ data }) => {
     <div className="university">
       <div className="university_title-image">
         <h3 className="university__title">{data.title}</h3>
-        <Image {...data.image} className="university__image"/>
+        <div className="university__image">
+          <Image {...data.image} />
+        </div>
       </div>
       <div className="university__desc-link">
         <div className="university__desc">
