@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WebApplication from "./WebApplication";
-import designer from "../../../images/Service/designer.jpg";
+//import service_designer from "../../../images/Service/service_designer.jpg";
 
 let container;
 
@@ -32,7 +32,7 @@ const Data = {
     src: "../technology",
   },
   image: {
-    src: designer,
+    src: "../../images/service__web-application.png",
     alt: "Image",
   },
 };
@@ -55,10 +55,21 @@ it("can render a title from data", () => {
   const subDes1 = container.querySelector(
     ".web-application__sub-description > p"
   );
+  const subDes2 = container.querySelector(
+    ".web-application__sub-description > span"
+  );
+  const link = container.querySelector(
+    ".web-application__sub-description > span > a"
+  );
 
   expect(title.textContent).toBe(Data.title);
   expect(description.textContent).toBe(Data.description);
   expect(subDes1.textContent).toBe(Data.subDescription1);
-  expect(img.src).toMatch(new RegExp(Data.image.src));
-  expect(img.alt).toContain(Data.image.alt);
+  expect(subDes2.textContent).toBe(Data.subDescription2);
+  expect(link.getAttribute("href")).toBe(Data.link.src);
+  expect(link.textContent).toContain(Data.link.title);
+  
+  expect(Data.image.src).toContain(img.getAttribute("src"));
+  expect(Data.image.alt).toBe(img.alt);
+  //
 });

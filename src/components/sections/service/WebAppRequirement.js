@@ -10,7 +10,9 @@ const WebAppRequirment = ({data}) => {
             <div className = "web-app-requirment__title">
                 <Title data = {data.title}/>
             </div>
-            <Image className = "web-app-requirment__image" {...data.image}/>
+            <div className = "web-app-requirment__image">
+                <Image {...data.image}/>
+            </div>
             <div className = "web-app-requirment__content">
                 {
                     data.items.map((item, index) => {

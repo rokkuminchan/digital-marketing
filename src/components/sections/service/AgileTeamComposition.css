@@ -5,59 +5,48 @@
 .agileTeamComposition {
   height: auto;
 }
-.agileTeamComposition__title {
-  background: url("../../../images/service-agile.png") no-repeat 0% 100%;
-  background-size: cover;
-  height: 25vh;
-}
-.agileTeamComposition__title h3 {
-  padding-top: 23%;
-}
 .agileTeamComposition__description {
   width: 80%;
   margin: auto;
-  padding-bottom: 7%;
-  padding-top: 10%;
-}
-.agileTeamComposition__description p {
-  font-size: 1.4em;
+  padding-top: 7%;
 }
 .agileTeamComposition hr {
   margin: auto;
 }
 
 .items-container {
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 10% auto;
+  margin: auto;
   align-items: center;
   justify-content: center;
   position: relative;
-  display: flex;
 }
-
+.items-container:hover div.items-content {
+  transform: translate(0vh, 0vh);
+}
 .items-container .AgileTeamComposition-List {
   z-index: 2;
 }
 
 /* Color Item */
 .items-container:nth-child(1) div .AgileTeamComposition-List__text {
-  background-color: rgba(20, 114, 238, 0.5);
+  background-color: #bab46a;
 }
 .items-container:nth-child(2) div .AgileTeamComposition-List__text {
-  background-color: rgba(142, 185, 21, 0.5);
-}
-.items-container:nth-child(3) div .AgileTeamComposition-List__text {
-  background-color: rgba(247, 86, 37, 0.5);
-}
-.items-container:nth-child(4) div .AgileTeamComposition-List__text {
-  background-color: rgba(252, 66, 242, 0.5);
-}
-.items-container:nth-child(1) .items-content {
   background-color: #6a9bba;
 }
-.items-container:nth-child(2) .items-content {
+.items-container:nth-child(3) div .AgileTeamComposition-List__text {
+  background-color: #ba6a6a;
+}
+.items-container:nth-child(4) div .AgileTeamComposition-List__text {
+  background-color: #ae6aba;
+}
+.items-container:nth-child(1) .items-content {
   background-color: #bab46a;
+}
+.items-container:nth-child(2) .items-content {
+  background-color: #6a9bba;
 }
 .items-container:nth-child(3) .items-content {
   background-color: #ba6a6a;
@@ -67,20 +56,24 @@
 }
 
 .items-content {
-  width: 114%;
+  width: 80%;
   overflow: hidden;
-  height: 95%;
+  height: 30vh;
   border: 2px gainsboro;
   color: #fff;
   z-index: 1;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
+  align-items: flex-end;
   position: absolute;
-  margin: 10% auto;
+  left: 10%;
+  top: 0;
+  transform: translate(0, 5vh);
+  transition: 0.5s ease-in-out;
 }
 .items-content p {
   font-size: 1.5em;
+  padding-bottom: 2%;
   font-family: "din-2014", sans-serif;
 }
 /* Tablet */
@@ -90,17 +83,15 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .agileTeamComposition__title h3 {
-    padding-top: 19%;
-  }
-  .agileTeamComposition__title {
-    height: 30vh;
-  }
-  .agileTeamComposition__description p {
-    font-size: 1.8em;
+  .items-content {
+    height: 10vh;
+    transform: translate(0vh, 21vh);
   }
   .items-content p {
-    font-size: 1.7em;
+    font-size: 1.8em;
+  }
+  .items-container:hover div.items-content {
+    transform: translate(0vh, 10vh);
   }
 }
 
@@ -111,17 +102,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .agileTeamComposition__title {
-    height: 90vh;
+  .items-content {
+    height: 20vh;
+    transform: translate(0vh, 65vh);
+    font-size: 1.8em;
   }
-  .agileTeamComposition__title h3 {
-    padding-top: 24%;
-  }
-  .agileTeamComposition__description p {
-    font-size: 2.2em;
-  }
-  .items-content p {
-    font-size: 2.5em;
-    padding-bottom: 1%;
+  .items-container:hover div.items-content {
+    transform: translate(0vh, 30vh);
   }
 }
