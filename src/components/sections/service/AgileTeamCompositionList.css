@@ -3,9 +3,8 @@
   height: auto;
   position: relative;
   overflow: hidden;
-  box-shadow: 1px gray;
-  margin: 10% -5%;
-  color: #ffffff;
+  margin: 5% auto;
+  color: #fff;
 }
 
 .AgileTeamComposition-List__img {
@@ -46,6 +45,14 @@
   top: 20%;
   transition-delay: 3.3s;
   transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width: 520px) {
+  div.AgileTeamComposition-List__text {
+    transform: scale(0.5);
+    transform: rotate(0deg);
+    height: 60%;
+    top: 20%;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
