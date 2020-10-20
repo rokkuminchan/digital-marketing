@@ -25,6 +25,7 @@
   margin: auto;
   padding-bottom: 7%;
   padding-top: 5%;
+  letter-spacing: 2px;
 }
 .agileTeamComposition__description p {
   font-size: 1.4em;
@@ -77,7 +78,7 @@
 }
 .items-content p {
   font-size: 1.5em;
-  font-family: "din-2014", sans-serif;
+  font-family: "Honey Script", cursive;
 }
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
