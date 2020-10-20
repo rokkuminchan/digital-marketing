@@ -3,7 +3,7 @@
     "title": "サービス",
     "description": "高品質な次世代型Webアプリを迅速に開発するチーム",
     "image": {
-      "src": "../../images/service__servicePH.jpg",
+      "src": "../../images/service-pageheader.jpg",
       "alt": "service-page-header"
     },
     "subDescription": "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します"
@@ -13,18 +13,26 @@
     "description": "この次世代Webアプリを車に例えると、夢のような車になります。",
     "items": [
       {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#FF8A90",
         "number": "01",
         "description": "10倍早く走る"
       },
       {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#2476FCF8",
         "number": "02",
         "description": "燃費が10倍良い"
       },
       {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#32C483",
         "number": "03",
         "description": "安全性が高い"
       },
       {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#16B2EC",
         "number": "04",
         "description": "車の価格は２分の1"
       }
@@ -98,6 +106,7 @@
           "alt": "director"
         },
         "title": "ディレクタ",
+        "subtitle": "Director",
         "description": "コミュニケーション能力が高く、ディレクションが出来る人材です        "
       },
       {
@@ -106,6 +115,7 @@
           "alt": "designer"
         },
         "title": "デザイナ",
+        "subtitle": "Designer",
         "description": "レスポンシブなWebデザインを理解し、XDにより迅速に要求を目に見える形にします"
       },
       {
@@ -114,6 +124,7 @@
           "alt": "frontend"
         },
         "title": "フロントエド・エンジニア",
+        "subtitle": "Front End Engineer",
         "description": "Reactにより、Webコンポーネントベースの開発を行います。再利用性、保守性の高いコンポーネントの開発により、システムの規模が大きくなっても、開発スピードが落ちることはありません"
       },
       {
@@ -122,6 +133,7 @@
           "alt": "backend"
         },
         "title": "バックエンド・エンジニア",
+        "subtitle": "Back End Engineer",
         "description": "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します"
       }
     ]

@@ -1,9 +1,9 @@
 import React from "react";
+
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
-import Icon from "../../common/Icon";
 
 export default function WebApplication({ data }) {
   return (
@@ -14,23 +14,36 @@ export default function WebApplication({ data }) {
       <div className="web-application__desciption">
         <Description data={data.description} />
       </div>
-      {data.items.map((item, index) => (
-        <div key={index} className="web-application__items">
-          <span className="web-application__items-icon">
-            <Icon {...item.icon} />
-          </span>
-          <span className="web-application__items-description">
-            {item.description}
-          </span>
-        </div>
-      ))}
-      <div className="web-application__sub-description web-application__desciption">
+      <div className="web-application__items">
+        {data.items.map((item, index) => (
+          <div key={index} className={`web-application__item ${item.cssCol}`}>
+            <div
+              className="web-application__items-number"
+              style={{
+                borderBottom: `${item.cssColor} solid 1px`,
+              }}
+            >
+              <div className={`web-application__items-number--${index}`}>
+                {item.number}
+              </div>
+              <style>
+                {`.web-application__items-number--${index}:before{
+                  background-color: ${item.cssColor}`}
+              </style>
+            </div>
+            <div className="web-application__items-description">
+              <p>{item.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
       <div className="web-application__sub-description">
         <p>{data.subDescription1}</p>
         <span>{data.subDescription2}</span>
         <span>
-          <a href={data.link.src}>{data.link.title}</a>
+          <a href={data.link.src}>
+            <span>{data.link.title}</span>
+          </a>
         </span>
       </div>
       <div className="web-application__image">

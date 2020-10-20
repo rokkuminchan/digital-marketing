@@ -2,55 +2,71 @@
   padding: 0 15%;
   text-align: center;
 }
-.web-application__desciption > p {
-  padding: 0 12%;
-  text-align: center;
-}
+
 .web-application__items {
   margin: 0 auto;
   width: 80%;
-  height: 350px;
-  background-color: #eff9ff;
-}
-.web-application__items-description {
-  padding-left: 20%;
-}
-.web-application__items span {
-  font-size: 2em;
+  overflow: auto;
 }
 .web-application__item {
-  margin: 5%;
-  padding-top: 10%;
-  padding-left: 5%;
+  text-align: center;
 }
-.web-application__items-icon {
+.web-application__items-number div:before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 13px;
+  margin-left: 6%;
+  transform: translate(-7%, 195%);
+  z-index: -1;
+}
+.web-application__items-number div {
+  font-size: 3.5em;
   font-weight: bold;
-  text-decoration: underline #0489b1;
+  height: 43px;
 }
+.web-application__items-description p {
+  padding-top: 3%;
+}
+.web-application__items--left {
+  margin-left: 15%;
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+.web-application__items--right {
+  margin-right: 15%;
+  width: 30%;
+  height: 100px;
+  float: right;
+}
+/* .web-application__item {
+  padding: 1% 2% 2% 3%;
+} */
+
 .web-application__sub-description {
   text-align: center;
-  margin: 5% 12%;
+  margin: 0 10% 5% 10%;
 }
 .web-application__sub-description p,
 .web-application__sub-description span {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
-.web-application__sub-description a {
-  text-decoration: none;
-  font-size: 1.1em;
-}
+
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
-  .web-application__desciption > p {
-    font-size: 2.2em;
-  }
-  .web-application__items span {
-    font-size: 1.8em;
-  }
-
   .web-application__sub-description p,
   .web-application__sub-description span {
-    font-size: 2.2em;
+    font-size: 1.8em;
+  }
+  .web-application__items-number div:before {
+    width: 90px;
+    height: 13px;
+    margin-left: 7.2%;
+  }
+  .web-application__items-number div {
+    font-size: 4em;
   }
 }
 /* Ipad Pro and Desktop */
