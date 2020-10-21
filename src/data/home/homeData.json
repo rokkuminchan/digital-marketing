@@ -77,22 +77,24 @@
     },
     "description": ""
   },
-  "TeamCharacteristic": {
+  "Characteristic": [
+    {
     "title": "ITチームの特長",
     "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
     "image": {
-      "src": "",
-      "alt": ""
-    }
-  },
-  "MemberCharacteristic": {
-    "title": "",
-    "description": "",
+      "src": "../../images/home__team-characteristic.jpg",
+      "alt": "team"
+      }
+    },
+    {
+    "title": "ITチームメンバーの特長",
+    "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "../../images/home__member-characteristic.png",
+      "alt": "member"
+      }
     }
-  },
+  ],
   "Technology": {
     "title": "テクノロジー",
     "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",

@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layout";
 import DetailedWork from "../sections/home/DetailedWork";
-import TeamCharacteristic from "../sections/home/TeamCharacteristic";
+import Characteristic from "../sections/home/Characteristic";
 import Technology from "../sections/home/Technology";
 import WebApplication from "../sections/home/WebApplication";
 import WebAppForDigital from "../sections/home/WebAppForDigital"
@@ -13,7 +13,7 @@ export default function Home({ data }) {
       <WebApplication data={data.WebApplication} />
       <WebAppForDigital data={data.WebAppForDigital}/>
       <DetailedWork data={data.DetailedWork} />
-      <TeamCharacteristic data={data.TeamCharacteristic} />
+      <Characteristic data={data.Characteristic} />
       <Technology data={data.Technology} />
     </Layout>
   );
