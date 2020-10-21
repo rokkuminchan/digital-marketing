@@ -49,13 +49,13 @@
       }
     ]
   },
-  "WebApplicationForDigital": {
-    "title": "アジャイル・チームの構成",
+  "WebAppForDigital": {
+    "title": "貴社のデジタル化にも次世代型Webアプリが威力を発揮します",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "../../images/home__web-app-digital.png",
+      "alt": "WebApplicationForDigital"
     },
-    "description": "それぞれが得意分野を持ち、全員がコーディング出来るIT技術者のチームです。チームの共通言語は、HTML、CSS、JavaScriptです。必要最小限のドキュメントで迅速に実際に動作するプロダクトを開発します"
+    "description": "予算が半分で、100倍の効果が出せる次世代型Webアプリです。貴社のデジタル化にもお役に立てます"
   },
   "DetailedWork": {
     "title": "詳しい仕組みは",

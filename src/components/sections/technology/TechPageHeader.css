@@ -15,14 +15,14 @@
 
 .tech-page-header__img {
   background-image: linear-gradient(to right, #032637, #36505d);
-  height: 150px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .tech-img {
   width: 100%;
-  max-height: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .strong-decs {
@@ -82,7 +82,7 @@
     );
   }
   .tech-img {
-    max-width: 1140px;
+    max-width: 1400px;
   }
 
   .tech-page-header__block2 {
