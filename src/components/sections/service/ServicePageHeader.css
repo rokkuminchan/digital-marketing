@@ -1,68 +1,108 @@
+:root {
+  --service-page-header-img-height: 50vh;
+}
+
 .service-page-header {
   background-color: #eff3fa;
+  margin-top: var(--header-menu-height);
+  height: calc(100vh - var(--header-menu-height));
+}
+
+.service-page-header__content {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .service-page-header__title {
-  font-size: 3em;
-  font-family: Roboto;
   color: #3c64b1;
   font-weight: bold;
   text-align: center;
 }
-.service-page-header__description,
-.service-page-header__subDescription {
-  line-height: 3.5rem;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ",
-    Meiryo, Osaka, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
-}
+
 .service-page-header__description {
-  padding: 0 6rem 1rem 6rem;
-}
-.service-page-header__subDescription {
-  line-height: 3.5rem;
+  color: #373F41;
+  text-align: center;
 }
 
-@media screen and (min-width: 320px) {
-  .service-img {
-    width: 100%;
-    object-fit: cover;
-  }
+.service-page-header__img{
+  object-fit: cover;
+  height: var(--service-page-header-img-height);
+  width: 100%;
 }
-.service-page-header__subDescription {
-  padding: 2rem 4rem 2rem 4rem;
+
+.service-page-header__sub-description-wrapper{
+  position: relative;
+  height: calc(100vh - var(--header-menu-height) - var(--service-page-header-img-height) - 20vh);
 }
-@media screen and (min-width: 768px) {
-  .service-page-header__description {
-    padding: 0 0 1rem 0;
-  }
-  .service-page-header__subDescription {
-    padding: 41rem 4rem 2rem 4rem;
-  }
-  .service-img {
-    object-fit: cover;
-    overflow: hidden;
-  }
+
+.service-page-header__sub-description{
+  color: #373F41;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-@media screen and (min-width: 1024px) {
-  .service-page-header__title {
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .service-page-header__title{
     font-size: 3.5em;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px 0;
   }
-  .service-page-header__description,
-  .service-page-header__subDescription {
+
+  .service-page-header__description {
+    font-size: 1.5em;
+    width: 80%;
+  }
+
+  .service-page-header__sub-description {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .service-page-header__title{
+    font-size: 4em;
+  }
+
+  .service-page-header__description {
+    font-size: 2em;
+    width: 80%;
+  }
+
+  .service-page-header__sub-description{
     font-size: 2em;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-page-header__title{
+    font-size: 5em;
+  }
+
   .service-page-header__description {
-    padding: 0 0 20px 0;
+    font-size: 2.5em;
+    width: 80%;
   }
-  .service-page-header__subDescription {
-    padding: 25px 0;
+
+  .service-page-header__sub-description{
+    font-size: 2.5em;
   }
-  .service-img {
-    height: 500px;
+}
+
+@media only screen and (min-width: 992px) {
+  .service-page-header__title {
+    font-size: 6em;
+  }
+
+  .service-page-header__description {
+    font-size: 3em;
+  }
+
+  .service-page-header__sub-description{
+    font-size: 3em;
   }
 }
