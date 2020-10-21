@@ -1,0 +1,148 @@
+.home-page-header{
+    width: 100%;
+    height: 100vh;
+    margin-top: var(--header-menu-height);
+    height: calc(100vh - var(--header-menu-height));
+    position: relative;
+}
+
+.home-page-header__title-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vh - var(--header-menu-height));
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-page-header__title-first-column{
+    width: 50%;
+}
+
+.home-page-header__title-second-column{
+    width: 50%;
+    height: calc((100vh - var(--header-menu-height)) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-header__description-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vh - var(--header-menu-height));
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-header__description-first-column{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-header__description-second-column{
+    width: 50%;
+}
+
+.home-page-header__title{
+    font-size: 6em;
+    color: #3c64b1;
+}
+
+.home-page-header__description{
+    font-size: 3em;
+    color: #373F41;
+    width: 90%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .home-page-header__bg{
+        background-position: bottom right;
+    }
+
+    .home-page-header__title-first-column{
+        width: 0%;
+    }
+
+    .home-page-header__title-second-column{
+        width: 100%;
+        height: 12vh;
+    }
+
+    .home-page-header__title{
+        font-size: 3em;
+    }
+
+    .home-page-header__description-container {
+        height: 50vh;
+    }
+
+    .home-page-header__description-first-column{
+        width: 100%;
+    }
+
+    .home-page-header__description-second-column{
+        width: 0%;
+    }
+
+    .home-page-header__description{
+        font-size: 2em;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .home-page-header__title{
+        font-size: 3.5em;
+    }
+
+    .home-page-header__description{
+        font-size: 2em;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-page-header__description-container {
+        height: calc(95vh - var(--header-menu-height));
+    }
+
+    .home-page-header__title-first-column {
+        width: 30%;
+    }
+
+    .home-page-header__title-second-column {
+        width: 70%;
+        height: calc((65vh - var(--header-menu-height)) / 2);
+    }
+
+    .home-page-header__title{
+        font-size: 3.5em;
+    }
+
+    .home-page-header__description{
+        font-size: 2.5em;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .service-page-header__title {
+      font-size: 6em;
+    }
+  
+    .service-page-header__description {
+      font-size: 3em;
+    }
+  
+    .service-page-header__sub-description{
+      font-size: 3em;
+    }
+  }
+  

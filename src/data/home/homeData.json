@@ -1,12 +1,12 @@
 {
-  "HomeHeader": {
-    "title": "",
-    "subtitle": "",
+  "HomePageHeader": {
+    "title": "WORLD IT TEAM",
+    "description": "私たちは高品質な次世代型Webアプリを迅速に開発するチームです",
+    "subDescription": "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
     "image": {
       "src": "",
       "alt": ""
-    },
-    "description": ""
+    }
   },
   "WebApplication": {
     "title": "次世代Webアプリを車に例えると",

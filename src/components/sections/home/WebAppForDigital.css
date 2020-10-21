@@ -1,29 +1,26 @@
-:root {
-  --a: #72aed3;
-}
 .webAppForDigital {
   overflow: hidden;
+  background-color: #5f5e64;
 }
 .webAppForDigital__wrapper {
-  background-color: #5f5e64;
   position: relative;
-  z-index: -2;
+  z-index: 1;
 }
+
 .webAppForDigital__wrapper:after {
   content: "";
   height: 100%;
   width: 100%;
-  top: -20%;
+  bottom: 10%;
   left: -50%;
   background-color: #72aed3;
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   border-radius: 0 50% 50% 0;
   transform: scale(2);
 }
 .webAppForDigital__title {
   padding: 0 3rem 3rem 3rem;
-  color: #fff;
 }
 .webAppForDigital__title > .title {
   color: #fff;
@@ -36,9 +33,58 @@
   font-size: 1.8rem;
   color: #fff;
 }
-
 .digital-image {
   height: 150px;
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .webAppForDigital__wrapper:after {
+    bottom: 10%;
+    left: -48%;
+    border-radius: 50%;
+  }
+  .webAppForDigital__title {
+    padding: 0 11rem 3rem 11rem;
+  }
+  .digital-image {
+    height: 250px;
+  }
+  .webAppForDigital__desc > .description {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .webAppForDigital__wrapper:after {
+    height: 170rem;
+    width: 170rem;
+    bottom: 5%;
+    left: 40%;
+    border-radius: 50%;
+    transform: translateX(-50%) scale(1);
+  }
+  .webAppForDigital__wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+  .webAppForDigital__title {
+    padding: 2rem 0 5rem 0;
+  }
+  .webAppForDigital__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .digital-image {
+    height: 35vh;
+  }
+  .webAppForDigital__desc {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+  }
+  .webAppForDigital__desc > .description {
+    margin: 0;
+  }
 }
