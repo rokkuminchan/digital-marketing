@@ -106,9 +106,13 @@
     "title": "テクノロジー",
     "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "../../images/home__technology.png",
+      "alt": "technology"
     },
-    "description": "WorldのITチームお勧めの最新テクノロジーはこちら"
+    "description": "WorldのITチームお勧めの最新テクノロジーは",
+    "link": {
+      "title": "こちら",
+      "src": "../technology"
+    }
   }
 }

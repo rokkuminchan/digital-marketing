@@ -1,0 +1,39 @@
+.technology__description {
+  text-align: center;
+  opacity: 0.8;
+}
+.technology__description a{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 320px) {
+  .technology__description {
+    padding: 5% 10%;
+    font-size: 1.5em;
+
+  }
+  .technology__description p{
+    font-size: 1.5em;
+  }
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .technology__description {
+    padding: 3% 10%;
+  }
+  .technology__description p{
+    font-size: 1.8em;
+  }
+}
+
+/* Ipad Pro and Desktop */
+@media screen and (min-width: 1024px) {
+  .technology__description {
+    padding: 2% 5%;
+  }
+  .technology__description p{
+    font-size: 2em;
+  }
+}
