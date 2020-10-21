@@ -69,13 +69,22 @@
     ]
   },
   "Watashitachi": {
-    "title": "",
-    "subtitle": "",
-    "image": {
-      "src": "",
-      "alt": ""
-    },
-    "description": ""
+    "title": "私たち",
+    "subtitle": "私たちは第二世代のベトナム人ITエンジニアのチームです",
+    "images": [
+      {
+        "src":"../../images/aboutus__page-header.png",
+        "alt":"WorldRecruitHistory"
+      },
+      {
+        "src":"../../images/aboutus__world-recruit-history.jpeg",
+        "alt":"WorldRecruitHistory"
+      }
+     ],
+    "descriptions": [
+      "高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます",
+      "また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します"
+    ]
   },
   "TeamCharacteristic": {
     "title": "ITチームの特長",
