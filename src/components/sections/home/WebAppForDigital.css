@@ -1,0 +1,44 @@
+:root {
+  --a: #72aed3;
+}
+.webAppForDigital {
+  overflow: hidden;
+}
+.webAppForDigital__wrapper {
+  background-color: #5f5e64;
+  position: relative;
+  z-index: -2;
+}
+.webAppForDigital__wrapper:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: -20%;
+  left: -50%;
+  background-color: #72aed3;
+  position: absolute;
+  z-index: -2;
+  border-radius: 0 50% 50% 0;
+  transform: scale(2);
+}
+.webAppForDigital__title {
+  padding: 0 3rem 3rem 3rem;
+  color: #fff;
+}
+.webAppForDigital__title > .title {
+  color: #fff;
+}
+
+.webAppForDigital__desc {
+  padding: 1rem 0;
+}
+.webAppForDigital__desc > .description {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.digital-image {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
