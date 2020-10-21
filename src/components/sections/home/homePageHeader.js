@@ -12,14 +12,15 @@ const HeaderImageBackground = styled.div`
     @media (max-width: 768px) {
         width: 100%;
     } 
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+        background-position: bottom right;
+    }
 `;
 
 export default function HomePageHeader({data}) {
     return (
         <section className="home-page-header">
-            <HeaderImageBackground>
-
-            </HeaderImageBackground>
+            <HeaderImageBackground className="home-page-header__bg"></HeaderImageBackground>
             <div className="home-page-header__title-container">
                 <div className="home-page-header__title-first-column"></div>
                 <div className="home-page-header__title-second-column">
