@@ -25,7 +25,7 @@
   margin: auto;
   padding-bottom: 7%;
   padding-top: 5%;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .agileTeamComposition__description p {
   font-size: 1.4em;
@@ -132,22 +132,27 @@
     padding-bottom: 3%;
   }
   .agileTeamComposition__description p {
-    font-size: 2.2em;
+    font-size: 2.1em;
     width: 90%;
     margin: auto;
   }
   .items-content p {
     font-size: 2.5em;
-    padding-bottom: 1%;
   }
   .agileTeamComposition hr {
     margin: -2% auto;
   }
   .items-container:nth-child(3) {
-    margin: 5% auto 5% auto;
+    margin: 5% auto 10% auto;
   }
   .items-container:nth-child(4) {
-    margin: 5% auto 5% auto;
+    margin: 5% auto 10% auto;
+  }
+  .items-container:nth-child(1) .items-content p {
+    padding-bottom: 3%;
+  }
+  .items-container:nth-child(2) .items-content p {
+    padding-bottom: 3%;
   }
   .items-container {
     margin: 10% auto 0% auto;
@@ -155,5 +160,8 @@
   .agileTeamComposition__items {
     width: 85%;
     margin: auto;
+  }
+  .items-content {
+    top: 6%;
   }
 }

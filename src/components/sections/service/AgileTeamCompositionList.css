@@ -46,7 +46,7 @@
   transition-delay: 3.3s;
   transition: 0.3s ease-in-out;
 }
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 620px) {
   div.AgileTeamComposition-List__text {
     transform: scale(0.5);
     transform: rotate(0deg);
@@ -62,12 +62,18 @@
   .AgileTeamComposition-List__text h1 {
     font-size: 1.5em;
   }
+  div.AgileTeamComposition-List__text {
+    transform: scale(0.5);
+    transform: rotate(0deg);
+    height: 60%;
+    top: 20%;
+  }
 }
 @media only screen and (min-width: 1025px) {
   .AgileTeamComposition-List__text p {
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .AgileTeamComposition-List__text h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
