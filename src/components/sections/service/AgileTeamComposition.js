@@ -15,12 +15,12 @@ const AgileTeamComposition = ({data}) =>{
            <div className="agileTeamComposition__description">
                 <p>{data.description}</p>
            </div>
-           <br/><hr width="50%" size="5px" color="red"/>
+           <br/><hr width="50%" size="5px" color="#78acfd"/>
            <div className="agileTeamComposition__items">
             {data.items.map((item, index) => {
             return <div className ="items-container">
                         <AgileTeamCompositionList data={item} key={index}/>
-                        <div className ="items-content"><p>{item.title}</p></div>
+            <div className ="items-content"><p>{item.subtitle}</p></div>
                     </div>
             })}
            </div>

@@ -15,12 +15,14 @@
 
 .tech-page-header__img {
   background-image: linear-gradient(to right, #032637, #36505d);
-  height: 165px;
-  padding: 1rem 0;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tech-img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .strong-decs {
@@ -37,7 +39,7 @@
 }
 @media screen and (min-width: 400px) {
   .tech-page-header__img {
-    height: 185px;
+    height: 170px;
   }
 }
 
@@ -79,6 +81,10 @@
       var(--tech-page-header__block1) - var(--tech-page-header__title)
     );
   }
+  .tech-img {
+    max-width: 1400px;
+  }
+
   .tech-page-header__block2 {
     height: calc(
       100vh - var(--tech-page-header__block1) - var(--header-menu-height)

@@ -1,140 +1,120 @@
 {
-    "HomeHeader":{
-        "title": "",
-        "subtitle": "",
-        "image": {
-            "src": "",
-            "alt": ""
-        },
-        "description": ""
-    },
-    "WebApplication": {
-        "title": "次世代Webアプリを車に例えると",
-        "description": [
-            "急速に進化を続けるWebアプリーケーションの世界！",
-            "この次世代Webアプリを車に例えると、夢のような車になります。"
-        ],
-        "backgroundSrc": "",
-        "items": [
-            {
-                "icon": {
-                    "name": "FiCircle",
-                    "type": "FiCircle"
-                },
-                "description": "10倍早く走る"
-            },
-            {
-                "icon": {
-                    "name": "FiSquare",
-                    "type": "FiSquare"
-                },
-                "description": "燃費が10倍良い"
-            },
-            {
-                "icon": {
-                    "name": "FiTriangle",
-                    "type": "FiTriangle"
-                },
-                "description": "安全性が高い"
-            },
-            {
-                "icon": {
-                    "name": "FiHexagon",
-                    "type": "FiHexagon"
-                },
-                "description": "車の価格は２分の1"
-            }
-        ]
-    },
-    "WebApplicationForDigital": {
-        "title": "アジャイル・チームの構成",
-        "image": {
-            "src": "",
-            "alt": ""
-        },
-        "description": "それぞれが得意分野を持ち、全員がコーディング出来るIT技術者のチームです。チームの共通言語は、HTML、CSS、JavaScriptです。必要最小限のドキュメントで迅速に実際に動作するプロダクトを開発します"
-        
-    },
-    "DetailedWork": {
-        "title": "詳しい仕組みは",
-        "image": {
-            "src": "",
-            "alt": ""
-        },
-        "descriptions": [
-            "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい",
-            "WorldのITチームお勧めの最新テクノロジーはこちら（テクノロジーページへのリンク）"
-        ]    
-    },
-    "Watashitachi": {
-        "title": "",
-        "subtitle": "",
-        "image": {
-            "src": "",
-            "alt": ""
-        },
-        "description": ""
-    },
-    "TeamCharacteristic": {
-        "title": "ITチームの特長",
-        "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
-        "image": {
-            "src": "",
-            "alt": ""
-        }
-    },
-    "MemberCharacteristic": {
-        "title": "",
-        "description": "",
-        "image": {
-            "src": "",
-            "alt": ""
-        }
-    },
-    "Technology": {
-        "title": "テクノロジー",
-        "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
-        "image": {
-            "src": "",
-            "alt": ""
-        },
-        "description": "WorldのITチームお勧めの最新テクノロジーはこちら（テクノロジーページへのリンク）"
-    },
-    "Contact": {
-        "title":"お問い合わせ",
-        "description" : "開発の依頼は、フォームよりお願いします。",
-        "action" : "",
-        "items":[
-    {    
-       "type": "text",
-       "name": "entry.44051321",
-       "placehoder": "会社名"
-    },
-    {    
-        "type": "text",
-        "name": "entry.1893056871",
-        "placehoder": "会社ホームページ"
-     },
-     {    
-        "type": "text",
-        "name": "entry.1001217116",
-        "placehoder": "ご担当（お名前）"
-     },
-     {    
-        "type": "text",
-        "name": "entry.1479082853",
-        "placehoder": "メール"
-     },
-     {    
-        "type": "text",
-        "name": "entry.1031445395",
-        "placehoder": "電話番号"
-     },
-     {    
-        "type": "text",
-        "name": "entry.102739708",
-        "placehoder": "プロジェクトの概要"
-     }
-          ]
+  "HomePageHeader": {
+    "title": "WORLD IT TEAM",
+    "description": "私たちは高品質な次世代型Webアプリを迅速に開発するチームです",
+    "subDescription": "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
+    "image": {
+      "src": "",
+      "alt": ""
     }
+  },
+  "WebApplication": {
+    "title": "次世代Webアプリを車に例えると",
+    "icon": {
+      "name": "FiHexagon",
+      "type": "FiHexagon"
+    },
+    "description": [
+      "急速に進化を続けるWebアプリーケーションの世界！",
+      "この次世代Webアプリを車に例えると、夢のような車になります。"
+    ],
+    "backgroundSrc": {
+      "src": "../../images/home__web-app.png",
+      "alt": "Image"
+    },
+    "items": [
+      {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#FF8A90",
+        "number": "01",
+        "description": "10倍早く走る"
+      },
+      {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#2476FCF8",
+        "number": "02",
+        "description": "燃費が10倍良い"
+      },
+      {
+        "cssCol": "web-application__items--left",
+        "cssColor": "#32C483",
+        "number": "03",
+        "description": "安全性が高い"
+      },
+      {
+        "cssCol": "web-application__items--right",
+        "cssColor": "#16B2EC",
+        "number": "04",
+        "description": "車の価格は２分の1"
+      }
+    ]
+  },
+  "WebAppForDigital": {
+    "title": "貴社のデジタル化にも次世代型Webアプリが威力を発揮します",
+    "image": {
+      "src": "../../images/home__web-app-digital.png",
+      "alt": "WebApplicationForDigital"
+    },
+    "description": "予算が半分で、100倍の効果が出せる次世代型Webアプリです。貴社のデジタル化にもお役に立てます"
+  },
+  "DetailedWork": {
+    "title": "詳しい仕組みは",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "descriptions": [
+      "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい",
+      "WorldのITチームお勧めの最新テクノロジーはこちら"
+    ]
+  },
+  "Watashitachi": {
+    "title": "私たち",
+    "subtitle": "私たちは第二世代のベトナム人ITエンジニアのチームです",
+    "images": [
+      {
+        "src":"../../images/aboutus__page-header.png",
+        "alt":"WorldRecruitHistory"
+      },
+      {
+        "src":"../../images/aboutus__world-recruit-history.jpeg",
+        "alt":"WorldRecruitHistory"
+      }
+     ],
+    "descriptions": [
+      "高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます",
+      "また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します"
+    ]
+  },
+  "Characteristic": [
+    {
+    "title": "ITチームの特長",
+    "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
+    "image": {
+      "src": "../../images/home__team-characteristic.jpg",
+      "alt": "team"
+      }
+    },
+    {
+    "title": "ITチームメンバーの特長",
+    "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
+    "image": {
+      "src": "../../images/home__member-characteristic.png",
+      "alt": "member"
+      }
+    }
+  ],
+  "Technology": {
+    "title": "テクノロジー",
+    "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
+    "image": {
+      "src": "../../images/home__technology.png",
+      "alt": "technology"
+    },
+    "description": "WorldのITチームお勧めの最新テクノロジーは",
+    "link": {
+      "title": "こちら",
+      "src": "../technology"
+    }
+  }
 }

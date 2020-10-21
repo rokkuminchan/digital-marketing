@@ -42,7 +42,7 @@ export default function WebApplication({ data }) {
         <span>{data.subDescription2}</span>
         <span>
           <a href={data.link.src}>
-            <span>{data.link.title}</span>
+            <p>{data.link.title}</p>
           </a>
         </span>
       </div>
@@ -52,4 +52,3 @@ export default function WebApplication({ data }) {
     </div>
   );
 }
-//

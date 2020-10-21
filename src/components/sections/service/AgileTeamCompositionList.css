@@ -1,17 +1,15 @@
 .AgileTeamComposition-List {
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: auto;
   position: relative;
   overflow: hidden;
-  box-shadow: 1px gray;
-  margin: 20% auto;
-  color: #ffffff;
+  margin: 5% auto;
+  color: #fff;
 }
 
 .AgileTeamComposition-List__img {
   width: 100%;
   height: auto;
-  border: 5px #ffffff;
 }
 
 .AgileTeamComposition-List img {
@@ -31,17 +29,51 @@
   flex-direction: column;
   justify-content: center;
   transition: 0.5s ease-in-out;
-  opacity: 1;
+}
+.AgileTeamComposition-List__text p {
+  margin: 0 auto;
+  padding: 0% 5%;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.AgileTeamComposition-List__text h1 {
+  font-size: 1.3em;
 }
 .AgileTeamComposition-List:hover div.AgileTeamComposition-List__text {
   transform: rotate(0deg);
   height: 60%;
   top: 20%;
-  opacity: 1;
   transition-delay: 3.3s;
   transition: 0.3s ease-in-out;
 }
+@media only screen and (max-width: 620px) {
+  div.AgileTeamComposition-List__text {
+    transform: scale(0.5);
+    transform: rotate(0deg);
+    height: 60%;
+    top: 20%;
+  }
+}
+
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .AgileTeamComposition-List__text p {
+    font-size: 1.2em;
+  }
+  .AgileTeamComposition-List__text h1 {
+    font-size: 1.5em;
+  }
+  div.AgileTeamComposition-List__text {
+    transform: scale(0.5);
+    transform: rotate(0deg);
+    height: 60%;
+    top: 20%;
+  }
 }
 @media only screen and (min-width: 1025px) {
+  .AgileTeamComposition-List__text p {
+    font-size: 1.7em;
+  }
+  .AgileTeamComposition-List__text h1 {
+    font-size: 2em;
+  }
 }
