@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "../../common/Title";
-// import Description from "../../common/Description";
 import Image from "../../common/Image";
 import "./DetailedWork.css";
 const DetailedWork = ({ data }) => {
