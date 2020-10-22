@@ -1,28 +1,23 @@
-import React from 'react';
-import Title from '../../common/Title'
-import Description from '../../common/Description'
-import Image from '../../common/Image'
-
-const DetailedWork = ({data}) => {
-    return(
-        <section className = "technology">
-            <div className = "technology__title">
-                <Title data = {data.title} />
-            </div>
-            <div className = "technology__image">
-                <Image {...data.image}/>
-            </div>
-            <div className = "technology__description">
-                {
-                    data.descriptions.map((item,index) => {
-                        return (
-                            <Description key = {index} data = {item} />
-                        )
-                    })
-                }
-                
-            </div>
-        </section>
-    )
-}
+import React from "react";
+import Title from "../../common/Title";
+// import Description from "../../common/Description";
+import Image from "../../common/Image";
+import "./DetailedWork.css";
+const DetailedWork = ({ data }) => {
+  return (
+    <section className="detailedwork__wrapper">
+      <Title className="detailedwork__title" data={data.title} />
+      <Image className="detailedwork__image" {...data.image} />
+      <div className="detailedwork__description">
+        <p>{data.descriptions1}</p>
+        <span>
+          {data.descriptions2}
+          <a href={data.link.src} className="detailedwork__description--link">
+            {data.link.title}
+          </a>
+        </span>
+      </div>
+    </section>
+  );
+};
 export default DetailedWork;
