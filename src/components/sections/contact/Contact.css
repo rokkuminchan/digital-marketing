@@ -1,18 +1,10 @@
-form {
-  width: 40%;
-  padding: 30px 20px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-}
-
 .contact__field {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
   padding: 0.7rem 1rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   transition: 0.3s;
   font-size: 1.8em;
 }
@@ -42,17 +34,30 @@ form {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
 }
-/* 
-@media screen and (max-width: 880px) {
-  .contact-box {
-    flex-direction: column;
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+  form {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    margin: 0 10%;
   }
+}
 
-  .left {
-    width: 100%;
-  }
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+}
 
-  .right {
-    width: 100%;
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  form {
+    width: 40%;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    margin: 0 30%;
   }
-} */
+}

@@ -3,7 +3,11 @@ import "./Button.css";
 const Button = () => {
   return (
     <div>
-      <button class="button">お問い合わせ</button>
+      <button className="button">
+        <a href="../contact/" className="button__link">
+          お問い合わせ
+        </a>
+      </button>
     </div>
   );
 };
