@@ -60,8 +60,8 @@
   "DetailedWork": {
     "title": "詳しい仕組みは",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "../../images/home__daitailed-works.png",
+      "alt": "daitailed-works"
     },
     "descriptions": [
       "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい",
