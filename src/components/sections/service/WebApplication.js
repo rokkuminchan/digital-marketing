@@ -42,13 +42,13 @@ export default function WebApplication({ data }) {
         <span>{data.subDescription2}</span>
         <span>
           <a href={data.link.src}>
-            <p>{data.link.title}</p>
+            <p className="web-application__sub-description--link">
+              {data.link.title}
+            </p>
           </a>
         </span>
       </div>
-      <div className="web-application__image">
-        <Image {...data.image} />
-      </div>
+      <Image className="web-application__image" {...data.image} />
     </div>
   );
 }

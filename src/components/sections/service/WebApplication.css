@@ -47,9 +47,12 @@
   text-align: center;
   margin: 0 10% 5% 10%;
 }
-.web-application__sub-description p,
+.web-application__sub-description > p,
 .web-application__sub-description span {
   font-size: 1.5em;
+}
+.web-application__sub-description--link {
+  font-size: 1.2em;
 }
 
 .web-application__image {
@@ -70,7 +73,10 @@
     width: 30%;
     height: 150px;
   }
-  .web-application__sub-description p,
+  .web-application__sub-description {
+    line-height: 1.8;
+  }
+  .web-application__sub-description > p,
   .web-application__sub-description span,
   .web-application__items-description p {
     font-size: 1.8em;
@@ -93,6 +99,9 @@
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
+  .web-application__desciption {
+    padding-top: 0;
+  }
   .web-application__items-number div {
     margin-bottom: 5%;
   }

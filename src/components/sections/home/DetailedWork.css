@@ -1,0 +1,7 @@
+.detailedwork__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 5rem 0;
+  max-width: 10%;
+}

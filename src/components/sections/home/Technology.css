@@ -4,17 +4,17 @@
 }
 .technology__description a{
     text-decoration: none;
+    color: darkslateblue;
 }
 
 
 @media screen and (min-width: 320px) {
   .technology__description {
     padding: 5% 10%;
-    font-size: 1.5em;
 
   }
-  .technology__description p{
-    font-size: 1.5em;
+  .technology__description p,a{
+    font-size: 15px;
   }
 }
 
@@ -23,8 +23,8 @@
   .technology__description {
     padding: 3% 10%;
   }
-  .technology__description p{
-    font-size: 1.8em;
+  .technology__description p,a{
+    font-size: 20px;
   }
 }
 
@@ -33,7 +33,12 @@
   .technology__description {
     padding: 2% 5%;
   }
-  .technology__description p{
-    font-size: 2em;
+  .technology__description p,a{
+    font-size: 20px;
+  }
+  .technology__image{
+      width: 80%;
+      height: auto;
+      margin: auto;
   }
 }

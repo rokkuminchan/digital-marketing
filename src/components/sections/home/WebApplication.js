@@ -15,11 +15,10 @@ export default function WebApplication({ data }) {
         <span className="web-application__icon--shape">
           <Icon {...data.icon} />
         </span>
-        <span className="web-application__icon--sub">Web Application</span>
       </div>
-      <span className="web-application__img">
-        <Image {...data.backgroundSrc} />
-      </span>
+
+      <Image className="web-application__img" {...data.backgroundSrc} />
+
       <div className="web-application__desciption">
         {data.description.map((item, index) => (
           <Description key={index} data={item} />
