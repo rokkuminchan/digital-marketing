@@ -2,17 +2,6 @@
   padding-top: 8%;
   padding-bottom: 3%;
 }
-.web-application__icon svg {
-  margin: 0 1% 2% 10%;
-  font-size: 2em;
-  background-color: #fec180;
-}
-
-.web-application__icon--shape:after {
-  position: absolute;
-  content: "______";
-  font-weight: bold;
-}
 .web-application__img {
   margin-bottom: 3%;
 }
@@ -69,6 +58,9 @@
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
+  .web-application__img {
+    width: 100%;
+  }
   .web-application__desciption {
     padding-top: 2%;
   }
@@ -97,8 +89,10 @@
 @media screen and (min-width: 1024px) {
   .web-application__img {
     object-fit: cover;
-    max-height: 450px;
-    width: 100%;
+    width: 80%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .web-application__desciption {
