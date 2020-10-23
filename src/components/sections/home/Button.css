@@ -43,7 +43,7 @@
     background-color: #72aed3;
     position: absolute;
     left: 20%;
-    top: -85%;
+    top: -100%;
     transform: rotate(20deg) scale(2);
     background-origin: 0 45px 35px;
   }
