@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Button.css";
+
 const Button = () => {
   return (
     <div className="button-contain">
       <button className="button">
-        <a href="../contact/" className="button__link">
+        <Link to="/contact" className="button__link">
           お問い合わせ
-        </a>
+        </Link>
       </button>
     </div>
   );

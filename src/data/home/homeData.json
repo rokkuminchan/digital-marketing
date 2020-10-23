@@ -67,7 +67,7 @@
     "descriptions2": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     }
   },
   "Watashitachi": {
@@ -101,10 +101,11 @@
     "title": "ITチームメンバーの特長",
     "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
     "image": {
-      "src": "../../images/home__member-characteristic.png",
+      "src": "../../images/home__member-characteristic.jpg",
       "alt": "member"
       }
     }
+   
   ],
   "Technology": {
     "title": "テクノロジー",
@@ -116,7 +117,7 @@
     "description": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     }
   }
 }

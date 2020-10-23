@@ -1,7 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Title from "../../common/Title";
 import Image from "../../common/Image";
 import "./DetailedWork.css";
+
 const DetailedWork = ({ data }) => {
   return (
     <section className="detailedwork__wrapper">
@@ -11,9 +14,9 @@ const DetailedWork = ({ data }) => {
         <p>{data.descriptions1}</p>
         <span>
           {data.descriptions2}
-          <a href={data.link.src} className="detailedwork__description--link">
+          <Link to={data.link.src} className="detailedwork__description--link">
             {data.link.title}
-          </a>
+          </Link>
         </span>
       </div>
     </section>

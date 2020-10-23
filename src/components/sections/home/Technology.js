@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import Title from '../../common/Title';
 import Description from '../../common/Description';
 import Image from '../../common/Image';
@@ -19,7 +21,7 @@ const Technology = ({data}) => {
       <div className="technology__description">
         <p>
           {data.description}
-          <a href={data.link.src}>{data.link.title}</a>
+          <Link to={data.link.src}>{data.link.title}</Link>
         </p>
       </div>
     </section>
