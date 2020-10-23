@@ -1,6 +1,5 @@
 .button {
   display: inline-block;
-  padding: 15px 25px;
   font-size: 2.4em;
   cursor: pointer;
   text-align: center;
@@ -20,23 +19,92 @@
   text-decoration: none;
   color: #fff;
 }
-/*Iphone(480 x 640)*/
+
 @media screen and (min-width: 320px) {
   .button {
-    margin: 55px 31% 90px;
+    padding: 1.7rem 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button-contain {
+    position: relative;
+    overflow: hidden;
+    background-color: #5f5e64;
+    height: 25rem;
+    border-width: 50px 18px 0;
+  }
+  .button-contain:before {
+    content: "";
+    width: 30rem;
+    height: 25rem;
+    border-radius: 0;
+    background-color: #72aed3;
+    position: absolute;
+    left: 20%;
+    top: -85%;
+    transform: rotate(20deg) scale(2);
+    background-origin: 0 45px 35px;
   }
 }
 
-/*Ipad vertical(768 x 1024)*/
+/* Tablet */
 @media screen and (min-width: 768px) {
   .button {
-    margin: 55px 38% 90px;
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button-contain {
+    position: relative;
+    overflow: hidden;
+    background-color: #5f5e64;
+    height: 25rem;
+    border-width: 50px 18px 0;
+  }
+  .button-contain:before {
+    content: "";
+    width: 30rem;
+    height: 25rem;
+    border-radius: 0;
+    background-color: #72aed3;
+    position: absolute;
+    left: 20%;
+    top: -85%;
+    transform: rotate(20deg) scale(2);
+    background-origin: 0 45px 35px;
   }
 }
 
-/*desktop*/
+/* Desktop */
 @media screen and (min-width: 1024px) {
   .button {
-    margin: 65px 43% 100px;
+    padding: 2rem 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button-contain {
+    position: relative;
+    overflow: hidden;
+    background-color: #5f5e64;
+    height: 25rem;
+    border-width: 50px 18px 0;
+  }
+  .button-contain:before {
+    content: "";
+    width: 30rem;
+    height: 25rem;
+    border-radius: 0;
+    background-color: #72aed3;
+    position: absolute;
+    left: 33%;
+    top: -85%;
+    transform: rotate(20deg) scale(2);
+    background-origin: 0 45px 35px;
   }
 }
