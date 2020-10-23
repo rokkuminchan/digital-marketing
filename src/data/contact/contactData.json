@@ -1,7 +1,7 @@
 {"contact": {
     "title":"お問い合わせ",
     "description" : "開発の依頼は、フォームよりお願いします。",
-    "action" : "https://docs.google.com/forms/d/e/1FAIpQLScmdDz2KHMWmB4v6wWMZCoqoknuErt45x7QWsBGWpHWmfb7rA/viewform",
+    "action" : "https://docs.google.com/forms/d/e/1FAIpQLScmdDz2KHMWmB4v6wWMZCoqoknuErt45x7QWsBGWpHWmfb7rA/formResponse",
     "items":[
 {    
    "type": "text",
