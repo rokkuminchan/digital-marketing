@@ -41,7 +41,7 @@
     "subDescription2": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     },
     "image": {
       "src": "../../images/service__web-application.png",
