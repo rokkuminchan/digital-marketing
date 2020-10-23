@@ -84,7 +84,7 @@
   .web-application__items-number div:before {
     width: 140px;
     height: 13px;
-    transform: translate(-25%, 310%);
+    transform: translate(-25%, 330%);
   }
   .web-application__items-number div {
     font-size: 5em;
