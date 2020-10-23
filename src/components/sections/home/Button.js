@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <div>
       <button className="button">
-        <a href="../contact/" className="button__link">
+        <a href="/contact" className="button__link">
           お問い合わせ
         </a>
       </button>

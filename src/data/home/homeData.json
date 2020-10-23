@@ -67,7 +67,7 @@
     "descriptions2": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     }
   },
   "Watashitachi": {
@@ -116,7 +116,7 @@
     "description": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     }
   }
 }
