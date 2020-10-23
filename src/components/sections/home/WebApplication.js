@@ -1,9 +1,9 @@
 import React from "react";
+
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
-import Icon from "../../common/Icon";
 
 export default function WebApplication({ data }) {
   return (
