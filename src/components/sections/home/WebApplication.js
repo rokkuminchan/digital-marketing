@@ -1,9 +1,9 @@
 import React from "react";
+
 import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
-import Icon from "../../common/Icon";
 
 export default function WebApplication({ data }) {
   return (
@@ -11,14 +11,7 @@ export default function WebApplication({ data }) {
       <div className="web-application__title">
         <Title data={data.title} />
       </div>
-      <div className="web-application__icon">
-        <span className="web-application__icon--shape">
-          <Icon {...data.icon} />
-        </span>
-      </div>
-
       <Image className="web-application__img" {...data.backgroundSrc} />
-
       <div className="web-application__desciption">
         {data.description.map((item, index) => (
           <Description key={index} data={item} />

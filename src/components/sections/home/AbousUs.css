@@ -3,22 +3,20 @@
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+	z-index: 1;
 }
 
 .about-us svg {
 	position: absolute;
 	top: 5%;
-	left: 10%;
-	z-index: 0;
-	width: 150%;
-	height: 100%;
-
+	left: 0;
+	z-index: -1;
+	width: 100vh;
+	height: 100vh;
 	transform: rotateZ(-20deg);
-	overflow: hidden;
 }
 
 .about-us__title {
-	z-index: 1;
 }
 
 .about-us__title h3 {
@@ -55,5 +53,54 @@
 	color: #fff;
 }
 
+.about-us__description p:first-of-type {
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.about-us__description p:last-of-type {
+	padding-top: 0;
+	padding-bottom: 8%;
+}
+
+@media screen and (min-width: 768px) {
+	.about-us svg {
+		top: -76%;
+		left: -23%;
+		width: 150%;
+		height: 150%;
+	}
+
+	.about-us__image {
+		flex-direction: row;
+	}
+
+	.about-us__image img {
+		width: 40%;
+	}
+
+	.about-us__image img:first-of-type {
+		margin-right: 5%;
+	}
+	.about-us__description p:last-of-type {
+		padding-top: 0;
+		padding-bottom: 5%;
+	}
+}
+
 @media screen and (min-width: 1024px) {
+	.about-us svg {
+		top: -75vw;
+		left: -10%;
+		width: 120vw;
+		height: 120vw;
+	}
+
+	.about-us__image img {
+		width: 30%;
+	}
+
+	.about-us__image img:first-of-type {
+		margin-right: 10%;
+	}
 }

@@ -84,7 +84,7 @@
   .web-application__items-number div:before {
     width: 140px;
     height: 13px;
-    transform: translate(-25%, 310%);
+    transform: translate(-25%, 330%);
   }
   .web-application__items-number div {
     font-size: 5em;
@@ -101,9 +101,6 @@
 @media screen and (min-width: 1024px) {
   .web-application__desciption {
     padding-top: 0;
-  }
-  .web-application__items-number div {
-    margin-bottom: 5%;
   }
   .web-application__image {
     margin-bottom: 7%;
