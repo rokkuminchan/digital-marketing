@@ -54,12 +54,13 @@
 }
 
 .about-us__description p:first-of-type {
+	padding-top: 1%;
 	padding-bottom: 2%;
 }
 
 .about-us__description p:last-of-type {
 	padding-top: 0;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,6 +81,10 @@
 
 	.about-us__image img:first-of-type {
 		margin-right: 5%;
+	}
+	.about-us__description p:last-of-type {
+		padding-top: 0;
+		padding-bottom: 5%;
 	}
 }
 
