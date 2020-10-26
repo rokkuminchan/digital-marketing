@@ -13,18 +13,6 @@ export const query = graphql`
   {
     homeJson {
       WebApplication {
-        title
-        items {
-          cssCol
-          cssColor
-          description
-          number
-        }
-        icon {
-          name
-          type
-        }
-        description
         backgroundSrc {
           alt
           src {
@@ -35,10 +23,32 @@ export const query = graphql`
             }
           }
         }
+        description
+        title
+        items {
+          cssCol
+          description
+          image {
+            alt
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+          }
+        }
+        icon {
+          name
+          type
+        }
       }
       WebAppForDigital {
         title
+        description
         image {
+          alt
           src {
             childImageSharp {
               fluid {
@@ -46,13 +56,12 @@ export const query = graphql`
               }
             }
           }
-          alt
         }
       }
       Watashitachi {
-        title
-        subtitle
         descriptions
+        subtitle
+        title
         images {
           alt
           src {
@@ -69,8 +78,8 @@ export const query = graphql`
         subtitle
         title
         link {
-          title
           src
+          title
         }
         image {
           alt
@@ -85,16 +94,14 @@ export const query = graphql`
       }
       HomePageHeader {
         description
-        title
         subDescription
+        title
         image {
           alt
           src
         }
       }
       DetailedWork {
-        descriptions1
-        descriptions2
         title
         link {
           src
@@ -110,10 +117,12 @@ export const query = graphql`
             }
           }
         }
+        descriptions2
+        descriptions1
       }
       Characteristic {
-        title
         description
+        title
         image {
           alt
           src {
@@ -128,3 +137,4 @@ export const query = graphql`
     }
   }
 `
+

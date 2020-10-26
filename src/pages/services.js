@@ -13,16 +13,7 @@ export const query = graphql`
   {
     serviceJson {
       WebApplicationRequirment {
-        comment
         title
-        items {
-          descriptions
-          title
-          icon {
-            name
-            type
-          }
-        }
         image {
           alt
           src {
@@ -33,21 +24,38 @@ export const query = graphql`
             }
           }
         }
+        comment
+        items {
+          title
+          descriptions
+          icon {
+            type
+            name
+          }
+        }
       }
       WebApplication {
-        description
-        subDescription1
-        subDescription2
         title
+        subDescription2
+        subDescription1
+        description
         link {
-          src
           title
+          src
         }
         items {
-          cssCol
-          cssColor
+          image {
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+            alt
+          }
           description
-          number
+          cssCol
         }
         image {
           alt
@@ -62,8 +70,8 @@ export const query = graphql`
       }
       ServiceHeader {
         description
-        subDescription
         title
+        subDescription
         image {
           alt
           src {
@@ -76,7 +84,12 @@ export const query = graphql`
         }
       }
       AgileTeamComposition {
+        title
+        description
         items {
+          description
+          subtitle
+          title
           image {
             alt
             src {
@@ -87,13 +100,9 @@ export const query = graphql`
               }
             }
           }
-          description
-          subtitle
-          title
         }
-        description
-        title
       }
     }
   }
 `
+
