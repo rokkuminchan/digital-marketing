@@ -29,6 +29,9 @@
 .characteristic__cardBx .characteristic__img picture img {
   position: unset !important;
 }
+.characteristic__img {
+  position: unset !important;
+}
 .characteristic__cardBx figure {
   height: 100%;
   margin: 0;
