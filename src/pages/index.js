@@ -15,17 +15,18 @@ export const query = graphql`
       WebApplication {
         title
         items {
-          number
-          description
-          cssColor
           cssCol
+          cssColor
+          description
+          number
         }
         icon {
-          type
           name
+          type
         }
         description
         backgroundSrc {
+          alt
           src {
             childImageSharp {
               fluid {
@@ -33,14 +34,11 @@ export const query = graphql`
               }
             }
           }
-          alt
         }
       }
       WebAppForDigital {
         title
-        description
         image {
-          alt
           src {
             childImageSharp {
               fluid {
@@ -48,6 +46,7 @@ export const query = graphql`
               }
             }
           }
+          alt
         }
       }
       Watashitachi {
@@ -55,6 +54,7 @@ export const query = graphql`
         subtitle
         descriptions
         images {
+          alt
           src {
             childImageSharp {
               fluid {
@@ -62,16 +62,15 @@ export const query = graphql`
               }
             }
           }
-          alt
         }
       }
       Technology {
         description
-        title
         subtitle
+        title
         link {
-          src
           title
+          src
         }
         image {
           alt
@@ -85,32 +84,36 @@ export const query = graphql`
         }
       }
       HomePageHeader {
+        description
         title
         subDescription
         image {
           alt
           src
         }
-        description
       }
       DetailedWork {
-        title
-        image {
-          alt
-          src {
-            id
-          }
-        }
         descriptions1
         descriptions2
+        title
         link {
           src
           title
         }
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
       }
       Characteristic {
-        description
         title
+        description
         image {
           alt
           src {
