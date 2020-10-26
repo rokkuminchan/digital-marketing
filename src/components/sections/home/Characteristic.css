@@ -29,6 +29,9 @@
 .characteristic__cardBx .characteristic__img picture img {
   position: unset !important;
 }
+.characteristic__img {
+  position: unset !important;
+}
 .characteristic__cardBx figure {
   height: 100%;
   margin: 0;
@@ -81,7 +84,6 @@
 }
 .characteristic__cardBx:hover figcaption {
   opacity: 1;
-  color: #1f001d;
 }
 @media only screen and (max-width: 720px) {
   .characteristic__cardBx figcaption {
@@ -119,7 +121,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-60%);
+    transform: translateY(-70%);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -138,7 +140,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-90%);
+    transform: translateY(-100%);
   }
   .characteristic__cardBx figcaption p {
     font-size: 2em;

@@ -1,12 +1,11 @@
 import React from "react";
 import "./Contact.css";
-import Title from "../../common/Title";
 import Description from "../../common/Description";
 
 const Contact = ({ data }) => {
   return (
     <section className="contact">
-      <Title data={data.title} />
+      <h3 className="contact_title">{data.title}</h3>
       <Description data={data.description} />
       <form action={data.action}>
         {data.items.map((item, index) => {

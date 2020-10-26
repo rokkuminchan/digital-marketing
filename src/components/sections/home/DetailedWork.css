@@ -2,7 +2,7 @@
 @media screen and (min-width: 320px) {
   .detailedwork__image {
     padding-top: 20px;
-    height: 170px;
+    height: 160px;
     width: 100%;
     object-fit: cover;
   }
@@ -24,7 +24,7 @@
 @media screen and (min-width: 768px) {
   .detailedwork__image {
     padding-top: 20px 30px 10px 30px;
-    height: 270px;
+    height: 260px;
     width: 100%;
     object-fit: cover;
   }
@@ -46,7 +46,7 @@
 @media screen and (min-width: 1024px) {
   .detailedwork__image {
     padding-top: 20px 30px 10px 30px;
-    height: 270px;
+    height: 230px;
     width: 80%;
     object-fit: cover;
     margin: 0% 10% 0% 10%;
