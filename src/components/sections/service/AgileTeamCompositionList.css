@@ -11,6 +11,9 @@
   width: 100%;
   height: auto;
 }
+.AgileTeamComposition-List__img .items-img picture img {
+  position: unset !important;
+}
 
 .AgileTeamComposition-List img {
   width: 100%;

@@ -18,7 +18,7 @@ const Characteristic = ({data}) => {
                             <div className="characteristic__card">
                                 <div className="characteristic__cardBx">
                                     <figure>
-                                        <Image {...item.image}/>
+                                        <Image className ="characteristic__img"{...item.image}/>
                                         <figcaption>
                                             <Description data={item.description}/>
                                         </figcaption>

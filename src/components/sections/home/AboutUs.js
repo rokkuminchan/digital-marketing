@@ -14,11 +14,11 @@ const AboutUs = ({data}) => {
             <div className = "about-us__subtitle">
                 <Description data = {data.subtitle} />
             </div>
-            <div className = "about-us__image">
+            <div className = "about-us__image-inner">
                 {
                     data.images.map((item,index) => {
                         return (
-                            <Image key= {index} {...item} />
+                            <Image className = "about-us__image" key= {index} {...item} />
                         )
                     })
                 } 

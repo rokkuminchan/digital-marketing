@@ -78,7 +78,7 @@
 }
 .items-content p {
   font-size: 1.5em;
-  font-family: "Honey Script", cursive;
+  font-family: "Bad Script", cursive;
 }
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
