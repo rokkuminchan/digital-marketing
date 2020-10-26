@@ -29,6 +29,9 @@
 .characteristic__cardBx .characteristic__img picture img {
   position: unset !important;
 }
+.characteristic__img {
+  position: unset !important;
+}
 .characteristic__cardBx figure {
   height: 100%;
   margin: 0;
@@ -39,19 +42,14 @@
 .characteristic__cardBx figure img {
   width: 100%;
   height: auto;
-  opacity: 0.4;
 }
 .characteristic__cardBx figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
   z-index: 100;
   opacity: 0;
   transition-delay: 0.3s;
   transition: 0.5s ease;
+  margin-bottom: 10%;
 }
 .characteristic__cardBx figcaption p {
   font-size: 1.5em;
@@ -61,10 +59,12 @@
   padding: 0 10%;
   top: 0%;
   height: 100%;
-  top: 70%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 .characteristic__cardBx figure::before {
   content: "";
@@ -76,18 +76,14 @@
 .characteristic__cardBx figure:before {
   right: 0;
   bottom: 0;
-  background: rgba(233, 210, 210, 0.5);
+  background: rgba(73, 62, 62, 0.5);
   transform: skew(0deg) translateX(100%);
-}
-.characteristic__container:nth-child(1) .characteristic__cardBx figure:before {
-  background: rgba(169, 210, 243, 0.5);
 }
 .characteristic__cardBx:hover figure:before {
   transform: skew(45deg) translateX(0%);
 }
 .characteristic__cardBx:hover figcaption {
   opacity: 1;
-  color: #1f001d;
 }
 @media only screen and (max-width: 720px) {
   .characteristic__cardBx figcaption {
@@ -108,7 +104,6 @@
   }
   .characteristic__cardBx figcaption p {
     font-size: 1.8em;
-    top: 60%;
   }
   .characteristic__container {
     border-radius: 0% 0% 0% 100%;
@@ -126,7 +121,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-60%);
+    transform: translateY(-70%);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -145,7 +140,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-90%);
+    transform: translateY(-100%);
   }
   .characteristic__cardBx figcaption p {
     font-size: 2em;

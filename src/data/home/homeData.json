@@ -25,26 +25,34 @@
     "items": [
       {
         "cssCol": "web-application__items--left",
-        "cssColor": "#FF8A90",
-        "number": "01",
+        "image": {
+          "src": "../../images/home__web-app-1.png",
+          "alt": "icon"
+        },
         "description": "10倍早く走る"
       },
       {
         "cssCol": "web-application__items--right",
-        "cssColor": "#2476FCF8",
-        "number": "02",
+        "image": {
+          "src": "../../images/home__web-app-2.png",
+          "alt": "icon"
+        },
         "description": "燃費が10倍良い"
       },
       {
         "cssCol": "web-application__items--left",
-        "cssColor": "#32C483",
-        "number": "03",
+        "image": {
+          "src": "../../images/home__web-app-3.png",
+          "alt": "icon"
+        },
         "description": "安全性が高い"
       },
       {
         "cssCol": "web-application__items--right",
-        "cssColor": "#16B2EC",
-        "number": "04",
+        "image": {
+          "src": "../../images/home__web-app-4.png",
+          "alt": "icon"
+        },
         "description": "車の価格は２分の1"
       }
     ]
@@ -75,14 +83,14 @@
     "subtitle": "私たちは第二世代のベトナム人ITエンジニアのチームです",
     "images": [
       {
-        "src":"../../images/aboutus__page-header.png",
-        "alt":"WorldRecruitHistory"
+        "src": "../../images/aboutus__page-header.png",
+        "alt": "WorldRecruitHistory"
       },
       {
-        "src":"../../images/aboutus__world-recruit-history.jpeg",
-        "alt":"WorldRecruitHistory"
+        "src": "../../images/aboutus__world-recruit-history.jpeg",
+        "alt": "WorldRecruitHistory"
       }
-     ],
+    ],
     "descriptions": [
       "高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます",
       "また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します"
@@ -90,22 +98,21 @@
   },
   "Characteristic": [
     {
-    "title": "ITチームの特長",
-    "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
-    "image": {
-      "src": "../../images/home__team-characteristic.jpg",
-      "alt": "team"
+      "title": "ITチームの特長",
+      "description": "アジリティーが高く、要件定義から運用・サポートまで、また、小規模な開発から大規模開発まで、ご予算と納期に合わせたチームとご提案します。生産性と品質に自信があります",
+      "image": {
+        "src": "../../images/home__team-characteristic.jpg",
+        "alt": "team"
       }
     },
     {
-    "title": "ITチームメンバーの特長",
-    "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
-    "image": {
-      "src": "../../images/home__member-characteristic.jpg",
-      "alt": "member"
+      "title": "ITチームメンバーの特長",
+      "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
+      "image": {
+        "src": "../../images/home__member-characteristic.jpg",
+        "alt": "member"
       }
     }
-   
   ],
   "Technology": {
     "title": "テクノロジー",

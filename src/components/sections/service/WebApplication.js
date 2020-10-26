@@ -18,20 +18,11 @@ export default function WebApplication({ data }) {
       <div className="web-application__items">
         {data.items.map((item, index) => (
           <div key={index} className={`web-application__item ${item.cssCol}`}>
-            <div
-              className="web-application__items-number"
-              style={{
-                borderBottom: `${item.cssColor} solid 1px`,
-              }}
-            >
-              <div className={`web-application__items-number--${index}`}>
-                {item.number}
-              </div>
-              <style>
-                {`.web-application__items-number--${index}:before{
-                  background-color: ${item.cssColor}`}
-              </style>
-            </div>
+            <Image
+              className="web-application__items--icon"
+              key={index}
+              {...item.image}
+            />
             <div className="web-application__items-description">
               <p>{item.description}</p>
             </div>
