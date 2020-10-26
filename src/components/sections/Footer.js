@@ -6,9 +6,10 @@ export default function Footer() {
   return (
     <footer className="footer__distributed">
       <div className="footer__left">
-        <h3>WORLD WORKS</h3>
+        <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <Link to="/"> ホーム </Link>｜｜<Link to="/services">サービス</Link>｜｜
+          <Link to="/"> ホーム </Link>｜｜<Link to="/services">サービス</Link>
+          ｜｜
           <Link to="/technology">技術</Link>｜｜
           <Link to="/about-us">我々について</Link>｜｜
           <Link to="/contact">お問い合わせ</Link>
@@ -36,18 +37,9 @@ export default function Footer() {
       </div>
 
       <div className="footer__right">
-      <div className="footer__icons">
+        <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
             <i className="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-linkedin"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-instagram"></i>
           </a>
         </div>
         <p className="footer__copyright">
