@@ -81,10 +81,6 @@
       var(--tech-page-header__block1) - var(--tech-page-header__title)
     );
   }
-  .tech-img {
-    max-width: 1400px;
-  }
-
   .tech-page-header__block2 {
     height: calc(
       100vh - var(--tech-page-header__block1) - var(--header-menu-height)
