@@ -46,7 +46,7 @@
 @media screen and (min-width: 1024px) {
   .detailedwork__image {
     padding-top: 20px 30px 10px 30px;
-    height: 230px;
+    height: 30vh;
     width: 80%;
     object-fit: cover;
     margin: 0% 10% 0% 10%;
