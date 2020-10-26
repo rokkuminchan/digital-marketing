@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 import Title from '../../common/Title';
 import Description from '../../common/Description';
 import Image from '../../common/Image';
 import './Technology.css';
+import ALink from '../../common/ALink';
 
 const Technology = ({data}) => {
   return (
@@ -21,7 +21,7 @@ const Technology = ({data}) => {
       <div className="technology__description">
         <p>
           {data.description}
-          <Link to={data.link.src}>{data.link.title}</Link>
+          <ALink to={data.link.src}>{data.link.title}</ALink>
         </p>
       </div>
     </section>

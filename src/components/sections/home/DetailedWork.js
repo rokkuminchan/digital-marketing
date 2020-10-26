@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Title from "../../common/Title";
 import Image from "../../common/Image";
 import "./DetailedWork.css";
+import ALink from "../../common/ALink";
 
 const DetailedWork = ({ data }) => {
   return (
@@ -14,9 +14,9 @@ const DetailedWork = ({ data }) => {
         <p>{data.descriptions1}</p>
         <span>
           {data.descriptions2}
-          <Link to={data.link.src} className="detailedwork__description--link">
+          <ALink to={data.link.src} className="detailedwork__description--link">
             {data.link.title}
-          </Link>
+          </ALink>
         </span>
       </div>
     </section>
