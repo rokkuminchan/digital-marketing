@@ -40,15 +40,14 @@
   height: 100px;
   float: right;
 }
-.web-application__items-description p {
-  font-size: 1.3em;
-}
+
 .web-application__sub-description {
   text-align: center;
   margin: 0 10% 5% 10%;
 }
 .web-application__sub-description > p,
-.web-application__sub-description span {
+.web-application__sub-description span,
+.web-application__items-description p {
   font-size: 1.5em;
 }
 .web-application__sub-description--link {
