@@ -10,8 +10,7 @@ export default function AgileTeamCompositionList ({ data }) {
             <Image className="items-img"{...data.image}/>
         </div>
         <div className="AgileTeamComposition-List__text">
-            <h1>{data.title}</h1>
-            <br/>
+            <h1>{data.title}</h1><br/>
             <p>{data.description}</p>
         </div>
     </div>
