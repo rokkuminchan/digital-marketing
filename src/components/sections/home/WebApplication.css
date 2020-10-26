@@ -15,10 +15,9 @@
 }
 .web-application__items {
   position: relative;
-  margin: 1em auto;
+  margin: 0 auto;
   width: 85%;
   overflow: auto;
-  padding-bottom: 1em;
 }
 .web-application__item {
   text-align: center;
@@ -28,7 +27,6 @@
   height: 60px;
   margin: 0 auto;
   padding-bottom: 1em;
-  padding-top: 1em;
 }
 .web-application__items-description p {
   padding-top: 2%;
@@ -76,10 +74,6 @@
     width: 140px;
     height: 13px;
     transform: translate(-25%, 310%);
-  }
-  .web-application__items-number div {
-    font-size: 5em;
-    margin-bottom: 8%;
   }
 }
 /* Ipad Pro and Desktop */
