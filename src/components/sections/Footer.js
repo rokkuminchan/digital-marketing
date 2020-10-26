@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export default function Footer() {
@@ -7,9 +8,10 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD WORKS</h3>
         <p className="footer__links">
-          <a href="#"> ホーム </a>｜｜<a href="#">サービス</a>｜｜{" "}
-          <a href="#">技術</a>｜｜
-          <a href="#">お問い合わせ</a>｜｜<a href="#">我々について</a>
+          <Link to="/"> ホーム </Link>｜｜<Link to="/services">サービス</Link>｜｜
+          <Link to="/technology">技術</Link>｜｜
+          <Link to="/about-us">我々について</Link>｜｜
+          <Link to="/contact">お問い合わせ</Link>
         </p>
       </div>
 
@@ -34,7 +36,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__right">
-        <div className="footer__icons">
+      <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
             <i className="fa fa-facebook"></i>
           </a>

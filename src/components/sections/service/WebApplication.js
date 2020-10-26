@@ -4,6 +4,7 @@ import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
+import { Link } from "react-router-dom";
 
 export default function WebApplication({ data }) {
   return (
@@ -41,14 +42,14 @@ export default function WebApplication({ data }) {
         <p>{data.subDescription1}</p>
         <span>{data.subDescription2}</span>
         <span>
-          <a href={data.link.src}>
-            <p>{data.link.title}</p>
-          </a>
+          <Link to={data.link.src}>
+            <p className="web-application__sub-description--link">
+              {data.link.title}
+            </p>
+          </Link>
         </span>
       </div>
-      <div className="web-application__image">
-        <Image {...data.image} />
-      </div>
+      <Image className="web-application__image" {...data.image} />
     </div>
   );
 }

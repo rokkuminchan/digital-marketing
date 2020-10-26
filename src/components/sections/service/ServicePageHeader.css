@@ -23,23 +23,26 @@
 }
 
 .service-page-header__description {
-  color: #373F41;
+  color: #373f41;
   text-align: center;
 }
 
-.service-page-header__img{
+.service-page-header__img {
   object-fit: cover;
   height: var(--service-page-header-img-height);
   width: 100%;
 }
 
-.service-page-header__sub-description-wrapper{
+.service-page-header__sub-description-wrapper {
   position: relative;
-  height: calc(100vh - var(--header-menu-height) - var(--service-page-header-img-height) - 20vh);
+  height: calc(
+    100vh - var(--header-menu-height) - var(--service-page-header-img-height) -
+      20vh
+  );
 }
 
-.service-page-header__sub-description{
-  color: #373F41;
+.service-page-header__sub-description {
+  color: #373f41;
   position: absolute;
   width: 80%;
   text-align: center;
@@ -49,7 +52,7 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-  .service-page-header__title{
+  .service-page-header__title {
     font-size: 3.5em;
   }
 
@@ -64,7 +67,7 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .service-page-header__title{
+  .service-page-header__title {
     font-size: 4em;
   }
 
@@ -73,13 +76,13 @@
     width: 80%;
   }
 
-  .service-page-header__sub-description{
+  .service-page-header__sub-description {
     font-size: 2em;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-page-header__title{
+  .service-page-header__title {
     font-size: 5em;
   }
 
@@ -88,21 +91,21 @@
     width: 80%;
   }
 
-  .service-page-header__sub-description{
+  .service-page-header__sub-description {
     font-size: 2.5em;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .service-page-header__title {
-    font-size: 6em;
+    font-size: 4em;
   }
 
   .service-page-header__description {
     font-size: 3em;
   }
 
-  .service-page-header__sub-description{
+  .service-page-header__sub-description {
     font-size: 3em;
   }
 }

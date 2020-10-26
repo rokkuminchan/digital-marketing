@@ -60,13 +60,15 @@
   "DetailedWork": {
     "title": "詳しい仕組みは",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "../../images/home__daitailed-works.png",
+      "alt": "daitailed-works"
     },
-    "descriptions": [
-      "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい",
-      "WorldのITチームお勧めの最新テクノロジーはこちら"
-    ]
+    "descriptions1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。",
+    "descriptions2": "WorldのITチームお勧めの最新テクノロジーは",
+    "link": {
+      "title": "こちら",
+      "src": "/technology"
+    }
   },
   "Watashitachi": {
     "title": "私たち",
@@ -99,10 +101,11 @@
     "title": "ITチームメンバーの特長",
     "description": "日本が好きで、技術が好きなメンバーです。日本人の仕事の仕方や新しい技術を積極的に学習しています。また、お互いを助け合うベトナム人の国民性もあり、チームワークが得意です",
     "image": {
-      "src": "../../images/home__member-characteristic.png",
+      "src": "../../images/home__member-characteristic.jpg",
       "alt": "member"
       }
     }
+   
   ],
   "Technology": {
     "title": "テクノロジー",
@@ -114,7 +117,7 @@
     "description": "WorldのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
-      "src": "../technology"
+      "src": "/technology"
     }
   }
 }
