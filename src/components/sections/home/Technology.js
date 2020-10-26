@@ -15,9 +15,7 @@ const Technology = ({data}) => {
       <div className="technology__subtitle">
         <Description data={data.subtitle} />
       </div>
-      <div className="technology__image">
-        <Image {...data.image} />
-      </div>
+      <Image className="technology__image" {...data.image} />
       <div className="technology__description">
         <p>
           {data.description}

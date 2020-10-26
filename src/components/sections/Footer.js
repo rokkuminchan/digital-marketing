@@ -8,7 +8,9 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <ALink to="/"> ホーム </ALink>｜｜<ALink to="/services">サービス</ALink>
+          <ALink to="/"> ホーム </ALink>｜｜
+          
+          <ALink to="/services">サービス</ALink>
           ｜｜
           <ALink to="/technology">技術</ALink>｜｜
           <ALink to="/about-us">我々について</ALink>｜｜

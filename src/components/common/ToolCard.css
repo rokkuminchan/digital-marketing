@@ -31,7 +31,7 @@
     width: 250px;
     height: 6px;
     transform: translate(-7%, 195%);
-    background-color: #927edfea;
+    background-color: #aadfff;
     z-index: -2;
   }
   .toolcard__content h3:after {
@@ -91,7 +91,7 @@
     width: 270px;
     height: 6px;
     transform: translate(-16%, 170%);
-    background-color: #927edfea;
+    background-color: #aadfff;
     z-index: -2;
   }
   .toolcard__content h3:after {
@@ -144,7 +144,7 @@
     width: 270px;
     height: 6.5px;
     transform: translate(-16%, 170%);
-    background-color: #927edfea;
+    background-color: #aadfff;
     z-index: -2;
   }
   .toolcard__content h3:after {
