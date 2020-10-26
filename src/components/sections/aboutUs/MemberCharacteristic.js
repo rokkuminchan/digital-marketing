@@ -5,7 +5,7 @@ import Description from "../../common/Description.js";
 
 export default function MemberCharacteristic({ data }) {
   return (
-    <div className="member-characteristic">
+    <section className="member-characteristic">
       <Title data={data.title} />
       <Description data={data.description} />
       <div className="member-characteristic__items">
@@ -18,6 +18,6 @@ export default function MemberCharacteristic({ data }) {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
