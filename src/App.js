@@ -14,28 +14,31 @@ import technologyJsonData from "./data/technology/technologyData.json";
 import serviceJsonData from "./data/service/serviceData.json";
 import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home data={homeJsonData} />
-          </Route>
-          <Route exact path="/services">
-            <Services data={serviceJsonData} />
-          </Route>
-          <Route exact path="/technology">
-            <Technology data={technologyJsonData} />
-          </Route>
-          <Route exact path="/about-us">
-            <AboutUs data={ourTeamJsonData} />
-          </Route>
-          <Route exact path="/contact">
-            <Contact data={contactJsonData} />
-          </Route>
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route exact path="/">
+              <Home data={homeJsonData} />
+            </Route>
+            <Route exact path="/services">
+              <Services data={serviceJsonData} />
+            </Route>
+            <Route exact path="/technology">
+              <Technology data={technologyJsonData} />
+            </Route>
+            <Route exact path="/about-us">
+              <AboutUs data={ourTeamJsonData} />
+            </Route>
+            <Route exact path="/contact">
+              <Contact data={contactJsonData} />
+            </Route>
+          </Switch>
+        </ScrollToTop>
       </Router>
     </div>
   );

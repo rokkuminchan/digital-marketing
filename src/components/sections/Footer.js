@@ -1,16 +1,20 @@
 import React from "react";
+import ALink from "../common/ALink";
 import "./Footer.css";
 
 export default function Footer() {
   return (
     <footer className="footer__distributed">
       <div className="footer__left">
-        <h3>WORLD WORKS</h3>
+        <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <a href="/"> ホーム </a>｜｜<a href="/services">サービス</a>｜｜
-          <a href="/technology">技術</a>｜｜
-          <a href="/about-us">我々について</a>｜｜{" "}
-          <a href="/contact">お問い合わせ</a>
+          <ALink to="/"> ホーム </ALink>｜｜
+          
+          <ALink to="/services">サービス</ALink>
+          ｜｜
+          <ALink to="/technology">技術</ALink>｜｜
+          <ALink to="/about-us">我々について</ALink>｜｜
+          <ALink to="/contact">お問い合わせ</ALink>
         </p>
       </div>
 
@@ -38,15 +42,6 @@ export default function Footer() {
         <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
             <i className="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-linkedin"></i>
-          </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-instagram"></i>
           </a>
         </div>
         <p className="footer__copyright">

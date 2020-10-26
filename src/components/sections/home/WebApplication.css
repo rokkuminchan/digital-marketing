@@ -49,7 +49,7 @@
   float: right;
 }
 .web-application__items-description p {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 .web-application__sub-description {
   text-align: center;
@@ -83,6 +83,9 @@
   .web-application__items-number div {
     font-size: 5em;
     margin-bottom: 8%;
+  }
+  .web-application__items-description p {
+    font-size: 1.8em;
   }
 }
 /* Ipad Pro and Desktop */
