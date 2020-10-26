@@ -5,7 +5,7 @@ import Title from "../../common/Title";
 
 const TeamCharacteristic = ({ data }) => {
   return (
-    <div className="team-characteristic">
+    <section className="team-characteristic">
         <div className="team-characteristic__imgbg">
           <div className="team-characteristic__title">
             <Title data={data.title} />
@@ -17,7 +17,7 @@ const TeamCharacteristic = ({ data }) => {
           return <DescriptiveIcon key={index} data={item} />;
         })}
       </div>
-    </div>
+    </section>
   );
 };
 export default TeamCharacteristic;
