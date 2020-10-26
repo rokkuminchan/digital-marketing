@@ -15,6 +15,10 @@
   .technology__description p,a{
     font-size: 15px;
   }
+  .technology__image{
+    height: 150px;
+    width: 100%;
+  }
 }
 
 /*Ipad vertical(768 x 1024)*/
@@ -24,6 +28,10 @@
   }
   .technology__description p,a{
     font-size: 20px;
+  }
+  .technology__image{
+    height: 250px;
+    width: 100%;
   }
 }
 
@@ -37,7 +45,7 @@
   }
   .technology__image{
       width: 80%;
-      height: auto;
+      height: 350px;
       margin: auto;
   }
 }
