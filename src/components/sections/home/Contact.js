@@ -1,17 +1,17 @@
 import React from "react";
 import ALink from "../../common/ALink";
 
-import "./Button.css";
+import "./Contact.css";
 
-const Button = () => {
+const Contact = () => {
   return (
-    <div className="button-contain">
+    <section className="button-contain">
       <button className="button">
         <ALink to="/contact" className="button__link">
           お問い合わせ
         </ALink>
       </button>
-    </div>
+    </section>
   );
 };
-export default Button;
+export default Contact;
