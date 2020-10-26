@@ -4,7 +4,7 @@ import "./WebApplication.css";
 import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
-import { Link } from "react-router-dom";
+import ALink from "../../common/ALink";
 
 export default function WebApplication({ data }) {
   return (
@@ -42,11 +42,11 @@ export default function WebApplication({ data }) {
         <p>{data.subDescription1}</p>
         <span>{data.subDescription2}</span>
         <span>
-          <Link to={data.link.src}>
+          <ALink to={data.link.src}>
             <p className="web-application__sub-description--link">
               {data.link.title}
             </p>
-          </Link>
+          </ALink>
         </span>
       </div>
       <Image className="web-application__image" {...data.image} />

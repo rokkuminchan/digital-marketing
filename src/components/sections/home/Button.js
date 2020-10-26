@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ALink from "../../common/ALink";
 
 import "./Button.css";
 
@@ -7,9 +7,9 @@ const Button = () => {
   return (
     <div className="button-contain">
       <button className="button">
-        <Link to="/contact" className="button__link">
+        <ALink to="/contact" className="button__link">
           お問い合わせ
-        </Link>
+        </ALink>
       </button>
     </div>
   );

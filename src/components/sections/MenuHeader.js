@@ -1,7 +1,7 @@
 import React from "react";
 import "./MenuHeader.css";
 import Logo from "../../images/world-logo.png";
-import { Link } from "react-router-dom";
+import ALink from "../common/ALink";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
@@ -24,9 +24,9 @@ export default function MenuHeader() {
 
   return (
     <header className="menu-header">
-      <Link to="/" className="menu-header__logo">
+      <ALink to="/" className="menu-header__logo">
         <img src={Logo} alt="" id="logo" />
-      </Link>
+      </ALink>
       <input
         className="menu-header__visibility-btn"
         onClick={toggleMenu}
@@ -38,29 +38,29 @@ export default function MenuHeader() {
       </label>
       <ul className={menuClass}>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <Link className="menu-header__navigation-link" to="/">
+          <ALink className="menu-header__navigation-link" to="/">
             ホーム
-          </Link>
+          </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <Link className="menu-header__navigation-link" to="/services">
+          <ALink className="menu-header__navigation-link" to="/services">
             サービス
-          </Link>
+          </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <Link className="menu-header__navigation-link" to="/technology">
+          <ALink className="menu-header__navigation-link" to="/technology">
             技術
-          </Link>
+          </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <Link className="menu-header__navigation-link" to="/about-us">
+          <ALink className="menu-header__navigation-link" to="/about-us">
             我々について
-          </Link>
+          </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <Link className="menu-header__navigation-link" to="/contact">
+          <ALink className="menu-header__navigation-link" to="/contact">
             お問い合わせ
-          </Link>
+          </ALink>
         </li>
       </ul>
     </header>

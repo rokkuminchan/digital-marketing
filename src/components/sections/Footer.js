@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ALink from "../common/ALink";
 import "./Footer.css";
 
 export default function Footer() {
@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <Link to="/"> ホーム </Link>｜｜<Link to="/services">サービス</Link>
+          <ALink to="/"> ホーム </ALink>｜｜<ALink to="/services">サービス</ALink>
           ｜｜
-          <Link to="/technology">技術</Link>｜｜
-          <Link to="/about-us">我々について</Link>｜｜
-          <Link to="/contact">お問い合わせ</Link>
+          <ALink to="/technology">技術</ALink>｜｜
+          <ALink to="/about-us">我々について</ALink>｜｜
+          <ALink to="/contact">お問い合わせ</ALink>
         </p>
       </div>
 
