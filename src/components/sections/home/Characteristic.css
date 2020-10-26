@@ -118,7 +118,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-60%);
+    transform: translateY(-70%);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -137,7 +137,7 @@
     transform: translateY(-30%);
   }
   .characteristic__container:nth-child(1) .characteristic__title {
-    transform: translateY(-90%);
+    transform: translateY(-100%);
   }
   .characteristic__cardBx figcaption p {
     font-size: 2em;
