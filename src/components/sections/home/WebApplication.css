@@ -59,7 +59,7 @@
     padding-top: 2%;
   }
   .web-application__items {
-    width: 70%;
+    width: 80%;
   }
   .web-application__items--left {
     margin-left: 10%;
@@ -81,9 +81,6 @@
     font-size: 5em;
     margin-bottom: 8%;
   }
-  .web-application__items-description p {
-    font-size: 1.8em;
-  }
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
@@ -94,7 +91,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  .web-application__items-description p {
+    font-size: 2.8em;
+  }
   .web-application__desciption {
     margin-bottom: 4%;
   }
