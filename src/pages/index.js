@@ -12,90 +12,116 @@ export default IndexPage;
 export const query = graphql`
   {
     homeJson {
-      WebApplicationForDigital {
-        title
-        image {
-          alt
-          src
-        }
-        description
-      }
       WebApplication {
-        backgroundSrc
-        description
         title
         items {
-          icon {
-            type
-            name
-          }
+          number
           description
+          cssColor
+          cssCol
+        }
+        icon {
+          type
+          name
+        }
+        description
+        backgroundSrc {
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+          alt
+        }
+      }
+      WebAppForDigital {
+        title
+        description
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
         }
       }
       Watashitachi {
-        description
-        subtitle
         title
-        image {
+        subtitle
+        descriptions
+        images {
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
           alt
-          src
         }
       }
       Technology {
         description
-        image {
-          alt
-          src
-        }
+        title
         subtitle
-        title
+        link {
+          src
+          title
+        }
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
       }
-      TeamCharacteristic {
-        description
+      HomePageHeader {
+        title
+        subDescription
         image {
           alt
           src
         }
-        title
-      }
-      MemberCharacteristic {
         description
-        image {
-          alt
-          src
-        }
-        title
-      }
-      HomeHeader {
-        description
-        image {
-          alt
-          src
-        }
-        subtitle
-        title
       }
       DetailedWork {
-        descriptions
+        title
         image {
           alt
-          src
+          src {
+            id
+          }
         }
-        title
+        descriptions1
+        descriptions2
+        link {
+          src
+          title
+        }
       }
-      Contact {
-        title
+      Characteristic {
         description
-        action
-        items {
-          name
-          placehoder
-          type
+        title
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
         }
       }
     }
   }
 `
-
-
-
