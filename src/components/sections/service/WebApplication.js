@@ -31,14 +31,9 @@ export default function WebApplication({ data }) {
       </div>
       <div className="web-application__sub-description">
         <p>{data.subDescription1}</p>
-        <span>
-          {data.subDescription2}
-          <ALink
-            to={data.link.src}
-            className="web-application__sub-description--link"
-          >
-            {data.link.title}
-          </ALink>
+        <span>{data.subDescription2}</span>
+        <span className="web-application__sub-description--link">
+          <ALink to={data.link.src}>{data.link.title}</ALink>
         </span>
       </div>
       <Image className="web-application__image" {...data.image} />
