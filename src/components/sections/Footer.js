@@ -9,6 +9,7 @@ export default function Footer() {
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
           <ALink to="/"> ホーム </ALink>｜｜
+          
           <ALink to="/services">サービス</ALink>
           ｜｜
           <ALink to="/technology">技術</ALink>｜｜
@@ -38,6 +39,11 @@ export default function Footer() {
       </div>
 
       <div className="footer__right">
+        <div className="footer__icons">
+          <a href="https://www.facebook.com/worldworks.vietnam">
+            <i className="fa fa-facebook"></i>
+          </a>
+        </div>
         <p className="footer__copyright">
           Copyright © 2020 by 株式会社ワールド. All rights reserved
         </p>
