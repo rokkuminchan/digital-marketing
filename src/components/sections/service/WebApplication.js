@@ -31,12 +31,13 @@ export default function WebApplication({ data }) {
       </div>
       <div className="web-application__sub-description">
         <p>{data.subDescription1}</p>
-        <span>{data.subDescription2}</span>
         <span>
-          <ALink to={data.link.src}>
-            <p className="web-application__sub-description--link">
-              {data.link.title}
-            </p>
+          {data.subDescription2}
+          <ALink
+            to={data.link.src}
+            className="web-application__sub-description--link"
+          >
+            {data.link.title}
           </ALink>
         </span>
       </div>
