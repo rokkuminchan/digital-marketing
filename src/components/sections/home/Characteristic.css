@@ -81,7 +81,6 @@
 }
 .characteristic__cardBx:hover figcaption {
   opacity: 1;
-  color: #1f001d;
 }
 @media only screen and (max-width: 720px) {
   .characteristic__cardBx figcaption {
