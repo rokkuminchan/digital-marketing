@@ -8,13 +8,13 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <ALink to="/"> ホーム </ALink>｜｜
+          <ALink exact to="/" activeClassName="active"> ホーム </ALink>｜｜
           
-          <ALink to="/services">サービス</ALink>
+          <ALink exact to="/services" activeClassName="active">サービス</ALink>
           ｜｜
-          <ALink to="/technology">技術</ALink>｜｜
-          <ALink to="/about-us">我々について</ALink>｜｜
-          <ALink to="/contact">お問い合わせ</ALink>
+          <ALink exact to="/technology" activeClassName="active">技術</ALink>｜｜
+          <ALink exact to="/about-us" activeClassName="active">我々について</ALink>｜｜
+          <ALink exact to="/contact" activeClassName="active">お問い合わせ</ALink>
         </p>
       </div>
 

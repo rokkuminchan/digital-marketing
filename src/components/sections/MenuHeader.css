@@ -25,9 +25,11 @@
   color: rgb(255, 255, 255);
 }
 
+.active,
 .menu-header__navigation-link:hover,
 .menu-header__visibility-btn:hover {
   font-weight: bold;
+  color:yellow;
 }
 
 .menu-header__logo {
