@@ -6,6 +6,7 @@
     font-weight: bold;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
   }
   .detailedwork__image {
     padding-top: 20px;
@@ -63,7 +64,8 @@
     color: #3c64b1;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .detailedwork__image {
     padding-top: 20px 30px 10px 30px;
