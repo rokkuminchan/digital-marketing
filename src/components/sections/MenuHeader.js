@@ -38,27 +38,27 @@ export default function MenuHeader() {
       </label>
       <ul className={menuClass}>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" to="/">
+          <ALink className="menu-header__navigation-link" exact to="/" activeClassName="active">
             ホーム
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" to="/services">
+          <ALink className="menu-header__navigation-link" exact to="/services" activeClassName="active">
             サービス
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" to="/technology">
+          <ALink className="menu-header__navigation-link" exact to="/technology" activeClassName="active">
             技術
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" to="/about-us">
+          <ALink className="menu-header__navigation-link" exact to="/about-us" activeClassName="active">
             我々について
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" to="/contact">
+          <ALink className="menu-header__navigation-link" exact to="/contact" activeClassName="active">
             お問い合わせ
           </ALink>
         </li>

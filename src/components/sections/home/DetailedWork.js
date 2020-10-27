@@ -8,7 +8,7 @@ import ALink from "../../common/ALink";
 const DetailedWork = ({ data }) => {
   return (
     <section className="detailedwork__wrapper">
-      <Title className="detailedwork__title" data={data.title} />
+      <h3 className="detailedwork__title">{data.title}</h3>
       <Image className="detailedwork__image" {...data.image} />
       <div className="detailedwork__description">
         <p>{data.descriptions1}</p>
