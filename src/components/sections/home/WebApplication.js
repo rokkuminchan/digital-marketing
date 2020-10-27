@@ -20,11 +20,7 @@ export default function WebApplication({ data }) {
       <div className="web-application__items">
         {data.items.map((item, index) => (
           <div key={index} className={`web-application__item ${item.cssCol}`}>
-            <Image
-              className="web-application__items--icon"
-              key={index}
-              {...item.image}
-            />
+            <Image className="web-application__items--icon" {...item.image} />
             <div className="web-application__items-description">
               <p>{item.description}</p>
             </div>
