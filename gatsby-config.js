@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `ワールドのITチーム`,
+    description: `ワールドのITチームのご紹介サイト`,
+    site_name:`WORLD IT TEAM`,
+    url: `http://world-digital-marketing.surge.sh`,
     author: `@gatsbyjs`,
   },
   plugins: [
