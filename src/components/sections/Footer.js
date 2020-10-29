@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebookF } from 'react-icons/fa';
+
 import ALink from "../common/ALink";
 import "./Footer.css";
 
@@ -41,7 +43,7 @@ export default function Footer() {
       <div className="footer__right">
         <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
-            <i className="fa fa-facebook"></i>
+            <FaFacebookF className="footer__facebook-icon"/>
           </a>
         </div>
         <p className="footer__copyright">
