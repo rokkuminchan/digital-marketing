@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF,FaFax, FaMapMarker, FaPhone } from 'react-icons/fa';
 
 import ALink from "../common/ALink";
 import "./Footer.css";
@@ -21,21 +21,27 @@ export default function Footer() {
       </div>
 
       <div className="footer__center">
-        <div>
-          <i className="fa fa-map-marker"></i>
+        <div className="footer__company-info-row">
+          <div className="footer__company-info-icon">
+            <FaMapMarker size={16}/>
+          </div>
           <p>
             <span>〒500-8856</span>
             岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
           </p>
         </div>
 
-        <div>
-          <i className="fa fa-phone"></i>
+        <div className="footer__company-info-row">
+          <div className="footer__company-info-icon">
+            <FaPhone size={16}/>
+          </div>
           <p>TEL 058-255-3066</p>
         </div>
 
-        <div>
-          <i className="fa fa-fax"></i>
+        <div className="footer__company-info-row">
+          <div className="footer__company-info-icon">
+            <FaFax size={16}/>
+          </div>
           <p>FAX 058-255-3633</p>
         </div>
       </div>
