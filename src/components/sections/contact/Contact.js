@@ -6,7 +6,7 @@ const Contact = ({ data }) => {
   return (
     <section className="contact">
       <h3 className="contact_title">{data.title}</h3>
-      <Description data={data.description} />
+      <p className="contact_description">{data.description}</p>
       <form action={data.action}>
         {data.items.map((item, index) => {
           return (
