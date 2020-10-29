@@ -15,6 +15,25 @@
   vertical-align: top;
 }
 
+.footer__company-info-row{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.footer__company-info-icon{
+  display: flex;
+  width: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #72aed3;
+}
+
+.footer__company-info-icon:hover{
+  color: #49f53a;
+}
+
 .active{
   color: yellow !important;
 }
