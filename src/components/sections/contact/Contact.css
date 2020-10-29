@@ -46,7 +46,7 @@
     width: 100%;
     height: calc(100vh - var(--header-menu-height));
     z-index: 1;
-    padding: 20px 0 0px 0;
+    padding: 0;
   }
   .contact_title {
     font-size: 3.5em;
@@ -59,7 +59,7 @@
   .contact_description {
     font-size: 2em;
     text-align: center;
-    padding: 2% 5% 2% 5%;
+    padding: 9%;
     opacity: 0.8;
   }
   form {
