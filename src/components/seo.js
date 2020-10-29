@@ -37,7 +37,6 @@ function SEO({ description, lang, meta, title, image }) {
       <meta property="og:description" content={metaDescription}  />     
       <meta property="og:site_name" content={site.siteMetadata.site_name} />     
       <meta property="og:image" content={previewImg} /> 
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></link>
       <title>{defaultTitle}</title>
     </Helmet>
   )
