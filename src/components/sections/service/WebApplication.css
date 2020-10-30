@@ -49,9 +49,15 @@
 
 .web-application__image {
   margin-bottom: 15%;
+  height: 150px;
+  width: 100%;
 }
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
+  .web-application__image {
+    height: 250px;
+    object-fit: cover;
+  }
   .web-application__desciption {
     padding-top: 2%;
   }
@@ -94,6 +100,10 @@
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
+  .web-application__image {
+    height: 300px;
+    object-fit: cover;
+  }
   .web-application__desciption {
     padding-top: 0;
   }
@@ -102,5 +112,12 @@
   }
   .web-application__image {
     margin-bottom: 7%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .web-application__image {
+    height: 150px;
+    object-fit: cover;
   }
 }

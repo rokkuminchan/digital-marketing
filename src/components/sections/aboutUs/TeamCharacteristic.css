@@ -23,7 +23,8 @@
   letter-spacing: 1px;
   width: 80%;
   margin: 2% auto;
-  opacity: 0.8;
+  opacity: 1;
+  color: #ffffff;
 }
 .team-characteristic__imgbg {
   grid-area: imgbg;
@@ -34,6 +35,10 @@
   background-size: cover;
   height: auto;
   object-fit: cover;
+}
+.team-characteristic__imgbg ::after {
+  content: "";
+  opacity: 0.5;
 }
 
 .team-characteristic__items {

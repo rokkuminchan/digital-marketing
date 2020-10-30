@@ -29,14 +29,14 @@
 .menu-header__navigation-link:hover,
 .menu-header__visibility-btn:hover {
   font-weight: bold;
-  color:yellow;
+  color: yellow;
 }
 
 .menu-header__logo {
   display: block;
   float: left;
   font-size: 3em;
-  padding: 15px 20px;
+  padding: 20px 20px;
   width: 195px;
   height: 40px;
   text-decoration: none;
@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 768px) {
   .menu-header {
-    padding-right:40px;
+    padding-right: 40px;
   }
 
   .menu-header__navigation-item {
