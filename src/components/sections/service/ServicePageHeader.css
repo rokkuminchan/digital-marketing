@@ -98,7 +98,7 @@
 
 @media only screen and (min-width: 992px) {
   .service-page-header__title {
-    font-size: 4em;
+    font-size: 3.3em;
   }
 
   .service-page-header__description {
@@ -106,6 +106,6 @@
   }
 
   .service-page-header__sub-description {
-    font-size: 3em;
+    font-size: 2.8em;
   }
 }
