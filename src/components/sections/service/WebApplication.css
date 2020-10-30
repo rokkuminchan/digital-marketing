@@ -94,9 +94,6 @@
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
-  .web-application__sub-description {
-    margin-bottom: 0;
-  }
   .web-application__desciption {
     padding-top: 0;
   }
