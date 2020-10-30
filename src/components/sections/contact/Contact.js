@@ -1,7 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import Description from "../../common/Description";
-
 const Contact = ({ data }) => {
   return (
     <section className="contact">

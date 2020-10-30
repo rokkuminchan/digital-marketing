@@ -1,6 +1,6 @@
 import React from "react";
 import "./MenuHeader.css";
-import Logo from "../../images/world-logo.png";
+import Logo from "../../images/world-logo.jpg";
 import ALink from "../common/ALink";
 
 const menuClass = "menu-header__navigation";
@@ -38,27 +38,52 @@ export default function MenuHeader() {
       </label>
       <ul className={menuClass}>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" exact to="/" activeClassName="active">
+          <ALink
+            className="menu-header__navigation-link"
+            exact
+            to="/"
+            activeClassName="active"
+          >
             ホーム
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" exact to="/services" activeClassName="active">
+          <ALink
+            className="menu-header__navigation-link"
+            exact
+            to="/services"
+            activeClassName="active"
+          >
             サービス
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" exact to="/technology" activeClassName="active">
+          <ALink
+            className="menu-header__navigation-link"
+            exact
+            to="/technology"
+            activeClassName="active"
+          >
             技術
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" exact to="/about-us" activeClassName="active">
+          <ALink
+            className="menu-header__navigation-link"
+            exact
+            to="/about-us"
+            activeClassName="active"
+          >
             我々について
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink className="menu-header__navigation-link" exact to="/contact" activeClassName="active">
+          <ALink
+            className="menu-header__navigation-link"
+            exact
+            to="/contact"
+            activeClassName="active"
+          >
             お問い合わせ
           </ALink>
         </li>
