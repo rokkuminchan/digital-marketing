@@ -3,7 +3,7 @@ module.exports = {
     title: `ワールドのITチーム`,
     description: `ワールドのITチームのご紹介サイト`,
     site_name:`WORLD IT TEAM`,
-    url: `https://it.world-works.co.jp`,
+    url: `http://world-digital-marketing.surge.sh`,
     author: `@gatsbyjs`,
   },
   plugins: [

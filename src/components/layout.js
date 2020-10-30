@@ -7,23 +7,9 @@ import MenuHeader from "./sections/MenuHeader";
 import SEO from "./seo";
 
 export default function Layout(props) {
-  const data = useStaticQuery(graphql`
-    {
-      metadataJson {
-        image {
-          childImageSharp {
-            fixed {
-              src
-            }
-          }
-        }
-      }
-    }
-  `);
-
   return (
     <React.Fragment>
-      <SEO image={data.metadataJson.image.childImageSharp.fixed.src}/>
+      <SEO/>
       <MenuHeader />
         <main>{props.children}</main>
       <Footer />
