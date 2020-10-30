@@ -26,7 +26,7 @@
       {
         "cssCol": "web-application__items--left",
         "image": {
-          "src": "../../images/home__web-app-1.png",
+          "src": "../../images/home__web-app-1.jpg",
           "alt": "icon"
         },
         "description": "10倍早く走る"
@@ -34,7 +34,7 @@
       {
         "cssCol": "web-application__items--right",
         "image": {
-          "src": "../../images/home__web-app-2.png",
+          "src": "../../images/home__web-app-2.jpg",
           "alt": "icon"
         },
         "description": "燃費が10倍良い"
@@ -42,7 +42,7 @@
       {
         "cssCol": "web-application__items--left",
         "image": {
-          "src": "../../images/home__web-app-3.png",
+          "src": "../../images/home__web-app-3.jpg",
           "alt": "icon"
         },
         "description": "安全性が高い"
@@ -50,7 +50,7 @@
       {
         "cssCol": "web-application__items--right",
         "image": {
-          "src": "../../images/home__web-app-4.png",
+          "src": "../../images/home__web-app-4.jpg",
           "alt": "icon"
         },
         "description": "車の価格は２分の1"
@@ -60,7 +60,7 @@
   "WebAppForDigital": {
     "title": "貴社のデジタル化にも次世代型Webアプリが威力を発揮します",
     "image": {
-      "src": "../../images/home__web-app-digital.png",
+      "src": "../../images/home__web-app-digital.jpg",
       "alt": "WebApplicationForDigital"
     },
     "description": "予算が半分で、100倍の効果が出せる次世代型Webアプリです。貴社のデジタル化にもお役に立てます"
@@ -83,7 +83,7 @@
     "subtitle": "私たちは第二世代のベトナム人ITエンジニアのチームです",
     "images": [
       {
-        "src": "../../images/aboutus__page-header.png",
+        "src": "../../images/aboutus__page-header.jpg",
         "alt": "WorldRecruitHistory"
       },
       {
@@ -118,7 +118,7 @@
     "title": "テクノロジー",
     "subtitle": "チーム全員が最新のテクノロジーに習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます",
     "image": {
-      "src": "../../images/home__technology.png",
+      "src": "../../images/home__technology.jpg",
       "alt": "technology"
     },
     "description": "WorldのITチームお勧めの最新テクノロジーは",

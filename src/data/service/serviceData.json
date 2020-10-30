@@ -15,7 +15,7 @@
       {
         "cssCol": "web-application__items--left",
         "image": {
-          "src": "../../images/service__web-app-1.png",
+          "src": "../../images/service__web-app-1.jpg",
           "alt": "icon"
         },
         "description": "10倍早く走る"
@@ -23,7 +23,7 @@
       {
         "cssCol": "web-application__items--right",
         "image": {
-          "src": "../../images/service__web-app-2.png",
+          "src": "../../images/service__web-app-2.jpg",
           "alt": "icon"
         },
         "description": "燃費が10倍良い"
@@ -31,7 +31,7 @@
       {
         "cssCol": "web-application__items--left",
         "image": {
-          "src": "../../images/service__web-app-3.png",
+          "src": "../../images/service__web-app-3.jpg",
           "alt": "icon"
         },
         "description": "安全性が高い"
@@ -39,7 +39,7 @@
       {
         "cssCol": "web-application__items--right",
         "image": {
-          "src": "../../images/service__web-app-4.png",
+          "src": "../../images/service__web-app-4.jpg",
           "alt": "icon"
         },
         "description": "車の価格は２分の1"
@@ -52,7 +52,7 @@
       "src": "/technology"
     },
     "image": {
-      "src": "../../images/service__web-application.png",
+      "src": "../../images/service__web-application.jpg",
       "alt": "image"
     }
   },
@@ -96,7 +96,7 @@
       }
     ],
     "image": {
-      "src": "../../images/service__webapp-digital.png",
+      "src": "../../images/service__webapp-digital.jpg",
       "alt": ""
     },
     "comment": [

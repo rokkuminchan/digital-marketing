@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import HomePageHeaderImage from "../../../images/home__page-header.png"
+import HomePageHeaderImage from "../../../images/home__page-header.jpg"
 
 import "./homePageHeader.css"
 
