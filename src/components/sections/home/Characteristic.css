@@ -33,6 +33,7 @@
   margin: auto;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .characteristic__cardBx .characteristic__img picture img {
   position: unset !important;
@@ -115,18 +116,17 @@
 .characteristic__cardBx figure::before {
   content: "";
   position: absolute;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -ms-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  height: 200%;
-  width: 300%;
-}
-.characteristic__cardBx figure:before {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
   right: 0;
   bottom: 0;
   background: rgba(73, 62, 62, 0.5);
+  /* background: red; */
   -webkit-transform: skew(0deg) translateX(100%);
   -moz-transform: skew(0deg) translateX(100%);
   -ms-transform: skew(0deg) translateX(100%);
@@ -134,11 +134,11 @@
   transform: skew(0deg) translateX(100%);
 }
 .characteristic__cardBx:hover figure:before {
-  -webkit-transform: skew(45deg) translateX(0%);
-  -moz-transform: skew(45deg) translateX(0%);
-  -ms-transform: skew(45deg) translateX(0%);
-  -o-transform: skew(45deg) translateX(0%);
-  transform: skew(45deg) translateX(0%);
+  -webkit-transform: skew(0deg) translateX(0%);
+  -moz-transform: skew(0deg) translateX(0%);
+  -ms-transform: skew(0deg) translateX(0%);
+  -o-transform: skew(0deg) translateX(0%);
+  transform: skew(0deg) translateX(0%);
 }
 .characteristic__cardBx:hover figcaption {
   -webkit-opacity: 1;
