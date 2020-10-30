@@ -10,7 +10,7 @@
   },
   "WebApplication": {
     "title": "急速に進化を続けるWebアプリーケーション",
-    "description": "この次世代Webアプリを車に例えると、夢のような車になります。",
+    "description": "この次世代Webアプリを車に例えると、夢のような車になります",
     "items": [
       {
         "cssCol": "web-application__items--left",
@@ -45,8 +45,8 @@
         "description": "車の価格は２分の1"
       }
     ],
-    "subDescription1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。",
-    "subDescription2": "WorldのITチームお勧めの最新テクノロジーは",
+    "subDescription1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WORLDのITチームにお任せ下さい。",
+    "subDescription2": "WORLDのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
       "src": "/technology"
