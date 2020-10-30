@@ -1,6 +1,6 @@
 import React from "react";
 import "./PageHeader.css";
-import Background from "../../../images/aboutus__page-header.png";
+import Background from "../../../images/aboutus__page-header.jpg";
 
 export default function PageHeader() {
   return (
