@@ -16,7 +16,7 @@
     },
     "description": [
       "急速に進化を続けるWebアプリーケーションの世界！",
-      "この次世代Webアプリを車に例えると、夢のような車になります。"
+      "この次世代Webアプリを車に例えると、夢のような車になります"
     ],
     "backgroundSrc": {
       "src": "../../images/home__web-app.png",
@@ -71,8 +71,8 @@
       "src": "../../images/home__daitailed-works.png",
       "alt": "daitailed-works"
     },
-    "descriptions1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WorldのITチームにお任せ下さい。",
-    "descriptions2": "WorldのITチームお勧めの最新テクノロジーは",
+    "descriptions1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WORLDのITチームにお任せ下さい",
+    "descriptions2": "WORLDのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
       "src": "/technology"
@@ -121,7 +121,7 @@
       "src": "../../images/home__technology.jpg",
       "alt": "technology"
     },
-    "description": "WorldのITチームお勧めの最新テクノロジーは",
+    "description": "WORLDのITチームお勧めの最新テクノロジーは",
     "link": {
       "title": "こちら",
       "src": "/technology"

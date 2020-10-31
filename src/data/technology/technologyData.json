@@ -5,7 +5,7 @@
           "src":"../../images/technology__pageheader.png",
           "alt":"Technology"
        },
-       "description":"<p class='tech-page-header__description'><span class='strong-decs'>World ITチーム</span>全員が最新の<span class='strong-decs'>テクノロジー</span>に習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます</p>"
+       "description":"<p class='tech-page-header__description'><span class='strong-decs'>WORLD ITチーム</span>全員が最新の<span class='strong-decs'>テクノロジー</span>に習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます</p>"
     },
     "technologyList":{
        "title":{
