@@ -16,6 +16,7 @@ import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
 
+// Recruit Dev
 function App() {
   return (
     <div className="App">
