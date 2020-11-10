@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../layout";
 import ServicePageHeader from "../../components/sections/service/ServicePageHeader";
 import WebApplication from "../../components/sections/service/WebApplication";
 import WebAppRequirment from "../../components/sections/service/WebAppRequirement";
@@ -7,11 +6,11 @@ import AgileTeamComposition from "../../components/sections/service/AgileTeamCom
 export default function Services({ data }) {
 
   return (
-    <Layout>
+    <React.Fragment>
       <ServicePageHeader data={data.ServiceHeader} />
       <WebApplication data={data.WebApplication} />
-      <WebAppRequirment data={data.WebApplicationRequirment} />     
-      <AgileTeamComposition data={data.AgileTeamComposition}/>
-    </Layout>
+      <WebAppRequirment data={data.WebApplicationRequirment} />
+      <AgileTeamComposition data={data.AgileTeamComposition} />
+    </React.Fragment>
   );
 }
