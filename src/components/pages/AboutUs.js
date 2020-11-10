@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../layout";
 import PageHeader from "../sections/aboutUs/PageHeader";
 import Mission from "../sections/aboutUs/Mission";
 import Vision from "../sections/aboutUs/Vision";
@@ -12,7 +11,7 @@ import VNUniversity from "../sections/aboutUs/VNUniversity";
 
 export default function AboutUs({ data }) {
   return (
-    <Layout>
+    <React.Fragment>
       <PageHeader />
       <Mission data={data.mission} />
       <Vision data={data.vision} />
@@ -22,6 +21,6 @@ export default function AboutUs({ data }) {
       <WorldRecruitHistory data={data.worldRecruitHistory} />
       <Relationship data={data.relationship} />
       <VNUniversity data={data.vietnamUniversity} />
-    </Layout>
+    </React.Fragment>
   );
 }

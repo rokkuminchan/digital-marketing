@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../layout";
 import DetailedWork from "../sections/home/DetailedWork";
 import Characteristic from "../sections/home/Characteristic";
 import Technology from "../sections/home/Technology";
@@ -11,7 +10,7 @@ import Contact from "../sections/home/Contact";
 
 export default function Home({ data }) {
   return (
-    <Layout>
+    <React.Fragment>
       <HomePageHeader data={data.HomePageHeader} />
       <WebApplication data={data.WebApplication} />
       <WebAppForDigital data={data.WebAppForDigital} />
@@ -20,6 +19,6 @@ export default function Home({ data }) {
       <AboutUs data={data.Watashitachi} />
       <Technology data={data.Technology} />
       <Contact />
-    </Layout>
+    </React.Fragment>
   );
 }
