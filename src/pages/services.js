@@ -1,11 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
 
+import Layout from "../components/layout"
 import Services from "../components/pages/Services";
 
 export default function ServicesPage({ data }) {
   return (
-    <Services data={data.serviceJson}/>
+    <Layout>
+      <Services data={data.serviceJson} />
+    </Layout>
   );
 }
 

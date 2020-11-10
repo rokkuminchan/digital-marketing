@@ -1,10 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
+
+import Layout from "../components/layout"
 import Home from "../components/pages/Home";
 
 //Home page
-const IndexPage = ({data}) => (
-  <Home data={data.homeJson}/>
+const IndexPage = ({ data }) => (
+  <Layout>
+    <Home data={data.homeJson} />
+  </Layout>
 );
 
 export default IndexPage;
