@@ -1,6 +1,9 @@
 import React from "react";
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { useTranslation } from "react-i18next"
+
+// Styles
+import "./App.css";
 
 // Components
 import Home from "./components/pages/Home";
@@ -16,6 +19,17 @@ import serviceJsonData from "./data/service/serviceData.json";
 import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
+
+function Test() {
+  const { t } = useTranslation();
+
+  return (
+    <React.Fragment>
+      <h1>{t('page2.title')}</h1>
+      <p>{t('page2.content')}</p>
+    </React.Fragment>
+  )
+}
 
 // Recruit Dev
 function App() {
@@ -39,6 +53,9 @@ function App() {
               </Route>
               <Route exact path="/contact">
                 <Contact data={contactJsonData} />
+              </Route>
+              <Route exact path="/test">
+                <Test />
               </Route>
             </Switch>
           </Layout>

@@ -1,10 +1,11 @@
 import React from "react";
 
 import "./Layout.css";
+import { withTrans } from '../i18n/withTrans'
 import Footer from "./sections/Footer";
 import MenuHeader from "./sections/MenuHeader";
 
-export default function Layout(props) {
+function Layout(props) {
   return (
     <React.Fragment>
       <MenuHeader />
@@ -13,3 +14,5 @@ export default function Layout(props) {
     </React.Fragment>
   );
 }
+
+export default withTrans(Layout)
