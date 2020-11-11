@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ワールドのITチーム`,
     description: `ワールドのITチームのご紹介サイト`,
-    site_name:`WORLD IT TEAM`,
+    site_name: `WORLD IT TEAM`,
     url: `https://it.world-works.co.jp`,
     author: `@gatsbyjs`,
   },
@@ -35,10 +35,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-      },
+      }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: `${__dirname}/src/components/layout.js`
+      }
+    },
+  ]
 };

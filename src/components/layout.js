@@ -1,18 +1,20 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby"
+import { withTrans } from '../i18n/withTrans'
 
 import "./Layout.css";
 import Footer from "./sections/Footer";
 import MenuHeader from "./sections/MenuHeader";
 import SEO from "./seo";
 
-export default function Layout(props) {
+function Layout(props) {
   return (
     <React.Fragment>
-      <SEO/>
+      <SEO />
       <MenuHeader />
-        <main>{props.children}</main>
+      <main>{props.children}</main>
       <Footer />
     </React.Fragment>
   );
 }
+
+export default withTrans(Layout)

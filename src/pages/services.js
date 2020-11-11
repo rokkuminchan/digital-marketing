@@ -1,15 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../components/layout"
 import Services from "../components/pages/Services";
 
 export default function ServicesPage({ data }) {
-  return (
-    <Layout>
-      <Services data={data.serviceJson} />
-    </Layout>
-  );
+  return <Services data={data.serviceJson} />
 }
 
 export const query = graphql`

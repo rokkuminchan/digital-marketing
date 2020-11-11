@@ -1,15 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../components/layout"
 import Technology from "../components/pages/Technology";
 
 export default function TechnologyPage({ data }) {
-  return (
-    <Layout>
-      <Technology data={data.technologyJson} />
-    </Layout>
-  );
+  return <Technology data={data.technologyJson} />
 }
 
 export const query = graphql`
