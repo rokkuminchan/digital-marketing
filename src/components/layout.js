@@ -1,5 +1,4 @@
 import React from "react";
-import { withTrans } from '../i18n/withTrans'
 
 import "./Layout.css";
 import Footer from "./sections/Footer";
@@ -17,4 +16,4 @@ function Layout(props) {
   );
 }
 
-export default withTrans(Layout)
+export default Layout;

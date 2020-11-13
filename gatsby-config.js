@@ -38,6 +38,24 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        path: `${__dirname}/src/locales`,
+        languages: [`jp`, `vi`],
+        defaultLanguage: `jp`,
+
+        // you can pass any i18next options
+        // pass following options to allow message content as a key
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false // not needed for react as it escapes by default
+          },
+          keySeparator: false,
+          nsSeparator: false
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: `${__dirname}/src/components/layout.js`

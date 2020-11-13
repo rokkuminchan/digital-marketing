@@ -1,20 +1,31 @@
 import React from "react";
-import { Link } from "gatsby"
 
 import Layout from "../components/layout";
-import { useTranslation } from "react-i18next"
+import { Link, useTranslation, useI18next } from 'gatsby-plugin-react-i18next';
+import ALink from "../components/common/ALink";
 
 export default function Test(props) {
+    const { languages, originalPath } = useI18next();
     const { t } = useTranslation();
 
-    console.log(t)
+    console.log(languages)
+    console.log(originalPath)
 
     return (
         <React.Fragment>
             <Layout>
-                <h1>{t('page2.title')}</h1>
-                <p>{t('page2.content')}</p>
-                <Link to="/">{t('page2.link')}</Link>
+                <h1>{t('Home')}</h1>
+                <p>{t('Header-Title')}</p>
+                <ALink to="/">{t('ABC.1')}</ALink>
+                <ul className="languages">
+                    {languages.map((lng) => (
+                        <li key={lng}>
+                            <Link to={originalPath} language={lng}>
+                                {lng}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
             </Layout>
         </React.Fragment>
     )
