@@ -1,17 +1,11 @@
 {
-    "site": {
-        "Gatsby Default Starter": "Gatsby 起始專案",
-        "footer": "使用 Gatsby 建置"
-    },
-    "home": {
-        "test": "哈囉",
-        "title": "嗨!大家好",
-        "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!",
-        "link": "進入第2頁"
-    },
-    "page2": {
-        "title": "嗨,這是第2頁",
-        "content": "歡迎來到第2頁",
-        "link": "回首頁"
-    }
+    "contact__title": "お問い合わせ",
+    "contact__description": "開発の依頼は、フォームよりお願いします",
+    "contact__company-name": "会社名",
+    "contact__company-home-page": "会社ホームページ",
+    "contact__mail": "ご担当（お名前）",
+    "contact__name": "メール",
+    "contact__phone-number": "電話番号",
+    "contact__project-overview": "プロジェクトの概要",
+    "contact__submit": "送信"
 }

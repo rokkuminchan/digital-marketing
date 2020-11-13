@@ -1,38 +1,40 @@
-{"contact": {
-   "title":"お問い合わせ",
-   "description" : "開発の依頼は、フォームよりお願いします",
-   "action" : "https://docs.google.com/forms/d/e/1FAIpQLSeaqmiC9zhzuU4xxCaUb1A7-6yx3Qsy24UXI9UvaSaOKkzvIQ/formResponse",
-   "items":[
-{    
-  "type": "text",
-  "name": "entry.1220936128",
-  "placeholder": "会社名"
-},
-{    
-   "type": "text",
-   "name": "entry.1340264922",
-   "placeholder": "会社ホームページ"
-},
-{    
-   "type": "text",
-   "name": "entry.1475113956",
-   "placeholder": "ご担当（お名前）"
-},
-{    
-   "type": "text",
-   "name": "entry.1516892305",
-   "placeholder": "メール"
-},
-{    
-   "type": "text",
-   "name": "entry.958963891",
-   "placeholder": "電話番号"
-},
-{    
-   "type": "text",
-   "name": "entry.298855284",
-   "placeholder": "プロジェクトの概要"
-}
-     ]
-}
+{
+   "contact": {
+      "title": "contact__title",
+      "description": "contact__description",
+      "action": "https://docs.google.com/forms/d/e/1FAIpQLSeaqmiC9zhzuU4xxCaUb1A7-6yx3Qsy24UXI9UvaSaOKkzvIQ/formResponse",
+      "submit": "contact__submit",
+      "items": [
+         {
+            "type": "text",
+            "name": "entry.1220936128",
+            "placeholder": "contact__company-name"
+         },
+         {
+            "type": "text",
+            "name": "entry.1340264922",
+            "placeholder": "contact__company-home-page"
+         },
+         {
+            "type": "text",
+            "name": "entry.1475113956",
+            "placeholder": "contact__name"
+         },
+         {
+            "type": "text",
+            "name": "entry.1516892305",
+            "placeholder": "contact__mail"
+         },
+         {
+            "type": "text",
+            "name": "entry.958963891",
+            "placeholder": "contact__phone-number"
+         },
+         {
+            "type": "text",
+            "name": "entry.298855284",
+            "placeholder": "contact__project-overview"
+         }
+      ]
+   }
 }
