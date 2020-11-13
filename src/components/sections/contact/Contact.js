@@ -1,10 +1,15 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
+
 import "./Contact.css";
+
 const Contact = ({ data }) => {
+  const { t } = useTranslation();
+
   return (
     <section className="contact">
-      <h3 className="contact_title">{data.title}</h3>
-      <p className="contact_description">{data.description}</p>
+      <h3 className="contact_title">{t(data.title)}</h3>
+      <p className="contact_description">{t(data.description)}</p>
       <form action={data.action}>
         {data.items.map((item, index) => {
           return (
@@ -14,12 +19,12 @@ const Contact = ({ data }) => {
                 key={index}
                 type={item.type}
                 name={item.name}
-                placeholder={item.placeholder}
+                placeholder={t(item.placeholder)}
               />
             </div>
           );
         })}
-        <input type="submit" value="送信" className="contact__btn" />
+        <input type="submit" value={t(data.submit)} className="contact__btn" />
       </form>
     </section>
   );

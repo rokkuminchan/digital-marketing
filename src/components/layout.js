@@ -5,7 +5,7 @@ import Footer from "./sections/Footer";
 import MenuHeader from "./sections/MenuHeader";
 import SEO from "./seo";
 
-function Layout(props) {
+export default function Layout(props) {
   return (
     <React.Fragment>
       <SEO />
@@ -15,5 +15,3 @@ function Layout(props) {
     </React.Fragment>
   );
 }
-
-export default Layout;
