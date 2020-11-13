@@ -1,22 +1,13 @@
 import React from "react";
 import { FaFacebookF, FaFax, FaMapMarker, FaPhone } from 'react-icons/fa';
-import { useTranslation } from 'react-i18next';
 
 import ALink from "../common/ALink";
+import LanguageSwitcher from "../common/LanguageSwitcher";
 import "./Footer.css";
-
-function LanguageSwitcher() {
-  const [t, i18n] = useTranslation();
-  return <div>
-    <button onClick={() => i18n.changeLanguage('jp')}>Japanese</button>
-    <button onClick={() => i18n.changeLanguage('vi')}>Vietnamese</button>
-  </div>
-}
 
 export default function Footer() {
   return (
     <footer className="footer__distributed">
-      <LanguageSwitcher />
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
@@ -28,6 +19,7 @@ export default function Footer() {
           <ALink exact to="/about-us" activeClassName="active">我々について</ALink>｜｜
           <ALink exact to="/contact" activeClassName="active">お問い合わせ</ALink>
         </p>
+        <LanguageSwitcher />
       </div>
 
       <div className="footer__center">
