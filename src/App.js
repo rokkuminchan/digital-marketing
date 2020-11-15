@@ -25,10 +25,10 @@ i18next.init({
   fallbackLng: 'vi',
   resources: {
     jp: {
-      translations: require('./locales/jp/translations.json')
+      translations: require('./locales/jp/translation.json')
     },
     vi: {
-      translations: require('./locales/vi/translations.json')
+      translations: require('./locales/vi/translation.json')
     }
   },
   ns: ['translations'],
