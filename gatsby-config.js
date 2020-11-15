@@ -55,12 +55,6 @@ module.exports = {
           nsSeparator: false
         }
       }
-    },
-    // {
-    //   resolve: `gatsby-plugin-layout`,
-    //   options: {
-    //     component: `${__dirname}/src/components/layout.js`
-    //   }
-    // },
+    }
   ]
 };
