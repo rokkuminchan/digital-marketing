@@ -2,9 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Services from "../components/pages/Services";
+import Layout from "../components/layout";
 
 export default function ServicesPage({ data }) {
-  return <Services data={data.serviceJson} />
+  return <Layout>
+    <Services data={data.serviceJson} />
+  </Layout>
 }
 
 export const query = graphql`

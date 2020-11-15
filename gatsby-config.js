@@ -43,7 +43,8 @@ module.exports = {
         path: `${__dirname}/src/locales`,
         languages: [`jp`, `vi`],
         defaultLanguage: `jp`,
-
+        redirect: false,
+        siteUrl: "http://localhost:8000",
         // you can pass any i18next options
         // pass following options to allow message content as a key
         i18nextOptions: {
@@ -55,11 +56,11 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-layout`,
-      options: {
-        component: `${__dirname}/src/components/layout.js`
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-layout`,
+    //   options: {
+    //     component: `${__dirname}/src/components/layout.js`
+    //   }
+    // },
   ]
 };

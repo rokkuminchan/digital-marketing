@@ -13,20 +13,20 @@ export default function Test(props) {
 
     return (
         <React.Fragment>
-            <Layout>
-                <h1>{t('Home')}</h1>
-                <p>{t('Header-Title')}</p>
-                <ALink to="/">{t('ABC.1')}</ALink>
-                <ul className="languages">
-                    {languages.map((lng) => (
-                        <li key={lng}>
-                            <Link to={originalPath} language={lng}>
-                                {lng}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-            </Layout>
+            {/* <Layout> */}
+            <h1>{t('Home')}</h1>
+            <p>{t('Header-Title')}</p>
+            <ALink to="/">{t('ABC.1')}</ALink>
+            <ul className="languages">
+                {languages.map((lng) => (
+                    <li key={lng}>
+                        <Link to={originalPath} language={lng}>
+                            {lng}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+            {/* </Layout> */}
         </React.Fragment>
     )
 }

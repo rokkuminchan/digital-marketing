@@ -1,10 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
 import AboutUs from "../components/pages/AboutUs";
+import Layout from "../components/layout";
 
 
 export default function AboutUsPage({ data }) {
-  return <AboutUs data={data.ourTeamJson} />
+  return <Layout>
+    <AboutUs data={data.ourTeamJson} />
+  </Layout>
 }
 
 export const query = graphql`

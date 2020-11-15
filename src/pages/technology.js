@@ -2,9 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Technology from "../components/pages/Technology";
+import Layout from "../components/layout";
 
 export default function TechnologyPage({ data }) {
-  return <Technology data={data.technologyJson} />
+  return <Layout>
+    <Technology data={data.technologyJson} />
+  </Layout>
 }
 
 export const query = graphql`
