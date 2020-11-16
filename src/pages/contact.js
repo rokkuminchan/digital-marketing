@@ -17,6 +17,7 @@ export const query = graphql`
         action
         description
         title
+        submit
         items {
           name
           placeholder
