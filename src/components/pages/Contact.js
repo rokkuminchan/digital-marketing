@@ -1,6 +1,6 @@
 import React from "react";
-import Contact from "../sections/contact/Contact";
+import ContactForm from "../sections/contact/ContactForm";
 
 export default function contact({ data }) {
-  return <Contact data={data.contact} />
+  return <ContactForm data={data.contact} />
 }
