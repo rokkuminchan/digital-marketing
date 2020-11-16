@@ -1,7 +1,7 @@
 {
   "recruit": {
     "banner": {
-      "img": {
+      "image": {
         "src": "",
         "alt": "top-banner-image"
       },
@@ -10,16 +10,17 @@
     },
     "reason": [
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         }
       },
       {
+        "title": "スキルアップ",
         "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -27,7 +28,7 @@
         "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -37,7 +38,7 @@
     ],
     "ObjectRequired": {
       "title": "求める人物像",
-      "img": {
+      "image": {
         "src": "",
         "alt": ""
       },
@@ -72,7 +73,7 @@
     },
     "recruitmentPosition": [
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -84,7 +85,7 @@
         }
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -96,7 +97,7 @@
         }
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -108,7 +109,7 @@
         }
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
@@ -120,7 +121,7 @@
         }
       },
       {
-        "img": {
+        "image": {
           "src": "",
           "alt": ""
         },
