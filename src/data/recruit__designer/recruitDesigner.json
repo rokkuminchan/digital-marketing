@@ -1,0 +1,82 @@
+{
+    "recruit": {
+      "banner": {
+        "image": {
+          "src": "",
+          "alt": "top-banner-image"
+        },
+        "title": "デザイナー",
+        "description": "ITチームと協力して傑作をデザインしましょう"
+      },      
+      "JobDescription": {
+        "title": "仕事内容",
+        "content": [
+              "Webアプリケーションのデザインを担当していただきます。",
+              "Webアプリケーションのデザインを担当していただきます。"
+            ]
+      },
+      "recruitmentPosition": [
+        {
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "title": "ディレクター",
+          "description": "ウェブディレクター募集",
+          "button": {
+            "link": "",
+            "title": "詳細"
+          }
+        },
+        {
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "title": "デザイナー",
+          "description": "デザイナー募集",
+          "button": {
+            "link": "",
+            "title": "詳細"
+          }
+        },
+        {
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "title": "フロントエンドエンジニア",
+          "description": "フロントエンドエンジニア募集",
+          "button": {
+            "link": "",
+            "title": "詳細"
+          }
+        },
+        {
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "title": "バックエンドエンジニア",
+          "description": "バックエンドエンジニア募集",
+          "button": {
+            "link": "",
+            "title": "詳細"
+          }
+        },
+        {
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "title": "新卒",
+          "description": "新卒未経験募集",
+          "button": {
+            "link": "",
+            "title": "詳細"
+          }
+        }
+      ]
+    }
+  }
+  
