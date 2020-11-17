@@ -84,13 +84,29 @@
             }
         ]
     },
+    "Entry":{
+        "title":"応募する",
+        "src":"/recruit_entry"
+    },
     "JobOther":{
         "title":"他の職種",
-        "description":[
-            "ディレクター",
-            "デザイナー",
-            "バックエンドエンジニア",
-            "新卒"
+        "link":[
+            {
+                "sub-title":"ディレクター",
+                "src":"/recruit__director"
+            },
+            {
+                "sub-title":"デザイナー",
+                "src":"/recruit__designer"
+            },
+            {
+                "sub-title":"バックエンドエンジニア",
+                "src":"/recruit__backend"
+            },
+            {
+                "sub-title":"新卒",
+                "src":"/recruit__new-graduate"
+            }   
         ]
     }
 
