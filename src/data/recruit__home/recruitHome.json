@@ -1,6 +1,6 @@
 {
-  "recruit": {
-    "banner": {
+  "RecruitHome": {
+    "RecruitHomeHeader": {
       "image": {
         "src": "",
         "alt": "top-banner-image"
@@ -8,7 +8,7 @@
       "title": "Recruit",
       "description": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう"
     },
-    "reason": [
+    "RecruitHomeReason": [
       {
         "image": {
           "src": "",
@@ -36,7 +36,7 @@
         "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
       }
     ],
-    "ObjectRequired": {
+    "RecruitHomeTargetingPersons": {
       "title": "求める人物像",
       "image": {
         "src": "",
@@ -71,7 +71,7 @@
         }
       ]
     },
-    "recruitmentPosition": [
+    "RecruitHomeRecruitmentJobs": [
       {
         "image": {
           "src": "",
