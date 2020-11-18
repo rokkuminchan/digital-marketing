@@ -1,13 +1,13 @@
 .director-page-header {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 .director-page-header__img {
   height: 80vh;
-  background: url("../../../../images/recuit__director.jpg") transparent center
-    right no-repeat;
+  background: url("../../../../images/recuit__director.jpg") transparent 70% 40%
+    no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
@@ -29,11 +29,8 @@
   width: 80%;
   left: 5%;
 }
-h2 {
-  color: white;
-  font-size: 2em;
-}
-p {
+.director-page-header__title,
+.director-page-header__description {
   color: white;
   font-size: 1.4em;
 }

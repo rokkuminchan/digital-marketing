@@ -1,9 +1,4 @@
 {
-    "Header":{
-        "title": "Recuit",
-        "description":"デイレクター",
-        "image":{ "src":"", "alt":""}
-    },
     "JobDescription":{
         "title":"仕事内容",
         "description":[
