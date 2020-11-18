@@ -1,16 +1,17 @@
 .breadcrumb {
   list-style: none;
 }
-.breadcrumb li {
+.breadcrumb .breadcrumb__list {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1em;
 }
-ul.breadcrumb li + li:before {
-  padding: 8px;
+.breadcrumb__list + .breadcrumb__list:before {
+  padding: 3%;
   color: black;
   content: "/\00a0";
 }
-ul.breadcrumb li a {
+.breadcrumb__list a {
   color: #0275d8;
   text-decoration: none;
+  font-size: 1em;
 }
