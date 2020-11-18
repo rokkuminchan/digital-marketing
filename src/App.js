@@ -29,6 +29,8 @@ import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
 import recruitHomeJsonData from "./data/recruit__home/recruitHome.json";
 import recruitDirector from "./data/recruit__director/recruitDirector.json";
+import recruitNewGraduate from "./data/recruit__new-graduate/recruitNewGraduate.json";
+import Graduate from "./components/pages/Graduate";
 
 i18next.init({
   fallbackLng: "vi",
@@ -95,6 +97,9 @@ function App() {
               </Route>
               <Route exact path="/recruit/director">
                 <Director data={recruitDirector} />
+              </Route>
+              <Route exact path="/recruit/new-graduate">
+                <Graduate data={recruitNewGraduate} />
               </Route>
               <Route exact path="/contact">
                 <Contact data={contactJsonData} />
