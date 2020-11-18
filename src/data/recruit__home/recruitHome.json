@@ -1,137 +1,133 @@
 {
-  "RecruitHome": {
-    "RecruitHomeHeader": {
+  "RecruitHomeHeader": {
+    "image": {
+      "src": "",
+      "alt": "top-banner-image"
+    },
+    "title": "Recruit",
+    "description": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう"
+  },
+  "RecruitHomeReason": [
+    {
       "image": {
         "src": "",
-        "alt": "top-banner-image"
-      },
-      "title": "Recruit",
-      "description": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう"
-    },
-    "RecruitHomeReason": [
-      {
-        "image": {
-          "src": "",
-          "alt": ""
-        }
-      },
-      {
-        "title": "スキルアップ",
-        "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
-      },
-      {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "チームワーク",
-        "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
-      },
-      {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "クライアントへのアプローチ",
-        "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
+        "alt": ""
       }
-    ],
-    "RecruitHomeTargetingPersons": {
-      "title": "求める人物像",
+    },
+    {
+      "title": "スキルアップ",
+      "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
+    },
+    {
       "image": {
         "src": "",
         "alt": ""
       },
-      "items": [
-        {
-          "title": "情熱",
-          "description": [
-            "ウェブサービスをつくりたい方、つくることを楽しめる方"
-          ]
-        },
-        {
-          "title": "主体性・チャレンジ",
-          "description": [
-            "柔軟性を持ち、自ら考え行動ができる",
-            "現状に満足せず、新しい技術にチャレンジする意欲がある"
-          ]
-        },
-        {
-          "title": "アイデア・分析力",
-          "description": [
-            "新しい発想やアウトプットへのこだわりがある",
-            "問題を見つけ、自ら解決までできる"
-          ]
-        },
-        {
-          "title": "学習",
-          "description": [
-            "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方"
-          ]
-        }
-      ]
+      "title": "チームワーク",
+      "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
     },
-    "RecruitHomeRecruitmentJobs": [
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "クライアントへのアプローチ",
+      "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
+    }
+  ],
+  "RecruitHomeTargetingPersons": {
+    "title": "求める人物像",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "items": [
       {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "ディレクター",
-        "description": "ウェブディレクター募集",
-        "button": {
-          "link": "",
-          "title": "詳細"
-        }
+        "title": "情熱",
+        "description": ["ウェブサービスをつくりたい方、つくることを楽しめる方"]
       },
       {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "デザイナー",
-        "description": "デザイナー募集",
-        "button": {
-          "link": "",
-          "title": "詳細"
-        }
+        "title": "主体性・チャレンジ",
+        "description": [
+          "柔軟性を持ち、自ら考え行動ができる",
+          "現状に満足せず、新しい技術にチャレンジする意欲がある"
+        ]
       },
       {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "フロントエンドエンジニア",
-        "description": "フロントエンドエンジニア募集",
-        "button": {
-          "link": "",
-          "title": "詳細"
-        }
+        "title": "アイデア・分析力",
+        "description": [
+          "新しい発想やアウトプットへのこだわりがある",
+          "問題を見つけ、自ら解決までできる"
+        ]
       },
       {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "バックエンドエンジニア",
-        "description": "バックエンドエンジニア募集",
-        "button": {
-          "link": "",
-          "title": "詳細"
-        }
-      },
-      {
-        "image": {
-          "src": "",
-          "alt": ""
-        },
-        "title": "新卒",
-        "description": "新卒未経験募集",
-        "button": {
-          "link": "",
-          "title": "詳細"
-        }
+        "title": "学習",
+        "description": [
+          "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方"
+        ]
       }
     ]
-  }
+  },
+  "RecruitHomeRecruitmentJobs": [
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "ディレクター",
+      "description": "ウェブディレクター募集",
+      "button": {
+        "link": "",
+        "title": "詳細"
+      }
+    },
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "デザイナー",
+      "description": "デザイナー募集",
+      "button": {
+        "link": "",
+        "title": "詳細"
+      }
+    },
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "フロントエンドエンジニア",
+      "description": "フロントエンドエンジニア募集",
+      "button": {
+        "link": "",
+        "title": "詳細"
+      }
+    },
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "バックエンドエンジニア",
+      "description": "バックエンドエンジニア募集",
+      "button": {
+        "link": "",
+        "title": "詳細"
+      }
+    },
+    {
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "title": "新卒",
+      "description": "新卒未経験募集",
+      "button": {
+        "link": "",
+        "title": "詳細"
+      }
+    }
+  ]
 }
