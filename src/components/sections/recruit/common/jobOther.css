@@ -1,0 +1,13 @@
+/*mobile */
+ @media screen and (min-width: 320px) {
+   
+  }
+ /*Ipad vertical(768 x 1024)*/
+  @media screen and (min-width: 768px) {
+    
+  }
+  /* Ipad Pro and Desktop */
+  @media screen and (min-width: 1024px) {
+    
+  }
+  
