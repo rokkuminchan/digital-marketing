@@ -81,7 +81,7 @@ export default function MenuHeader() {
           <ALink
             className="menu-header__navigation-link"
             exact
-            to="/about-us"
+            to="/recruit"
             activeClassName="active"
           >
             採用
