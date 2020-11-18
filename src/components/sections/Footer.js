@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaFax, FaMapMarker, FaPhone } from 'react-icons/fa';
+import { FaFacebookF, FaFax, FaMapMarker, FaPhone } from "react-icons/fa";
 
 import ALink from "../common/ALink";
 import LanguageSwitcher from "../common/LanguageSwitcher";
@@ -11,13 +11,30 @@ export default function Footer() {
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
-          <ALink exact to="/" activeClassName="active"> ホーム </ALink>｜｜
-
-          <ALink exact to="/services" activeClassName="active">サービス</ALink>
+          <ALink exact to="/" activeClassName="active">
+            {" "}
+            ホーム{" "}
+          </ALink>
           ｜｜
-          <ALink exact to="/technology" activeClassName="active">技術</ALink>｜｜
-          <ALink exact to="/about-us" activeClassName="active">我々について</ALink>｜｜
-          <ALink exact to="/contact" activeClassName="active">お問い合わせ</ALink>
+          <ALink exact to="/services" activeClassName="active">
+            サービス
+          </ALink>
+          ｜｜
+          <ALink exact to="/technology" activeClassName="active">
+            技術
+          </ALink>
+          ｜｜
+          <ALink exact to="/about-us" activeClassName="active">
+            我々について
+          </ALink>
+          ｜｜
+          <ALink exact to="/recruit" activeClassName="active">
+            採用
+          </ALink>
+          ｜｜
+          <ALink exact to="/contact" activeClassName="active">
+            お問い合わせ
+          </ALink>
         </p>
         <LanguageSwitcher />
       </div>
