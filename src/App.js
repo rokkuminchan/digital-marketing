@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import i18next from 'i18next';
-import { useTranslation, I18nextProvider, withTranslation } from 'react-i18next';
+import i18next from "i18next";
+import {
+  useTranslation,
+  I18nextProvider,
+  withTranslation,
+} from "react-i18next";
 
 // Styles
 import "./App.css";
@@ -13,7 +17,9 @@ import Technology from "./components/pages/Technology";
 import AboutUs from "./components/pages/AboutUs";
 import Contact from "./components/pages/Contact";
 import Layout from "./components/layout";
+import RecruitHome from "./components/pages/RecruitHome";
 import Director from "./components/pages/Director";
+
 // Data
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
 import technologyJsonData from "./data/technology/technologyData.json";
@@ -21,22 +27,23 @@ import serviceJsonData from "./data/service/serviceData.json";
 import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
-import recuitDirector from "./data/recruit__director/recuitDirector.json"
+import recruitHome from "./data/recruit__home/recruitHome.json";
+import recuitDirector from "./data/recruit__director/recuitDirector.json";
 
 i18next.init({
-  fallbackLng: 'vi',
+  fallbackLng: "vi",
   resources: {
     jp: {
-      translations: require('./locales/jp/translation.json')
+      translations: require("./locales/jp/translation.json"),
     },
     vi: {
-      translations: require('./locales/vi/translation.json')
-    }
+      translations: require("./locales/vi/translation.json"),
+    },
   },
-  ns: ['translations'],
-  defaultNS: 'translations',
+  ns: ["translations"],
+  defaultNS: "translations",
   returnObjects: true,
-  debug: process.env.NODE_ENV === 'development',
+  debug: process.env.NODE_ENV === "development",
   interpolation: {
     escapeValue: false, // not needed for react!!
   },
@@ -45,7 +52,7 @@ i18next.init({
   },
 });
 
-i18next.languages = ['jp', 'vi'];
+i18next.languages = ["jp", "vi"];
 
 function withTrans(WrappedComponent) {
   WrappedComponent = withTranslation()(WrappedComponent);
@@ -58,7 +65,7 @@ function withTrans(WrappedComponent) {
         </I18nextProvider>
       );
     }
-  }
+  };
 }
 
 const LanguageSupportLayout = withTrans(Layout);
@@ -83,7 +90,10 @@ function App() {
               <Route exact path="/about-us">
                 <AboutUs data={ourTeamJsonData} />
               </Route>
-              <Route exact path="/director">
+              <Route exact path="/recruit">
+                <RecruitHome data={recruitHome} />
+              </Route>
+              <Route exact path="/recruit/director">
                 <Director data={recuitDirector} />
               </Route>
               <Route exact path="/contact">
