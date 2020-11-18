@@ -28,7 +28,7 @@ import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
 import recruitHomeJsonData from "./data/recruit__home/recruitHome.json";
-import recuitDirector from "./data/recruit__director/recuitDirector.json";
+import recruitDirector from "./data/recruit__director/recuitDirector.json";
 import recruitNewGraduate from "./data/recruit__new-graduate/recruitNewGraduate.json";
 import Graduate from "./components/pages/Graduate";
 
@@ -96,7 +96,7 @@ function App() {
                 <RecruitHome data={recruitHomeJsonData} />
               </Route>
               <Route exact path="/recruit/director">
-                <Director data={recuitDirector} />
+                <Director data={recruitDirector} />
               </Route>
               <Route exact path="/recruit/new-graduate">
                 <Graduate data={recruitNewGraduate} />

@@ -5,7 +5,7 @@
   position: relative;
 }
 .director-page-header__img {
-  height: 60vh;
+  height: 80vh;
   background: url("../../../../images/recuit__director.jpg") transparent center
     right no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@
 .director-page-header__content {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -26,11 +26,14 @@
 }
 .director-page-header__content-text {
   position: absolute;
+  width: 80%;
   left: 5%;
-  top: 10%;
 }
-h2,
-p {
+h2 {
   color: white;
   font-size: 2em;
+}
+p {
+  color: white;
+  font-size: 1.4em;
 }
