@@ -1,6 +1,6 @@
 import React from "react";
 import "./DirectorPageHeader.css";
-import Background from "../../../images/recuit__director.jpg";
+import Background from "../../../../images/recuit__director.jpg";
 
 export default function PageHeader() {
   return (

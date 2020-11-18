@@ -13,6 +13,7 @@ import Technology from "./components/pages/Technology";
 import AboutUs from "./components/pages/AboutUs";
 import Contact from "./components/pages/Contact";
 import Layout from "./components/layout";
+import Director from "./components/pages/Director";
 // Data
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
 import technologyJsonData from "./data/technology/technologyData.json";
@@ -20,6 +21,7 @@ import serviceJsonData from "./data/service/serviceData.json";
 import homeJsonData from "./data/home/homeData.json";
 import contactJsonData from "./data/contact/contactData.json";
 import ScrollToTop from "./components/common/ScrollToTop";
+import recuitDirector from "./data/recruit__director/recuitDirector.json"
 
 i18next.init({
   fallbackLng: 'vi',
@@ -80,6 +82,9 @@ function App() {
               </Route>
               <Route exact path="/about-us">
                 <AboutUs data={ourTeamJsonData} />
+              </Route>
+              <Route exact path="/director">
+                <Director data={recuitDirector} />
               </Route>
               <Route exact path="/contact">
                 <Contact data={contactJsonData} />
