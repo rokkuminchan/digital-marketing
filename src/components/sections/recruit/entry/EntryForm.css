@@ -1,0 +1,130 @@
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.entry__row {
+  width: 100%;
+  outline: none;
+  padding: 0.3rem 1rem;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  font-size: 1.8em;
+}
+
+.entry__label {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.entry__item {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  border: none;
+}
+
+.entry__field {
+  width: 100%;
+  padding: 0.3rem 1rem;
+  margin-bottom: 10px;
+}
+
+.entry__btn {
+  margin: 5px 0 10px 0;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.8em;
+}
+
+.entry__btn:hover {
+  background-color: #27ae60;
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+  .entry {
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - var(--header-menu-height));
+    z-index: 1;
+    padding: 0;
+  }
+  .entry__title {
+    font-size: 3.5em;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  form {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    margin: 0 10%;
+  }
+  .entry:after {
+    content: "";
+    height: 80%;
+    width: 60%;
+    bottom: 10%;
+    left: -60%;
+    background-color: #cae4f3fa;
+    position: absolute;
+    z-index: -1;
+    transform: scale(2);
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  .entry {
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0 0px 0;
+  }
+  .entry__title {
+    font-size: 3.5em;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+  }
+  form {
+    width: 40%;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    margin: 0 30%;
+  }
+  .entry:after {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    bottom: 10%;
+    left: -60%;
+    background-color: #cae4f3fa;
+    position: absolute;
+    z-index: -1;
+    transform: scale(2);
+  }
+}
