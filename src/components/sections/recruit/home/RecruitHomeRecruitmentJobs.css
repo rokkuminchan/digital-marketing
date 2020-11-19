@@ -20,7 +20,7 @@
 .recruit-home-recruitment-jobs__card-image {
   width: 280px;
   height: 290px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .recruit-home-recruitment-jobs__card-title {
   font-size: 1.8rem;
@@ -33,7 +33,7 @@
   justify-content: center;
   flex-direction: column;
   border: 2px solid #80d4fa;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .recruit-home-recruitment-jobs__card-description {
   font-size: 1.5rem;
@@ -41,7 +41,7 @@
 button.recruit-home-recruitment-jobs__card-button {
   width: 90px;
   background-color: #2090d6;
-  box-shadow: 5px 5px 10px #aaaaaa;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .recruit-home-recruitment-jobs__card-footer {
   transform: translate(0, -35%);
@@ -64,11 +64,11 @@ button.recruit-home-recruitment-jobs__card-button {
     margin: 5rem 8rem 0 8rem;
   }
   .recruit-home-recruitment-jobs__card-image {
-    opacity: 0.8;
+    opacity: 1.1;
   }
   .recruit-home-recruitment-jobs__card-image:hover {
-    opacity: 1.1;
-    transform: translateY(3px);
+    opacity: 0.9;
+    transform: translateY(1px);
     transition: ease-in-out 0.1s;
   }
 }
