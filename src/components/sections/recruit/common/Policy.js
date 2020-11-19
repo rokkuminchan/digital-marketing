@@ -1,7 +1,7 @@
 import React from 'react';
 import PolicyItem from "./PolicyItem"
 
-const Polycies = ({data}) => {
+const Polycy = ({data}) => {
     return(
         <div>
             {
@@ -14,4 +14,4 @@ const Polycies = ({data}) => {
         </div>
     )
 }
-export default Polycies;
+export default Polycy;

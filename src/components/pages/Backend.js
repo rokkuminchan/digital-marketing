@@ -1,5 +1,5 @@
 import React from "react";
-import Policy from "../sections/recruit/backend/Policy";
+import Policy from "../sections/recruit/common/Policy";
 
 export default function Backend({data}){
     return (
