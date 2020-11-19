@@ -1,0 +1,17 @@
+.entry-banner {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  position: relative;
+}
+.entry-banner__img {
+  height: 30vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+.card__img {
+  height: 50vh;
+}
