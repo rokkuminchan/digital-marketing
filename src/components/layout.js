@@ -11,7 +11,7 @@ export default function Layout(props) {
       <MenuHeader />
       <main>{props.children}</main>
       <Footer />
-      <EntryButton path="/" />{/* Button link to Recruit/RecruitmentJobs. Haven't been fixed yet. */}
+      <EntryButton path="/" />
     </React.Fragment>
   );
 }
