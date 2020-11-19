@@ -99,7 +99,6 @@
 
 @media screen and (min-width: 768px) {
   .menu-header {
-    padding-right: 40px;
   }
 
   .menu-header__navigation-item {
@@ -107,7 +106,7 @@
   }
 
   .menu-header__navigation-link {
-    padding: 20px 10px;
+    padding: 23px 9px;
   }
 
   .menu-header__navigation {
