@@ -1,7 +1,7 @@
 import React from 'react';
 import PolicyItem from "./PolicyItem"
 import RecruitDetailCardTitle from "../../../common/RecruitDetailCardTitle"
-import "./Policy.css"
+import "./policy.css"
 
 const Polycy = ({data}) => {
     return(
