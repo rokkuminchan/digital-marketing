@@ -1,5 +1,3 @@
-/* .director-page-header {
-  background: url("../../../../images/recruit__director.jpg") transparent 70%
-    40% no-repeat;
-  background-size: cover;
-} */
+.director-page-header .job-page-header {
+  background-position: 70% 40% !important;
+}

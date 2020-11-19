@@ -13,7 +13,10 @@ export default function JobPageHeader(data) {
   return (
     <section className="job-page-header"
       style={{
-        background: ` url(${getUrl(data.data.image.src)})`
+        background: ` url(${getUrl(data.data.image.src)})`,
+            "background-size": `cover`,
+            "background-repeat": `no-repeat`,
+            "background-position": `center center`
     }}
     >
         <div className="job-page-header__content">
