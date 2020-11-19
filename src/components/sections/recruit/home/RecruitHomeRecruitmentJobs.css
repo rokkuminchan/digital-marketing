@@ -62,4 +62,12 @@ button.recruit-home-recruitment-jobs__card-button {
   .recruit-home-recruitment-jobs {
     margin: 5rem 8rem 0 8rem;
   }
+  .recruit-home-recruitment-jobs__card-image {
+    opacity: 0.8;
+  }
+  .recruit-home-recruitment-jobs__card-image:hover {
+    opacity: 1.1;
+    transform: translateY(5px);
+    transition: ease-in-out 0.5s;
+  }
 }
