@@ -68,7 +68,7 @@ button.recruit-home-recruitment-jobs__card-button {
   }
   .recruit-home-recruitment-jobs__card-image:hover {
     opacity: 1.1;
-    transform: translateY(5px);
-    transition: ease-in-out 0.5s;
+    transform: translateY(3px);
+    transition: ease-in-out 0.1s;
   }
 }
