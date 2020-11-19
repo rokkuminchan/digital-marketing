@@ -45,17 +45,17 @@
     },
     "DescriptiveIcon":[
         {
-            "icon":{"src":"book","alt":"book"},
+            "icon":{"type":"BsBookHalf","alt":"book"},
             "title":"研究制度",
-            "description":"ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"
+            "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
         },
         {
-            "icon":{"src":"place","alt":"place"},
+            "icon":{"type":"HiLocationMarker","alt":"place"},
             "title":"勤務地",
-            "description":"東京"
+            "description":["東京"]
         },
         {
-            "icon":{"src":"time","alt":""},
+            "icon":{"type":"IoIosTime","alt":""},
             "title":"勤務時間・休暇備考",
             "description":[
                 "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
@@ -66,17 +66,17 @@
             ]
         },
         {
-            "icon":{"src":"money","alt":""},
+            "icon":{"type":"CgDollar","alt":""},
             "title":"給料",
-            "description":"経験と能力に応じて相談させてください"
+            "description":["経験と能力に応じて相談させてください"]
         },
         {
-            "icon":{"src":"person","alt":""},
+            "icon":{"type":"RiUserFill","alt":""},
             "title":"採用型能",
-            "description":"１年目契約社員・２年目から正社員登用"
+            "description":["１年目契約社員・２年目から正社員登用"]
         },
         {
-            "icon":{"src":"house","alt":""},
+            "icon":{"type":"AiTwotoneHome","alt":""},
             "title":"待遇・福利厚生",
             "description":[
                 "健康保険、厚生年金、雇用保険 ",

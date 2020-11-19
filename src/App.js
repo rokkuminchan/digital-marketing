@@ -20,6 +20,7 @@ import Layout from "./components/layout";
 import RecruitHome from "./components/pages/RecruitHome";
 import Director from "./components/pages/Director";
 import Designer from "./components/pages/Designer";
+import Backend from "./components/pages/Backend"
 
 // Data
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
@@ -32,6 +33,7 @@ import recruitHomeJsonData from "./data/recruit__home/recruitHome.json";
 import recruitDirector from "./data/recruit__director/recruitDirector.json";
 import recruitDesigner from "./data/recruit__designer/recruitDesigner.json";
 import recruitNewGraduate from "./data/recruit__new-graduate/recruitNewGraduate.json";
+import recruitBackend from "./data/recruit__backend/recruitBackend.json";
 import Graduate from "./components/pages/Graduate";
 
 i18next.init({
@@ -102,6 +104,9 @@ function App() {
               </Route>
               <Route exact path="/recruit/designer">
                 <Designer data={recruitDesigner} />
+              </Route>
+              <Route exact path="/recruit/backend">
+                <Backend data={recruitBackend} />
               </Route>
               <Route exact path="/recruit/new-graduate">
                 <Graduate data={recruitNewGraduate} />
