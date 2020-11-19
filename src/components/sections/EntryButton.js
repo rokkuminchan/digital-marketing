@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecruitHomeEntryButton.css";
+import "./EntryButton.css";
 
 export default function RecruitHomeEntryButton(props) {
     return (

@@ -3,6 +3,7 @@ import React from "react";
 import "./Layout.css";
 import Footer from "./sections/Footer";
 import MenuHeader from "./sections/MenuHeader";
+import EntryButton from "./sections/EntryButton";
 
 export default function Layout(props) {
   return (
@@ -10,6 +11,7 @@ export default function Layout(props) {
       <MenuHeader />
       <main>{props.children}</main>
       <Footer />
+      <EntryButton path="/" />{/* Button link to Recruit/RecruitmentJobs. Haven't been fixed yet. */}
     </React.Fragment>
   );
 }
