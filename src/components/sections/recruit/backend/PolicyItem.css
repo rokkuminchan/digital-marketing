@@ -1,2 +1,37 @@
 .policy {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.policy::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	transform: translateX(-50%);
+	width: 80vw;
+	height: 1px;
+	background-color: #cfd1d1;
+}
+
+.policy__icon {
+	margin-top: 15px;
+}
+
+.policy__icon svg {
+	font-size: 3.5em;
+	color: #3e66af;
+}
+
+.policy__title {
+	margin: 15px 0;
+}
+
+.policy__title h2 {
+	font-size: 2em;
+	color: #3e66af;
 }
