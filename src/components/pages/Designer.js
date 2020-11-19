@@ -1,5 +1,5 @@
 import React from "react";
-import RecruitJobOther from "../sections/recruit/designer/jobOther";
+import RecruitJobOther from "../sections/recruit/common/jobOther";
 
 export default function Designer({ data }) {
   return (
