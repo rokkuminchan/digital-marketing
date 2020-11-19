@@ -11,16 +11,17 @@
 
     .recruit-jobOther__content{
         display: flex;
+        align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: 0 auto;
+        
     }
 
     .recruit-jobOther__link{
-        width: 43%;
+        width: 48%;
         background-color: white;
         margin: 1rem auto;
-        padding: 20px 0 0 0;
+        padding: 2rem 0;
         border-radius: 10px;
         text-align: center;
         color: #3C64B1;
@@ -28,8 +29,7 @@
     }
 
     .recruit-jobOther__link a{
-        text-decoration: none;
-        text-align: center;  
+        text-decoration: none; 
     }
     
   }
@@ -39,23 +39,21 @@
     .recruit-jobOther__content{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0 auto;   
+        justify-content: space-evenly; 
     }
     .recruit-jobOther__link{
         width: 40%;
-        height: 80px;
         background-color: white;
         line-height: 2.5rem;
-        margin: 20px 0;
         padding: 3rem;
-        border-radius: 1rem;
+        border-radius: 2rem;
+        text-align: center;
         color: #3C64B1;
+        
     }
 
     .recruit-jobOther__link a{
-        text-decoration: none;
-        text-align: center;  
+        text-decoration: none; 
     }
   }
 
@@ -63,20 +61,21 @@
   @media screen and (min-width: 1024px) {
     .recruit-jobOther__content{
         display: flex;
+        align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin: 0 auto;
     }
 
     .recruit-jobOther__link{
-        width: 38%;
-        height: 10rem;
+        width: 34%;
         background-color: white;
         line-height: 2.5rem;
         margin: 2rem 0;
         padding: 4rem;
-        border-radius: 10px;
+        border-radius: 2rem;
         color: #3C64B1;
+        text-align: center;
         transition: 0.6s;
     }
 
