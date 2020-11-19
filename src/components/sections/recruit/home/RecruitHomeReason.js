@@ -1,12 +1,11 @@
 import React from "react";
 import "./RecruitHomeReason.css";
-import Title from "../../../common/Title";
 import Image from "../../../common/Image";
 
 export default function RecruitHomeReason({data}){
     return(
         <section className="recruit-home-reason">
-            <Title data={data.title}/>
+            <h3 className="recruit-home-reason-title">{data.title}</h3>
             <div className="recruit-home-reason__items">
                 {data.items.map((item, index) => (
                     <div key={index} className="recruit-home-reason__card">
