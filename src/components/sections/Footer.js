@@ -1,5 +1,12 @@
 import React from "react";
-import { FaFacebookF, FaFax, FaMapMarker, FaPhone } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaFax,
+  FaMapMarker,
+  FaPhone,
+} from "react-icons/fa";
 
 import ALink from "../common/ALink";
 import LanguageSwitcher from "../common/LanguageSwitcher";
@@ -69,6 +76,12 @@ export default function Footer() {
         <div className="footer__icons">
           <a href="https://www.facebook.com/worldworks.vietnam">
             <FaFacebookF className="footer__facebook-icon" />
+          </a>
+          <a href="https://www.facebook.com/worldworks.vietnam">
+            <FaTwitter className="footer__facebook-icon" />
+          </a>
+          <a href="https://www.facebook.com/worldworks.vietnam">
+            <FaInstagram className="footer__facebook-icon" />
           </a>
         </div>
         <p className="footer__copyright">
