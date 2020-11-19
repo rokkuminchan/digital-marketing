@@ -71,8 +71,8 @@
   "RecruitHomeRecruitmentJobs": [
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__director.jpg",
+        "alt": "Director"
       },
       "title": "ディレクター",
       "description": "ウェブディレクター募集",
@@ -83,8 +83,8 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__design.jpg",
+        "alt": "Design"
       },
       "title": "デザイナー",
       "description": "デザイナー募集",
@@ -95,10 +95,10 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__frontend.jpg",
+        "alt": "Front End"
       },
-      "title": "フロントエンドエンジニア",
+      "title": "フロントエンド<br/>エンジニア",
       "description": "フロントエンドエンジニア募集",
       "button": {
         "link": "",
@@ -107,10 +107,10 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__backend.jpg",
+        "alt": "Back End"
       },
-      "title": "バックエンドエンジニア",
+      "title": "バックエンド<br/>エンジニア",
       "description": "バックエンドエンジニア募集",
       "button": {
         "link": "",
@@ -119,8 +119,8 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../../images/recruit_home__shinsotsu.jpg",
+        "alt": "Shinsotsu"
       },
       "title": "新卒",
       "description": "新卒未経験募集",

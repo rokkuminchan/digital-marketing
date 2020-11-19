@@ -1,0 +1,65 @@
+.recruit-home-recruitment-jobs {
+  margin: 5rem 3rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recruit-home-recruitment-jobs__card {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.recruit-home-recruitment-jobs__card-image,
+.recruit-home-recruitment-jobs__card-title,
+.recruit-home-recruitment-jobs__card-description,
+.recruit-home-recruitment-jobs__card-button {
+  margin: 2rem auto;
+  letter-spacing: 2px;
+}
+.recruit-home-recruitment-jobs__card-image {
+  width: 280px;
+  height: 290px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.recruit-home-recruitment-jobs__card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 200px;
+  height: 65px;
+  color: #2090d6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #80d4fa;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.recruit-home-recruitment-jobs__card-description {
+  font-size: 1.5rem;
+}
+button.recruit-home-recruitment-jobs__card-button {
+  width: 90px;
+  background-color: #2090d6;
+  box-shadow: 5px 5px 10px #aaaaaa;
+}
+.recruit-home-recruitment-jobs__card-footer {
+  transform: translate(0, -35%);
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .recruit-home-recruitment-jobs__card {
+    width: 300px;
+    margin: 20px auto;
+  }
+  /* .recruit-home-recruitment-jobs__card-footer {
+    transform: translate(0, -35%);
+  } */
+}
+
+/* Desktop screen */
+@media screen and (min-width: 1024px) {
+  .recruit-home-recruitment-jobs {
+    margin: 5rem 8rem 0 8rem;
+  }
+}
