@@ -1,7 +1,7 @@
 import React from "react";
-import "./RecruitHomeEntryButton.css";
+import "./EntryButton.css";
 
-export default function RecruitHomeEntryButton(props) {
+export default function EntryButton(props) {
     return (
         <a href={props.path} className="entrybutton">応募!</a>
     );

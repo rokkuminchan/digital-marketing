@@ -33,12 +33,22 @@
 
 .policy-item__title h2 {
 	font-size: 2em;
+	letter-spacing: 1.5px;
 	color: #3e66af;
 }
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 	.policy-item::before {
-		width: 80%;
+		width: 70%;
+	}
+
+	.policy-item__icon svg {
+		font-size: 4.5em;
+	}
+
+	.policy-item__title h2 {
+		font-size: 3em;
+		letter-spacing: 2.5px;
 	}
 }
