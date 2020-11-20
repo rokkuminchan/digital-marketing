@@ -1,15 +1,12 @@
 {
     "PageHeader":{
-        "image":{
-            "src":"",
-            "alt":""
-        },
         "title":"フロントエンドエンジニア",
-        "description":"Webアプリケーションのフロントエンドの開発を担当していただきます。"
+        "description":"Webアプリケーションのフロントエンドの開発を担当していただきます。",
+        "image":{"src":"/../../images/recruit__director.jpg"}
     },
     "JobDescription":{
         "title":"仕事内容",
-        "content":[
+        "description":[
             "Webコンポーネントを設計",
             "コーディング",
             "単体テスト",
@@ -34,52 +31,48 @@
             "問題を見つけ、自ら解決までできる"
         ]
     },
-    "JobOffer":{
-        "title":"会社制度",
-        "item":[
+    "Policy":{
+        "title":"給与・待遇",
+        "detail":[
             {
-                "icon":"",
-                "sub-title":"研修制度",
-                "description":[
-                    "ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。",
-                    "上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"
-                ]
-                
+                "icon":{"type":"BsBookHalf","alt":"book"},
+                "title":"研究制度",
+                "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
             },
             {
-                "icon":"",
-                "sub-title":"勤務地",
-                "description": "東京"
+                "icon":{"type":"HiLocationMarker","alt":"place"},
+                "title":"勤務地",
+                "description":["東京"]
             },
             {
-                "icon":"",
-                "sub-title":"勤務時間・休日備考",
+                "icon":{"type":"IoIosTime","alt":""},
+                "title":"勤務時間・休暇備考",
                 "description":[
-                   "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-                   "完全週休2日制（土・日・祝）",
-                   "GW休暇連続、夏期休暇連続",
-                   "年末年始連続",
-                   "有給休暇"
+                    "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
+                    "完全週休2日制（土・日・祝）",
+                    "GW休暇連続、夏期休暇連続",
+                    "年末年始連続",
+                    "有給休暇"
                 ]
             },
             {
-                "icon":"",
-                "sub-title":"給与",
-                "description":"経験と能力に応じて相談させてください"
+                "icon":{"type":"CgDollar","alt":""},
+                "title":"給料",
+                "description":["経験と能力に応じて相談させてください"]
             },
             {
-                "icon":"",
-                "sub-title":"雇用形態",
-                "description": "１年目契約社員・２年目から正社員登用"
+                "icon":{"type":"RiUserFill","alt":""},
+                "title":"採用型能",
+                "description":["１年目契約社員・２年目から正社員登用"]
             },
             {
-                "icon":"",
-                "sub-title":"待遇・福利厚生",
+                "icon":{"type":"AiTwotoneHome","alt":""},
+                "title":"待遇・福利厚生",
                 "description":[
-                   "健康保険、厚生年金、雇用保険",
-                   "退職金制度あり",
-                   "交通費全額支給",
-                   "寮は部屋に空きがあれば入居可"
+                    "健康保険、厚生年金、雇用保険 ",
+                    "退職金制度あり",
+                    "交通費全額支給",
+                    "寮は部屋に空きがあれば入居可"
                 ]
             }
         ]
@@ -90,24 +83,37 @@
     },
     "JobOther":{
         "title":"他の職種",
-        "link":[
-            {
-                "sub-title":"ディレクター",
-                "src":"/recruit__director"
-            },
-            {
-                "sub-title":"デザイナー",
-                "src":"/recruit__designer"
-            },
-            {
-                "sub-title":"バックエンドエンジニア",
-                "src":"/recruit__backend"
-            },
-            {
-                "sub-title":"新卒",
-                "src":"/recruit__new-graduate"
-            }   
+        "content":[
+          {
+            "link":{
+              "name":"デイレクター",
+              "src":""
+            }
+            
+          },
+          {
+            "link":{
+              "name":"デザイナー",
+              "src":""
+            }
+              
+          },
+          {
+  
+            "link":{
+              "name":"バックエンドエンジニア",
+              "src":""
+            }
+              
+          },
+          {
+            "link":{
+              "name":"新卒",
+              "src":""
+            }
+              
+          }
         ]
-    }
+      }
 
 }
