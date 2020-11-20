@@ -11,7 +11,10 @@ export default function RecruitHomeReason({data}){
                     <div key={index} className="recruit-home-reason__card">
                         <Image className="recruit-home-reason__card-image" {...item.image}/>
                         <div className="recruit-home-reason__card-content">
-                            <h3>{item.title}</h3>
+                            {/* <h3>{item.title}</h3> */}
+                            <div className="recruit-home-reason__card-content-title">{item.title.split("\n").map((t, key)=>{
+                                return <div key={key}>{t}</div>
+                            })}</div>
                             <p>{item.description}</p>
                         </div>
                     </div>  

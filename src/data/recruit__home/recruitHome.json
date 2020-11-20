@@ -12,7 +12,7 @@
     "items": [
       {
         "image": {
-          "src": "../../images/recruit-home__reason-opportunity@2x.jpg",
+          "src": "../../images/recruit_home__reason-opportunity.jpg",
           "alt": "Opportunity"
         },
         "title": "スキルアップ",
@@ -20,7 +20,7 @@
       },
       {
         "image": {
-          "src": "../../images/recruit-home__reason-team@2x.jpg",
+          "src": "../../images/recruit_home__reason-team.jpg",
           "alt": "Team"
         },
         "title": "チームワーク",
@@ -28,10 +28,10 @@
       },
       {
         "image": {
-          "src": "../../images/recruit-home__reason-client@2x.jpg",
+          "src": "../../images/recruit_home__reason-client.jpg",
           "alt": "Client"
         },
-        "title": "クライアントへのアプローチ",
+        "title": "クライアントへの\nアプローチ",
         "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
       }
     ]
