@@ -1,5 +1,5 @@
 import React from 'react';
-import RecruitDetailCardTitle from "../../../common/RecruitDetailCardTitle"
+import RecruitDetailCardTitle from "../common/RecruitDetailCardTitle"
 import RowWithIcon from "../../../common/RowWithIcon"
 import "./JobDescription.css"
 
