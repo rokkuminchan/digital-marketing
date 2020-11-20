@@ -8,13 +8,16 @@ export default function RecruitHomeTargetingPersons({ data }) {
   return (
     <section className="recruit-home-targeting-persons">
       <Title data={data.title} />
-      <Image
-        {...data.image}
-        className="recruit-home-targeting-persons__image"
-      />
+      <div className="recruit-home-targeting-persons__image--wrapper">
+        <Image
+          {...data.image}
+          className="recruit-home-targeting-persons__image"
+        />
+      </div>
       <div className="recruit-home-targeting-persons__items--wrapper">
         {data.items.map((item1, index) => (
           <div className="recruit-home-targeting-persons__items" key={index}>
+            <div className="recruit-home-targeting-persons__conner-top"></div>
             <div className="recruit-home-targeting-persons__items-title">
               {item1.title}
             </div>
@@ -36,6 +39,7 @@ export default function RecruitHomeTargetingPersons({ data }) {
           </div>
         ))}
       </div>
+      <div class="recruit-home-targeting-persons__clear"></div>
     </section>
   );
 }

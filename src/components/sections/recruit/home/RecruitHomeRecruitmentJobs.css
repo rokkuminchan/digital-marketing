@@ -39,9 +39,13 @@
   font-size: 1.5rem;
 }
 button.recruit-home-recruitment-jobs__card-button {
-  width: 90px;
+  width: 100px;
+  height: 35px;
   background-color: #2090d6;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+button.recruit-home-recruitment-jobs__card-button > span {
+  font-size: 1.2rem;
 }
 .recruit-home-recruitment-jobs__card-footer {
   transform: translate(0, -35%);
