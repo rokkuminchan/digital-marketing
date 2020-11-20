@@ -7,43 +7,65 @@
   width: 80%;
   max-width: 330px;
 }
-.recruit-home-targeting-persons__conner-top {
-  background: red;
-  height: 10px;
-  position: relative;
-  left: 50px;
-  width: 3px;
-  z-index: 1;
-}
-.recruit-home-targeting-persons__conner-top:after {
-  background: red;
-  content: "";
-  height: 3px;
-  left: -20px;
-  position: absolute;
-  top: 20px;
-  width: 10px;
-}
+
 .recruit-home-targeting-persons__items--wrapper {
   margin: 4rem auto;
+  position: relative;
 }
 .recruit-home-targeting-persons__items-title {
   background-color: #ffff;
   width: 80%;
   max-width: 480px;
-  margin: 2rem auto;
+  margin: 4rem auto 2rem auto;
   padding: 0.5rem 2rem;
   color: #ff9219;
   font-size: 1.7rem;
   font-weight: bold;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  z-index: -1;
+  position: relative;
+}
+
+.recruit-home-targeting-persons__conner-top {
+  transform: translate(-3.8rem, -1.5rem);
+  background: #ff9219;
+  height: 30px;
+  position: absolute;
+  left: 32px;
+  width: 1px;
+}
+.recruit-home-targeting-persons__conner-bottom {
+  transform: translateX(3rem);
+  background: #ff9219;
+  height: 30px;
+  position: absolute;
+  width: 1px;
+  right: -6px;
+  bottom: -9px;
+}
+.recruit-home-targeting-persons__conner-top:after {
+  background: #ff9219;
+  content: "";
+  height: 1px;
+  left: -5px;
+  position: absolute;
+  top: 4px;
+  width: 30px;
+}
+.recruit-home-targeting-persons__conner-bottom:after {
+  background: #ff9219;
+  content: "";
+  height: 1px;
+  left: -25px;
+  position: absolute;
+  bottom: 4px;
+  width: 30px;
 }
 .recruit-home-targeting-persons__items-description--wrapper {
   margin: 1rem auto;
   width: 65%;
   max-width: 410px;
   text-indent: -1.8rem;
+  position: relative;
 }
 .recruit-home-targeting-persons__items-icon {
   width: 10px;
@@ -57,7 +79,7 @@
 /* Desktop screen */
 @media screen and (min-width: 1024px) {
   .recruit-home-targeting-persons__image {
-    max-width: 400px;
+    max-width: 500px;
   }
   .recruit-home-targeting-persons__items-title {
     width: 85%;
@@ -65,7 +87,7 @@
   }
   .recruit-home-targeting-persons__image--wrapper {
     width: 50%;
-    height: 510px;
+    height: 650px;
     display: flex;
     justify-content: center;
     flex-direction: column;
