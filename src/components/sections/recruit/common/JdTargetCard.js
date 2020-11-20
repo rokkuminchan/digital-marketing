@@ -1,17 +1,18 @@
 import React from "react";
 import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
+import RowWithIcon from "../../../common/RowWithIcon"
 import "./DetailCard.css"
 export default function JdTargetCard({data}){
     return(
         <div className="detail-card">
             <RecruitDetailCardTitle data={data.title} />
-            {data.descriptions.map((item, index) => {
-                return (
-                <p className="jd-tg-card__desc" key={index}>
-                    {item}
-                </p>
-                 );
-            })}
+            <div className = "detail-card__desc">
+                {data.descriptions.map((item, index) => {
+                    return (
+                        <RowWithIcon key = {index} data = {item} />
+                    )
+                })}
+            </div>
         </div>
     )
 }

@@ -7,9 +7,11 @@ export default function JrqCard({data}){
         <div className="detail-card">
             <RecruitDetailCardTitle data={data.title} />
             <div className="jrq__desc">
-                {data.items.map((desc, index) => {
-                    return <JrqCardDesc key={index} data={desc} />;
-                })}
+                {
+                    data.items.map((desc, index) => {
+                        return <JrqCardDesc key={index} data={desc} />;
+                    })
+                }
             </div>
 
          </div>

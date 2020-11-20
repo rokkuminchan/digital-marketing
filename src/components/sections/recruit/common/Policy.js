@@ -1,11 +1,11 @@
 import React from 'react';
 import PolicyItem from "./PolicyItem"
 import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
-import "./Policy.css"
+import "./DetailCard.css"
 
 const Policy = ({ data }) => {
     return (
-        <div className="policy">
+        <div className="detail-card ">
             <RecruitDetailCardTitle data={data.title} />
             <div className="policy__content">
                 {

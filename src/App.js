@@ -34,7 +34,7 @@ import ScrollToTop from "./components/common/ScrollToTop";
 import recruitHomeJsonData from "./data/recruit__home/recruitHome.json";
 import recruitDirector from "./data/recruit__director/recruitDirector.json";
 import recruitDesigner from "./data/recruit__designer/recruitDesigner.json";
-import recruitDetails from "./data/recruit__details/recruitDetails.json";
+import recruitNewGraduate from "./data/recruit__new-graduate/recruitNewGraduate.json";
 import recruitBackend from "./data/recruit__backend/recruitBackend.json";
 import recruitFontend from "./data/recruit__frontend/recruit_Front.json";
 import Graduate from "./components/pages/Graduate";
@@ -116,7 +116,7 @@ function App() {
                 <Backend data={recruitBackend} />
               </Route>
               <Route exact path="/recruit/new-graduate">
-                <Graduate data={recruitDetails} />
+                <Graduate data={recruitNewGraduate} />
               </Route>
               <Route exact path="/recruit/entry">
                 <Entry data={recruitEntry} />
