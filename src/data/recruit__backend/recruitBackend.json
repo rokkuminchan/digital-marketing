@@ -1,16 +1,13 @@
 {
     "Header":{
         "title": "バックエンドエンジニア",
-        "description":"バックエンドエンジニア",
-        "image":{"src":"/../../images/recruit__director.jpg"}
+        "description":"Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます",
+        "image":{"src":"/../../images/recruit_home__backend.jpg"}
     },
     "JobDescription":{
         "title":"仕事内容",
         "icon": { "src":"", "alt":""},
         "description":[
-            "Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます"
-        ],
-        "detail": [
             "Web API設計",
             "データベース設計",
             "サーバサイドのフレームワークを使ったWeb APIの実装",
@@ -27,21 +24,12 @@
 
     },
     "TargetPerson":{
-        "title":"",
+        "title":"求める人物像",
         "description": [
-            {
-              "title": "【主体性】",
-              "text":  "柔軟性を持ち、自ら考え行動ができる"			
-            },
-            {
-                "title": "【発想力】",
-                "text":  "新しい発想やアウトプットへのこだわりがある"
-            },
-            {
-                "title": "【分析力】",
-                "text": "問題を見つけ、自ら解決までできる"
-            }
-          ]
+            "柔軟性を持ち、自ら考え行動ができる",			
+            "新しい発想やアウトプットへのこだわりがある",
+            "問題を見つけ、自ら解決までできる"
+        ]
     },
     "Policy":{
         "title":"給与・待遇",
@@ -90,25 +78,33 @@
         ]
     }
     ,
-    "OtherJob":{
+    "JobOther":{
         "title":"他の職種",
-        "joblist":[
-            {
-                "name":"デザイナー",
-                "link":""
-            },
-            {
-                "name":"フロントエンドエンジニア",
-                "link":""
-            },
-            {
-                "name":"デイレクター",
-                "link":""
-            },
-            {
-                "name":"新卒",
-                "link":""
+        "content":[
+          {
+            "link":{
+              "name":"デイレクター",
+              "src":"/recruit/director"
             }
+          },
+          {
+            "link":{
+              "name":"デザイナー",
+              "src":"/recruit/designer"
+            }
+          },
+          {
+            "link":{
+              "name":"フロントエンドエンジニア",
+              "src":"/recruit/frontend"
+            }
+          },
+          {
+            "link":{
+              "name":"新卒",
+              "src":"/recruit/new-graduate"
+            }
+          }
         ]
     }
 }
