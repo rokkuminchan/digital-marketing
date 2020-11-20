@@ -22,9 +22,9 @@ const Recruit = ({data}) => {
                     {data.items.map((item,index)=>(
                         <div className = "recruit-items-box" key = {index}>
                         <Image className ="item-icon" {...item.image} />
-                        <Title className ="item-title" data={item.title} />
-                        <Description className ="item-description" data={item.description} />
-                        <hr width="50%" size="5px" color="#78acfd"/>
+                        <Title data={item.title} />
+                        <Description data={item.description} />
+                        <hr width="80%" size="2px" color="#373F41" />
                         </div>
                     ))}
             </div>
