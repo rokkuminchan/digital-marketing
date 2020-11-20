@@ -1,17 +1,14 @@
 import React from "react";
-import GraduateHeader from "../sections/recruit/new-graduate/GraduateHeader";
-import RecruitDetail from "../common/RecruitDetail";
-import Breadcrumb from "../sections/recruit/common/Breadcrumb"
-import RecruitJobOther from '../sections/recruit/common/JobOther';
-
+import RecruitDetail from "../sections/recruit/common/RecruitDetail";
+import JobPageHeader from "../sections/recruit/common/JobPageHeader";
+import RecruitJobOther from "../sections/recruit/common/jobOther";
 
 export default function Graduate({data}){
     return (
     <React.Fragment>
-      <GraduateHeader data={data.graduateHeader} />
-      <Breadcrumb data={data.graduateHeader}/>
-      <RecruitDetail data={data.recruitDetails}/>
-      <RecruitJobOther data={data.JobOther}/>
+      <JobPageHeader data={data.graduateHeader} />
+      <RecruitDetail data={data.JobDetails} />
+      <RecruitJobOther data={data.JobOther} />
     </React.Fragment>
     );
 }
