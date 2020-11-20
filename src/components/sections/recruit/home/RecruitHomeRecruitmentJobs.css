@@ -1,0 +1,78 @@
+.recruit-home-recruitment-jobs {
+  background-color: #ffffff;
+  margin: 5rem 3rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recruit-home-recruitment-jobs__card {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.recruit-home-recruitment-jobs__card-image,
+.recruit-home-recruitment-jobs__card-title,
+.recruit-home-recruitment-jobs__card-description,
+.recruit-home-recruitment-jobs__card-button {
+  margin: 2rem auto;
+  letter-spacing: 2px;
+}
+.recruit-home-recruitment-jobs__card-image {
+  width: 280px;
+  height: 290px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.recruit-home-recruitment-jobs__card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 200px;
+  height: 65px;
+  color: #2090d6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #80d4fa;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.recruit-home-recruitment-jobs__card-description {
+  font-size: 1.5rem;
+}
+button.recruit-home-recruitment-jobs__card-button {
+  width: 100px;
+  height: 35px;
+  background-color: #2090d6;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+button.recruit-home-recruitment-jobs__card-button > span {
+  font-size: 1.2rem;
+}
+.recruit-home-recruitment-jobs__card-footer {
+  transform: translate(0, -35%);
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .recruit-home-recruitment-jobs__card {
+    width: 300px;
+    margin: 20px auto;
+  }
+  /* .recruit-home-recruitment-jobs__card-footer {
+    transform: translate(0, -35%);
+  } */
+}
+
+/* Desktop screen */
+@media screen and (min-width: 1024px) {
+  .recruit-home-recruitment-jobs {
+    margin: 5rem 8rem 0 8rem;
+  }
+  .recruit-home-recruitment-jobs__card-image {
+    opacity: 1.1;
+  }
+  .recruit-home-recruitment-jobs__card-image:hover {
+    opacity: 0.9;
+    transform: translateY(1px);
+    transition: ease-in-out 0.1s;
+  }
+}

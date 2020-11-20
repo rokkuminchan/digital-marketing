@@ -7,38 +7,39 @@
     "title": "Recruit",
     "description": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう"
   },
-  "RecruitHomeReason": [
-    {
-      "image": {
-        "src": "",
-        "alt": ""
+  "RecruitHomeReason": {
+    "title": "入社のメリット",
+    "items": [
+      {
+        "image": {
+          "src": "../../images/recruit_home__reason-opportunity.jpg",
+          "alt": "Opportunity"
+        },
+        "title": "スキルアップ",
+        "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
+      },
+      {
+        "image": {
+          "src": "../../images/recruit_home__reason-team.jpg",
+          "alt": "Team"
+        },
+        "title": "チームワーク",
+        "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
+      },
+      {
+        "image": {
+          "src": "../../images/recruit_home__reason-client.jpg",
+          "alt": "Client"
+        },
+        "title": "クライアントへの<br/>アプローチ",
+        "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
       }
-    },
-    {
-      "title": "スキルアップ",
-      "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
-    },
-    {
-      "image": {
-        "src": "",
-        "alt": ""
-      },
-      "title": "チームワーク",
-      "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
-    },
-    {
-      "image": {
-        "src": "",
-        "alt": ""
-      },
-      "title": "クライアントへのアプローチ",
-      "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
-    }
-  ],
+    ]
+  },
   "RecruitHomeTargetingPersons": {
     "title": "求める人物像",
     "image": {
-      "src": "",
+      "src": "../../../images/recruit-home__targeting-persons.jpg",
       "alt": ""
     },
     "items": [
@@ -71,8 +72,8 @@
   "RecruitHomeRecruitmentJobs": [
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__director.jpg",
+        "alt": "Director"
       },
       "title": "ディレクター",
       "description": "ウェブディレクター募集",
@@ -83,8 +84,8 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__design.jpg",
+        "alt": "Design"
       },
       "title": "デザイナー",
       "description": "デザイナー募集",
@@ -95,10 +96,10 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__frontend.jpg",
+        "alt": "Front End"
       },
-      "title": "フロントエンドエンジニア",
+      "title": "フロントエンド<br/>エンジニア",
       "description": "フロントエンドエンジニア募集",
       "button": {
         "link": "",
@@ -107,10 +108,10 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../images/recruit_home__backend.jpg",
+        "alt": "Back End"
       },
-      "title": "バックエンドエンジニア",
+      "title": "バックエンド<br/>エンジニア",
       "description": "バックエンドエンジニア募集",
       "button": {
         "link": "",
@@ -119,8 +120,8 @@
     },
     {
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "../../../../images/recruit_home__shinsotsu.jpg",
+        "alt": "Shinsotsu"
       },
       "title": "新卒",
       "description": "新卒未経験募集",

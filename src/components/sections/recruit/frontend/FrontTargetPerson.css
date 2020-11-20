@@ -1,0 +1,11 @@
+.front-target-person {
+  width: 80vw;
+  border: 3px solid #2379db;
+  border-radius: 2rem;
+  margin: 2rem auto 2rem auto;
+}
+@media screen and (min-width: 320px) {
+  .front-target-person__title {
+    margin: 30px 25px;
+  }
+}

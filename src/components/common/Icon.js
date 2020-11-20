@@ -1,8 +1,12 @@
 import React from "react";
 import {FiCircle, FiSquare, FiTriangle, FiHexagon} from "react-icons/fi";
-import { IoIosSwitch } from "react-icons/io";
-import { BsLightningFill } from "react-icons/bs";
-import { MdHighQuality } from "react-icons/md";
+import { IoIosSwitch, IoIosTime } from "react-icons/io";
+import { BsLightningFill, BsCircleFill, BsBookHalf } from "react-icons/bs";
+import { MdHighQuality, MdLocationOn } from "react-icons/md";
+import { CgDollar } from "react-icons/cg";
+import { RiUserFill } from "react-icons/ri";
+import { AiTwotoneHome } from "react-icons/ai";
+import { HiLocationMarker } from "react-icons/hi";
 
 import Image from "./Image";
 
@@ -25,8 +29,24 @@ export default function Icon(props){
             return <IoIosSwitch/>
         case "BsLightningFill":
             return <BsLightningFill/>
+        case "BsCircleFill":
+            return <BsCircleFill/>
+        case "BsBookHalf":
+            return <BsBookHalf/>        
         case "MdHighQuality":
             return <MdHighQuality/>
+        case "IoIosTime":
+            return <IoIosTime/>
+        case "MdLocationOn":
+            return <MdLocationOn/>
+        case "CgDollar":
+            return <CgDollar/>
+        case "RiUserFill":
+            return <RiUserFill/>
+        case "AiTwotoneHome":
+            return <AiTwotoneHome/>  
+        case "HiLocationMarker":
+            return <HiLocationMarker/>          
         default:
             return "";
     }

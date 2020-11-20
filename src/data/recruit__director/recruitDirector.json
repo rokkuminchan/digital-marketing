@@ -1,4 +1,8 @@
-{
+{   "Header":{
+        "title":"デイレクター",
+        "description":"Webアプリケーション開発の責任者です。お客様の要件を取りまとめ、チームのメンバーと協力して最高のWebアプリケーションをお客様に提供していただきます",
+        "image":{"src":"/../../images/recruit__director.jpg"}
+    },
     "JobDescription":{
         "title":"仕事内容",
         "description":[
