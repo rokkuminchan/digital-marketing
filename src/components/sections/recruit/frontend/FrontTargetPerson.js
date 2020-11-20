@@ -1,6 +1,6 @@
 import React from "react";
 import RowWithIcon from "../../../common/RowWithIcon";
-import RecruitDetailCardTitle from "../../../common/RecruitDetailCardTitle";
+import RecruitDetailCardTitle from "../common/RecruitDetailCardTitle";
 import "./FrontTargetPerson.css";
 
 export default function FrontTargetPersons({data}){

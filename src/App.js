@@ -36,6 +36,7 @@ import recruitDirector from "./data/recruit__director/recruitDirector.json";
 import recruitDesigner from "./data/recruit__designer/recruitDesigner.json";
 import recruitDetails from "./data/recruit__details/recruitDetails.json";
 import recruitBackend from "./data/recruit__backend/recruitBackend.json";
+import recruitFontend from "./data/recruit__frontend/recruit_Front.json";
 import Graduate from "./components/pages/Graduate";
 import recruitEntry from "./data/recruit__entry/recruitEntry.json";
 

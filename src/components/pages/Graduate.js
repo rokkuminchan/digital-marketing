@@ -1,7 +1,7 @@
 import React from "react";
 import RecruitDetail from "../sections/recruit/common/RecruitDetail";
 import JobPageHeader from "../sections/recruit/common/JobPageHeader";
-import RecruitJobOther from "../sections/recruit/common/jobOther";
+import RecruitJobOther from "../sections/recruit/common/JobOther";
 
 export default function Graduate({data}){
     return (
