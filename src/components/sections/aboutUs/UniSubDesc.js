@@ -13,6 +13,6 @@ const UniSubDesc = ({ data }) => {
         );
       })}
     </div>
-  );
+  )
 };
 export default UniSubDesc;
