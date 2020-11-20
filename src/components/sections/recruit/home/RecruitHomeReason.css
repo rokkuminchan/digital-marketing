@@ -1,115 +1,146 @@
 /* common card */
-.recruit-home-reason__card{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 4px 4px 3px 1px #D0CDCD;
-    border: 2px solid #2090D6;
-    border-radius: 15px;
+.recruit-home-reason-title {
+  color: #3c64b1;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
 }
-.recruit-home-reason__card-image{
-    width: 100%;
-    margin: 20px auto;
-    display: block;
-    cursor: pointer;
-    object-fit: cover;
+.recruit-home-reason__items {
+  padding-bottom: 20px;
 }
-.recruit-home-reason__card-content{
-    margin: auto 20px;
+.recruit-home-reason__card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 3px 1px #d0cdcd;
+  border: 2px solid #2090d6;
+  border-radius: 15px;
 }
-.recruit-home-reason__card-content h3{
-    color: #3c64b1;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
+.recruit-home-reason__card-image {
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  object-fit: cover;
+}
+.recruit-home-reason__card-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.recruit-home-reason__card-content-title {
+  color: #3c64b1;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /* height: 65px; */
 }
 .recruit-home-reason__card-content p {
-    opacity: 0.8;
-    text-align: justify;
-    margin: 30px auto;
+  opacity: 0.8;
+  text-align: justify;
 }
 /* mobile */
-@media screen and (min-width: 320px){
-    .recruit-home-reason__card{
-        width: 70%;
-        margin: 30px auto;
-    }
-    .recruit-home-reason__card-image{
-        padding: 20px 0;
-        max-width: 50%;
-    }
-    .recruit-home-reason__card-content h3{
-        font-size: 1.8em;
-        padding: 0 20px;
-    }
-    .recruit-home-reason__card-content p{
-        font-size: 1.4em;
-        padding-bottom: 10px;
-    }
+@media screen and (min-width: 280px) {
+  .recruit-home-reason-title {
+    font-size: 2.8em;
+  }
+  .recruit-home-reason {
+    background-image: url("../../../../images/recruit_home__reason-bgr-mobile.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .recruit-home-reason__card {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .recruit-home-reason__card-image {
+    padding: 20px 0;
+    max-width: 50%;
+  }
+  .recruit-home-reason__card-content-title div {
+    font-size: 1.8em;
+  }
+  .recruit-home-reason__card-content p {
+    font-size: 1.4em;
+    margin: 30px auto;
+    padding-bottom: 10px;
+  }
 }
 /* ipad */
-@media screen and (min-width: 768px){
-    .recruit-home-reason__card{
-        width: 43%;
-        margin: 50px auto;
-    }
-    .recruit-home-reason__card-image{
-        padding: 20px 0;
-        /* padding-top: 10px; */
-        max-width: 50%;
-    }
-    .recruit-home-reason__card-content h3{
-        font-size: 2.5em;
-    }
-    .recruit-home-reason__card-content p{
-        font-size: 1.8em;
-        padding: 0 10px 10px 10px;
-    }
+@media screen and (min-width: 720px) {
+  .recruit-home-reason-title {
+    font-size: 3.5em;
+  }
+  .recruit-home-reason {
+    background-image: url("../../../../images/recruit_home__reason-bgr-ipad.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .recruit-home-reason__card {
+    width: 43%;
+    margin: 50px auto;
+  }
+  .recruit-home-reason__card-image {
+    padding: 20px 0;
+    max-width: 50%;
+  }
+  .recruit-home-reason__card-content-title div {
+    font-size: 2.5em;
+  }
+  .recruit-home-reason__card-content p {
+    font-size: 1.8em;
+    margin: 30px auto;
+    padding: 0 10px;
+  }
 }
 /* ipad pro */
 @media screen and (min-width: 1024px) {
-    .recruit-home-reason__items{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .recruit-home-reason__card{
-        width: 28%;
-        margin: 50px auto;
-    }
-    .recruit-home-reason__card-image{
-        padding-top: 10px;
-        max-width: 50%;
-    }
-    .recruit-home-reason__card-content h3{
-        font-size: 2.5em;
-    }
-    .recruit-home-reason__card-content p{
-        font-size: 1.8em;
-        padding-bottom: 10px;
-    }
+  .recruit-home-reason-title {
+    font-size: 4em;
+  }
+  .recruit-home-reason {
+    background-image: url("../../../../images/recruit_home__reason-bgr-ipadpro.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .recruit-home-reason__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
+  .recruit-home-reason__card {
+    width: 28%;
+    margin: 15px;
+  }
+  .recruit-home-reason__card-image {
+    padding-top: 10px;
+    max-width: 50%;
+  }
+  .recruit-home-reason__card-content-title {
+    height: 65px;
+  }
+  .recruit-home-reason__card-content-title div {
+    font-size: 2.5em;
+  }
+  .recruit-home-reason__card-content p {
+    font-size: 1.8em;
+  }
 }
 /* desktop */
 @media screen and (min-width: 1366px) {
-    .recruit-home-reason__items{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .recruit-home-reason__card{
-        width: 23%;
-        margin: 50px auto;
-    }
-    .recruit-home-reason__card-image{
-        padding-top: 10px;
-        max-width: 50%;
-    }
-    .recruit-home-reason__card-content h3{
-        font-size: 2.5em;
-    }
-    .recruit-home-reason__card-content p{
-        font-size: 2em;
-        padding-bottom: 10px;
-    }
+  .recruit-home-reason {
+    background-image: url("../../../../images/recruit_home__reason-bgr-desktop.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .recruit-home-reason__card {
+    width: 23%;
+    margin: 40px;
+  }
+  .recruit-home-reason__card-content p {
+    font-size: 2em;
+  }
 }
