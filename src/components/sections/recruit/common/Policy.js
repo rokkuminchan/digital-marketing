@@ -1,6 +1,6 @@
 import React from 'react';
 import PolicyItem from "./PolicyItem"
-import RecruitDetailCardTitle from "../../../common/RecruitDetailCardTitle"
+import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
 import "./Policy.css"
 
 const Policy = ({ data }) => {

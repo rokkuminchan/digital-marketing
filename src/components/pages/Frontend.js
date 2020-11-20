@@ -3,7 +3,7 @@ import Breadcrumb from "../sections/recruit/common/Breadcrumb";
 import FrontPageHeader from "../sections/recruit/frontend/FrontPageHeader";
 import FrontTargetPerson from "../sections/recruit/frontend/FrontTargetPerson";
 import Policy from "../sections/recruit/common/Policy";
-import RecruitJobOther from "../sections/recruit/common/jobOther";
+import RecruitJobOther from '../sections/recruit/common/JobOther';
 
 export default function Fronend({data}){
 

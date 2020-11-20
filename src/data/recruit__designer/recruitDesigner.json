@@ -1,10 +1,7 @@
 {
     "designer": {
       "Pageheader": {
-        "image": {
-          "src": "",
-          "alt": "page-header-image"
-        },
+        "image":{"src":"/../../images/recruit__desiner.jpg"},
         "title": "デザイナー",
         "description": "ITチームと協力して傑作をデザインしましょう"
       },      
@@ -44,72 +41,72 @@
     },
     "TargetPerson":{
       "title":"求める人物像",
-      "content": [
+      "description": [
           "柔軟性を持ち、自ら考え行動ができる",		
           "新しい発想やアウトプットへのこだわりがある",
           "問題を見つけ、自ら解決までできる"
         ]
     },
-    "JobOffer":[
-      {
-          "icon":{"src":"book","alt":"book"},
-          "title":"研究制度",
-          "description":[
-            "ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。",
-            "上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"
-            ]
+    "Policy":{
+      "title":"給与・待遇",
+      "detail":[
+          {
+              "icon":{"type":"BsBookHalf","alt":"book"},
+              "title":"研究制度",
+              "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
           },
-      {
-          "icon":{"src":"place","alt":"place"},
-          "title":"勤務地",
-          "description":["東京"]
-      },
-      {
-          "icon":{"src":"time","alt":""},
-          "title":"勤務時間・休暇備考",
-          "description":[
-              "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-              "完全週休2日制（土・日・祝）",
-              "GW休暇連続、夏期休暇連続",
-              "年末年始連続",
-              "有給休暇"
-          ]
-      },
-      {
-          "icon":{"src":"money","alt":""},
-          "title":"給料",
-          "description":["経験と能力に応じて相談させてください"]
-      },
-      {
-          "icon":{"src":"person","alt":""},
-          "title":"採用型能",
-          "description":["１年目契約社員・２年目から正社員登用"]
-      },
-      {
-          "icon":{"src":"house","alt":""},
-          "title":"待遇・福利厚生",
-          "description":[
-              "健康保険、厚生年金、雇用保険 ",
-              "退職金制度あり",
-              "交通費全額支給",
-              "寮は部屋に空きがあれば入居可"
-          ]
-      }
-  ],
+          {
+              "icon":{"type":"HiLocationMarker","alt":"place"},
+              "title":"勤務地",
+              "description":["東京"]
+          },
+          {
+              "icon":{"type":"IoIosTime","alt":""},
+              "title":"勤務時間・休暇備考",
+              "description":[
+                  "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
+                  "完全週休2日制（土・日・祝）",
+                  "GW休暇連続、夏期休暇連続",
+                  "年末年始連続",
+                  "有給休暇"
+              ]
+          },
+          {
+              "icon":{"type":"CgDollar","alt":""},
+              "title":"給料",
+              "description":["経験と能力に応じて相談させてください"]
+          },
+          {
+              "icon":{"type":"RiUserFill","alt":""},
+              "title":"採用型能",
+              "description":["１年目契約社員・２年目から正社員登用"]
+          },
+          {
+              "icon":{"type":"AiTwotoneHome","alt":""},
+              "title":"待遇・福利厚生",
+              "description":[
+                  "健康保険、厚生年金、雇用保険 ",
+                  "退職金制度あり",
+                  "交通費全額支給",
+                  "寮は部屋に空きがあれば入居可"
+              ]
+          }
+      ]
+  },
   "JobOther":{
       "title":"他の職種",
       "content":[
         {
           "link":{
             "name":"デイレクター",
-            "src":""
+            "src":"/recruit/director"
           }
           
         },
         {
           "link":{
             "name":"フロントエンドエンジニア",
-            "src":""
+            "src":"/recruit/frontend"
           }
             
         },
@@ -117,14 +114,14 @@
 
           "link":{
             "name":"バックエンドエンジニア",
-            "src":""
+            "src":"/recruit/backend"
           }
             
         },
         {
           "link":{
             "name":"新卒",
-            "src":""
+            "src":"/recruit/new-graduate"
           }
             
         }
