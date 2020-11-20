@@ -102,14 +102,14 @@
         {
           "link":{
             "name":"デイレクター",
-            "src":""
+            "src":"/recruit/director"
           }
           
         },
         {
           "link":{
             "name":"フロントエンドエンジニア",
-            "src":""
+            "src":"/recruit/frontend"
           }
             
         },
@@ -117,14 +117,14 @@
 
           "link":{
             "name":"バックエンドエンジニア",
-            "src":""
+            "src":"/recruit/backend"
           }
             
         },
         {
           "link":{
             "name":"新卒",
-            "src":""
+            "src":"/recruit/new-graduate"
           }
             
         }
