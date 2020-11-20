@@ -20,9 +20,9 @@ const StyledBreadcrumb = withStyles((theme) => ({
   },
 }))(Chip);
 
-// function handleClick(event) {
-//   event.preventDefault();
-// }
+function handleClick(event) {
+  event.preventDefault();
+}
 
 export default function Breadcrumb({ data }) {
   console.log(data);
