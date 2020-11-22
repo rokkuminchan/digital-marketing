@@ -2,7 +2,6 @@ import React from 'react';
 
 import './JobOther.css';
 import {Link} from 'react-router-dom';
-import Title from '../../../common/Title';
 
 export default function RecruitJobOther({data}) {
   return (
