@@ -7,9 +7,7 @@ import Title from '../../../common/Title';
 export default function RecruitJobOther({data}) {
   return (
     <section className="job-other">
-      <div className="job-other__title">
-        <Title data={data.title} />
-      </div>
+      <h3 className="job-other__title">{data.title}</h3>
       <div className="job-other__content">
         {data.content.map ((item, index) => (
           <Link to={item.link.src} className="job-other__button" key={index}>

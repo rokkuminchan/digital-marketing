@@ -4,12 +4,20 @@
       background-color: #C1E1FF;
       padding: 3rem 0;
   }
+
   .job-other__content{
     display: grid;
     align-items: center;
     padding: 2%;
-      
   }
+
+  .job-other__title{
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #3e66af;
+  }
+
   .job-other__button{
         background-color: white;
         border-style: none;
