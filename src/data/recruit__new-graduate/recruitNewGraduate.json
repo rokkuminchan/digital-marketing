@@ -89,7 +89,10 @@
               {
                   "icon":{"type":"RiUserFill","alt":""},
                   "title":"採用型能",
-                  "description":["１年目契約社員・２年目から正社員登用"]
+                  "description":[
+                    "１年目契約社員",
+                    "２年目から正社員登用"
+                ]
               },
               {
                   "icon":{"type":"AiTwotoneHome","alt":""},
