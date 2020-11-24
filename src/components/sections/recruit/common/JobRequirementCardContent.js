@@ -1,8 +1,8 @@
 import React from "react";
 import AngleIcon from "../../../common/AngleIcon";
-import "./JrqCardDesc.css";
+import "./JobRequirementCardContent.css";
 
-export default function JrqCardDesc({data}){
+export default function JobRequirementCardContent({data}){
     return(
             <div className="jrqCardDesc">
                  <div className="jrqCardDesc__title">

@@ -21,11 +21,20 @@
     box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 }
 
+@media screen and (min-width: 550px) {
+    .recruit-detail{
+        padding: 0 3.5rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
 	.recruit-detail__entry {
         width: 20rem;
 		font-size: 1.8rem;
-	}
+    }
+    .recruit-detail{
+        padding: 0 5rem;
+    }
 }
 @media screen and (min-width: 1024px) {
 	.recruit-detail {

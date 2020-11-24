@@ -1,16 +1,16 @@
 import React from "react";
-import JdTargetCard from "./JdTargetCard";
-import JobDescription from "./JobDescription";
-import JobRequirementCard from "./JrqCard";
+import TargetPersonCard from "./TargetPersonCard";
+import JobDescriptionCard from "./JobDescriptionCard";
+import JobRequirementCard from "./JobRequirementCard";
 import Policy from "./Policy";
 import "./RecruitDetail.css";
 export default function RecruitDetail({data}) {
     return(
         <section className="recruit-detail">
-            <JobDescription data={data.JobDescription} />
+            <JobDescriptionCard data={data.JobDescription} />
             <JobRequirementCard data={data.JobRequirement}/>
-            <JdTargetCard data={data.TargetPerson} /> 
-            <Policy data={data.Policy}  />
+            <TargetPersonCard data={data.TargetPerson} /> 
+            <Policy data={data.Policy} />
             <a href="/recruit/entry" className="recruit-detail__entry">応募する</a>
         </section>
     )
