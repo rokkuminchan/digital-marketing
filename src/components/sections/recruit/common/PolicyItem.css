@@ -37,12 +37,15 @@
 	color: #3e66af;
 }
 
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+	.policy-item::before {
+		width: 90%;
+	}
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
-	.policy-item::before {
-		width: 70%;
-	}
-
 	.policy-item__icon svg {
 		font-size: 4.5em;
 	}
