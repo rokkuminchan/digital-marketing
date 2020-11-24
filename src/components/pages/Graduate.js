@@ -6,14 +6,14 @@ import RecruitJobOther from "../sections/recruit/common/JobOther";
 import EntryButton from "../common/EntryButton";
 
 
-export default function Graduate({data}){
-    return (
+export default function Graduate({ data }) {
+  return (
     <React.Fragment>
       <JobPageHeader data={data.graduateHeader} />
-      <Breadcrumb data={data.graduateHeader}/>
+      <Breadcrumb data={data.graduateHeader} />
       <RecruitDetail data={data.JobDetails} />
       <RecruitJobOther data={data.JobOther} />
       <EntryButton path="./entry" />
     </React.Fragment>
-    );
+  );
 }
