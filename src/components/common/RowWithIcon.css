@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 1.5rem 0;
+	margin: 1.5rem auto;
 }
 
 .row .row__icon {
@@ -40,7 +40,7 @@
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 	.row {
-		width: 50vw;
+		width: 500px;
 	}
 
 	.row .row__icon svg {

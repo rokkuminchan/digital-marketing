@@ -1,27 +1,15 @@
 .detail-card {
-<<<<<<< HEAD
 	border: 3px solid #2379db;
 	border-radius: 2rem;
 	padding: 2rem;
-	margin: 2rem auto;
-	width: 80%;
+	margin-bottom: 3rem;
 	-webkit-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 	-moz-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 	box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.3);
-	max-width: 1400px;
-=======
-    border: 3px solid #2379DB;
-    border-radius: 2rem;
-    padding: 2rem;
-    margin-bottom: 3rem;
-    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
-    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
-    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 }
-.policy{
-    background-color: #EAF5FF;
+.policy {
+	background-color: #eaf5ff;
 }
-.requirement{
-    background-color: #EAF5FF;
->>>>>>> a13980fb1b60367c57ccc6d5801e44432221238e
+.requirement {
+	background-color: #eaf5ff;
 }
