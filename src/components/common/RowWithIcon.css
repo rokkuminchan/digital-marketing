@@ -3,8 +3,7 @@
 	box-sizing: border-box;
 	align-items: flex-start;
 	justify-content: center;
-	width: 60vw;
-	margin: 15px auto;
+	margin: 1.5rem 0;
 }
 
 .row .row__icon {
@@ -15,6 +14,9 @@
 	font-size: 1em;
 	color: #3e66af;
 	margin: 5px 15px 0 0;
+}
+.angle {
+	font-size: 1.2em;
 }
 
 .row .row__description {
