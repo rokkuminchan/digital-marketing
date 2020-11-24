@@ -4,80 +4,99 @@
         "description":"Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます",
         "image":{"src":"/../../images/recruit_home__backend.jpg"}
     },
-    "JobDescription":{
-        "title":"仕事内容",
-        "icon": { "src":"", "alt":""},
-        "description":[
-            "Web API設計",
-            "データベース設計",
-            "サーバサイドのフレームワークを使ったWeb APIの実装",
-            "テスト"
-        ]
+    "JobDetails":{
+        "JobDescription":{
+            "title":"仕事内容",
+            "descriptions":[
+                "Web API設計",
+                "データベース設計",
+                "サーバサイドのフレームワークを使ったWeb APIの実装",
+                "テスト"
+            ]
+        },
+        "JobRequirement":{
+            "title":"求める人材",
+            "items":[
+                {
+                    "subtitle":"必須スキル／経験",
+                    "descriptions":[
+                        "・LAMP環境での開発経験がある",
+                        "・MVCフレームワークを利用した開発経験がある",
+                        "・チームでの開発経験がある"
+                    ]
+                },
+                {
+                    "subtitle":"歓迎するスキル／経験",
+                    "descriptions":[
+                        "・Gitを用いたチームでの開発経験がある",
+                        "・Node.js/Java/PHP/Ruby/Pythonでの開発経験がある",
+                        "・Java/Spring",
+                        "・クラウド:　AWS/Google Cloud/Salesforce"
+                    ]
+                }
+            ]
+        },
+        "TargetPerson":{
+            "title":"求める人物像",
+            "descriptions": [
+                "柔軟性を持ち、自ら考え行動ができる",			
+                "新しい発想やアウトプットへのこだわりがある",
+                "問題を見つけ、自ら解決までできる"
+            ]
+        },
+        "Policy":{
+            "title":"給与・待遇",
+            "detail":[
+                {
+                    "icon":{"type":"BsBookHalf","alt":"book"},
+                    "title":"研究制度",
+                    "description":[
+                        "ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします",
+                        "上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします"
+                    ]
+                },
+                {
+                    "icon":{"type":"HiLocationMarker","alt":"place"},
+                    "title":"勤務地",
+                    "description":["東京"]
+                },
+                {
+                    "icon":{"type":"IoIosTime","alt":""},
+                    "title":"勤務時間・休暇備考",
+                    "description":[
+                        "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
+                        "完全週休2日制（土・日・祝）",
+                        "GW休暇連続、夏期休暇連続",
+                        "年末年始連続",
+                        "有給休暇"
+                    ]
+                },
+                {
+                    "icon":{"type":"CgDollar","alt":""},
+                    "title":"給料",
+                    "description":["経験と能力に応じて相談させてください"]
+                },
+                {
+                    "icon":{"type":"RiUserFill","alt":""},
+                    "title":"採用型能",
+                    "description":[
+                        "１年目契約社員",
+                        "２年目から正社員登用"
+                    ]
+                },
+                {
+                    "icon":{"type":"AiTwotoneHome","alt":""},
+                    "title":"待遇・福利厚生",
+                    "description":[
+                        "健康保険、厚生年金、雇用保険 ",
+                        "退職金制度あり",
+                        "交通費全額支給",
+                        "寮は部屋に空きがあれば入居可"
+                    ]
+                }
+            ]
+        }
     },
-    "JobRequirement":{
-        "title":"求めるスキル・経験",
-        "icon": { "src":"", "alt":""},
-        "description": [
-            "Webアプリケーションの業務要件とフロントエンドの仕様を理解して、適切なWeb APIの設計ができる方。また、データベース、フレームワークに習熟しておりサーバーサイドの開発経験がある方を募集してます。サーバーサイドのプログラミング言語にもJavaScript(Node.js)をメインで採用しています。ExpressやLoopBackなど、Node.jsベースのフレームワークに習熟している方を歓迎します",
-            "JavaScriptでのフロントエンジニアの経験があり、バクエンド・サービスの構築にチャレンジしたい方の応募も歓迎します"
-        ]
-
-    },
-    "TargetPerson":{
-        "title":"求める人物像",
-        "description": [
-            "柔軟性を持ち、自ら考え行動ができる",			
-            "新しい発想やアウトプットへのこだわりがある",
-            "問題を見つけ、自ら解決までできる"
-        ]
-    },
-    "Policy":{
-        "title":"給与・待遇",
-        "detail":[
-            {
-                "icon":{"type":"BsBookHalf","alt":"book"},
-                "title":"研究制度",
-                "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
-            },
-            {
-                "icon":{"type":"HiLocationMarker","alt":"place"},
-                "title":"勤務地",
-                "description":["東京"]
-            },
-            {
-                "icon":{"type":"IoIosTime","alt":""},
-                "title":"勤務時間・休暇備考",
-                "description":[
-                    "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-                    "完全週休2日制（土・日・祝）",
-                    "GW休暇連続、夏期休暇連続",
-                    "年末年始連続",
-                    "有給休暇"
-                ]
-            },
-            {
-                "icon":{"type":"CgDollar","alt":""},
-                "title":"給料",
-                "description":["経験と能力に応じて相談させてください"]
-            },
-            {
-                "icon":{"type":"RiUserFill","alt":""},
-                "title":"採用型能",
-                "description":["１年目契約社員・２年目から正社員登用"]
-            },
-            {
-                "icon":{"type":"AiTwotoneHome","alt":""},
-                "title":"待遇・福利厚生",
-                "description":[
-                    "健康保険、厚生年金、雇用保険 ",
-                    "退職金制度あり",
-                    "交通費全額支給",
-                    "寮は部屋に空きがあれば入居可"
-                ]
-            }
-        ]
-    }
-    ,
     "JobOther":{
         "title":"他の職種",
         "content":[

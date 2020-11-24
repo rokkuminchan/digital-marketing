@@ -4,134 +4,138 @@
         "image":{"src":"/../../images/recruit__desiner.jpg"},
         "title": "デザイナー",
         "description": "ITチームと協力して傑作をデザインしましょう"
-      },      
-      "JobDescription": {
-        "title": "仕事内容",
-        "icon": { "src":"", "alt":""},
-        "description": [
-              "Webアプリケーションのデザインを担当していただきます。",
-              "顧客の視点で、顧客の要望に従ってWebアプリケーションをデザインしていだたきます。",
-              "デザイン後は、フロントエンド・エンジニアがスムーズに開発できるようにサポートをお願いします。",
-              "ワイヤーフレーム作成",
-              "デザインカンプ作成",
-              "WebアプリケーションUI/UX確認"
+      }, 
+      "JobDetails":{
+        "JobDescription": {
+          "title": "仕事内容",
+          "icon": { "src":"", "alt":""},
+          "descriptions": [
+                "Webアプリケーションのデザインを担当していただきます。",
+                "顧客の視点で、顧客の要望に従ってWebアプリケーションをデザインしていだたきます。",
+                "デザイン後は、フロントエンド・エンジニアがスムーズに開発できるようにサポートをお願いします。",
+                "ワイヤーフレーム作成",
+                "デザインカンプ作成",
+                "WebアプリケーションUI/UX確認"
+              ]
+        },
+        "JobRequirement":{
+          "title":"求めるスキル・経験",
+          "items":[
+            {
+              "subtitle":"【必須スキル／経験】",
+              "descriptions":[
+                "・グラフィックデザインの基礎があり、Webアプリケーションのデザインルールに習熟している方。",
+                "・デザイナーとして実務経験がある方が望ましい。",
+                "・雑誌や広告など紙ベースのデザイン経験者で、Webアプリケーションのデザインにチャレンジしたい方にも応募いただきたいです。"
+              ]
+            },
+            {
+              "subtitle":"【歓迎するスキル／経験】",
+              "descriptions":[
+                "・WEBデザイナーとして２年以上の実務経験がある方",
+                "・チームでの開発経験がある方",
+                "・HTML、CSSの知識。",
+                "・その他のWebサイトデザインツールに習熟している方。",
+                "・写真／映像の作業スキルがある方。"  
+              ]
+            }
+          ]
+        },
+        "TargetPerson":{
+          "title":"求める人物像",
+          "descriptions": [
+              "柔軟性を持ち、自ら考え行動ができる",		
+              "新しい発想やアウトプットへのこだわりがある",
+              "問題を見つけ、自ら解決までできる"
             ]
+        },
+        "Policy":{
+          "title":"給与・待遇",
+          "detail":[
+              {
+                  "icon":{"type":"BsBookHalf","alt":"book"},
+                  "title":"研究制度",
+                  "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。",
+                                "上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
+              },
+              {
+                  "icon":{"type":"HiLocationMarker","alt":"place"},
+                  "title":"勤務地",
+                  "description":["東京"]
+              },
+              {
+                  "icon":{"type":"IoIosTime","alt":""},
+                  "title":"勤務時間・休暇備考",
+                  "description":[
+                      "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
+                      "完全週休2日制（土・日・祝）",
+                      "GW休暇連続、夏期休暇連続",
+                      "年末年始連続",
+                      "有給休暇"
+                  ]
+              },
+              {
+                  "icon":{"type":"CgDollar","alt":""},
+                  "title":"給料",
+                  "description":["経験と能力に応じて相談させてください"]
+              },
+              {
+                  "icon":{"type":"RiUserFill","alt":""},
+                  "title":"採用型能",
+                  "description":["１年目契約社員・２年目から正社員登用"]
+              },
+              {
+                  "icon":{"type":"AiTwotoneHome","alt":""},
+                  "title":"待遇・福利厚生",
+                  "description":[
+                      "健康保険、厚生年金、雇用保険 ",
+                      "退職金制度あり",
+                      "交通費全額支給",
+                      "寮は部屋に空きがあれば入居可"
+                  ]
+              }
+          ]
+          }
       },
-      "JobRequirement":{
-        "title":"求めるスキル・経験",
-        "content":[
-          {
-            "subTitle":"【必須スキル／経験】",
-            "description":[
-              "グラフィックデザインの基礎があり、Webアプリケーションのデザインルールに習熟している方。",
-              "デザイナーとして実務経験がある方が望ましい。",
-              "雑誌や広告など紙ベースのデザイン経験者で、Webアプリケーションのデザインにチャレンジしたい方にも応募いただきたいです。"
-            ]
-          },
-          {
-            "subTitle":"【歓迎するスキル／経験】",
-            "description":[
-              "WEBデザイナーとして２年以上の実務経験がある方",
-              "チームでの開発経験がある方",
-              "HTML、CSSの知識。",
-              "その他のWebサイトデザインツールに習熟している方。",
-              "写真／映像の作業スキルがある方。"  
-            ]
-          }
-        ]
-    },
-    "TargetPerson":{
-      "title":"求める人物像",
-      "description": [
-          "柔軟性を持ち、自ら考え行動ができる",		
-          "新しい発想やアウトプットへのこだわりがある",
-          "問題を見つけ、自ら解決までできる"
-        ]
-    },
-    "Policy":{
-      "title":"給与・待遇",
-      "detail":[
-          {
-              "icon":{"type":"BsBookHalf","alt":"book"},
-              "title":"研究制度",
-              "description":["ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"]
-          },
-          {
-              "icon":{"type":"HiLocationMarker","alt":"place"},
-              "title":"勤務地",
-              "description":["東京"]
-          },
-          {
-              "icon":{"type":"IoIosTime","alt":""},
-              "title":"勤務時間・休暇備考",
-              "description":[
-                  "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-                  "完全週休2日制（土・日・祝）",
-                  "GW休暇連続、夏期休暇連続",
-                  "年末年始連続",
-                  "有給休暇"
-              ]
-          },
-          {
-              "icon":{"type":"CgDollar","alt":""},
-              "title":"給料",
-              "description":["経験と能力に応じて相談させてください"]
-          },
-          {
-              "icon":{"type":"RiUserFill","alt":""},
-              "title":"採用型能",
-              "description":["１年目契約社員・２年目から正社員登用"]
-          },
-          {
-              "icon":{"type":"AiTwotoneHome","alt":""},
-              "title":"待遇・福利厚生",
-              "description":[
-                  "健康保険、厚生年金、雇用保険 ",
-                  "退職金制度あり",
-                  "交通費全額支給",
-                  "寮は部屋に空きがあれば入居可"
-              ]
-          }
-      ]
-  },
-  "JobOther":{
-      "title":"他の職種",
-      "content":[
-        {
-          "link":{
-            "name":"デイレクター",
-            "src":"/recruit/director"
-          }
-          
-        },
-        {
-          "link":{
-            "name":"フロントエンドエンジニア",
-            "src":"/recruit/frontend"
-          }
-            
-        },
-        {
+                    
+      "JobOther":{
+          "title":"他の職種",
+          "content":[
+            {
+              "link":{
+                "name":"デイレクター",
+                "src":"/recruit/director"
+              }
+              
+            },
+            {
+              "link":{
+                "name":"フロントエンドエンジニア",
+                "src":"/recruit/frontend"
+              }
+                
+            },
+            {
 
-          "link":{
-            "name":"バックエンドエンジニア",
-            "src":"/recruit/backend"
-          }
-            
+              "link":{
+                "name":"バックエンドエンジニア",
+                "src":"/recruit/backend"
+              }
+                
+            },
+            {
+              "link":{
+                "name":"新卒",
+                "src":"/recruit/new-graduate"
+              }
+                
+            }
+          ]
         },
-        {
-          "link":{
-            "name":"新卒",
-            "src":"/recruit/new-graduate"
-          }
-            
-        }
-      ]
-    },
-    "Entry":{
-      "title":"応募する",
-      "src":"/recruit_entry"
-    }      
-  }
+        "Entry":{
+          "title":"応募する",
+          "src":"/recruit_entry"
+        }      
+      }
 }
   
