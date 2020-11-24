@@ -1,12 +1,12 @@
 import React from "react";
-import RowWithIcon from "../../../common/RowWithIcon";
+import AngleIcon from "../../../common/AngleIcon";
 import "./JrqCardDesc.css";
 
 export default function JrqCardDesc({data}){
     return(
             <div className="jrqCardDesc">
                  <div className="jrqCardDesc__title">
-                 <RowWithIcon data = {data.subtitle} />
+                 <AngleIcon data = {data.subtitle} />
                  </div>
                 {data.descriptions.map((desc, index) => {
                     return (

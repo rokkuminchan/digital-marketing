@@ -39,7 +39,7 @@
   "RecruitHomeTargetingPersons": {
     "title": "求める人物像",
     "image": {
-      "src": "../../../images/recruit-home__targeting-persons.jpg",
+      "src": "../../images/recruit-home__targeting-persons.jpg",
       "alt": ""
     },
     "items": [
@@ -72,7 +72,7 @@
   "RecruitHomeRecruitmentJobs": [
     {
       "image": {
-        "src": "../../../images/recruit_home__director.jpg",
+        "src": "../../images/recruit_home__director.jpg",
         "alt": "Director"
       },
       "title": "ディレクター",
@@ -84,7 +84,7 @@
     },
     {
       "image": {
-        "src": "../../../images/recruit_home__design.jpg",
+        "src": "../../images/recruit_home__design.jpg",
         "alt": "Design"
       },
       "title": "デザイナー",
@@ -96,7 +96,7 @@
     },
     {
       "image": {
-        "src": "../../../images/recruit_home__frontend.jpg",
+        "src": "../../images/recruit_home__frontend.jpg",
         "alt": "Front End"
       },
       "title": "フロントエンド<br/>エンジニア",
@@ -108,7 +108,7 @@
     },
     {
       "image": {
-        "src": "../../../images/recruit_home__backend.jpg",
+        "src": "../../images/recruit_home__backend.jpg",
         "alt": "Back End"
       },
       "title": "バックエンド<br/>エンジニア",
@@ -120,7 +120,7 @@
     },
     {
       "image": {
-        "src": "../../../../images/recruit_home__shinsotsu.jpg",
+        "src": "../../images/recruit_home__shinsotsu.jpg",
         "alt": "Shinsotsu"
       },
       "title": "新卒",
