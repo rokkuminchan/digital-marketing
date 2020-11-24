@@ -124,6 +124,34 @@ export const query = graphql`
         descriptions2
         descriptions1
       }
+      Recruit {
+        title
+        subtitle
+        items {
+          description
+          title
+          image {
+            alt
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+          }
+        }
+        image {
+          alt
+          src {
+            childImageSharp {
+              fluid {
+                srcSet
+              }
+            }
+          }
+        }
+      }
       Characteristic {
         description
         title
