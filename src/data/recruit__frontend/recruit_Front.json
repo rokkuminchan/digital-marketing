@@ -6,7 +6,7 @@
             "src": "/../../images/service__frontend.jpeg"
         }
     },
-    "JobDetails": {
+
         "JobDescription": {
             "title": "仕事内容",
             "description": [
@@ -109,8 +109,8 @@
         "Entry": {
             "title": "応募する",
             "src": "/recruit_entry"
-        }
-    },
+        },
+
     "JobOther": {
         "title": "他の職種",
         "content": [
