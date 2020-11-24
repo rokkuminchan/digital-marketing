@@ -124,12 +124,6 @@
         "content": [
             {
                 "link": {
-                    "name": "デイレクター",
-                    "src": "/recruit/director"
-                }
-            },
-            {
-                "link": {
                     "name": "デザイナー",
                     "src": "/recruit/designer"
                 }
@@ -138,6 +132,12 @@
                 "link": {
                     "name": "フロントエンドエンジニア",
                     "src": "/recruit/frontend"
+                }
+            },
+            {
+                "link": {
+                    "name": "バックエンドエンジニア",
+                    "src": "/recruit/backend"
                 }
             },
             {
