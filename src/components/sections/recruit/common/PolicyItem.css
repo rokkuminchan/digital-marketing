@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	position: relative;
 	margin-bottom: 20px;
 }
@@ -18,7 +17,8 @@
 	background-color: #cfd1d1;
 }
 
-.policy-item__icon {
+.policy-item__icon  {
+	margin: 0 auto;
 	margin-top: 15px;
 }
 
@@ -28,7 +28,8 @@
 }
 
 .policy-item__title {
-	margin: 15px 0;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
 .policy-item__title h2 {

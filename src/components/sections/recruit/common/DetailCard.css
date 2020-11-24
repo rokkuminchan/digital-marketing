@@ -2,8 +2,14 @@
     border: 3px solid #2379DB;
     border-radius: 2rem;
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
     -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
     box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+}
+.policy{
+    background-color: #EAF5FF;
+}
+.requirement{
+    background-color: #EAF5FF;
 }

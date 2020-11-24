@@ -5,7 +5,7 @@ import "./DetailCard.css"
 
 const Policy = ({ data }) => {
     return (
-        <div className="detail-card ">
+        <div className="detail-card policy">
             <RecruitDetailCardTitle data={data.title} />
             <div className="policy__content">
                 {
