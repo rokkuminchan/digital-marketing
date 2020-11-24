@@ -7,6 +7,29 @@
 	-moz-box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 	box-shadow: 0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 }
-.requirement {
-	background-color: #eaf5ff;
+
+.policy{
+    background-color: #EAF5FF;
+}
+
+.requirement{
+    background-color: #EAF5FF;
+}
+
+@media screen and (min-width: 1024px) {
+	.detail-card{
+        max-width: 1140px;
+        padding: 3rem;
+        margin-bottom: 5rem;
+    }
+    .jrq__content{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -5rem;
+    }
+    .policy__content{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -5rem;
+    }
 }
