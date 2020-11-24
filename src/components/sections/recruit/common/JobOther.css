@@ -1,0 +1,80 @@
+/*mobile */
+@media screen and (min-width: 320px) {
+  .job-other{
+      background-color: #C1E1FF;
+      padding: 3rem 0;
+  }
+
+  .job-other__content{
+    display: grid;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .job-other__title{
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #3e66af;
+  }
+
+  .job-other__button{
+        background-color: white;
+        border-style: none;
+        margin: 1rem 6rem;
+        padding: 1.6rem 0rem;
+        border-radius: 10px;
+        color: #3C64B1;
+        text-decoration: none;  
+        text-align: center;
+  }  
+}
+
+/*Ipad vertical(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .job-other__content{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 120px 120px;  
+    align-items: center;   
+    padding: 2% 7%; 
+  }
+  .job-other__button{
+        background-color: white;
+        margin: 1rem 3rem;
+        padding: 2rem 0rem;
+        border-style: none;
+        border-radius: 10px;
+        text-align: center;
+        color: #3C64B1;
+        text-decoration: none;
+  
+  }
+}
+
+/* Ipad Pro and Desktop */
+@media screen and (min-width: 1024px) {
+  .job-other__content{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 140px 140px ;  
+    align-items: center;   
+    padding: 2% 15%; 
+  }
+  .job-other__button{
+    background-color: white;
+    margin: 1rem 5rem;
+    padding: 2.5rem 0rem;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #3C64B1;
+    text-decoration: none;
+  
+  }
+  
+  .job-other__button:hover{
+      background-color: #2379DB;
+      color: white;
+  } 
+}

@@ -1,0 +1,11 @@
+.jrqCardDesc__title{
+    font-weight: bold;
+}
+.jrqCardDesc__desc{
+    font-size: 1.2em;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    width: 60vw;
+    margin: 15px auto;
+}

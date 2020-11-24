@@ -14,6 +14,9 @@
   list-style: none;
   overflow: hidden;
   background-color: #78acfd;
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
 
 .menu-header__navigation-link {
@@ -40,14 +43,6 @@
   width: 195px;
   height: 40px;
   text-decoration: none;
-}
-
-/* menu */
-
-.menu-header__navigation {
-  clear: both;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
 }
 
 /* menu icon */
@@ -94,20 +89,16 @@
 }
 
 .menu-header__navigation--expand {
-  max-height: 360px;
+  max-height: none;
 }
 
 @media screen and (min-width: 768px) {
-  .menu-header {
-    padding-right: 40px;
-  }
-
   .menu-header__navigation-item {
     float: left;
   }
 
   .menu-header__navigation-link {
-    padding: 20px 10px;
+    padding: 23px 9px;
   }
 
   .menu-header__navigation {

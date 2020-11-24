@@ -1,13 +1,13 @@
 import React from 'react';
-import Icon from './Icon';
 import './RowWithIcon.css'
+import { BsFillCircleFill } from "react-icons/bs";
 
 const RowWithIcon = ({data}) => {
     return(
         <div className = "row">
-            <div className = "row__icon"><Icon {...data.icon}/></div>
+            <div className = "row__icon"><BsFillCircleFill /></div>
             <div className = "row__description">
-                <p>{data.description}</p>
+                <p>{data}</p>
             </div>
         </div>
     )

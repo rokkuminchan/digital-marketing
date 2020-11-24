@@ -126,5 +126,39 @@
       "title": "こちら",
       "src": "/technology"
     }
+  },
+  "Recruit": {
+    "title": "採用",
+    "subtitle": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう",
+    "image": {
+      "src": "../../images/home__recruit.jpg",
+      "alt": "recruit"
+    },
+    "items": [
+      {
+        "image": {
+          "src": "../../images/home__recruit-items-icon1.png",
+          "alt": "icon1"
+        },
+        "title": "スキルアップ",
+        "description": "スキルを向上させ、キャリアアップを支援する環境が整っている"
+      },
+      {
+        "image": {
+          "src": "../../images/home__recruit-items-icon2.png",
+          "alt": "icon2"
+        },
+        "title": "チームワーク",
+        "description": "フレンドリーな同僚とダイナミックな環境で働くことができる"
+      },
+      {
+        "image": {
+          "src": "../../images/home__recruit-items-icon3.png",
+          "alt": "icon3"
+        },
+        "title": "クライアントへのアプローチ",
+        "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する"
+      }
+    ]
   }
 }
