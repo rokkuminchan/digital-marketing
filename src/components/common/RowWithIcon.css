@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 1.5rem 0;
+	margin: 1.5rem auto;
 }
 
 .row .row__icon {
@@ -13,14 +13,14 @@
 .row .row__icon svg {
 	font-size: 1em;
 	color: #3e66af;
-	margin-top: 5px;
+	margin: 5px 15px 0 0;
 }
 .angle {
 	font-size: 1.2em;
 }
 
 .row .row__description {
-	width: 90%;
+	width: 400px;
 }
 
 .row .row__description p {
@@ -40,7 +40,7 @@
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 	.row {
-		width: 50vw;
+		width: 500px;
 	}
 
 	.row .row__icon svg {
@@ -52,5 +52,11 @@
 		font-size: 2em;
 		letter-spacing: 1px;
 		line-height: 1.8;
+	}
+}
+
+@media only screen and (min-width: 1324px) {
+	.row .row__icon {
+		width: 5%;
 	}
 }
