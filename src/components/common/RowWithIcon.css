@@ -17,9 +17,9 @@
 .row .angle svg {
 	font-size: 1.2rem;
 }
-.row .row__description {
-	width: 90%;
-}
+/* .row .row__description {
+	width: 400px;
+} */
 
 .row .row__description p {
 	font-size: 1.2rem;
@@ -63,5 +63,11 @@
 		font-size: 2rem;
 		letter-spacing: 1px;
 		line-height: 1.8;
+	}
+}
+
+@media only screen and (min-width: 1324px) {
+	.row .row__icon {
+		width: 5%;
 	}
 }

@@ -5,7 +5,7 @@ import "./PolicyItem.css"
 
 const Policy = ({data}) => {
     return(
-        <div className = "policy-item">
+        <section className = "policy-item">
             <div className = "policy-item__icon"><Icon {...data.icon}/></div>
             <div className = "policy-item__title"><h2>{data.title}</h2></div>
             <div className = "policy-item__description">
@@ -17,7 +17,7 @@ const Policy = ({data}) => {
                     })
                 }
             </div>
-        </div>
+        </section>
     )
 }
 export default Policy;
