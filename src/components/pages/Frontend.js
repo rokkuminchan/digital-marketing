@@ -1,19 +1,19 @@
 import React from "react";
-import FrontPageHeader from "../sections/recruit/frontend/FrontPageHeader";
+import JobPageHeader from "../sections/recruit/common/JobPageHeader";
 import Breadcrumb from "../sections/recruit/common/Breadcrumb";
-import FrontTargetPerson from "../sections/recruit/frontend/FrontTargetPerson";
-import Policy from "../sections/recruit/common/Policy";
-import RecruitJobOther from '../sections/recruit/common/JobOther';
+import RecruitDetail from "../sections/recruit/common/RecruitDetail";
+import RecruitJobOther from "../sections/recruit/common/JobOther";
+import EntryButton from "../common/EntryButton";
 
-export default function Fronend({data}){
+export default function Frontend({ data }) {
 
     return (
         <React.Fragment>
-            <FrontPageHeader data={data.PageHeader}/>
-            <Breadcrumb data={data.PageHeader}/>
-            <FrontTargetPerson data={data.TargetPerson} />
-            <Policy data = {data.Policy}/>
-            <RecruitJobOther data={data.JobOther}/>
+            <JobPageHeader data={data.FrontEndHeader} />
+            <Breadcrumb data={data.FrontEndHeader} />
+            <RecruitDetail data={data.JobDetails} />
+            <RecruitJobOther data={data.JobOther} />
+            <EntryButton path="./entry" />
         </React.Fragment>
-    )
+    );
 }
