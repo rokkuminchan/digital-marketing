@@ -10,7 +10,6 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
         <div className="recruit-home-recruitment-jobs__card" key={index}>
           <Image
             className="recruit-home-recruitment-jobs__card-image"
-            boxShadow={3}
             {...item.image}
           />
           <div className="recruit-home-recruitment-jobs__card-footer">
