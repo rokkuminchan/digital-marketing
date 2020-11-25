@@ -4,8 +4,8 @@
       "src": "",
       "alt": "top-banner-image"
     },
-    "title": "Recruit",
-    "description": "World　IT　Teamは、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう"
+    "title": "recruit-home-header__title",
+    "description": "recruit-home-header__description"
   },
   "RecruitHomeReason": {
     "title": "入社のメリット",
