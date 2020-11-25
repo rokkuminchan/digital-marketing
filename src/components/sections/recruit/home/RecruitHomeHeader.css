@@ -89,15 +89,16 @@
       bottom: 5%;
       width: 50%;
       height: 45%;
+      min-height: 350px;
  
     }
     .recruit-home-header__title {
-      font-size: 6em;
+      font-size: 4em;
       padding-top: 5%;
       
     }
     .recruit-home-header__description {
-      font-size: 3em;
+      font-size: 2.8em;
       padding:5% 10%;
     }  
   }
