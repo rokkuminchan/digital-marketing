@@ -20,7 +20,6 @@ export default function RecruitHomeTargetingPersons({ data }) {
       <div className="recruit-home-targeting-persons__image--wrapper">
         <Image
           {...data.image}
-          src={t(data.image.src)}
           className="recruit-home-targeting-persons__image"
         />
       </div>
