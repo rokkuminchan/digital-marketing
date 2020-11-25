@@ -7,9 +7,9 @@ import {useTranslation} from 'react-i18next';
 export default function TargetPersonCard({data}){
     const {t} = useTranslation();
     return (
-      <div className="detail-card .job-target">
+      <div className="detail-card">
         <RecruitDetailCardTitle data={t(data.title)} />
-        <div className="detail-card__desc">
+        <div className="target__content">
           {data.descriptions.map((item, index) => {
             return <RowWithIcon key={index} data={item} />;
           })}

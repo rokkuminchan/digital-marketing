@@ -7,7 +7,7 @@ import {useTranslation} from 'react-i18next';
 export default function JobRequirementCard({data}){
     const {t} = useTranslation();
     return (
-      <div className="detail-card requirement">
+      <div className="detail-card">
         <RecruitDetailCardTitle data={t(data.title)} />
         <div className="jrq__content">
           {data.items.map((desc, index) => {
