@@ -1,11 +1,11 @@
 .entrybutton {
     position: fixed;
-    bottom: 23rem;
+    bottom: 1rem;
     right: 0;
     display: inline-block;
     padding: 10px 5px;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
     text-decoration: none;
     outline: none;
@@ -13,16 +13,16 @@
     background-color: #1e90ff;
     border: none;
     border-radius: 10%;
-
+    opacity: 50%;
     z-index: 1000;
 }
 
 .entrybutton:hover {
-    background-color: #0000ff;
+    opacity: 100%;
 }
 
 .entrybutton:active {
-    background-color: #ff0000;
+    background-color: #0000ff;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
