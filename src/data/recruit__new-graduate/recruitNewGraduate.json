@@ -10,14 +10,14 @@
   
   "JobDetails":{
       "JobDescription":{
-          "title":"graduate-job-desc__title",
+          "title":"recruit-job-desc__title",
           "descriptions":[
               "graduate-job-desc__1"
           ]
       },
       
       "TargetPerson":{
-          "title":"graduate-job-target__title",
+          "title":"recruit-job-target__title",
           "descriptions":[
               "graduate-job-target__desc__1",
               "graduate-job-target__desc__2",
@@ -71,7 +71,7 @@
                 "icon":{"type":"AiTwotoneHome","alt":""},
                 "title":"recruit-job-policy__subtitle__6",
                 "description":[
-                    "recruit-job-policy__desc__61 ",
+                    "recruit-job-policy__desc__61",
                     "recruit-job-policy__desc__62",
                     "recruit-job-policy__desc__63",
                     "recruit-job-policy__desc__64"
@@ -81,29 +81,29 @@
       }
   },
   "JobOther":{
-    "title":"graduate-job-other__title",
+    "title":"recruit-job-other__title",
     "content":[
       {
         "link":{
-          "name":"graduate-job-other__1",
+          "name":"recruit-job-other__1",
           "src":"/recruit/director"
         }         
       },
       {
         "link":{
-          "name":"graduate-job-other__2",
+          "name":"recruit-job-other__2",
           "src":"/recruit/designer"
         }            
       },
       {
         "link":{
-          "name":"graduate-job-other__3",
+          "name":"recruit-job-other__3",
           "src":"/recruit/frontend"
         }   
       },
       {
         "link":{
-          "name":"graduate-job-other__4",
+          "name":"recruit-job-other__4",
           "src":"/recruit/backend"
         }     
       }
