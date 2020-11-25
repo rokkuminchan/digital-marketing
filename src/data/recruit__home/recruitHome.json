@@ -8,64 +8,56 @@
     "description": "recruit-home-header__description"
   },
   "RecruitHomeReason": {
-    "title": "入社のメリット",
+    "title": "recruit-home-reason__title",
     "items": [
       {
         "image": {
           "src": "../../images/recruit_home__reason-opportunity.jpg",
           "alt": "Opportunity"
         },
-        "title": "スキルアップ",
-        "description": "スキルを向上させ、キャリアアップを支援する環境が整っている。"
+        "title": "recruit-home-reason__sub-title-skillup",
+        "description": "recruit-home-reason__sub-description-skillup"
       },
       {
         "image": {
           "src": "../../images/recruit_home__reason-team.jpg",
           "alt": "Team"
         },
-        "title": "チームワーク",
-        "description": "フレンドリーな同僚とダイナミックな環境で働くことができる。"
+        "title": "recruit-home-reason__sub-title-team",
+        "description": "recruit-home-reason__sub-description-team"
       },
       {
         "image": {
           "src": "../../images/recruit_home__reason-client.jpg",
           "alt": "Client"
         },
-        "title": "クライアントへの<br/>アプローチ",
-        "description": "日本の主要なクライアントへのアプローチ方法を学び、客先で新技術学べ、協力する。"
+        "title": "recruit-home-reason__sub-title-client",
+        "description": "recruit-home-reason__sub-description-client"
       }
     ]
   },
   "RecruitHomeTargetingPersons": {
-    "title": "求める人物像",
+    "title": "recruit-home-targeting-persons__title",
     "image": {
-      "src": "../../images/recruit-home__targeting-persons.jpg",
+      "src": "recruit-home-targeting-persons__image",
       "alt": ""
     },
     "items": [
       {
-        "title": "情熱",
-        "description": ["ウェブサービスをつくりたい方、つくることを楽しめる方"]
+        "title": "recruit-home-targeting-persons__items-title-1",
+        "description": "recruit-home-targeting-persons__items-description-1"
       },
       {
-        "title": "主体性・チャレンジ",
-        "description": [
-          "柔軟性を持ち、自ら考え行動ができる",
-          "現状に満足せず、新しい技術にチャレンジする意欲がある"
-        ]
+        "title": "recruit-home-targeting-persons__items-title-2",
+        "description": "recruit-home-targeting-persons__items-description-2"
       },
       {
-        "title": "アイデア・分析力",
-        "description": [
-          "新しい発想やアウトプットへのこだわりがある",
-          "問題を見つけ、自ら解決までできる"
-        ]
+        "title": "recruit-home-targeting-persons__items-title-3",
+        "description": "recruit-home-targeting-persons__items-description-3"
       },
       {
-        "title": "学習",
-        "description": [
-          "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方"
-        ]
+        "title": "recruit-home-targeting-persons__items-title-4",
+        "description": "recruit-home-targeting-persons__items-description-4"
       }
     ]
   },
@@ -75,11 +67,11 @@
         "src": "../../images/recruit_home__director.jpg",
         "alt": "Director"
       },
-      "title": "ディレクター",
-      "description": "ウェブディレクター募集",
+      "title": "recruit-home-recruitment-jobs__card-title-director",
+      "description": "recruit-home-recruitment-jobs__card-description-director",
       "button": {
         "link": "/recruit/director",
-        "title": "詳細"
+        "title": "recruit-home-recruitment-jobs__card-button_text"
       }
     },
     {
@@ -87,11 +79,11 @@
         "src": "../../images/recruit_home__design.jpg",
         "alt": "Designer"
       },
-      "title": "デザイナー",
-      "description": "デザイナー募集",
+      "title": "recruit-home-recruitment-jobs__card-title-designer",
+      "description": "recruit-home-recruitment-jobs__card-description-designer",
       "button": {
         "link": "/recruit/designer",
-        "title": "詳細"
+        "title": "recruit-home-recruitment-jobs__card-button_text"
       }
     },
     {
@@ -99,11 +91,11 @@
         "src": "../../images/recruit_home__frontend.jpg",
         "alt": "Front End"
       },
-      "title": "フロントエンド<br/>エンジニア",
-      "description": "フロントエンドエンジニア募集",
+      "title": "recruit-home-recruitment-jobs__card-title-front-end",
+      "description": "recruit-home-recruitment-jobs__card-description-front-end",
       "button": {
         "link": "/recruit/frontend",
-        "title": "詳細"
+        "title": "recruit-home-recruitment-jobs__card-button_text"
       }
     },
     {
@@ -111,11 +103,11 @@
         "src": "../../images/recruit_home__backend.jpg",
         "alt": "Back End"
       },
-      "title": "バックエンド<br/>エンジニア",
-      "description": "バックエンドエンジニア募集",
+      "title": "recruit-home-recruitment-jobs__card-title-back-end",
+      "description": "recruit-home-recruitment-jobs__card-description-back-end",
       "button": {
         "link": "/recruit/backend",
-        "title": "詳細"
+        "title": "recruit-home-recruitment-jobs__card-button_text"
       }
     },
     {
@@ -123,11 +115,11 @@
         "src": "../../images/recruit_home__shinsotsu.jpg",
         "alt": "Shinsotsu"
       },
-      "title": "新卒",
-      "description": "新卒未経験募集",
+      "title": "recruit-home-recruitment-jobs__card-title-new-graduate",
+      "description": "recruit-home-recruitment-jobs__card-description-new-graduate",
       "button": {
         "link": "/recruit/new-graduate",
-        "title": "詳細"
+        "title": "recruit-home-recruitment-jobs__card-button_text"
       }
     }
   ]
