@@ -58,6 +58,9 @@
     padding: 20px 0;
     max-width: 50%;
   }
+  .recruit-home-reason__card-content-title div {
+    font-size: 1.8em;
+  }
   .recruit-home-reason__card-content p {
     font-size: 1.4em;
     margin: 30px auto;
@@ -68,6 +71,7 @@
 @media screen and (min-width: 720px) {
   .recruit-home-reason-title {
     font-size: 3.5em;
+    padding-top: 5%;
   }
   .recruit-home-reason {
     background-image: url("../../../../images/recruit_home__reason-bgr-ipad.jpg");
@@ -76,14 +80,18 @@
   }
   .recruit-home-reason__card {
     width: 43%;
-    margin: 50px auto;
+    margin: 40px auto;
   }
   .recruit-home-reason__card-image {
     padding: 20px 0;
     max-width: 50%;
   }
+  .recruit-home-reason__card-content-title div {
+    font-size: 2.5em;
+  }
   .recruit-home-reason__card-content p {
     font-size: 1.8em;
+    margin: 30px auto;
     padding: 0 10px;
   }
 }
@@ -91,6 +99,7 @@
 @media screen and (min-width: 1024px) {
   .recruit-home-reason-title {
     font-size: 4em;
+    padding: 3% 0 2% 0;
   }
   .recruit-home-reason {
     background-image: url("../../../../images/recruit_home__reason-bgr-ipadpro.jpg");
@@ -102,7 +111,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
   }
   .recruit-home-reason__card {
     width: 28%;
@@ -114,7 +123,9 @@
   }
   .recruit-home-reason__card-content-title {
     height: 50px;
-    font-size: 2em;
+  }
+  .recruit-home-reason__card-content-title div {
+    font-size: 2.5em;
   }
   .recruit-home-reason__card-content p {
     font-size: 1.8em;
