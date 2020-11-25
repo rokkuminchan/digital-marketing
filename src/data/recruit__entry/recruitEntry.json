@@ -16,7 +16,7 @@
                 "name":"entry.1022775975",
                 "placeholder":"entry__job-type",
                 "is_required":"entry__required",
-                "option":["ディレクター","デザイナーエンジニア","フロントエンドエンジニア","バックエンドエンジニア","新卒エンジニア"]
+                "option":["ディレク","デザイナーエンジニア","フロントエンドエンジニア","バックエンドエンジニア","新卒エンジニア"]
             },
             {
                 "label":"entry__name-label",
