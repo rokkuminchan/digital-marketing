@@ -58,9 +58,6 @@
     padding: 20px 0;
     max-width: 50%;
   }
-  .recruit-home-reason__card-content-title div {
-    font-size: 1.8em;
-  }
   .recruit-home-reason__card-content p {
     font-size: 1.4em;
     margin: 30px auto;
@@ -85,12 +82,8 @@
     padding: 20px 0;
     max-width: 50%;
   }
-  .recruit-home-reason__card-content-title div {
-    font-size: 2.5em;
-  }
   .recruit-home-reason__card-content p {
     font-size: 1.8em;
-    margin: 30px auto;
     padding: 0 10px;
   }
 }
@@ -121,9 +114,7 @@
   }
   .recruit-home-reason__card-content-title {
     height: 50px;
-  }
-  .recruit-home-reason__card-content-title div {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .recruit-home-reason__card-content p {
     font-size: 1.8em;
