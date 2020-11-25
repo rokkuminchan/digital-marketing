@@ -21,28 +21,28 @@ export default function EntryForm({ data }) {
 
   function displayError(errors, field) {
     let error_txt = "";
-    if (field === "entry__name") {
-      error_txt = errors.entry__name;
-    } else {
-      if (field === "entry__mail") {
+    switch (field) {
+      case "entry__name":
+        error_txt = errors.entry__name;
+        break;
+      case "entry__mail":
         error_txt = errors.entry__mail;
-      } else {
-        if (field === "entry__furigana") {
-          error_txt = errors.entry__furigana;
-        } else {
-          if (field === "entry__date") {
-            error_txt = errors.entry__date;
-          } else {
-            if (field === "entry__phone") {
-              error_txt = errors.entry__phone;
-            } else {
-              if (field === "entry__current_job") {
-                error_txt = errors.entry__current_job;
-              }
-            }
-          }
-        }
-      }
+        break;
+      case "entry__furigana":
+        error_txt = errors.entry__furigana;
+        break;
+      case "entry__date":
+        error_txt = errors.entry__date;
+        break;
+      case "entry__phone":
+        error_txt = errors.entry__phone;
+        break;
+      case "entry__current_job":
+        error_txt = errors.entry__current_job;
+        break;
+      case "entry__gender":
+        error_txt = errors.entry__gender;
+        break;
     }
     return error_txt;
   }
@@ -58,7 +58,7 @@ export default function EntryForm({ data }) {
   return (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
-      <form className="form" action={data.action}>
+      <form className="form" name="entry" action={data.action} onSubmit={handleSubmit}>
         {data.items.map((item, index) => {
           switch (item.type) {
             case "textarea":
@@ -89,7 +89,7 @@ export default function EntryForm({ data }) {
                     </label>
                   </div>
                   <div className="entry__item">
-                  <select className="entry__field" name={item.name} value={t("entry__" + job)} disabled>
+                  <select className="entry__field" name={item.name} value={t("entry__" + job)} readonly>
                       {item.option.map((option, index) => {
                         return <option value={t(option)}>{t(option)}</option>;
                       })}
@@ -108,17 +108,21 @@ export default function EntryForm({ data }) {
                   </div>
                   <div className="entry__item">
                     <div className="entry__field">
-                      <RadioGroup row aria-label="position">
+                      <RadioGroup row aria-label="position" name={item.name}
+                      onChange={(e) => handleChange(item.placeholder, e)}>
                         {item.choices.map((choice, index) => {
                           return [
                             <FormControlLabel
                               value={t(choice)}
                               control={<Radio color="primary" />}
-                              label={t(choice)}
+                              label={<div className="entry__radio">{t(choice)}</div>}
                             />,
                           ];
                         })}
                       </RadioGroup>
+                    </div>
+                    <div className="entry__error">
+                      {t(displayError(errors, item.placeholder))}
                     </div>
                   </div>
                 </div>
@@ -143,7 +147,7 @@ export default function EntryForm({ data }) {
                       onChange={(e) => handleChange(item.placeholder, e)}
                     />
                     <div className="entry__error">
-                      {displayError(errors, item.placeholder)}
+                      {t(displayError(errors, item.placeholder))}
                     </div>
                   </div>
                 </div>

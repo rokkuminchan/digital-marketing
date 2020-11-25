@@ -88,6 +88,10 @@ label {
   line-height: 1.1em;
 }
 
+.entry__radio{
+  font-size: 1.6em;
+}
+
 /*iphone*/
 
 @media screen and (max-width: 600px) {

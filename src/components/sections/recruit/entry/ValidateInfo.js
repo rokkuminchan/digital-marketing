@@ -21,15 +21,19 @@ export default function ValidateInfo(values, translate) {
     errors.entry__date = translate("entry__birthday_required_error_message");
   }
 
-  if (!values.entry__phone.trim()) {
-    errors.entry__phone = translate("entry__phone_required_error_message");
-  } else if (!/[0-9]{11}/.test(values.entry__phone)) {
+  if (values.entry__phone.trim() && !/[0-9]{11}/.test(values.entry__phone)) {
     errors.entry__phone = translate("entry__phone_invalid_error_message");
   }
 
   if (!values.entry__current_job.trim()) {
     errors.entry__current_job = translate(
       "entry__current_job_required_error_message"
+    );
+  }
+
+  if (!values.entry__gender.trim()) {
+    errors.entry__gender = translate(
+      "entry__gender_required_error_message"
     );
   }
 

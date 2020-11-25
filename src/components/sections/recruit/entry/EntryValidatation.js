@@ -8,6 +8,7 @@ const EntryValidatation = (callback, validate, translate) => {
     entry__date: "",
     entry__phone: "",
     entry__current_job: "",
+    entry__gender: ""
   });
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -28,7 +29,7 @@ const EntryValidatation = (callback, validate, translate) => {
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmitting) {
-      callback();
+      document.forms.entry.submit();
     }
   }, [errors]);
 
