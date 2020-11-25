@@ -2,18 +2,18 @@ import React from "react";
 import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
 import JobRequirementCardContent from "./JobRequirementCardContent.js";
 import "./DetailCard.css"
-export default function JobRequirementCard({data}){
-    return(
-        <div className="detail-card requirement">
-            <RecruitDetailCardTitle data={data.title} />
-            <div className="jrq__content">
-                {
-                    data.items.map((desc, index) => {
-                        return <JobRequirementCardContent key={index} data={desc} />;
-                    })
-                }
-            </div>
+import {useTranslation} from 'react-i18next';
 
-         </div>
-    )
+export default function JobRequirementCard({data}){
+    const {t} = useTranslation();
+    return (
+      <div className="detail-card requirement">
+        <RecruitDetailCardTitle data={t(data.title)} />
+        <div className="jrq__content">
+          {data.items.map((desc, index) => {
+            return <JobRequirementCardContent key={index} data={desc} />;
+          })}
+        </div>
+      </div>
+    );
 }
