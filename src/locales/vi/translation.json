@@ -44,11 +44,11 @@
   "recruit-home-recruitment-jobs__card-title-designer": "Designer",
   "recruit-home-recruitment-jobs__card-description-designer": "Tuyển dụng vị trí Designer",
   "recruit-home-recruitment-jobs__card-title-front-end": "Front-end<br>Engineer",
-  "recruit-home-recruitment-jobs__card-description-front-end": "Tuyển dụng vị trí kỹ sư Font-end",
+  "recruit-home-recruitment-jobs__card-description-front-end": "Tuyển dụng vị trí kỹ sư<br/>Font-end",
   "recruit-home-recruitment-jobs__card-title-back-end": "Back-end<br>Engineer",
-  "recruit-home-recruitment-jobs__card-description-back-end": "Tuyển dụng vị trí kỹ sư Back-end",
+  "recruit-home-recruitment-jobs__card-description-back-end": "Tuyển dụng vị trí kỹ sư<br/>Back-end",
   "recruit-home-recruitment-jobs__card-title-new-graduate": "New Graduate",
-  "recruit-home-recruitment-jobs__card-description-new-graduate": "Tuyển dụng sinh viên mới tốt nghiệp",
+  "recruit-home-recruitment-jobs__card-description-new-graduate": "Tuyển dụng sinh viên mới<br/>tốt nghiệp",
 
   "entry__title": "エントリーフォーム",
   "entry__job-type-label": "Công việc ứng tuyển",
@@ -77,7 +77,7 @@
 
   "designer-page-header__title": "",
   "designer-page-header__description": "",
-  
+
   "designer-job-desc__1": "",
   "designer-job-desc__2": "",
   "designer-job-desc__3": "",
@@ -100,12 +100,12 @@
 
   "backend-page-header__title": "",
   "backend-page-header__description": "",
-  
+
   "backend-job-desc__1": "",
   "backend-job-desc__2": "",
   "backend-job-desc__3": "",
   "backend-job-desc__4": "",
-  
+
   "backend-job-req__desc__11": "",
   "backend-job-req__desc__12": "",
   "backend-job-req__desc__13": "",

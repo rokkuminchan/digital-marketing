@@ -19,9 +19,10 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
               className="recruit-home-recruitment-jobs__card-title"
               dangerouslySetInnerHTML={{ __html: t(item.title) }}
             ></div>
-            <p className="recruit-home-recruitment-jobs__card-description">
-              {t(item.description)}
-            </p>
+            <p
+              className="recruit-home-recruitment-jobs__card-description"
+              dangerouslySetInnerHTML={{ __html: t(item.description) }}
+            ></p>
             <Button
               variant="contained"
               color="primary"
