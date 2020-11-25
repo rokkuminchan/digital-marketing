@@ -137,7 +137,7 @@
     "items": [
       {
         "image": {
-          "src": "../../images/home__recruit-items-icon1.png",
+          "src": "../../images/recruit_home__reason-opportunity.jpg",
           "alt": "icon1"
         },
         "title": "スキルアップ",
@@ -145,7 +145,7 @@
       },
       {
         "image": {
-          "src": "../../images/home__recruit-items-icon2.png",
+          "src": "../../images/recruit_home__reason-team.jpg",
           "alt": "icon2"
         },
         "title": "チームワーク",
@@ -153,7 +153,7 @@
       },
       {
         "image": {
-          "src": "../../images/home__recruit-items-icon3.png",
+          "src": "../../images/recruit_home__reason-client.jpg",
           "alt": "icon3"
         },
         "title": "クライアントへのアプローチ",
