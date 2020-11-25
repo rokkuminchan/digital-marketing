@@ -172,6 +172,34 @@
   "graduate-job-other__1":"デイレクター",
   "graduate-job-other__2":"デザイナー",
   "graduate-job-other__3":"フロントエンドエンジニア",
-  "graduate-job-other__4":"バックエンドエンジニア"
+  "graduate-job-other__4":"バックエンドエンジニア",
   
+  "frontend-page-header__title":"フロントエンドエンジニア",
+  "frontend-page-header__description":"Webアプリケーションのフロントエンドの開発を担当していただきます。",
+  
+  "frontend-job-desc__title":"仕事内容",
+  "frontend-job-desc__1":"Webコンポーネントを設計",
+  "frontend-job-desc__2":"コーディング",
+  "frontend-job-desc__3":"単体テスト",
+  "frontend-job-desc__4":"結合テスト",
+  "frontend-job-desc__5":"ユーザテスト",
+  "frontend-job-desc__6":"ディプロイ作業",
+
+  "frontend-job-req__title":"求めるスキル・経験",
+  "frontend-job-req__subtitle__1":"【必須スキル／経験】",
+  "frontend-job-req__desc__11":"・WebデザインからCSSのコーディング",
+  "frontend-job-req__desc__12":"・Webコンポーネントのコーディング(React)",
+  "frontend-job-req__desc__13":"・JavaScript等によるアニメーションの作成",
+  "frontend-job-req__desc__14":"・JESTによる単体テスト",
+
+  "frontend-job-req__subtitle__2":"【歓迎するスキル／経験】",
+  "frontend-job-req__desc__21":"・Gitを用いたチームでの開発経験がある方",
+  "frontend-job-req__desc__22":"・HTML/CSS/JavaScript/React/JESTの知識のある方",
+  "frontend-job-req__desc__23":"・Gitを用いたチームでの開発経験がある",
+
+  "frontend-job-target__title":"求める人物像",
+  "frontend-job-target__desc__1":"受け身にならず、自発的に業務を推進できる方",
+  "frontend-job-target__desc__2":"コミュニケーション能力がある方",
+  "frontend-job-target__desc__3":"チームワークを大切にできる方"
+
 }
