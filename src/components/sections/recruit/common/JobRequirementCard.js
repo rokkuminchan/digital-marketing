@@ -1,15 +1,15 @@
 import React from "react";
 import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
-import JrqCardDesc from "./JrqCardDesc";
+import JobRequirementCardContent from "./JobRequirementCardContent.js";
 import "./DetailCard.css"
-export default function JrqCard({data}){
+export default function JobRequirementCard({data}){
     return(
-        <div className="detail-card">
+        <div className="detail-card requirement">
             <RecruitDetailCardTitle data={data.title} />
-            <div className="jrq__desc">
+            <div className="jrq__content">
                 {
                     data.items.map((desc, index) => {
-                        return <JrqCardDesc key={index} data={desc} />;
+                        return <JobRequirementCardContent key={index} data={desc} />;
                     })
                 }
             </div>

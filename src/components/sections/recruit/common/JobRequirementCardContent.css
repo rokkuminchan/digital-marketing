@@ -1,0 +1,28 @@
+.jrqCardDesc__title{
+    font-weight: bold;
+}
+.jrqCardDesc__desc{
+    font-size: 1.2em;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin: 1.5rem 2.5rem;
+}
+@media screen and (min-width: 768px){
+    .jrqCardDesc__title{
+        font-size: 1.7rem;
+    }
+    .jrqCardDesc__desc{
+        font-size: 1.7rem;
+        margin: 1.5rem 2.5rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .jrqCardDesc{
+		width: 44%;
+		margin-left: 5rem;
+    }
+    .jrqCardDesc__desc {
+        margin: 1.5rem 0rem 1.5rem 1.5rem;
+    }
+}

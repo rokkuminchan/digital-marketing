@@ -1,8 +1,6 @@
 .policy-item {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	position: relative;
 	margin-bottom: 20px;
 }
@@ -18,7 +16,8 @@
 	background-color: #cfd1d1;
 }
 
-.policy-item__icon {
+.policy-item__icon  {
+	margin: 0 auto;
 	margin-top: 15px;
 }
 
@@ -28,7 +27,8 @@
 }
 
 .policy-item__title {
-	margin: 15px 0;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
 .policy-item__title h2 {
@@ -39,10 +39,28 @@
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
-	.policy-item::before {
-		width: 70%;
+	.policy-item{
+		width: 44%;
+		margin-left: 5rem;
 	}
-
+	.policy-item:first-of-type(1){
+		order: 0;
+	}
+	.policy-item:nth-of-type(2){	
+		order: 3;
+	}
+	.policy-item:nth-of-type(3){	
+		order: 1;
+	}
+	.policy-item:nth-of-type(4){	
+		order: 2;
+	}
+	.policy-item:nth-of-type(5){
+		order: 5;
+	}
+	.policy-item:nth-of-type(6){
+		order: 5;
+	}
 	.policy-item__icon svg {
 		font-size: 4.5em;
 	}
