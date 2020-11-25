@@ -8,7 +8,7 @@ export default function RecruitDetail({data}) {
     return(
         <section className="recruit-detail">
             <JobDescriptionCard data={data.JobDescription} />
-            <JobRequirementCard data={data.JobRequirement}/>
+            {data.JobRequirement?<JobRequirementCard data={data.JobRequirement}/>:null}
             <TargetPersonCard data={data.TargetPerson} /> 
             <Policy data={data.Policy} />
             <a href="/recruit/entry" className="recruit-detail__entry">応募する</a>

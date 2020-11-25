@@ -2,7 +2,7 @@
     "Header":{
         "title": "バックエンドエンジニア",
         "description":"Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます",
-        "image":{"src":"/../../images/recruit_home__backend.jpg"}
+        "image":{"src":"../../images/recruit_home__backend.jpg"}
     },
     "JobDetails":{
         "JobDescription":{
