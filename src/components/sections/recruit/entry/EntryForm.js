@@ -44,6 +44,14 @@ export default function EntryForm({ data }) {
     return error_txt;
   }
 
+  function setClassRequired(is_required) {
+    if (is_required === "entry__required") {
+      return "entry__rect_required";
+    } else {
+      return "entry__rect_optional";
+    }
+  }
+
   return (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
@@ -54,7 +62,10 @@ export default function EntryForm({ data }) {
               return (
                 <div className="entry__row_area">
                   <div className="entry__label">
-                    <label className="">{t(item.label)}</label>
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
                   </div>
                   <div className="entry__item">
                     <textarea
@@ -69,7 +80,10 @@ export default function EntryForm({ data }) {
               return (
                 <div className="entry__row">
                   <div className="entry__label">
-                    <label className="">{t(item.label)}</label>
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
                   </div>
                   <div className="entry__item">
                     <select className="entry__field" name="">
@@ -84,7 +98,10 @@ export default function EntryForm({ data }) {
               return (
                 <div className="entry__row">
                   <div className="entry__label">
-                    <label className="">{t(item.label)}</label>
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
                   </div>
                   <div className="entry__item">
                     <div className="entry__field">
@@ -113,7 +130,10 @@ export default function EntryForm({ data }) {
               return (
                 <div className="entry__row">
                   <div className="entry__label">
-                    <label className="">{t(item.label)}</label>
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
                   </div>
                   <div className="entry__item">
                     <input
