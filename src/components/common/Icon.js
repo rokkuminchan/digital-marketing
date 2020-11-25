@@ -3,7 +3,7 @@ import {FiCircle, FiSquare, FiTriangle, FiHexagon} from "react-icons/fi";
 import { IoIosSwitch, IoIosTime } from "react-icons/io";
 import { BsLightningFill, BsCircleFill, BsBookHalf } from "react-icons/bs";
 import { MdHighQuality, MdLocationOn } from "react-icons/md";
-import { CgDollar } from "react-icons/cg";
+import { BiYen } from "react-icons/bi";
 import { RiUserFill } from "react-icons/ri";
 import { AiTwotoneHome } from "react-icons/ai";
 import { HiLocationMarker } from "react-icons/hi";
@@ -39,8 +39,8 @@ export default function Icon(props){
             return <IoIosTime/>
         case "MdLocationOn":
             return <MdLocationOn/>
-        case "CgDollar":
-            return <CgDollar/>
+        case "BiYen":
+            return <BiYen/>
         case "RiUserFill":
             return <RiUserFill/>
         case "AiTwotoneHome":

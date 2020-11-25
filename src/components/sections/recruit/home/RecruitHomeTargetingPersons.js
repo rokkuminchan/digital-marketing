@@ -1,5 +1,6 @@
 import React from "react";
 import "./RecruitHomeTargetingPersons.css";
+import { useTranslation } from "react-i18next";
 import Title from "../../../common/Title";
 import Image from "../../../common/Image";
 import icon from "../../../../images/recruit-home__targeting-persons-icon@2x.jpg";
@@ -12,12 +13,14 @@ function renderConnerBottom(index, length) {
   }
 }
 export default function RecruitHomeTargetingPersons({ data }) {
+  const { t } = useTranslation();
   return (
     <section className="recruit-home-targeting-persons">
-      <Title data={data.title} />
+      <Title data={t(data.title)} />
       <div className="recruit-home-targeting-persons__image--wrapper">
         <Image
-          {...data.image}
+          src={t(data.image.src)}
+          alt={data.image.alt}
           className="recruit-home-targeting-persons__image"
         />
       </div>
@@ -26,9 +29,9 @@ export default function RecruitHomeTargetingPersons({ data }) {
           <div className="recruit-home-targeting-persons__items" key={index}>
             <div className="recruit-home-targeting-persons__items-title">
               <div className="recruit-home-targeting-persons__conner-top"></div>
-              {item1.title}
+              {t(item1.title)}
             </div>
-            {item1.description.map((item2, index) => (
+            {t(item1.description).map((item2, index) => (
               <div
                 className="recruit-home-targeting-persons__items-description--wrapper"
                 key={index}
@@ -41,7 +44,7 @@ export default function RecruitHomeTargetingPersons({ data }) {
                 <span className="recruit-home-targeting-persons__items-description">
                   {item2}
                 </span>
-                {renderConnerBottom(index, item1.description.length)}
+                {renderConnerBottom(index, t(item1.description).length)}
               </div>
             ))}
           </div>
