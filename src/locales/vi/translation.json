@@ -178,7 +178,6 @@
   "frontend-page-header__title":"Kỹ sư front-end",
   "frontend-page-header__description":"Phát triển giao diện người dùng của ứng dụng web",
   
-  "frontend-job-desc__title":"Mô tả công việc",
   "frontend-job-desc__1":"Thiết kế các thành phần web",
   "frontend-job-desc__2":"mã hóa dữ liệu",
   "frontend-job-desc__3":"kiểm tra đơn vị",
@@ -186,19 +185,15 @@
   "frontend-job-desc__5":"Kiểm tra người dùng",
   "frontend-job-desc__6":"Triển khai công việc",
 
-  "frontend-job-req__title":"Kỹ năng / kinh nghiệm cần thiết",
-  "frontend-job-req__subtitle__1":"[Kỹ năng / kinh nghiệm yêu cầu]",
   "frontend-job-req__desc__11":"・Mã hóa CSS từ thiết kế web",
   "frontend-job-req__desc__12":"・Mã hóa các thành phần web(React)",
   "frontend-job-req__desc__13":"・Tạo hoạt ảnh bằng JavaScript, v.v.",
   "frontend-job-req__desc__14":"・Kiểm tra đơn vị của JEST",
 
-  "frontend-job-req__subtitle__2":"[Kỹ năng / kinh nghiệm chào mừng]",
   "frontend-job-req__desc__21":"・Những người có kinh nghiệm phát triển trong nhóm sử dụng Git",
   "frontend-job-req__desc__22":"・Những người có kiến ​​thức về HTML / CSS / JavaScript / React / JEST",
   "frontend-job-req__desc__23":"・Có kinh nghiệm phát triển nhóm với Git",
 
-  "frontend-job-target__title":"Yêu cầu mong muốn",
   "frontend-job-target__desc__1":"Người có tính cách chủ động trong công việc",
   "frontend-job-target__desc__2":"Người có khả năng giao tiếp",
   "frontend-job-target__desc__3":"người có thể coi trọng tinh thần đồng đội"

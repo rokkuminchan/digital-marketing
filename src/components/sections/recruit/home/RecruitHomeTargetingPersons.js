@@ -19,8 +19,8 @@ export default function RecruitHomeTargetingPersons({ data }) {
       <Title data={t(data.title)} />
       <div className="recruit-home-targeting-persons__image--wrapper">
         <Image
-          {...data.image}
           className="recruit-home-targeting-persons__image"
+          {...data.image}
         />
       </div>
       <div className="recruit-home-targeting-persons__items--wrapper">

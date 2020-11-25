@@ -9,7 +9,7 @@
     },
     "JobDetails": {
         "JobDescription": {
-            "title": "frontend-job-desc__title",
+            "title": "recruit-job-desc__title",
             "descriptions": [
                 "frontend-job-desc__1",
                 "frontend-job-desc__2",
@@ -20,10 +20,10 @@
             ]
         },
         "JobRequirement": {
-            "title": "frontend-job-req__title",
+            "title": "recruit-job-req__title",
             "items": [
                 {
-                    "subtitle": "frontend-job-req__subtitle__1",
+                    "subtitle": "recruit-job-req__subtitle__1",
                     "descriptions": [
                         "frontend-job-req__desc__11",
                         "frontend-job-req__desc__12",
@@ -32,7 +32,7 @@
                     ]
                 },
                 {
-                    "subtitle": "frontend-job-req__subtitle__2",
+                    "subtitle": "recruit-job-req__subtitle__2",
                     "descriptions": [
                         "frontend-job-req__desc__21",
                         "frontend-job-req__desc__22",
@@ -42,7 +42,7 @@
             ]
         },
         "TargetPerson": {
-            "title": "frontend-job-target__title",
+            "title": "recruit-job-target__title",
             "descriptions": [
                 "frontend-job-target__desc__1",
                 "frontend-job-target__desc__2",
@@ -103,29 +103,29 @@
         }
     },
     "JobOther": {
-        "title": "他の職種",
+        "title": "recruit-job-other__title",
         "content": [
             {
                 "link": {
-                    "name": "デイレクター",
+                    "name": "recruit-job-other__1",
                     "src": "/recruit/director"
                 }
             },
             {
                 "link": {
-                    "name": "デザイナー",
+                    "name": "recruit-job-other__2",
                     "src": "/recruit/designer"
                 }
             },
             {
                 "link": {
-                    "name": "バックエンドエンジニア",
+                    "name": "recruit-job-other__4",
                     "src": "/recruit/backend"
                 }
             },
             {
                 "link": {
-                    "name": "新卒",
+                    "name": "recruit-job-other__5",
                     "src": "/recruit/new-graduate"
                 }
             }
