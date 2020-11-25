@@ -130,25 +130,25 @@
             {
                 "link": {
                     "name": "デイレクター",
-                    "src": ""
+                    "src": "/recruit/director"
                 }
             },
             {
                 "link": {
                     "name": "デザイナー",
-                    "src": ""
+                    "src": "/recruit/designer"
                 }
             },
             {
                 "link": {
                     "name": "バックエンドエンジニア",
-                    "src": ""
+                    "src": "/recruit/backend"
                 }
             },
             {
                 "link": {
-                    "name": "フロントエンドエンジニア",
-                    "src": ""
+                    "name": "新卒",
+                    "src": "/recruit/new-graduate"
                 }
             }
         ]
