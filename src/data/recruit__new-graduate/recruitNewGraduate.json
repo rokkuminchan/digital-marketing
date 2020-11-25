@@ -4,27 +4,27 @@
           "src":"../../images/recruit__graduate.jpg",
           "alt":"New Graduate"
       },
-      "title":"新卒採用",
-      "description":"新卒、既卒、就業経験の有無に関わらず、ITエンジニアを目指す未経験の方を募集しています"
+      "title":"graduate-page-header__title",
+      "description":"graduate-page-header__description"
   },
   
   "JobDetails":{
       "JobDescription":{
-          "title":"仕事内容",
+          "title":"graduate-job-desc__title",
           "descriptions":[
-              "あらゆる業種でデジタル技術の必要性が高まり、日本国内のITエンジニアの需要は増える一方です。これまでの仕事の経験が生かせる場面も多くあります。未経験の方でも、すぐに活躍しながらチャレンジしたい職種で活躍するための教育カリキュラムとキャリア・パスを用意しています。詳しくは、各職種のページを参照してください"
+              "graduate-job-desc__1"
           ]
       },
       
       "TargetPerson":{
-          "title":"求める人物像",
+          "title":"graduate-job-target__title",
           "descriptions":[
-              "WEBサービスをつくりたい方、つくることを楽しめる方",
-              "柔軟性を持ち、自ら考え行動ができる",
-              "現状に満足せず、新しい技術にチャレンジする意欲がある",
-              "新しい発想やアウトプットへのこだわりがある",
-              "問題を見つけ、自ら解決までできる",
-              "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートできる方"
+              "graduate-job-target__desc__1",
+              "graduate-job-target__desc__2",
+              "graduate-job-target__desc__3",
+              "graduate-job-target__desc__4",
+              "graduate-job-target__desc__5",
+              "graduate-job-target__desc__6"
           ]
       },
       "Policy":{
@@ -81,29 +81,29 @@
       }
   },
   "JobOther":{
-    "title":"他の職種",
+    "title":"graduate-job-other__title",
     "content":[
       {
         "link":{
-          "name":"デイレクター",
+          "name":"graduate-job-other__1",
           "src":"/recruit/director"
         }         
       },
       {
         "link":{
-          "name":"デザイナー",
+          "name":"graduate-job-other__2",
           "src":"/recruit/designer"
         }            
       },
       {
         "link":{
-          "name":"フロントエンドエンジニア",
+          "name":"graduate-job-other__3",
           "src":"/recruit/frontend"
         }   
       },
       {
         "link":{
-          "name":"バックエンドエンジニア",
+          "name":"graduate-job-other__4",
           "src":"/recruit/backend"
         }     
       }

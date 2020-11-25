@@ -117,6 +117,7 @@
   "backend-job-target__desc__1": "",
   "backend-job-target__desc__2": "",
   "backend-job-target__desc__3": "",
+  "recruit-entry__breadcrum": "Thông tin tuyển dụng",
 
   "recruit-job-desc__title": "",
   "recruit-job-req__title": "",
@@ -153,5 +154,25 @@
   "recruit-job-other__2": "",
   "recruit-job-other__3": "",
   "recruit-job-other__4": "",
-  "recruit-job-other__5": ""
+  "recruit-job-other__5": "",
+  "recruit-entry__button": "Ứng tuyển",
+
+  "graduate-page-header__title":"Sinh viên mới tốt nghiệp",
+  "graduate-page-header__description":"Chúng tôi đang tìm kiếm những người chưa có kinh nghiệm muốn trở thành kỹ sư CNTT, bất kể họ là sinh viên mới ra trường, đã tốt nghiệp hay đã có kinh nghiệm làm việc.",
+  "graduate-job-desc__title":"Nội dung công việc",
+  "graduate-job-desc__1":"Nhu cầu công nghệ kỹ thuật số ngày càng tăng trong tất cả các ngành công nghiệp, và nhu cầu về kỹ sư CNTT tại Nhật Bản ngày càng tăng. Có rất nhiều tình huống mà bạn có thể tận dụng kinh nghiệm làm việc của mình. Chúng tôi đã chuẩn bị một chương trình giáo dục và lộ trình nghề nghiệp dành cho sinh viên mới ra trường và cả những người thiếu kinh nghiệm để có thể nhanh chóng làm việc được trong từng vị trí muốn đảm nhận. Để biết chi tiết, vui lòng tham khảo trang của từng vị trí.",
+  "graduate-job-target__title":"Đối tượng yêu cầu",
+  "graduate-job-target__desc__1":"Yêu thích thiết kế WEB và đam mê với công việc",
+  "graduate-job-target__desc__2":"Tự bản thân luôn linh hoạt trong suy nghĩ và hành động",
+  "graduate-job-target__desc__3":"Không tự mãn với hiện tại, luôn có ý chí thử thách bản thân với những kỹ thuật mới",
+  "graduate-job-target__desc__4":"Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
+  "graduate-job-target__desc__5":"Có khả năng phát hiện và tự mình giải quyết vấn đề",
+  "graduate-job-target__desc__6":"Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
+  "graduate-job-other__title":"Các vị trí khác",
+  "graduate-job-other__1":"Director",
+  "graduate-job-other__2":"Designer",
+  "graduate-job-other__3":"FrontEnd",
+  "graduate-job-other__4":"BackEnd"
+
+
 }
