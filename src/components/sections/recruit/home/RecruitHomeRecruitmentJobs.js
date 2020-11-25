@@ -23,6 +23,7 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
             <Button
               variant="contained"
               color="primary"
+              href={item.button.link}
               className="recruit-home-recruitment-jobs__card-button"
             >
               {item.button.title}

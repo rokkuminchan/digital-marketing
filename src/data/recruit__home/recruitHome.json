@@ -78,19 +78,19 @@
       "title": "ディレクター",
       "description": "ウェブディレクター募集",
       "button": {
-        "link": "",
+        "link": "/recruit/director",
         "title": "詳細"
       }
     },
     {
       "image": {
         "src": "../../images/recruit_home__design.jpg",
-        "alt": "Design"
+        "alt": "Designer"
       },
       "title": "デザイナー",
       "description": "デザイナー募集",
       "button": {
-        "link": "",
+        "link": "/recruit/designer",
         "title": "詳細"
       }
     },
@@ -102,7 +102,7 @@
       "title": "フロントエンド<br/>エンジニア",
       "description": "フロントエンドエンジニア募集",
       "button": {
-        "link": "",
+        "link": "/recruit/frontend",
         "title": "詳細"
       }
     },
@@ -114,7 +114,7 @@
       "title": "バックエンド<br/>エンジニア",
       "description": "バックエンドエンジニア募集",
       "button": {
-        "link": "",
+        "link": "/recruit/backend",
         "title": "詳細"
       }
     },
@@ -126,7 +126,7 @@
       "title": "新卒",
       "description": "新卒未経験募集",
       "button": {
-        "link": "",
+        "link": "/recruit/new-graduate",
         "title": "詳細"
       }
     }
