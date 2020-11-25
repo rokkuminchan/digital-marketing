@@ -131,14 +131,9 @@
             "link":{
               "name":"recruit-job-other__5",
               "src":"/recruit/new-graduate"
-            }
-              
+            }              
           }
         ]
-      },
-      "Entry":{
-        "title":"recruit-job-entry__title",
-        "src":"/recruit_entry"
       }      
     }
 }
