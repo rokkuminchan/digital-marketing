@@ -118,7 +118,7 @@ function App() {
               <Route exact path="/recruit/new-graduate">
                 <Graduate data={recruitNewGraduate} />
               </Route>
-              <Route exact path="/recruit/entry">
+              <Route exact path="/recruit/:job/entry">
                 <Entry data={recruitEntry} />
               </Route>
               <Route exact path="/contact">

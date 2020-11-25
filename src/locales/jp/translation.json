@@ -72,8 +72,11 @@
   "entry__cv-label": "履歴書",
   "entry__cv": "ファイルを選択",
   "entry__apply": "応募する",
-  "entry__required": "必須",
-  "entry__optional": "任意",
+  "entry__director": "ディレクター",
+  "entry__designer": "デザイナーエンジニア",
+  "entry__frontend":"フロントエンドエンジニア", 
+  "entry__backend":"バックエンドエンジニア", 
+  "entry__new-graduate":"新卒エンジニア",
 
   "designer-page-header__title": "デザイナー",
   "designer-page-header__description": "ITチームと協力して傑作をデザインしましょう",

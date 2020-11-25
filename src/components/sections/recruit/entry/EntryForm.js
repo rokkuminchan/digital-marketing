@@ -6,6 +6,7 @@ import validate from "./ValidateInfo";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import {useParams} from "react-router-dom";
 
 export default function EntryForm({ data }) {
   const { t } = useTranslation();
@@ -15,6 +16,8 @@ export default function EntryForm({ data }) {
     validate,
     t
   );
+
+  let {job} = useParams() ;
 
   function displayError(errors, field) {
     let error_txt = "";
@@ -86,9 +89,9 @@ export default function EntryForm({ data }) {
                     </label>
                   </div>
                   <div className="entry__item">
-                    <select className="entry__field" name="">
+                  <select className="entry__field" name={item.name} value={t("entry__" + job)} disabled>
                       {item.option.map((option, index) => {
-                        return <option value={option}>{option}</option>;
+                        return <option value={t(option)}>{t(option)}</option>;
                       })}
                     </select>
                   </div>
@@ -113,11 +116,6 @@ export default function EntryForm({ data }) {
                               control={<Radio color="primary" />}
                               label={t(choice)}
                             />,
-
-                            /*<label>
-                          <input type="radio" name={item.name} value={t(choice)}/>
-                          {t(choice)}
-                        </label>*/
                           ];
                         })}
                       </RadioGroup>

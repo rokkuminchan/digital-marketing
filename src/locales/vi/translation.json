@@ -72,8 +72,11 @@
   "entry__cv-label": "CV",
   "entry__cv": "Chọn File",
   "entry__apply": "Ứng tuyển",
-  "entry__required": "必須",
-  "entry__optional": "任意",
+  "entry__director": "ディレクター",
+  "entry__designer": "デザイナーエンジニア",
+  "entry__frontend":"フロントエンドエンジニア", 
+  "entry__backend":"バックエンドエンジニア", 
+  "entry__new-graduate":"新卒エンジニア",
 
   "backend-page-header__title": "",
   "backend-page-header__description": "",
