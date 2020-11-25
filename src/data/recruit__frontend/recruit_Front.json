@@ -4,49 +4,49 @@
             "src": "../../images/service__frontend.jpeg",
             "alt": "front-end"
         },
-        "title": "フロントエンドエンジニア",
-        "description": "Webアプリケーションのフロントエンドの開発を担当していただきます。"
+        "title": "frontend-page-header__title",
+        "description": "frontend-page-header__description"
     },
     "JobDetails": {
         "JobDescription": {
-            "title": "仕事内容",
+            "title": "frontend-job-desc__title",
             "descriptions": [
-                "Webコンポーネントを設計",
-                "コーディング",
-                "単体テスト",
-                "結合テスト",
-                "ユーザテスト",
-                "ディプロイ作業"
+                "frontend-job-desc__1",
+                "frontend-job-desc__2",
+                "frontend-job-desc__3",
+                "frontend-job-desc__4",
+                "frontend-job-desc__5",
+                "frontend-job-desc__6"
             ]
         },
         "JobRequirement": {
-            "title": "求める人材",
+            "title": "frontend-job-req__title",
             "items": [
                 {
-                    "subtitle": "必須スキル／経験",
+                    "subtitle": "frontend-job-req__subtitle__1",
                     "descriptions": [
-                        "・WebデザインからCSSのコーディング",
-                        "・Webコンポーネントのコーディング(React)",
-                        "・JavaScript等によるアニメーションの作成",
-                        "・JESTによる単体テスト"
+                        "frontend-job-req__desc__11",
+                        "frontend-job-req__desc__12",
+                        "frontend-job-req__desc__13",
+                        "frontend-job-req__desc__14"
                     ]
                 },
                 {
-                    "subtitle": "歓迎するスキル／経験",
+                    "subtitle": "frontend-job-req__subtitle__2",
                     "descriptions": [
-                        "・Gitを用いたチームでの開発経験がある方",
-                        "・HTML/CSS/JavaScript/React/JESTの知識のある方",
-                        "・Gitを用いたチームでの開発経験がある"
+                        "frontend-job-req__desc__21",
+                        "frontend-job-req__desc__22",
+                        "frontend-job-req__desc__23"
                     ]
                 }
             ]
         },
         "TargetPerson": {
-            "title": "求める人物像",
+            "title": "frontend-job-target__title",
             "descriptions": [
-                "受け身にならず、自発的に業務を推進できる方",
-                "コミュニケーション能力がある方",
-                "チームワークを大切にできる方"
+                "frontend-job-target__desc__1",
+                "frontend-job-target__desc__2",
+                "frontend-job-target__desc__3"
             ]
         },
         "Policy":{
