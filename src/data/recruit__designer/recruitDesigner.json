@@ -92,7 +92,7 @@
                 "icon":{"type":"AiTwotoneHome","alt":""},
                 "title":"recruit-job-policy__subtitle__6",
                 "description":[
-                    "recruit-job-policy__desc__61 ",
+                    "recruit-job-policy__desc__61",
                     "recruit-job-policy__desc__62",
                     "recruit-job-policy__desc__63",
                     "recruit-job-policy__desc__64"
@@ -131,14 +131,9 @@
             "link":{
               "name":"recruit-job-other__5",
               "src":"/recruit/new-graduate"
-            }
-              
+            }              
           }
         ]
-      },
-      "Entry":{
-        "title":"recruit-job-entry__title",
-        "src":"/recruit_entry"
       }      
     }
 }

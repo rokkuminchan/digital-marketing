@@ -4,14 +4,21 @@ import JobDescriptionCard from "./JobDescriptionCard";
 import JobRequirementCard from "./JobRequirementCard";
 import Policy from "./Policy";
 import "./RecruitDetail.css";
+import {useTranslation} from 'react-i18next';
+
 export default function RecruitDetail({data}) {
-    return(
-        <section className="recruit-detail">
-            <JobDescriptionCard data={data.JobDescription} />
-            {data.JobRequirement?<JobRequirementCard data={data.JobRequirement}/>:null}
-            <TargetPersonCard data={data.TargetPerson} /> 
-            <Policy data={data.Policy} />
-            <a href="/recruit/entry" className="recruit-detail__entry">応募する</a>
-        </section>
-    )
+    const {t} = useTranslation();
+    return (
+      <section className="recruit-detail">
+        <JobDescriptionCard data={data.JobDescription} />
+        {data.JobRequirement ? (
+          <JobRequirementCard data={data.JobRequirement} />
+        ) : null}
+        <TargetPersonCard data={data.TargetPerson} />
+        <Policy data={data.Policy} />
+        <a href="/recruit/entry" className="recruit-detail__entry">
+          {t('recruit-entry__button')}
+        </a>
+      </section>
+    );
 }

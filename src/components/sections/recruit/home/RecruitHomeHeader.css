@@ -70,6 +70,7 @@
     bottom: 5%;
     width: 65%;
     height: 35%;
+    min-height: 350px;
    }
  
   .recruit-home-header__title {

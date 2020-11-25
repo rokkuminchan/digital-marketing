@@ -75,29 +75,6 @@
   "entry__required": "必須",
   "entry__optional": "任意",
 
-  "designer-page-header__title": "",
-  "designer-page-header__description": "",
-
-  "designer-job-desc__1": "",
-  "designer-job-desc__2": "",
-  "designer-job-desc__3": "",
-  "designer-job-desc__4": "",
-  "designer-job-desc__5": "",
-  "designer-job-desc__6": "/UX確認",
-
-  "designer-job-req__desc__11": "",
-  "designer-job-req__desc__12": "",
-  "designer-job-req__desc__13": "",
-  "designer-job-req__desc__21": "",
-  "designer-job-req__desc__22": "",
-  "designer-job-req__desc__23": "",
-  "designer-job-req__desc__24": "",
-  "designer-job-req__desc__25": "",
-
-  "designer-job-target__desc__1": "",
-  "designer-job-target__desc__2": "",
-  "designer-job-target__desc__3": "",
-
   "backend-page-header__title": "",
   "backend-page-header__description": "",
 
@@ -118,13 +95,14 @@
   "backend-job-target__desc__2": "",
   "backend-job-target__desc__3": "",
 
-  "recruit-job-desc__title": "",
-  "recruit-job-req__title": "",
-  "recruit-job-req__subtitle__1": "",
-  "recruit-job-req__subtitle__2": "",
-  "recruit-job-target__title": "",
-  "recruit-job-entry__title": "",
-  "recruit-job-other__title": "",
+  "recruit-entry__breadcrum": "Thông tin tuyển dụng",
+
+  "recruit-job-desc__title": "Nội dung công việc",
+  "recruit-job-req__title": "Kỹ năng / kinh nghiệm cần thiết",
+  "recruit-job-req__subtitle__1": "【Kỹ năng/ Kinh nghiệm bắt buộc】",
+  "recruit-job-req__subtitle__2": "【Kỹ năng/ Kinh nghiệm lợi thế】",
+  "recruit-job-target__title": "Đối tượng mong muốn",
+  "recruit-job-other__title": "Các vị trí khác",
 
   "recruit-job-policy__title": "",
   "recruit-job-policy__subtitle__1": "",
@@ -149,9 +127,33 @@
   "recruit-job-policy__desc__63": "",
   "recruit-job-policy__desc__64": "",
 
-  "recruit-job-other__1": "",
-  "recruit-job-other__2": "",
-  "recruit-job-other__3": "",
-  "recruit-job-other__4": "",
-  "recruit-job-other__5": ""
+  "recruit-job-other__1": "Director",
+  "recruit-job-other__2": "Designer",
+  "recruit-job-other__3": "FrontEnd Engineer",
+  "recruit-job-other__4": "BackEnd Engineer",
+  "recruit-job-other__5": "New Graduate",
+  "recruit-entry__button": "Ứng tuyển",
+
+  "designer-page-header__title": "DESIGNER",
+  "designer-page-header__description": "ITチームと協力して傑作をデザインしましょう",
+  
+  "designer-job-desc__1": "Webアプリケーションのデザインを担当していただきます。",
+  "designer-job-desc__2": "顧客の視点で、顧客の要望に従ってWebアプリケーションをデザインしていだたきます。",
+  "designer-job-desc__3": "デザイン後は、フロントエンド・エンジニアがスムーズに開発できるようにサポートをお願いします。",
+  "designer-job-desc__4": "ワイヤーフレーム作成",
+  "designer-job-desc__5": "デザインカンプ作成",
+  "designer-job-desc__6": "WebアプリケーションUI/UX確認",
+
+  "designer-job-req__desc__11": "・グラフィックデザインの基礎があり、Webアプリケーションのデザインルールに習熟している方。",
+  "designer-job-req__desc__12": "・デザイナーとして実務経験がある方が望ましい。",
+  "designer-job-req__desc__13": "・雑誌や広告など紙ベースのデザイン経験者で、Webアプリケーションのデザインにチャレンジしたい方にも応募いただきたいです。",
+  "designer-job-req__desc__21": "・WEBデザイナーとして２年以上の実務経験がある方",
+  "designer-job-req__desc__22": "・チームでの開発経験がある方",
+  "designer-job-req__desc__23": "・HTML、CSSの知識。",
+  "designer-job-req__desc__24": "・その他のWebサイトデザインツールに習熟している方。",
+  "designer-job-req__desc__25": "・写真／映像の作業スキルがある方。",
+
+  "designer-job-target__desc__1": "柔軟性を持ち、自ら考え行動ができる",
+  "designer-job-target__desc__2": "新しい発想やアウトプットへのこだわりがある",
+  "designer-job-target__desc__3": "問題を見つけ、自ら解決までできる"
 }
