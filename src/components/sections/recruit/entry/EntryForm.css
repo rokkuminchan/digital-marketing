@@ -3,44 +3,54 @@
   flex-direction: column;
   align-items: centers;
   justify-content: center;
-  height: 100vh;
+  height: 125vh;
 }
-.entry__row {
+.entry__row,
+.entry__row_area {
   width: 100%;
   outline: none;
   padding: 1rem rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   transition: 0.3s;
   font-size: 1.8em;
+  height: 7.5%;
+}
+
+.entry__row_area {
+  height: 10%;
 }
 label {
   padding: 0px 5px 5px 0;
   float: left;
+  font-size: 0.4em;
 }
 
 .entry__label {
   float: left;
-  width: 25%;
+  width: 22%;
   margin-top: 6px;
+  height: 80%;
+  display: block;
+  text-align: left;
+  font-size: 1.8em;
 }
 
 .entry__item {
-  float: left;
+  float: right;
   width: 75%;
   margin-top: 6px;
-  height: 30px;
+  background-color: #eeeeee;
+  height: 80%;
 }
 
 .entry__field {
   width: 100%;
-  padding: 0.3rem 1rem;
-  margin-bottom: 10px;
+  margin: 0 auto;
   background-color: #eeeeee;
   border: oldlace;
   float: left;
-}
-.isrepuire {
-  color: #3c64b1;
+  height: 100%;
+  font-size: 1.8em;
 }
 
 .entry__btn {
@@ -59,13 +69,54 @@ label {
 .entry__btn:hover {
   background-color: #27ae60;
 }
+
+.entry__error {
+  color: red;
+  line-height: 1.1em;
+}
+
+/*iphone*/
 @media screen and (max-width: 600px) {
   .entry__label,
   .entry__item,
   input[type="submit"] {
     width: 100%;
-    margin-top: 0;
+    margin-top: 0%;
   }
+  label {
+    padding: 0px 5px 5px 0;
+    float: left;
+    font-size: 0.3em;
+  }
+  .entry {
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+  }
+  form {
+    width: 80%;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    margin: 0 10%;
+    border-radius: 25px;
+  }
+  .entry__title {
+    font-size: 2.5em;
+    color: #3c64b1;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+/*ipad*/
+@media only screen and (min-width: 768px) {
   .entry {
     background-color: #eeeeee;
     position: relative;
@@ -113,11 +164,16 @@ label {
   }
   form {
     width: 50%;
+    height: 100%;
     padding: 15px 20px;
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-    margin: 0 30%;
+    margin: 0% 25% 2% 25%;
     border-radius: 25px;
+  }
+  .entry__label {
+    background-color: #eeeeee;
+    font-size: 2em;
   }
 }

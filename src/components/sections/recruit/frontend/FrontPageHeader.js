@@ -4,7 +4,7 @@ import "./FrontPageHeader.css";
 
 
 export default function FrontPageHeader({data}) {
- 
+
   return (
     <section className="front-page-header">
        <JobPageHeader data={data}/>
