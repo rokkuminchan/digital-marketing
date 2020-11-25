@@ -3,7 +3,7 @@ import RecruitDetailCardTitle from "./RecruitDetailCardTitle";
 import RowWithIcon from "../../../common/RowWithIcon"
 import "./DetailCard.css"
 
-export default function JdTargetCard({data}){
+export default function JobDescriptionCard({data}){
     return(
         <div className="detail-card .job-description">
             <RecruitDetailCardTitle data={data.title} />

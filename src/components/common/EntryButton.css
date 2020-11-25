@@ -1,15 +1,11 @@
 .entrybutton {
     position: fixed;
-    bottom: 50px;
-    right: 0px;
-
+    bottom: 23rem;
+    right: 0;
     display: inline-block;
     padding: 10px 5px;
-
     text-align: center;
-    writing-mode: tb-rl; /* viết dọc */
     font-size: 15px;
-
     cursor: pointer;
     text-decoration: none;
     outline: none;
@@ -17,6 +13,8 @@
     background-color: #1e90ff;
     border: none;
     border-radius: 10%;
+
+    z-index: 1000;
 }
 
 .entrybutton:hover {
