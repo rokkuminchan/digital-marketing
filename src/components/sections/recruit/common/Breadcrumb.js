@@ -24,7 +24,9 @@ const StyledBreadcrumb = withStyles((theme) => ({
 
 export default function Breadcrumb({ data }) {
   return (
-    <Breadcrumbs aria-label="breadcrumb">
+    <Breadcrumbs aria-label="breadcrumb" style={{
+      margin: `2px auto`
+    }}>
       <Link to= "/recruit"  style={{
         textDecoration: `none`
       }}>
