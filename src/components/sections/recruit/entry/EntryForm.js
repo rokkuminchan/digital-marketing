@@ -55,6 +55,14 @@ export default function EntryForm({ data }) {
     }
   }
 
+  function getGender(gender){
+    if (gender === "entry__male"){
+      return "男性";
+    }else{
+      return "女性";
+    }
+  }
+
   return (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
@@ -113,7 +121,7 @@ export default function EntryForm({ data }) {
                         {item.choices.map((choice, index) => {
                           return [
                             <FormControlLabel
-                              value={t(choice)}
+                              value={getGender(choice)}
                               control={<Radio color="primary" />}
                               label={<div className="entry__radio">{t(choice)}</div>}
                             />,
