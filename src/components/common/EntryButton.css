@@ -31,7 +31,7 @@
     opacity: 50%;
 }
 
-.buttonshow {
+.button_hide {
     transform: translate(500px);
     transition: 0.3s;
 }
