@@ -1,12 +1,10 @@
 import React from "react";
 import DirectorPageHeader from "../sections/recruit/director/DirectorPageHeader"
 import Breadcrumb from "../sections/recruit/common/Breadcrumb"
-import JobDescription from "../sections/recruit/common/JobDescriptionCard";
-import JobRequirement from "../sections/recruit/common/JobRequirementCard";
-import TargetPerson from "../sections/recruit/common/TargetPersonCard"
 import Policy from "../sections/recruit/common/Policy"
 import RecruitJobOther from "../sections/recruit/common/JobOther";
-
+import RecruitDetail from "../sections/recruit/common/RecruitDetail";
+import EntryButton from "../common/EntryButton";
 
 export default function Director({ data }) {
   
@@ -14,11 +12,9 @@ export default function Director({ data }) {
   <React.Fragment>
       <DirectorPageHeader data={data.Header}/>
       <Breadcrumb data={data.Header}/>
-      <JobDescription data ={data.JobDescription}/>
-      <JobRequirement data = {data.JobRequirement}/>
-      <TargetPerson data = {data.TargetPerson} />
-      <Policy data = {data.Policy}/>
+      <RecruitDetail data={data.JobDetails} />
       <RecruitJobOther data={data.JobOther}/>
+      <EntryButton path="./entry" />
   </React.Fragment>
   );
 }

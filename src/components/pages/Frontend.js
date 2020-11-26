@@ -13,7 +13,7 @@ export default function Frontend({ data }) {
             <Breadcrumb data={data.FrontEndHeader} />
             <RecruitDetail data={data.JobDetails} />
             <RecruitJobOther data={data.JobOther} />
-            <EntryButton path="./entry" />
+            <EntryButton path="./frontend/entry" />
         </React.Fragment>
     );
 }

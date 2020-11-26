@@ -1,9 +1,11 @@
 import React from "react";
 import "./RecruitHomeRecruitmentJobs.css";
+import { useTranslation } from "react-i18next";
 import { Button } from "@material-ui/core";
 import Image from "../../../common/Image";
 
 export default function RecruitHomeRecruitmentJobs({ data }) {
+  const { t } = useTranslation();
   return (
     <section className="recruit-home-recruitment-jobs">
       {data.map((item, index) => (
@@ -15,17 +17,19 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
           <div className="recruit-home-recruitment-jobs__card-footer">
             <div
               className="recruit-home-recruitment-jobs__card-title"
-              dangerouslySetInnerHTML={{ __html: item.title }}
+              dangerouslySetInnerHTML={{ __html: t(item.title) }}
             ></div>
-            <p className="recruit-home-recruitment-jobs__card-description">
-              {item.description}
-            </p>
+            <p
+              className="recruit-home-recruitment-jobs__card-description"
+              dangerouslySetInnerHTML={{ __html: t(item.description) }}
+            ></p>
             <Button
               variant="contained"
               color="primary"
+              href={item.button.link}
               className="recruit-home-recruitment-jobs__card-button"
             >
-              {item.button.title}
+              {t(item.button.title)}
             </Button>
           </div>
         </div>

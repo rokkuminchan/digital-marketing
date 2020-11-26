@@ -7,7 +7,7 @@ import RecruitHomeRecruitmentJobs from "../sections/recruit/home/RecruitHomeRecr
 export default function RecruitHome({ data }) {
   return (
     <React.Fragment>
-      <RecruitHomeHeader />
+      <RecruitHomeHeader data={data.RecruitHomeHeader} />
       <RecruitHomeReason data={data.RecruitHomeReason} />
       <RecruitHomeTargetingPersons data={data.RecruitHomeTargetingPersons} />
       <RecruitHomeRecruitmentJobs data={data.RecruitHomeRecruitmentJobs} />

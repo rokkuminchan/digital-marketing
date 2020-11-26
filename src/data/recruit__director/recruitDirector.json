@@ -6,118 +6,103 @@
             "src": "../../images/recruit__director.jpg"
         }
     },
-    "JobDescription": {
-        "title": "仕事内容",
-        "description": [
-            "要件のヒアリング",
-            "ワイヤーフレームでの仕様確認",
-            "デザイン・カンプでのプレゼンテーション",
-            "社内開発チームへの作業指示",
-            "全体スケジュール管理",
-            "成果物レビュー",
-            "リリース",
-            "リリース後のアクセス分析",
-            "改善提案"
-        ]
-    },
-    "JobRequirement": {
-        "title": "求める人材",
-        "description": [
-            {
-                "title": "【必須スキル／経験】",
-                "text": "グラフィックデザインの基礎があり、Webアプリケーションのデザインルールに習熟している方。デザイナーとして実務経験がある方が望ましい。雑誌や広告など紙ベースのデザイン経験者で、Webアプリケーションのデザインにチャレンジしたい方にも応募いただきたいです"
-            },
-            {
-                "title": "【歓迎するスキル／経験】",
-                "text": [
-                    "WEBデザイナーとして２年以上の実務経験がある方",
-                    "チームでの開発経験がある方",
-                    "HTML、CSSの知識",
-                    "その他のWebサイトデザインツールに習熟している方",
-                    "写真／映像の作業スキルがある方"
-                ]
-            }
-        ]
-    },
-    "TargetPerson": {
-        "title": "求める人物像",
-        "description": [
-            "柔軟性を持ち、自ら考え行動ができる",
-            "新しい発想やアウトプットへのこだわりがある",
-            "問題を見つけ、自ら解決までできる"
-        ]
-    },
-    "Policy": {
-        "title": "給与・待遇",
-        "detail": [
-            {
-                "icon": {
-                    "type": "BsBookHalf",
-                    "alt": "book"
+    "JobDetails": {
+        "JobDescription": {
+            "title": "仕事内容",
+            "descriptions": [
+                "要件のヒアリング",
+                "ワイヤーフレームでの仕様確認",
+                "デザイン・カンプでのプレゼンテーション",
+                "社内開発チームへの作業指示",
+                "全体スケジュール管理",
+                "成果物レビュー",
+                "リリース",
+                "リリース後のアクセス分析",
+                "改善提案"
+            ]
+        },
+        "JobRequirement": {
+            "title": "求める人材",
+            "items": [
+                {
+                    "subtitle": "必須スキル／経験",
+                    "descriptions": [
+                        "グラフィックデザインの基礎があり、Webアプリケーションのデザインルールに習熟している方。デザイナーとして実務経験がある方が望ましい。雑誌や広告など紙ベースのデザイン経験者で、Webアプリケーションのデザインにチャレンジしたい方にも応募いただきたいです"
+                    ]
                 },
-                "title": "研究制度",
-                "description": [
-                    "ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします。"
-                ]
-            },
-            {
-                "icon": {
-                    "type": "HiLocationMarker",
-                    "alt": "place"
+                {
+                    "subtitle": "歓迎するスキル／経験",
+                    "descriptions": [
+                        "・WEBデザイナーとして２年以上の実務経験がある方",
+                        "・チームでの開発経験がある方",
+                        "・HTML、CSSの知識、WordPress CMSでの作業経験、PHPフレームワークは利点です",
+                        "・その他のWebサイトデザインツールに習熟している方",
+                        "・写真／映像の作業スキルがある方"
+                    ]
+                }
+            ]
+        },
+        "TargetPerson": {
+            "title": "求める人物像",
+            "descriptions": [
+                "柔軟性を持ち、自ら考え行動ができる",
+                "新しい発想やアウトプットへのこだわりがある",
+                "問題を見つけ、自ら解決までできる",
+                "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートできる方"
+            ]
+        },
+        "Policy":{
+            "title":"recruit-job-policy__title",
+            "detail":[
+                {
+                    "icon":{"type":"BsBookHalf","alt":"book"},
+                    "title":"recruit-job-policy__subtitle__1",
+                    "description":[
+                        "recruit-job-policy__desc__11",
+                        "recruit-job-policy__desc__12"
+                    ]
                 },
-                "title": "勤務地",
-                "description": [
-                    "東京"
-                ]
-            },
-            {
-                "icon": {
-                    "type": "IoIosTime",
-                    "alt": ""
+                {
+                    "icon":{"type":"HiLocationMarker","alt":"place"},
+                    "title":"recruit-job-policy__subtitle__2",
+                    "description":["recruit-job-policy__desc__21"]
                 },
-                "title": "勤務時間・休暇備考",
-                "description": [
-                    "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-                    "完全週休2日制（土・日・祝）",
-                    "GW休暇連続、夏期休暇連続",
-                    "年末年始連続",
-                    "有給休暇"
-                ]
-            },
-            {
-                "icon": {
-                    "type": "CgDollar",
-                    "alt": ""
+                {
+                    "icon":{"type":"IoIosTime","alt":""},
+                    "title":"recruit-job-policy__subtitle__3",
+                    "description":[
+                        "recruit-job-policy__desc__31",
+                        "recruit-job-policy__desc__32",
+                        "recruit-job-policy__desc__33",
+                        "recruit-job-policy__desc__34",
+                        "recruit-job-policy__desc__35"
+                    ]
                 },
-                "title": "給料",
-                "description": [
-                    "経験と能力に応じて相談させてください"
-                ]
-            },
-            {
-                "icon": {
-                    "type": "RiUserFill",
-                    "alt": ""
+                {
+                    "icon":{"type":"BiYen","alt":""},
+                    "title":"recruit-job-policy__subtitle__4",
+                    "description":["recruit-job-policy__desc__41"]
                 },
-                "title": "採用型能",
-                "description": [
-                    "１年目契約社員・２年目から正社員登用"
-                ]
-            },
-            {
-                "icon": {
-                    "type": "AiTwotoneHome",
-                    "alt": ""
+                {
+                    "icon":{"type":"RiUserFill","alt":""},
+                    "title":"recruit-job-policy__subtitle__5",
+                    "description":[
+                        "recruit-job-policy__desc__51",
+                        "recruit-job-policy__desc__52"
+                    ]
                 },
-                "title": "待遇・福利厚生",
-                "description": [
-                    "健康保険、厚生年金、雇用保険 ",
-                    "退職金制度あり",
-                    "交通費全額支給",
-                    "寮は部屋に空きがあれば入居可"
-                ]
-            }
-        ]
+                {
+                    "icon":{"type":"AiTwotoneHome","alt":""},
+                    "title":"recruit-job-policy__subtitle__6",
+                    "description":[
+                        "recruit-job-policy__desc__61",
+                        "recruit-job-policy__desc__62",
+                        "recruit-job-policy__desc__63",
+                        "recruit-job-policy__desc__64"
+                    ]
+                }
+            ]
+        }
     },
     "JobOther": {
         "title": "他の職種",

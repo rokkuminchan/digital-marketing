@@ -4,6 +4,7 @@ import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Chip from "@material-ui/core/Chip";
 import HomeIcon from "@material-ui/icons/Home";
 import {Link} from 'react-router-dom';
+import {useTranslation} from 'react-i18next';
 
 const StyledBreadcrumb = withStyles((theme) => ({
   root: {
@@ -23,20 +24,27 @@ const StyledBreadcrumb = withStyles((theme) => ({
 
 
 export default function Breadcrumb({ data }) {
+  const {t} = useTranslation();
   return (
-    <Breadcrumbs aria-label="breadcrumb">
-      <Link to= "/recruit"  style={{
-        textDecoration: `none`
-      }}>
+    <Breadcrumbs
+      aria-label="breadcrumb"
+      style={{
+        margin: `2px auto`,
+      }}
+    >
+      <Link
+        to="/recruit"
+        style={{
+          textDecoration: `none`,
+        }}
+      >
         <StyledBreadcrumb
           href="/recruit"
-          label="採用情報"
+          label={t("recruit-entry__breadcrum")}
           icon={<HomeIcon fontSize="small" />}
         />
       </Link>
-      <StyledBreadcrumb
-        label={data.title}
-      />
+      <StyledBreadcrumb label={t(data.title)} />
     </Breadcrumbs>
   );
 }

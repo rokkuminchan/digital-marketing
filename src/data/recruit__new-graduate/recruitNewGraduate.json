@@ -4,130 +4,108 @@
           "src":"../../images/recruit__graduate.jpg",
           "alt":"New Graduate"
       },
-      "title":"新卒採用",
-      "description":"新卒、既卒、就業経験の有無に関わらず、ITエンジニアを目指す未経験の方を募集しています"
+      "title":"graduate-page-header__title",
+      "description":"graduate-page-header__description"
   },
   
   "JobDetails":{
       "JobDescription":{
-          "title":"仕事内容",
+          "title":"recruit-job-desc__title",
           "descriptions":[
-              "あらゆる業種でデジタル技術の必要性が高まり、日本国内のITエンジニアの需要は増える一方です。これまでの仕事の経験が生かせる場面も多くあります。未経験の方でも、すぐに活躍しながらチャレンジしたい職種で活躍するための教育カリキュラムとキャリア・パスを用意しています。詳しくは、各職種のページを参照してください"
+              "graduate-job-desc__1"
           ]
       },
-      "JobRequirement":{
-          "title":"求める人材",
-          "items":[
-              {
-                  "subtitle":"必須スキル／経験",
-                  "descriptions":[
-                      "・WEBサイト及びインターフェースデザインの実務経験",
-                      "・Photoshop、Illustrator…でのデザイン経験",
-                      "・UI / UXに関する知識と経験"
-                  ]
-              },
-              {
-                  "subtitle":"歓迎するスキル／経験",
-                  "descriptions":[
-                      "・WEBデザイナーとして２年以上の実務経験がある方",
-                      "・チームでの開発経験がある方",
-                      "・HTML、CSSの知識、WordPress CMSでの作業経験、PHPフレームワークは利点です",
-                      "・その他のWebサイトデザインツールに習熟している方",
-                      "・写真／映像の作業スキルがある方"
-                  ]
-              }
-          ]
-      },
+      
       "TargetPerson":{
-          "title":"求める人物像",
+          "title":"recruit-job-target__title",
           "descriptions":[
-              "WEBサービスをつくりたい方、つくることを楽しめる方",
-              "柔軟性を持ち、自ら考え行動ができる",
-              "現状に満足せず、新しい技術にチャレンジする意欲がある",
-              "新しい発想やアウトプットへのこだわりがある",
-              "問題を見つけ、自ら解決までできる",
-              "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートできる方"
+              "graduate-job-target__desc__1",
+              "graduate-job-target__desc__2",
+              "graduate-job-target__desc__3",
+              "graduate-job-target__desc__4",
+              "graduate-job-target__desc__5",
+              "graduate-job-target__desc__6"
           ]
       },
       "Policy":{
-          "title":"給与・待遇",
-          "detail":[
-              {
-                  "icon":{"type":"BsBookHalf","alt":"book"},
-                  "title":"研究制度",
-                  "description":[
-                      "ベテランエンジニアや先輩社員とチームを組んで、プロジェクトに参画します。上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします",
-                      "上長とプロジェクトリーダーが連携し、現場でもスキル習得をしっかりサポートします"
-                  ]
-              },
-              {
-                  "icon":{"type":"HiLocationMarker","alt":"place"},
-                  "title":"勤務地",
-                  "description":["東京"]
-              },
-              {
-                  "icon":{"type":"IoIosTime","alt":""},
-                  "title":"勤務時間・休暇備考",
-                  "description":[
-                      "08:30 ～ 17:30 ※クライアント先勤務の場合はそちらの規定に準ずる",
-                      "完全週休2日制（土・日・祝）",
-                      "GW休暇連続、夏期休暇連続",
-                      "年末年始連続",
-                      "有給休暇"
-                  ]
-              },
-              {
-                  "icon":{"type":"CgDollar","alt":""},
-                  "title":"給料",
-                  "description":["経験と能力に応じて相談させてください"]
-              },
-              {
-                  "icon":{"type":"RiUserFill","alt":""},
-                  "title":"採用型能",
-                  "description":[
-                    "１年目契約社員",
-                    "２年目から正社員登用"
+        "title":"recruit-job-policy__title",
+        "detail":[
+            {
+                "icon":{"type":"BsBookHalf","alt":"book"},
+                "title":"recruit-job-policy__subtitle__1",
+                "description":[
+                    "recruit-job-policy__desc__11",
+                    "recruit-job-policy__desc__12"
                 ]
-              },
-              {
-                  "icon":{"type":"AiTwotoneHome","alt":""},
-                  "title":"待遇・福利厚生",
-                  "description":[
-                      "健康保険、厚生年金、雇用保険 ",
-                      "退職金制度あり",
-                      "交通費全額支給",
-                      "寮は部屋に空きがあれば入居可"
-                  ]
-              }
-          ]
+            },
+            {
+                "icon":{"type":"HiLocationMarker","alt":"place"},
+                "title":"recruit-job-policy__subtitle__2",
+                "description":["recruit-job-policy__desc__21"]
+            },
+            {
+                "icon":{"type":"IoIosTime","alt":""},
+                "title":"recruit-job-policy__subtitle__3",
+                "description":[
+                    "recruit-job-policy__desc__31",
+                    "recruit-job-policy__desc__32",
+                    "recruit-job-policy__desc__33",
+                    "recruit-job-policy__desc__34",
+                    "recruit-job-policy__desc__35"
+                ]
+            },
+            {
+                "icon":{"type":"BiYen","alt":""},
+                "title":"recruit-job-policy__subtitle__4",
+                "description":["recruit-job-policy__desc__41"]
+            },
+            {
+                "icon":{"type":"RiUserFill","alt":""},
+                "title":"recruit-job-policy__subtitle__5",
+                "description":[
+                    "recruit-job-policy__desc__51",
+                    "recruit-job-policy__desc__52"
+                ]
+            },
+            {
+                "icon":{"type":"AiTwotoneHome","alt":""},
+                "title":"recruit-job-policy__subtitle__6",
+                "description":[
+                    "recruit-job-policy__desc__61",
+                    "recruit-job-policy__desc__62",
+                    "recruit-job-policy__desc__63",
+                    "recruit-job-policy__desc__64"
+                ]
+            }
+        ]
       }
   },
   "JobOther":{
-    "title":"他の職種",
+    "title":"recruit-job-other__title",
     "content":[
       {
         "link":{
-          "name":"デイレクター",
-          "src":""
+          "name":"recruit-job-other__1",
+          "src":"/recruit/director"
         }         
       },
       {
         "link":{
-          "name":"デザイナー",
-          "src":""
+          "name":"recruit-job-other__2",
+          "src":"/recruit/designer"
         }            
       },
       {
         "link":{
-          "name":"バックエンドエンジニア",
-          "src":""
-        }     
+          "name":"recruit-job-other__3",
+          "src":"/recruit/frontend"
+        }   
       },
       {
         "link":{
-          "name":"フロントエンドエンジニア",
-          "src":""
-        }   
+          "name":"recruit-job-other__4",
+          "src":"/recruit/backend"
+        }     
       }
     ]
   }

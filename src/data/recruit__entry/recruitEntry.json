@@ -1,87 +1,87 @@
 {
-    "Banner":{
-        "image":{
-            "src":"../../../../images/recruit__entry__banner.jpg",
-            "alt":"test"
+    "Banner": {
+        "image": {
+            "src": "../../../../images/recruit__entry__banner.jpg",
+            "alt": "test"
         }
     },
-    "EntryForm":{
-        "title":"entry__title",
+    "EntryForm": {
+        "title": "entry__title",
         "action": "https://docs.google.com/forms/d/e/1FAIpQLScYglQwaH8k1yUejE3N_bLEpe_Wd9AC7inwaA8CoeNFMJtwvQ/formResponse",
         "submit": "entry__apply",
-        "items":[
-            {
-                "label":"entry__job-type-label",
-                "type":"select",
-                "name":"entry.1022775975",
-                "placeholder":"entry__job-type",
-                "is_required":"entry__required",
-                "option":["ディレクター","デザイナーエンジニア","フロントエンドエンジニア","バックエンドエンジニア","新卒エンジニア"]
+        "items": [{
+                "label": "entry__job-type-label",
+                "type": "select",
+                "name": "entry.1022775975",
+                "placeholder": "entry__job-type",
+                "is_required": "entry__required",
+                "option":["entry__director", "entry__designer", "entry__frontend", "entry__backend", "entry__new-graduate"]
             },
             {
-                "label":"entry__name-label",
-                "type":"text",
-                "name":"entry.2143226410",
-                "placeholder":"entry__name",
-                "is_required":"entry__required"
+                "label": "entry__name-label",
+                "type": "text",
+                "name": "entry.2143226410",
+                "placeholder": "entry__name",
+                "is_required": "entry__required"
             },
             {
-                "label":"entry__furigana-label",
-                "type":"text",
-                "name":"entry.600928011",
-                "placeholder":"entry__furigana",
-                "is_required":"entry__required"
+                "label": "entry__furigana-label",
+                "type": "text",
+                "name": "entry.600928011",
+                "placeholder": "entry__furigana",
+                "is_required": "entry__required"
             },
             {
-                "label":"entry__date-label",
-                "type":"date",
-                "name":"entry.26187514",
-                "placeholder":"entry__date",
-                "is_required":"entry__required"
+                "label": "entry__date-label",
+                "type": "date",
+                "name": "entry.26187514",
+                "placeholder": "entry__date",
+                "is_required": "entry__required"
             },
             {
-                "label":"entry__gender-label",
-                "type":"radio",
-                "name":"entry.1908345381",
-                "placeholder":"",
-                "is_required":"entry__optional",
-                "choices":["entry__male", "entry__female"]
+                "label": "entry__gender-label",
+                "type": "radio",
+                "name": "entry.1908345381",
+                "placeholder": "entry__gender",
+                "is_required": "entry__required",
+                "choices": ["entry__male", "entry__female"]
             },
             {
-                "label":"entry__current-job-label",
-                "type":"text",
-                "name":"entry.360351567",
-                "placeholder":"entry__current-job",
-                "is_required":"entry__required"
+                "label": "entry__current-job-label",
+                "type": "text",
+                "name": "entry.360351567",
+                "placeholder": "entry__current_job",
+                "is_required": "entry__required"
             },
             {
-                "label":"entry__mail-label",
-                "type":"text",
-                "name":"entry.1159851524",
-                "placeholder":"entry__mail",
-                "is_required":"entry__required"
+                "label": "entry__mail-label",
+                "type": "text",
+                "name": "entry.1159851524",
+                "placeholder": "entry__mail",
+                "is_required": "entry__required"
             },
             {
-                "label":"entry__phone-label",
-                "type":"text",
-                "name":"entry.1490761766",
-                "placeholder":"entry__phone",
-                "is_required":"entry__required"
+                "label": "entry__phone-label",
+                "type": "text",
+                "name": "entry.1490761766",
+                "placeholder": "entry__phone",
+                "is_required": "entry__optional"
             },
             {
-                "label":"entry__question-label",
-                "type":"textarea",
-                "name":"entry.1156664848",
-                "placeholder":"",
-                "is_required":"entry__optional"
+                "label": "entry__question-label",
+                "type": "textarea",
+                "name": "entry.1156664848",
+                "placeholder": "",
+                "is_required": "entry__optional"
             },
             {
-                "label":"entry__cv-label",
-                "type":"file",
-                "name":"entry.1512529765",
-                "placeholder":"entry__cv",
-                "is_required":"entry__optional"
+                "label": "entry__cv-label",
+                "type": "file",
+                "name": "entry.1512529765",
+                "placeholder": "entry__cv",
+                "is_required": "entry__optional"
             }
 
-        ]    }
- }
+        ]
+    }
+}

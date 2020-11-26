@@ -7,7 +7,7 @@
     }, 
     "JobDetails":{
       "JobDescription": {
-        "title": "designer-job-desc__title",
+        "title": "recruit-job-desc__title",
         "descriptions": [
               "designer-job-desc__1",
               "designer-job-desc__2",
@@ -18,10 +18,10 @@
             ]
       },
       "JobRequirement":{
-        "title":"designer-job-req__title",
+        "title":"recruit-job-req__title",
         "items":[
           {
-            "subtitle":"designer-job-req__subtitle__1",
+            "subtitle":"recruit-job-req__subtitle__1",
             "descriptions":[
               "designer-job-req__desc__11",
               "designer-job-req__desc__12",
@@ -29,7 +29,7 @@
             ]
           },
           {
-            "subtitle":"designer-job-req__subtitle__2",
+            "subtitle":"recruit-job-req__subtitle__2",
             "descriptions":[
               "designer-job-req__desc__21",
               "designer-job-req__desc__22",
@@ -41,7 +41,7 @@
         ]
       },
       "TargetPerson":{
-        "title":"designer-job-target__title",
+        "title":"recruit-job-target__title",
         "descriptions": [
             "designer-job-target__desc__1",
             "designer-job-target__desc__2",
@@ -49,67 +49,72 @@
           ]
       },
       "Policy":{
-        "title":"designer-job-policy__title",
+        "title":"recruit-job-policy__title",
         "detail":[
             {
                 "icon":{"type":"BsBookHalf","alt":"book"},
-                "title":"designer-job-policy__subtitle__1",
-                "description":["designer-job-policy__desc__11",
-                              "designer-job-policy__desc__12"]
+                "title":"recruit-job-policy__subtitle__1",
+                "description":[
+                    "recruit-job-policy__desc__11",
+                    "recruit-job-policy__desc__12"
+                ]
             },
             {
                 "icon":{"type":"HiLocationMarker","alt":"place"},
-                "title":"designer-job-policy__subtitle__2",
-                "description":["designer-job-policy__desc__21"]
+                "title":"recruit-job-policy__subtitle__2",
+                "description":["recruit-job-policy__desc__21"]
             },
             {
                 "icon":{"type":"IoIosTime","alt":""},
-                "title":"designer-job-policy__subtitle__3",
+                "title":"recruit-job-policy__subtitle__3",
                 "description":[
-                    "designer-job-policy__desc__31",
-                    "designer-job-policy__desc__32",
-                    "designer-job-policy__desc__33",
-                    "designer-job-policy__desc__34",
-                    "designer-job-policy__desc__35"
+                    "recruit-job-policy__desc__31",
+                    "recruit-job-policy__desc__32",
+                    "recruit-job-policy__desc__33",
+                    "recruit-job-policy__desc__34",
+                    "recruit-job-policy__desc__35"
                 ]
             },
             {
-                "icon":{"type":"CgDollar","alt":""},
-                "title":"designer-job-policy__subtitle__4",
-                "description":["designer-job-policy__desc__41"]
+                "icon":{"type":"BiYen","alt":""},
+                "title":"recruit-job-policy__subtitle__4",
+                "description":["recruit-job-policy__desc__41"]
             },
             {
                 "icon":{"type":"RiUserFill","alt":""},
-                "title":"designer-job-policy__subtitle__5",
-                "description":["designer-job-policy__desc__51"]
+                "title":"recruit-job-policy__subtitle__5",
+                "description":[
+                    "recruit-job-policy__desc__51",
+                    "recruit-job-policy__desc__52"
+                ]
             },
             {
                 "icon":{"type":"AiTwotoneHome","alt":""},
-                "title":"designer-job-policy__subtitle__6",
+                "title":"recruit-job-policy__subtitle__6",
                 "description":[
-                    "designer-job-policy__desc__61",
-                    "designer-job-policy__desc__62",
-                    "designer-job-policy__desc__63",
-                    "designer-job-policy__desc__64"
+                    "recruit-job-policy__desc__61",
+                    "recruit-job-policy__desc__62",
+                    "recruit-job-policy__desc__63",
+                    "recruit-job-policy__desc__64"
                 ]
             }
         ]
-        }
+      }
     },
                   
     "JobOther":{
-        "title":"designer-job-other__title",
+        "title":"recruit-job-other__title",
         "content":[
           {
             "link":{
-              "name":"designer-job-other__1",
+              "name":"recruit-job-other__1",
               "src":"/recruit/director"
             }
             
           },
           {
             "link":{
-              "name":"designer-job-other__2",
+              "name":"recruit-job-other__3",
               "src":"/recruit/frontend"
             }
               
@@ -117,23 +122,18 @@
           {
 
             "link":{
-              "name":"designer-job-other__3",
+              "name":"recruit-job-other__4",
               "src":"/recruit/backend"
             }
               
           },
           {
             "link":{
-              "name":"designer-job-other__4",
+              "name":"recruit-job-other__5",
               "src":"/recruit/new-graduate"
-            }
-              
+            }              
           }
         ]
-      },
-      "Entry":{
-        "title":"designer-job-entry__title",
-        "src":"/recruit_entry"
       }      
     }
 }
