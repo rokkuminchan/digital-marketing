@@ -8,6 +8,7 @@
   "contact__phone-number": "電話番号",
   "contact__project-overview": "プロジェクトの概要",
   "contact__submit": "送信",
+
   "recruit-home-header__title": "Recruit",
   "recruit-home-header__description": "World IT Team は、「チームワーク」を大切にしています。高度IT人材として日本のDXに貢献しましょう",
   "recruit-home-reason__title": "入社のメリット",
@@ -38,6 +39,7 @@
   "recruit-home-recruitment-jobs__card-description-back-end": "バックエンドエンジニア募集",
   "recruit-home-recruitment-jobs__card-title-new-graduate": "新卒",
   "recruit-home-recruitment-jobs__card-description-new-graduate": "新卒未経験募集",
+
   "entry__title": "エントリーフォーム",
   "entry__job-type-label": "応募職種",
   "entry__job-type": "ディレクター",
@@ -73,6 +75,7 @@
   "entry__phone_invalid_error_message": "電話番号は正しくないです",
   "entry__current_job_required_error_message": "現在の職業は必須です",
   "entry__gender_required_error_message": "性別は必須です",
+ 
   "recruit-entry__breadcrum": "採用情報",
   "recruit-job-desc__title": "仕事内容",
   "recruit-job-req__title": "求めるスキル・経験",
@@ -108,6 +111,7 @@
   "recruit-job-other__4": "バックエンドエンジニア",
   "recruit-job-other__5": "新卒",
   "recruit-entry__button": "応募する",
+ 
   "designer-page-header__title": "デザイナー",
   "designer-page-header__description": "デザインに必要なスキルを有していることをアピールしたいなら、私たちは常に最高の作業環境と開発環境を提供しますので、私たちのデザイナーチームに来てください。",
   "designer-job-desc__1": "Webアプリケーションのデザインを担当していただきます。",
@@ -127,6 +131,7 @@
   "designer-job-target__desc__1": "柔軟性を持ち、自ら考え行動ができる",
   "designer-job-target__desc__2": "新しい発想やアウトプットへのこだわりがある",
   "designer-job-target__desc__3": "問題を見つけ、自ら解決までできる",
+
   "backend-page-header__title": "バックエンドエンジニア",
   "backend-page-header__description": "Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます",
   "backend-job-desc__1": "Web API設計",
@@ -143,6 +148,7 @@
   "backend-job-target__desc__1": "柔軟性を持ち、自ら考え行動ができる",
   "backend-job-target__desc__2": "新しい発想やアウトプットへのこだわりがある",
   "backend-job-target__desc__3": "問題を見つけ、自ら解決までできる",
+ 
   "graduate-page-header__title": "新卒",
   "graduate-page-header__description": "新卒、既卒、就業経験の有無に関わらず、ITエンジニアを目指す未経験の方を募集しています",
   "graduate-job-desc__1": "あらゆる業種でデジタル技術の必要性が高まり、日本国内のITエンジニアの需要は増える一方です。これまでの仕事の経験が生かせる場面も多くあります。未経験の方でも、すぐに活躍しながらチャレンジしたい職種で活躍するための教育カリキュラムとキャリア・パスを用意しています。詳しくは、各職種のページを参照してください",
@@ -152,6 +158,7 @@
   "graduate-job-target__desc__4": "新しい発想やアウトプットへのこだわりがある",
   "graduate-job-target__desc__5": "問題を見つけ、自ら解決までできる",
   "graduate-job-target__desc__6": "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方",
+ 
   "frontend-page-header__title": "フロントエンドエンジニア",
   "frontend-page-header__description": "Webアプリケーションのフロントエンドの開発を担当していただきます。",
   "frontend-job-desc__1": "Webコンポーネントを設計",
@@ -170,6 +177,7 @@
   "frontend-job-target__desc__1": "受け身にならず、自発的に業務を推進できる方",
   "frontend-job-target__desc__2": "コミュニケーション能力がある方",
   "frontend-job-target__desc__3": "チームワークを大切にできる方",
+
   "director-page-header__title": "デイレクター",
   "director-page-header__description": "Webアプリケーション開発の責任者です。お客様の要件を取りまとめ、チームのメンバーと協力して最高のWebアプリケーションをお客様に提供していただきます",
   "director-job-desc__1": "要件のヒアリング",
