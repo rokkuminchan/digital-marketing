@@ -13,10 +13,15 @@
 	text-align: justify;
 	letter-spacing: 1px;
 	line-height: 1.8;
+	margin: 1.5rem 0.5rem;
 }
 
 .detail-card:nth-child(even){
     background-color: #EAF5FF;
+}
+
+.button1{
+	margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
