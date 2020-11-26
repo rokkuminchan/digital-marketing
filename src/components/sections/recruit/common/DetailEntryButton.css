@@ -13,13 +13,16 @@
     text-align: center;
     cursor: pointer;
     margin-bottom: 5rem;
-    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
-    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
-    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
     transition: 0.25s;
 }
 .recruit-detail__entry:hover {
     background-color: #0000ff;
+    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
 } 
 
 
@@ -32,6 +35,6 @@
 @media screen and (min-width: 1024px) {
     .recruit-detail__entry {
         width: 20rem;
-        font-size: 2rem;
+        font-size: 2rem;    
     }
 }
