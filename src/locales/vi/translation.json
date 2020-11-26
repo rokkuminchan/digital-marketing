@@ -8,6 +8,7 @@
   "contact__phone-number": "Phone number",
   "contact__project-overview": "Project overview",
   "contact__submit": "Send",
+ 
   "recruit-home-header__title": "Tuyển Dụng",
   "recruit-home-header__description": "World IT Team luôn coi trọng「Tinh thần làm việc nhóm」. Hãy cùng nhau đóng góp nguồn nhân lực CNTT trình độ cao cho DX tại Nhật Bản",
   "recruit-home-reason__title": "Lợi ích gia nhập công ty",
@@ -38,6 +39,7 @@
   "recruit-home-recruitment-jobs__card-description-back-end": "Tuyển dụng vị trí kỹ sư<br/>Back-end",
   "recruit-home-recruitment-jobs__card-title-new-graduate": "New Graduate",
   "recruit-home-recruitment-jobs__card-description-new-graduate": "Tuyển dụng sinh viên mới<br/>tốt nghiệp",
+
   "entry__title": "エントリーフォーム",
   "entry__job-type-label": "Công việc ứng tuyển",
   "entry__job-type": "ディレクター",
@@ -73,6 +75,7 @@
   "entry__phone_invalid_error_message": "電話番号は正しくないです",
   "entry__current_job_required_error_message": "現在の職業は必須です",
   "entry__gender_required_error_message": "性別は必須です",
+
   "recruit-entry__breadcrum": "Thông tin tuyển dụng",
   "recruit-job-desc__title": "Nội dung công việc",
   "recruit-job-req__title": "Kỹ năng / kinh nghiệm cần thiết",
@@ -108,6 +111,7 @@
   "recruit-job-other__4": "Back-End Engineer",
   "recruit-job-other__5": "New Graduated",
   "recruit-entry__button": "Ứng tuyển",
+
   "backend-page-header__title": "Back-End Engineer",
   "backend-page-header__description": "Chịu trách nhiệm phát triển phần backend của các ứng dụng web và phát triển API web bằng cách sử dụng các dịch vụ hỗ trợ",
   "backend-job-desc__1": "Thiết kế  Web API",
@@ -124,8 +128,9 @@
   "backend-job-target__desc__1": "Linh hoạt và có thể suy nghĩ và làm việc độc lập",
   "backend-job-target__desc__2": "Có những ý tưởng  mới cho sản phẩm",
   "backend-job-target__desc__3": "Có thể tìm ra vấn đề,giải pháp và tự giải quyết nó",
+  
   "designer-page-header__title": "DESIGNER",
-  "designer-page-header__description": "Bạn là người đam mê với thiết kế, hãy đến với Team Designer World, vì chúng tôi luôn tạo cho bạn môi trường làm việc và  phát triển tốt nhất.",
+  "designer-page-header__description": "Bạn là người đam mê với thiết kế, hãy đến với Team Designer World, chúng tôi sẽ mang đến cho bạn cơ hội việc làm và  môi trường phát triển tốt nhất.",
   "designer-job-desc__1": "Đảm nhiệm thiết kế giao diện ứng dụng Website.",
   "designer-job-desc__2": "Từ quan điểm của khách hàng, phân thích và thiết kế ứng dụng web theo yêu cầu.",
   "designer-job-desc__3": "Hỗ trợ team Front-end kiểm tra/test lại thiết kế sản phẩm sau khi hoàn thành.",
@@ -143,6 +148,7 @@
   "designer-job-target__desc__1": "Là người luôn linh hoạt trong suy nghĩ và hành động",
   "designer-job-target__desc__2": "Sẵn sàng học hỏi công nghệ mới và không ngại mọi thử thách",
   "designer-job-target__desc__3": "Có khả năng phát hiện và tự mình giải quyết vấn đề",
+
   "graduate-page-header__title": "Sinh viên mới tốt nghiệp",
   "graduate-page-header__description": "Chúng tôi đang tìm kiếm những người chưa có kinh nghiệm muốn trở thành kỹ sư CNTT, bất kể họ là sinh viên mới ra trường, đã tốt nghiệp hay đã có kinh nghiệm làm việc.",
   "graduate-job-desc__1": "Nhu cầu công nghệ kỹ thuật số ngày càng tăng trong tất cả các ngành công nghiệp, và nhu cầu về kỹ sư CNTT tại Nhật Bản ngày càng tăng. Có rất nhiều tình huống mà bạn có thể tận dụng kinh nghiệm làm việc của mình. Chúng tôi đã chuẩn bị một chương trình giáo dục và lộ trình nghề nghiệp dành cho sinh viên mới ra trường và cả những người thiếu kinh nghiệm để có thể nhanh chóng làm việc được trong từng vị trí muốn đảm nhận. Để biết chi tiết, vui lòng tham khảo trang của từng vị trí.",
@@ -152,6 +158,7 @@
   "graduate-job-target__desc__4": "Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
   "graduate-job-target__desc__5": "Có khả năng phát hiện và tự mình giải quyết vấn đề",
   "graduate-job-target__desc__6": "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
+ 
   "frontend-page-header__title": "Kỹ sư front-end",
   "frontend-page-header__description": "Phát triển giao diện người dùng của ứng dụng web",
   "frontend-job-desc__1": "Thiết kế các thành phần web",
@@ -170,6 +177,7 @@
   "frontend-job-target__desc__1": "Người có tính cách chủ động trong công việc",
   "frontend-job-target__desc__2": "Người có khả năng giao tiếp",
   "frontend-job-target__desc__3": "người có thể coi trọng tinh thần đồng đội",
+
   "director-page-header__title": "Web Director",
   "director-page-header__description": "Phát triển ứng dụng Web, làm việc với khách hàng, phối hợp vs đội ngũ phát triển mang đến cho khách hàng những sản phẩm tuyệt vời nhất",
   "director-job-desc__1": "Tham dự cuộc họp về dự án",

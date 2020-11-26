@@ -97,7 +97,7 @@ export default function EntryForm({ data }) {
                   </div>
                 </div>
               );
-            case "radio" /*duyet mang*/:
+            case "radio":
               return (
                 <div className="entry__row">
                   <div className="entry__label">
