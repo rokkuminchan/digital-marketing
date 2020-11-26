@@ -17,7 +17,7 @@
     transition: 0.2s;
     z-index: 1000;
 
-    transform: translate(500px); /* hide button */
+    transform: translate(0px); /* hide button */
 }
 
 .entrybutton:hover {
@@ -31,7 +31,7 @@
     opacity: 50%;
 }
 
-.buttonshow {
-    transform: translate(0px);
+.button_hide {
+    transform: translate(500px);
     transition: 0.3s;
 }
