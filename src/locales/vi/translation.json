@@ -21,23 +21,13 @@
   "recruit-home-targeting-persons__title": "Đối tượng yêu cầu",
   "recruit-home-targeting-persons__image": "../../images/recruit-home__targeting-persons.jpg",
   "recruit-home-targeting-persons__items-title-1": "Nhiệt huyết",
-  "recruit-home-targeting-persons__items-description-1": [
-    "Những người yêu thích thiết kế WEB và đam mê với công việc"
-  ],
+  "recruit-home-targeting-persons__items-description-1": "Những người yêu thích thiết kế WEB và đam mê với công việc",
   "recruit-home-targeting-persons__items-title-2": "Độc lập・Thử thách",
-  "recruit-home-targeting-persons__items-description-2": [
-    "Tự bản thân luôn linh hoạt trong suy nghĩ và hành động",
-    "Không tự mãn với hiện tại, luôn có ý chí thử thách bản thân với những kỹ thuật mới"
-  ],
+  "recruit-home-targeting-persons__items-description-2": "Tự bản thân luôn linh hoạt trong suy nghĩ và hành động|Không tự mãn với hiện tại, luôn có ý chí thử thách bản thân với những kỹ thuật mới",
   "recruit-home-targeting-persons__items-title-3": "Sáng tạo・Khả năng phân tích",
-  "recruit-home-targeting-persons__items-description-3": [
-    "Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
-    "Có khả năng phát hiện và tự mình giải quyết vấn đề"
-  ],
+  "recruit-home-targeting-persons__items-description-3": "Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới|Có khả năng phát hiện và tự mình giải quyết vấn đề",
   "recruit-home-targeting-persons__items-title-4": "Học tập",
-  "recruit-home-targeting-persons__items-description-4": [
-    "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team"
-  ],
+  "recruit-home-targeting-persons__items-description-4": "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
   "recruit-home-recruitment-jobs__card-title-director": "Director",
   "recruit-home-recruitment-jobs__card-description-director": "Tuyển dụng vị trí Director",
   "recruit-home-recruitment-jobs__card-button_text": "Chi tiết",
@@ -74,17 +64,17 @@
   "entry__apply": "Ứng tuyển",
   "entry__director": "ディレクター",
   "entry__designer": "デザイナーエンジニア",
-  "entry__frontend":"フロントエンドエンジニア", 
-  "entry__backend":"バックエンドエンジニア", 
-  "entry__new-graduate":"新卒エンジニア",
-  "entry__name_required_error_message":"氏名は必須です",
-  "entry__email_required_error_message":"メールは必須です",
-  "entry__email_invalid_error_message":"メールは正しくないです",
-  "entry__furigana_required_error_message":"フリガナは必須です",
-  "entry__birthday_required_error_message":"生年月日は必須です",
-  "entry__phone_invalid_error_message":"電話番号は正しくないです",
-  "entry__current_job_required_error_message":"現在の職業は必須です",
-  "entry__gender_required_error_message":"性別は必須です",
+  "entry__frontend": "フロントエンドエンジニア",
+  "entry__backend": "バックエンドエンジニア",
+  "entry__new-graduate": "新卒エンジニア",
+  "entry__name_required_error_message": "氏名は必須です",
+  "entry__email_required_error_message": "メールは必須です",
+  "entry__email_invalid_error_message": "メールは正しくないです",
+  "entry__furigana_required_error_message": "フリガナは必須です",
+  "entry__birthday_required_error_message": "生年月日は必須です",
+  "entry__phone_invalid_error_message": "電話番号は正しくないです",
+  "entry__current_job_required_error_message": "現在の職業は必須です",
+  "entry__gender_required_error_message": "性別は必須です",
 
   "recruit-entry__breadcrum": "Thông tin tuyển dụng",
 
@@ -147,7 +137,7 @@
 
   "designer-page-header__title": "DESIGNER",
   "designer-page-header__description": "Bạn là người đam mê với thiết kế, hãy cùng World IT Team sáng tạo nên những tuyệt tác !!!",
-  
+
   "designer-job-desc__1": "Đảm nhiệm thiết kế giao diện ứng dụng Website.",
   "designer-job-desc__2": "Từ quan điểm của khách hàng, phân thích và thiết kế ứng dụng web theo yêu cầu.",
   "designer-job-desc__3": "Hỗ trợ team Front-end kiểm tra/test lại thiết kế sản phẩm sau khi hoàn thành.",
@@ -168,40 +158,38 @@
   "designer-job-target__desc__2": "Sẵn sàng học hỏi công nghệ mới và không ngại mọi thử thách",
   "designer-job-target__desc__3": "Có khả năng phát hiện và tự mình giải quyết vấn đề",
 
-  "graduate-page-header__title":"Sinh viên mới tốt nghiệp",
-  "graduate-page-header__description":"Chúng tôi đang tìm kiếm những người chưa có kinh nghiệm muốn trở thành kỹ sư CNTT, bất kể họ là sinh viên mới ra trường, đã tốt nghiệp hay đã có kinh nghiệm làm việc.",
+  "graduate-page-header__title": "Sinh viên mới tốt nghiệp",
+  "graduate-page-header__description": "Chúng tôi đang tìm kiếm những người chưa có kinh nghiệm muốn trở thành kỹ sư CNTT, bất kể họ là sinh viên mới ra trường, đã tốt nghiệp hay đã có kinh nghiệm làm việc.",
 
-  "graduate-job-desc__1":"Nhu cầu công nghệ kỹ thuật số ngày càng tăng trong tất cả các ngành công nghiệp, và nhu cầu về kỹ sư CNTT tại Nhật Bản ngày càng tăng. Có rất nhiều tình huống mà bạn có thể tận dụng kinh nghiệm làm việc của mình. Chúng tôi đã chuẩn bị một chương trình giáo dục và lộ trình nghề nghiệp dành cho sinh viên mới ra trường và cả những người thiếu kinh nghiệm để có thể nhanh chóng làm việc được trong từng vị trí muốn đảm nhận. Để biết chi tiết, vui lòng tham khảo trang của từng vị trí.",
+  "graduate-job-desc__1": "Nhu cầu công nghệ kỹ thuật số ngày càng tăng trong tất cả các ngành công nghiệp, và nhu cầu về kỹ sư CNTT tại Nhật Bản ngày càng tăng. Có rất nhiều tình huống mà bạn có thể tận dụng kinh nghiệm làm việc của mình. Chúng tôi đã chuẩn bị một chương trình giáo dục và lộ trình nghề nghiệp dành cho sinh viên mới ra trường và cả những người thiếu kinh nghiệm để có thể nhanh chóng làm việc được trong từng vị trí muốn đảm nhận. Để biết chi tiết, vui lòng tham khảo trang của từng vị trí.",
 
-  "graduate-job-target__desc__1":"Yêu thích thiết kế WEB và đam mê với công việc",
-  "graduate-job-target__desc__2":"Tự bản thân luôn linh hoạt trong suy nghĩ và hành động",
-  "graduate-job-target__desc__3":"Không tự mãn với hiện tại, luôn có ý chí thử thách bản thân với những kỹ thuật mới",
-  "graduate-job-target__desc__4":"Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
-  "graduate-job-target__desc__5":"Có khả năng phát hiện và tự mình giải quyết vấn đề",
-  "graduate-job-target__desc__6":"Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
+  "graduate-job-target__desc__1": "Yêu thích thiết kế WEB và đam mê với công việc",
+  "graduate-job-target__desc__2": "Tự bản thân luôn linh hoạt trong suy nghĩ và hành động",
+  "graduate-job-target__desc__3": "Không tự mãn với hiện tại, luôn có ý chí thử thách bản thân với những kỹ thuật mới",
+  "graduate-job-target__desc__4": "Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
+  "graduate-job-target__desc__5": "Có khả năng phát hiện và tự mình giải quyết vấn đề",
+  "graduate-job-target__desc__6": "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
 
+  "frontend-page-header__title": "Kỹ sư front-end",
+  "frontend-page-header__description": "Phát triển giao diện người dùng của ứng dụng web",
 
-  "frontend-page-header__title":"Kỹ sư front-end",
-  "frontend-page-header__description":"Phát triển giao diện người dùng của ứng dụng web",
-  
-  "frontend-job-desc__1":"Thiết kế các thành phần web",
-  "frontend-job-desc__2":"Mã hóa dữ liệu",
-  "frontend-job-desc__3":"Kiểm tra đơn vị",
-  "frontend-job-desc__4":"Kiểm tra kết hợp",
-  "frontend-job-desc__5":"Kiểm tra người dùng",
-  "frontend-job-desc__6":"Triển khai công việc",
+  "frontend-job-desc__1": "Thiết kế các thành phần web",
+  "frontend-job-desc__2": "Mã hóa dữ liệu",
+  "frontend-job-desc__3": "Kiểm tra đơn vị",
+  "frontend-job-desc__4": "Kiểm tra kết hợp",
+  "frontend-job-desc__5": "Kiểm tra người dùng",
+  "frontend-job-desc__6": "Triển khai công việc",
 
-  "frontend-job-req__desc__11":"・Mã hóa CSS từ thiết kế web",
-  "frontend-job-req__desc__12":"・Mã hóa các thành phần web(React)",
-  "frontend-job-req__desc__13":"・Tạo hoạt ảnh bằng JavaScript, v.v.",
-  "frontend-job-req__desc__14":"・Kiểm tra đơn vị của JEST",
+  "frontend-job-req__desc__11": "・Mã hóa CSS từ thiết kế web",
+  "frontend-job-req__desc__12": "・Mã hóa các thành phần web(React)",
+  "frontend-job-req__desc__13": "・Tạo hoạt ảnh bằng JavaScript, v.v.",
+  "frontend-job-req__desc__14": "・Kiểm tra đơn vị của JEST",
 
-  "frontend-job-req__desc__21":"・Những người có kinh nghiệm phát triển trong nhóm sử dụng Git",
-  "frontend-job-req__desc__22":"・Những người có kiến ​​thức về HTML / CSS / JavaScript / React / JEST",
-  "frontend-job-req__desc__23":"・Có kinh nghiệm phát triển nhóm với Git",
+  "frontend-job-req__desc__21": "・Những người có kinh nghiệm phát triển trong nhóm sử dụng Git",
+  "frontend-job-req__desc__22": "・Những người có kiến ​​thức về HTML / CSS / JavaScript / React / JEST",
+  "frontend-job-req__desc__23": "・Có kinh nghiệm phát triển nhóm với Git",
 
-  "frontend-job-target__desc__1":"Người có tính cách chủ động trong công việc",
-  "frontend-job-target__desc__2":"Người có khả năng giao tiếp",
-  "frontend-job-target__desc__3":"người có thể coi trọng tinh thần đồng đội"
-
+  "frontend-job-target__desc__1": "Người có tính cách chủ động trong công việc",
+  "frontend-job-target__desc__2": "Người có khả năng giao tiếp",
+  "frontend-job-target__desc__3": "người có thể coi trọng tinh thần đồng đội"
 }

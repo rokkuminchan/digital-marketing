@@ -21,23 +21,13 @@
   "recruit-home-targeting-persons__title": "求める人物像",
   "recruit-home-targeting-persons__image": "../../images/recruit-home__targeting-persons.jpg",
   "recruit-home-targeting-persons__items-title-1": "情熱",
-  "recruit-home-targeting-persons__items-description-1": [
-    "WEBサービスをつくりたい方、つくることを楽しめる方"
-  ],
+  "recruit-home-targeting-persons__items-description-1": "WEBサービスをつくりたい方、つくることを楽しめる方",
   "recruit-home-targeting-persons__items-title-2": "主体性・チャレンジ",
-  "recruit-home-targeting-persons__items-description-2": [
-    "柔軟性を持ち、自ら考え行動ができる",
-    "現状に満足せず、新しい技術にチャレンジする意欲がある"
-  ],
+  "recruit-home-targeting-persons__items-description-2": "柔軟性を持ち、自ら考え行動ができる|現状に満足せず、新しい技術にチャレンジする意欲がある",
   "recruit-home-targeting-persons__items-title-3": "アイデア・分析力",
-  "recruit-home-targeting-persons__items-description-3": [
-    "新しい発想やアウトプットへのこだわりがある",
-    "問題を見つけ、自ら解決までできる"
-  ],
+  "recruit-home-targeting-persons__items-description-3": "新しい発想やアウトプットへのこだわりがある|問題を見つけ、自ら解決までできる",
   "recruit-home-targeting-persons__items-title-4": "学習",
-  "recruit-home-targeting-persons__items-description-4": [
-    "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方"
-  ],
+  "recruit-home-targeting-persons__items-description-4": "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方",
   "recruit-home-recruitment-jobs__card-title-director": "ディレクター",
   "recruit-home-recruitment-jobs__card-description-director": "ウェブディレクター募集",
   "recruit-home-recruitment-jobs__card-button_text": "詳細",
@@ -74,17 +64,17 @@
   "entry__apply": "応募する",
   "entry__director": "ディレクター",
   "entry__designer": "デザイナーエンジニア",
-  "entry__frontend":"フロントエンドエンジニア", 
-  "entry__backend":"バックエンドエンジニア", 
-  "entry__new-graduate":"新卒エンジニア",
-  "entry__name_required_error_message":"氏名は必須です",
-  "entry__email_required_error_message":"メールは必須です",
-  "entry__email_invalid_error_message":"メールは正しくないです",
-  "entry__furigana_required_error_message":"フリガナは必須です",
-  "entry__birthday_required_error_message":"生年月日は必須です",
-  "entry__phone_invalid_error_message":"電話番号は正しくないです",
-  "entry__current_job_required_error_message":"現在の職業は必須です",
-  "entry__gender_required_error_message":"性別は必須です",
+  "entry__frontend": "フロントエンドエンジニア",
+  "entry__backend": "バックエンドエンジニア",
+  "entry__new-graduate": "新卒エンジニア",
+  "entry__name_required_error_message": "氏名は必須です",
+  "entry__email_required_error_message": "メールは必須です",
+  "entry__email_invalid_error_message": "メールは正しくないです",
+  "entry__furigana_required_error_message": "フリガナは必須です",
+  "entry__birthday_required_error_message": "生年月日は必須です",
+  "entry__phone_invalid_error_message": "電話番号は正しくないです",
+  "entry__current_job_required_error_message": "現在の職業は必須です",
+  "entry__gender_required_error_message": "性別は必須です",
 
   "recruit-entry__breadcrum": "採用情報",
 
@@ -127,7 +117,7 @@
 
   "designer-page-header__title": "デザイナー",
   "designer-page-header__description": "ITチームと協力して傑作をデザインしましょう",
-  
+
   "designer-job-desc__1": "Webアプリケーションのデザインを担当していただきます。",
   "designer-job-desc__2": "顧客の視点で、顧客の要望に従ってWebアプリケーションをデザインしていだたきます。",
   "designer-job-desc__3": "デザイン後は、フロントエンド・エンジニアがスムーズに開発できるようにサポートをお願いします。",
@@ -150,12 +140,12 @@
 
   "backend-page-header__title": "バックエンドエンジニア",
   "backend-page-header__description": "Webアプリケーションのバックエンド開発やバックエンド・サービスを活用したWeb APIの開発を担当していただきます",
-  
+
   "backend-job-desc__1": "Web API設計",
   "backend-job-desc__2": "データベース設計",
   "backend-job-desc__3": "サーバサイドのフレームワークを使ったWeb APIの実装",
   "backend-job-desc__4": "テスト",
-  
+
   "backend-job-req__desc__11": "・LAMP環境での開発経験がある",
   "backend-job-req__desc__12": "・MVCフレームワークを利用した開発経験がある",
   "backend-job-req__desc__13": "・チームでの開発経験がある",
@@ -168,40 +158,38 @@
   "backend-job-target__desc__2": "新しい発想やアウトプットへのこだわりがある",
   "backend-job-target__desc__3": "問題を見つけ、自ら解決までできる",
 
-  "graduate-page-header__title":"新卒",
-  "graduate-page-header__description":"新卒、既卒、就業経験の有無に関わらず、ITエンジニアを目指す未経験の方を募集しています",
+  "graduate-page-header__title": "新卒",
+  "graduate-page-header__description": "新卒、既卒、就業経験の有無に関わらず、ITエンジニアを目指す未経験の方を募集しています",
 
-  "graduate-job-desc__1":"あらゆる業種でデジタル技術の必要性が高まり、日本国内のITエンジニアの需要は増える一方です。これまでの仕事の経験が生かせる場面も多くあります。未経験の方でも、すぐに活躍しながらチャレンジしたい職種で活躍するための教育カリキュラムとキャリア・パスを用意しています。詳しくは、各職種のページを参照してください",
+  "graduate-job-desc__1": "あらゆる業種でデジタル技術の必要性が高まり、日本国内のITエンジニアの需要は増える一方です。これまでの仕事の経験が生かせる場面も多くあります。未経験の方でも、すぐに活躍しながらチャレンジしたい職種で活躍するための教育カリキュラムとキャリア・パスを用意しています。詳しくは、各職種のページを参照してください",
 
-  "graduate-job-target__desc__1":"WEBサービスをつくりたい方、つくることを楽しめる方",
-  "graduate-job-target__desc__2":"柔軟性を持ち、自ら考え行動ができる",
-  "graduate-job-target__desc__3":"現状に満足せず、新しい技術にチャレンジする意欲がある",
-  "graduate-job-target__desc__4":"新しい発想やアウトプットへのこだわりがある",
-  "graduate-job-target__desc__5":"問題を見つけ、自ら解決までできる",
-  "graduate-job-target__desc__6":"自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方",
+  "graduate-job-target__desc__1": "WEBサービスをつくりたい方、つくることを楽しめる方",
+  "graduate-job-target__desc__2": "柔軟性を持ち、自ら考え行動ができる",
+  "graduate-job-target__desc__3": "現状に満足せず、新しい技術にチャレンジする意欲がある",
+  "graduate-job-target__desc__4": "新しい発想やアウトプットへのこだわりがある",
+  "graduate-job-target__desc__5": "問題を見つけ、自ら解決までできる",
+  "graduate-job-target__desc__6": "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートができる方",
 
-  
-  "frontend-page-header__title":"フロントエンドエンジニア",
-  "frontend-page-header__description":"Webアプリケーションのフロントエンドの開発を担当していただきます。",
-  
-  "frontend-job-desc__1":"Webコンポーネントを設計",
-  "frontend-job-desc__2":"コーディング",
-  "frontend-job-desc__3":"単体テスト",
-  "frontend-job-desc__4":"結合テスト",
-  "frontend-job-desc__5":"ユーザテスト",
-  "frontend-job-desc__6":"ディプロイ作業",
+  "frontend-page-header__title": "フロントエンドエンジニア",
+  "frontend-page-header__description": "Webアプリケーションのフロントエンドの開発を担当していただきます。",
 
-  "frontend-job-req__desc__11":"・WebデザインからCSSのコーディング",
-  "frontend-job-req__desc__12":"・Webコンポーネントのコーディング(React)",
-  "frontend-job-req__desc__13":"・JavaScript等によるアニメーションの作成",
-  "frontend-job-req__desc__14":"・JESTによる単体テスト",
+  "frontend-job-desc__1": "Webコンポーネントを設計",
+  "frontend-job-desc__2": "コーディング",
+  "frontend-job-desc__3": "単体テスト",
+  "frontend-job-desc__4": "結合テスト",
+  "frontend-job-desc__5": "ユーザテスト",
+  "frontend-job-desc__6": "ディプロイ作業",
 
-  "frontend-job-req__desc__21":"・Gitを用いたチームでの開発経験がある方",
-  "frontend-job-req__desc__22":"・HTML/CSS/JavaScript/React/JESTの知識のある方",
-  "frontend-job-req__desc__23":"・Gitを用いたチームでの開発経験がある",
+  "frontend-job-req__desc__11": "・WebデザインからCSSのコーディング",
+  "frontend-job-req__desc__12": "・Webコンポーネントのコーディング(React)",
+  "frontend-job-req__desc__13": "・JavaScript等によるアニメーションの作成",
+  "frontend-job-req__desc__14": "・JESTによる単体テスト",
 
-  "frontend-job-target__desc__1":"受け身にならず、自発的に業務を推進できる方",
-  "frontend-job-target__desc__2":"コミュニケーション能力がある方",
-  "frontend-job-target__desc__3":"チームワークを大切にできる方"
+  "frontend-job-req__desc__21": "・Gitを用いたチームでの開発経験がある方",
+  "frontend-job-req__desc__22": "・HTML/CSS/JavaScript/React/JESTの知識のある方",
+  "frontend-job-req__desc__23": "・Gitを用いたチームでの開発経験がある",
 
+  "frontend-job-target__desc__1": "受け身にならず、自発的に業務を推進できる方",
+  "frontend-job-target__desc__2": "コミュニケーション能力がある方",
+  "frontend-job-target__desc__3": "チームワークを大切にできる方"
 }

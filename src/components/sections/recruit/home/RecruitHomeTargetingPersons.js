@@ -30,22 +30,27 @@ export default function RecruitHomeTargetingPersons({ data }) {
               <div className="recruit-home-targeting-persons__conner-top"></div>
               {t(item1.title)}
             </div>
-            {t(item1.description).map((item2, index) => (
-              <div
-                className="recruit-home-targeting-persons__items-description--wrapper"
-                key={index}
-              >
-                <img
-                  src={icon}
-                  alt="icon"
-                  className="recruit-home-targeting-persons__items-icon"
-                />
-                <span className="recruit-home-targeting-persons__items-description">
-                  {item2}
-                </span>
-                {renderConnerBottom(index, t(item1.description).length)}
-              </div>
-            ))}
+            {t(item1.description)
+              .split("|")
+              .map((item2, index) => (
+                <div
+                  className="recruit-home-targeting-persons__items-description--wrapper"
+                  key={index}
+                >
+                  <img
+                    src={icon}
+                    alt="icon"
+                    className="recruit-home-targeting-persons__items-icon"
+                  />
+                  <span className="recruit-home-targeting-persons__items-description">
+                    {item2}
+                  </span>
+                  {renderConnerBottom(
+                    index,
+                    t(item1.description).split("|").length
+                  )}
+                </div>
+              ))}
           </div>
         ))}
       </div>
