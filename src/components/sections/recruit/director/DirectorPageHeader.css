@@ -1,3 +1,5 @@
-.director-page-header .job-page-header {
-  background-position: 70% 40% !important;
+@media only screen and (max-width: 768px){
+    .director-page-header .job-page-header {
+      background-position: 73% 50% !important;
+    }
 }

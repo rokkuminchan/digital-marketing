@@ -19,89 +19,80 @@
   height: var(--recruit-home-header-img-height);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position:center;
 }
 .recruit-home-header__content {
   position: absolute;
   bottom: 0%;
-  /* width: 60%; */
   /* transform: translate(15%, -20%); */
-  background: rgba(0, 0, 0, 0.5) no-repeat padding-box;
-  height: 40%;
+  background: rgba(0, 0, 0, 0.3) no-repeat padding-box;
+  
 }
 .recruit-home-header__title{
   text-align: left;
-  padding-left: 10%;
-  /* padding-right: 4%; */
-  padding-top: 5%;
+  
+  
   /* letter-spacing: 0.34px; */
   color: #FFFFFF; 
 }
 
 .recruit-home-header__description{
   text-align: justify;
-  padding:5% 10%;
+
   /* letter-spacing: 0.34px; */
   color: #FFFFFF; 
 }
 
-
 @media only screen and (min-width: 320px){
-
   .recruit-home-header__content {
     width: 100%;
     transform: translate(0%);
-    
+    height: 30%; 
   }
- 
   .recruit-home-header__title {
-    font-size: 3em;
-    
+    font-size: 3em; 
+    padding-top: 2.5%;
+    padding-left: 10%;
   }
   .recruit-home-header__description {
-    font-size: 1.8em;
-    
+    font-size: 1.8em; 
+    padding:2.5% 10%; 
   }  
 }
 @media only screen and (min-width: 768px){
-
   .recruit-home-header__content {
-    left: 7%;
-    bottom: 5%;
-    width: 65%;
-    height: 35%;
-    min-height: 350px;
-    max-height: 30%;
+    width: 100%;
+    height: 25%;
+    min-height: 270px;
+    max-height: 25%;
    }
- 
   .recruit-home-header__title {
     font-size: 3.5em;
-    padding-top: 8%;
+    padding-top: 4%;
+    padding-left: 10%;
   }
   .recruit-home-header__description {
     font-size: 2.5em;
-    padding:8% 10%;
-   
+    padding-top: 4%;
+    padding-left: 10%;
   }  
 }
   @media only screen and (min-width: 1024px){
-
     .recruit-home-header__content {
       left: 5%;
       bottom: 5%;
       width: 50%;
       height: 45%;
       min-height: 350px;
- 
     }
     .recruit-home-header__title {
       font-size: 4em;
-      padding-top: 5%;
-      
+      padding-top: 5%; 
+      padding-left: 10%;
     }
     .recruit-home-header__description {
       font-size: 2.8em;
-      padding:5% 10%;
+      padding:5% 10%;  
     }  
   }
 
