@@ -13,6 +13,11 @@
     padding-top: 10px;
 }
 
+.entry__radio {
+    padding: 2px;
+    margin-top: auto;
+}
+
 .entry__field {
     width: 100%;
     margin: 0 auto;
