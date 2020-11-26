@@ -7,10 +7,7 @@ export default function DetailEntryButton(props) {
     const {t} = useTranslation();
     return (
     <ALink
-      className="recruit-detail__entry"
-      exact
-      to={props.path}
-      activeClassName="active">
+      className="recruit-detail__entry" to={props.path}>
       {t('recruit-entry__button')}
     </ALink>
     );
