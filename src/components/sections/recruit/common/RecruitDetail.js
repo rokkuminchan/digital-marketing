@@ -16,9 +16,6 @@ export default function RecruitDetail({data}) {
         ) : null}
         <TargetPersonCard data={data.TargetPerson} />
         <Policy data={data.Policy} />
-        <a href="/recruit/entry" className="recruit-detail__entry">
-          {t('recruit-entry__button')}
-        </a>
       </section>
     );
 }
