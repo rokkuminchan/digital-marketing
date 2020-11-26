@@ -39,7 +39,7 @@
   "RecruitHomeTargetingPersons": {
     "title": "recruit-home-targeting-persons__title",
     "image": {
-      "src": "../../images/recruit-home__targeting-persons.jpg",
+      "src": "recruit-home-targeting-persons__image",
       "alt": ""
     },
     "items": [
