@@ -1,4 +1,7 @@
-
+.job-other{
+  position: relative;
+  z-index: 1000;
+}
 .job-other__button{
   background-color: white;
   border-style: none;
@@ -7,12 +10,14 @@
   text-decoration: none; 
   font-weight: bold; 
   text-align: center;
+  
 }
 /*mobile */
 @media screen and (min-width: 320px) {
   .job-other{
       background-color: #C1E1FF;
       padding: 3rem 0;
+     
   }
 
   .job-other__content{
