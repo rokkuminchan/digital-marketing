@@ -1,6 +1,6 @@
 .job-other{
   position: relative;
-  z-index: 1000;
+  z-index: 2;
 }
 .job-other__button{
   background-color: white;
