@@ -19,6 +19,17 @@ export default function EntryForm({ data }) {
 
   let {job} = useParams() ;
 
+  function findJob(job) {
+    let jobList = ["director", "designer", "frontend", "backend", "new-graduate"];
+    let result = false;
+    jobList.map((item, index) => {
+       if (job === item) {
+        result = true;
+       }
+    });
+    return result;
+  }
+
   function displayError(errors, field) {
     let error_txt = "";
     switch (field) {
@@ -62,8 +73,9 @@ export default function EntryForm({ data }) {
       return "女性";
     }
   }
+  
 
-  return (
+  return !findJob(job) ? (findJob(job)) : (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
       <form className="form" name="entry" action={data.action} onSubmit={handleSubmit}>
