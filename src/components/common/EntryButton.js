@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import "./EntryButton.css";
-import "./EntryButtonAnimation";
+// import "./EntryButtonAnimation";
 
 export default function EntryButton(props) {
   const { t } = useTranslation();
