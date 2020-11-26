@@ -13,7 +13,7 @@ export default function RecruitHomeHeader({ data }) {
             background: `transparent url(${Background})`,
             "background-size": `cover`,
             "background-repeat": `no-repeat`,
-            "background-position": `94.5% 100% `,
+            "background-position": `94.5% `,
           }}
           className="recruit-home-header__img"
         ></div>
