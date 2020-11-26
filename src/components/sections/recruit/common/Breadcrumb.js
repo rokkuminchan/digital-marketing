@@ -3,8 +3,8 @@ import { emphasize, withStyles } from "@material-ui/core/styles";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Chip from "@material-ui/core/Chip";
 import HomeIcon from "@material-ui/icons/Home";
-import {Link} from 'react-router-dom';
 import {useTranslation} from 'react-i18next';
+import ALink from '../../../common/ALink';
 
 const StyledBreadcrumb = withStyles((theme) => ({
   root: {
@@ -32,7 +32,7 @@ export default function Breadcrumb({ data }) {
         margin: `2px auto`,
       }}
     >
-      <Link
+      <ALink
         to="/recruit"
         style={{
           textDecoration: `none`,
@@ -43,7 +43,7 @@ export default function Breadcrumb({ data }) {
           label={t("recruit-entry__breadcrum")}
           icon={<HomeIcon fontSize="small" />}
         />
-      </Link>
+      </ALink>
       <StyledBreadcrumb label={t(data.title)} />
     </Breadcrumbs>
   );
