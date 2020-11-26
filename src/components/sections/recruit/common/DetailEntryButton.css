@@ -1,0 +1,40 @@
+.recruit-detail__entry{
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    background-color: #2379DB;
+    border-radius: 1rem;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5rem;
+    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.2);
+    transition: 0.25s;
+}
+.recruit-detail__entry:hover {
+    background-color: #0000ff;
+    -webkit-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:0px 5px 8px 0px rgba(50, 50, 50, 0.3);
+} 
+
+
+@media screen and (min-width: 768px) {
+	.recruit-detail__entry {
+        width: 20rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .recruit-detail__entry {
+        width: 20rem;
+        font-size: 2rem;    
+    }
+}
