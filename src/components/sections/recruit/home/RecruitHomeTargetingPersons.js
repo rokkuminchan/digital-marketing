@@ -14,16 +14,14 @@ function renderConnerBottom(index, length) {
 }
 export default function RecruitHomeTargetingPersons({ data }) {
   const { t } = useTranslation();
-  var imageData = { ...data.image };
-  imageData.src = t(imageData.src);
-
+  const language = t(data.languages);
   return (
     <section className="recruit-home-targeting-persons">
       <Title data={t(data.title)} />
       <div className="recruit-home-targeting-persons__image--wrapper">
         <Image
           className="recruit-home-targeting-persons__image"
-          {...imageData}
+          {...data.images[language]}
         />
       </div>
       <div className="recruit-home-targeting-persons__items--wrapper">

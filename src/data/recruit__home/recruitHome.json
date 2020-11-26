@@ -38,9 +38,16 @@
   },
   "RecruitHomeTargetingPersons": {
     "title": "recruit-home-targeting-persons__title",
-    "image": {
-      "src": "recruit-home-targeting-persons__image",
-      "alt": ""
+    "languages": "recruit-home-targeting-persons__language",
+    "images": {
+      "vi": {
+        "src": "../../images/recruit_home__targetting-persons-vi.jpg",
+        "alt": ""
+      },
+      "jp": {
+        "src": "../../images/recruit_home__targetting-persons.jpg",
+        "alt": ""
+      }
     },
     "items": [
       {
