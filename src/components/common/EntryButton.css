@@ -1,11 +1,11 @@
 .entrybutton {
     position: fixed;
-    bottom: 2rem;
-    right: 0;
+    bottom: 2em;
+    right: 1em;
     display: inline-block;
     padding: 10px 5px;
     text-align: center;
-    font-size: 10px;
+    font-size: 1em;
     cursor: pointer;
     text-decoration: none;
     outline: none;
