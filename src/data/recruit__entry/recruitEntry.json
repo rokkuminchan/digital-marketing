@@ -73,15 +73,8 @@
                 "name": "entry.1156664848",
                 "placeholder": "",
                 "is_required": "entry__optional"
-            },
-            {
-                "label": "entry__cv-label",
-                "type": "file",
-                "name": "entry.1512529765",
-                "placeholder": "entry__cv",
-                "is_required": "entry__optional"
             }
-
+           
         ]
     }
 }
