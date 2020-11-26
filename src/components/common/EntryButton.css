@@ -20,6 +20,12 @@
     transform: translate(0px); /* hide button */
 }
 
+@media all and (max-width: 768px) {
+    .entrybutton {
+        font-size: 1em;
+    }
+}
+
 .entrybutton:hover {
     opacity: 100%;
 }
