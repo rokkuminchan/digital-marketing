@@ -56,21 +56,34 @@ export const query = graphql`
         }
       }
       RecruitHomeTargetingPersons {
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
         title
         items {
           description
           title
         }
+        images {
+          jp {
+            alt
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+          }
+          vi {
+            alt
+            src {
+              childImageSharp {
+                fluid {
+                  srcSet
+                }
+              }
+            }
+          }
+        }
+        languages
       }
     }
   }
