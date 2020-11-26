@@ -6,7 +6,7 @@ import validate from "./ValidateInfo";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 export default function EntryForm({ data }) {
   const { t } = useTranslation();
@@ -17,15 +17,21 @@ export default function EntryForm({ data }) {
     t
   );
 
-  let {job} = useParams() ;
+  let { job } = useParams();
 
   function findJob(job) {
-    let jobList = ["director", "designer", "frontend", "backend", "new-graduate"];
+    let jobList = [
+      "director",
+      "designer",
+      "frontend",
+      "backend",
+      "new-graduate",
+    ];
     let result = false;
     jobList.map((item, index) => {
-       if (job === item) {
+      if (job === item) {
         result = true;
-       }
+      }
     });
     return result;
   }
@@ -66,19 +72,25 @@ export default function EntryForm({ data }) {
     }
   }
 
-  function getGender(gender){
-    if (gender === "entry__male"){
+  function getGender(gender) {
+    if (gender === "entry__male") {
       return "男性";
-    }else{
+    } else {
       return "女性";
     }
   }
-  
 
-  return !findJob(job) ? (findJob(job)) : (
+  return !findJob(job) ? (
+    findJob(job)
+  ) : (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
-      <form className="form" name="entry" action={data.action} onSubmit={handleSubmit}>
+      <form
+        className="form"
+        name="entry"
+        action={data.action}
+        onSubmit={handleSubmit}
+      >
         {data.items.map((item, index) => {
           switch (item.type) {
             case "textarea":
@@ -109,7 +121,12 @@ export default function EntryForm({ data }) {
                     </label>
                   </div>
                   <div className="entry__item">
-                  <select className="entry__field" name={item.name} value={t("entry__" + job)} readonly>
+                    <select
+                      className="entry__field"
+                      name={item.name}
+                      value={t("entry__" + job)}
+                      readonly
+                    >
                       {item.option.map((option, index) => {
                         return <option value={t(option)}>{t(option)}</option>;
                       })}
@@ -128,14 +145,20 @@ export default function EntryForm({ data }) {
                   </div>
                   <div className="entry__item">
                     <div className="entry__field">
-                      <RadioGroup row aria-label="position" name={item.name}
-                      onChange={(e) => handleChange(item.placeholder, e)}>
+                      <RadioGroup
+                        row
+                        aria-label="position"
+                        name={item.name}
+                        onChange={(e) => handleChange(item.placeholder, e)}
+                      >
                         {item.choices.map((choice, index) => {
                           return [
                             <FormControlLabel
                               value={getGender(choice)}
                               control={<Radio color="primary" />}
-                              label={<div className="entry__radio">{t(choice)}</div>}
+                              label={
+                                <div className="entry__radio">{t(choice)}</div>
+                              }
                             />,
                           ];
                         })}

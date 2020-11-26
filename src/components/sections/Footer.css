@@ -1,4 +1,3 @@
-
 .footer__distributed {
   background-color: #292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -8,8 +7,7 @@
   font: 16px sans-serif;
   padding: 30px 20px;
   position: relative;
-  z-index:2;
-  
+  z-index: 2;
 }
 
 .footer__distributed .footer__left,
@@ -19,13 +17,13 @@
   vertical-align: top;
 }
 
-.footer__company-info-row{
+.footer__company-info-row {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
 }
 
-.footer__company-info-icon{
+.footer__company-info-icon {
   display: flex;
   width: 40px;
   flex-direction: row;
@@ -34,11 +32,11 @@
   color: #72aed3;
 }
 
-.footer__company-info-icon:hover{
+.footer__company-info-icon:hover {
   color: #49f53a;
 }
 
-.active{
+.active {
   color: yellow !important;
 }
 
@@ -57,7 +55,7 @@
   color: #3366cc;
 }
 
-.footer__facebook-icon{
+.footer__icon {
   width: 16px;
   height: 16px;
 }
