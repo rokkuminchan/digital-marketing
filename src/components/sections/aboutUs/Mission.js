@@ -3,8 +3,10 @@ import "./Mission.css";
 // import Title from "../../common/Title";
 // import Description from "../../common/Description";
 import Image from "../../common/Image";
+import {useTranslation} from 'react-i18next';
 
-export default function Mission({ data }) {
+const Mission = ({ data }) => {
+  const {t} = useTranslation();
   return (
     <section>
       <div className="mission">
@@ -14,8 +16,8 @@ export default function Mission({ data }) {
             className="mission__description"
             data={data.description}
           /> */}
-          <h3 className="mission__title">{data.title}</h3>
-          <p className="mission__description">{data.description}</p>
+          <h3 className="mission__title">{t(data.title)}</h3>
+          <p className="mission__description">{t(data.description)}</p>
         </div>
 
         <div className="mission__block2">
@@ -23,5 +25,6 @@ export default function Mission({ data }) {
         </div>
       </div>
     </section>
-  );
-}
+  )
+};
+export default Mission;
