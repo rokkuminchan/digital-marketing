@@ -5,9 +5,9 @@ import RecruitEntry from "../../../components/pages/Entry";
 import Layout from "../../../components/layout";
 
 //Recruit diretor page
-const EntryPage = ({ data }) => (
+const EntryPage = ({ data, location }) => (
   <Layout>
-    <RecruitEntry data={data.recruitEntryJson} />
+    <RecruitEntry data={data.recruitEntryJson} location={location} />
   </Layout>
 );
 

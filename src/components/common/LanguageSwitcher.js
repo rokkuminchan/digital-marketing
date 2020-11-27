@@ -1,9 +1,6 @@
 import React from "react";
 import {
-  Link,
-  useTranslation,
   useI18next,
-  I18nextContext,
 } from "gatsby-plugin-react-i18next";
 
 import ALink from "../common/ALink";
@@ -16,7 +13,7 @@ import Image from "./Image";
 const showMenuClass = "show";
 
 export default function LanguageSwitcher(props) {
-  const [, i18n] = useTranslation();
+  const { language, languages, originalPath } = useI18next();
 
   function myFunction(e) {
     const menu = document.getElementById("language-menu");
@@ -48,12 +45,11 @@ export default function LanguageSwitcher(props) {
     return language === "vi" ? VietnameseFlag : JapaneseFlag;
   }
 
-  function onChangeLanguage(e, language) {
+  function onChangeLanguage(language) {
     const currentLanguageIcon = document.getElementById(
       "current-language__icon"
     );
 
-    i18n.changeLanguage(language);
     currentLanguageIcon.src = getImageByLanguage(language);
     props.onAfterChangeLanguage && props.onAfterChangeLanguage();
   }
@@ -64,24 +60,21 @@ export default function LanguageSwitcher(props) {
         <Image
           id="current-language__icon"
           alt="Japanese"
-          src={getImageByLanguage(i18n.language)}
+          src={getImageByLanguage(language)}
         />
       </div>
       <div id="language-menu" className="language-menu">
-        <ALink to="#" onClick={(e) => onChangeLanguage(e, "jp")}>
-          <Image
-            className="language-menu__flag-icon"
-            alt="Japanese"
-            src={JapaneseFlag}
-          />
-        </ALink>
-        <ALink to="#" onClick={(e) => onChangeLanguage(e, "vi")}>
-          <Image
-            className="language-menu__flag-icon"
-            alt="Vietnamese"
-            src={VietnameseFlag}
-          />
-        </ALink>
+        {
+          languages.map((lng) => {
+            return <ALink to={originalPath} language={lng} onClick={(e) => onChangeLanguage(lng)}>
+              <Image
+                className="language-menu__flag-icon"
+                alt="Japanese"
+                src={getImageByLanguage(lng)}
+              />
+            </ALink>
+          })
+        }
       </div>
     </div>
   );
