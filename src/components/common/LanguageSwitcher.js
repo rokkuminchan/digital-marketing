@@ -28,18 +28,18 @@ export default function LanguageSwitcher(props) {
   }
 
   // Close the dropdown if the user clicks outside of it
-  window.onclick = function (event) {
-    if (!event.target.matches(".language-menu__current-language")) {
+  typeof window !== 'undefined' && (window.onclick = function (event) {
+    if (!event.target.matches('.language-menu__current-language')) {
       var dropdowns = document.getElementsByClassName("language-menu");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains("show")) {
-          openDropdown.classList.remove("show");
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
         }
       }
     }
-  };
+  });
 
   function getImageByLanguage(language) {
     return language === "vi" ? VietnameseFlag : JapaneseFlag;
