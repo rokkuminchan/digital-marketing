@@ -3,17 +3,18 @@ import './Recruit.css'
 import Title from '../../common/Title';
 import Description from '../../common/Description';
 import Image from '../../common/Image';
+import { useTranslation } from "react-i18next";
 
 
 const Recruit = ({data}) => {
-    console.log(data.items)
+    const { t } = useTranslation();
     return (
         <section className = "recruit">
             <div className="recruit__title">
-                <Title data={data.title} />
+                <Title data={t(data.title)} />
             </div>
             <div className="recruit__subtitle">
-                <Description data={data.subtitle} />
+                <Description data={t(data.subtitle)} />
             </div>
             <Image className="recruit__image" {...data.image} />
 
@@ -23,8 +24,8 @@ const Recruit = ({data}) => {
                         <div className = "recruit-items-box" key = {index}>
                             <div className ="container">
                                 <Image className ="item-icon" {...item.image} />
-                                <Title data={item.title} />
-                                <Description data={item.description} />
+                                <Title data={t(item.title)} />
+                                <Description data={t(item.description)} />
                                 <hr width="80%" size="2px" color="#373F41" />
                             </div> 
                         </div>
