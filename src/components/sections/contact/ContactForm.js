@@ -10,7 +10,7 @@ const ContactForm = ({ data }) => {
     <section className="contact">
       <h3 className="contact_title">{t(data.title)}</h3>
       <p className="contact_description">{t(data.description)}</p>
-      <form action={data.action}>
+      <form action={data.action} className="contact__form">
         {data.items.map((item, index) => {
           return (
             <div>
