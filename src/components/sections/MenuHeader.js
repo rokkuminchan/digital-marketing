@@ -3,11 +3,13 @@ import "./MenuHeader.css";
 import Logo from "../../images/world-logo.jpg";
 import ALink from "../common/ALink";
 import LanguageSwitcher from "../common/LanguageSwitcher";
+import {useTranslation} from 'react-i18next';
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
 
 export default function MenuHeader() {
+  const {t} = useTranslation();
   function toggleMenu() {
     const menu = document.querySelector(`.${menuClass}`);
     menu.classList.contains(menuExpandClass)
@@ -45,7 +47,7 @@ export default function MenuHeader() {
             to="/"
             activeClassName="active"
           >
-            ホーム
+            {t('menu-header__home')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
@@ -55,7 +57,7 @@ export default function MenuHeader() {
             to="/services"
             activeClassName="active"
           >
-            サービス
+            {t('menu-header__service')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
@@ -65,7 +67,7 @@ export default function MenuHeader() {
             to="/technology"
             activeClassName="active"
           >
-            技術
+            {t('menu-header__technology')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
@@ -75,7 +77,7 @@ export default function MenuHeader() {
             to="/about-us"
             activeClassName="active"
           >
-            我々について
+            {t('menu-header__about-us')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
@@ -85,7 +87,7 @@ export default function MenuHeader() {
             to="/recruit"
             activeClassName="active"
           >
-            採用
+            {t('menu-header__recruit')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item" onClick={hideMenu}>
@@ -95,7 +97,7 @@ export default function MenuHeader() {
             to="/contact"
             activeClassName="active"
           >
-            お問い合わせ
+            {t('menu-header__contact')}
           </ALink>
         </li>
         <li className="menu-header__navigation-item">

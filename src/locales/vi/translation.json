@@ -1,4 +1,11 @@
 {
+  "menu-header__home":"Home",
+  "menu-header__service":"Service",
+  "menu-header__technology":"Technology",
+  "menu-header__about-us":"About Us",
+  "menu-header__recruit":"Recruit",
+  "menu-header__contact":"Contact",
+
   "home-page-header__title": "WORLD IT TEAM",
   "home-page-header__description": "Cùng World IT Team sáng tạo nên những tuyệt tác",
   "home-page-header__supdesc": "Hỗ trợ  các dự án ở mọi quy mô, từ các trang  đơn giản đến các ứng dụng web phức tạp",

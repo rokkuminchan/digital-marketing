@@ -1,4 +1,11 @@
 {
+  "menu-header__home":"ホーム",
+  "menu-header__service":"サービス",
+  "menu-header__technology":"技術",
+  "menu-header__about-us":"我々について",
+  "menu-header__recruit":"採用",
+  "menu-header__contact":"お問い合わせ",
+
   "home-page-header__title":"WORLD IT TEAM",
   "home-page-header__description":"私たちは高品質な次世代型Webアプリを迅速に開発するチームです",
   "home-page-header__supdesc":"簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します",
