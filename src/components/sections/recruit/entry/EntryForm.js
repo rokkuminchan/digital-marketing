@@ -145,7 +145,20 @@ export default function EntryForm({ data }) {
                   </div>
                   <div className="entry__item">
                     <div className="entry__field">
-                      <RadioGroup
+                      
+                      {item.choices.map((choice, index) => {
+                        return [
+                          <input
+                            type="radio"
+                            name={item.name}
+                            value={t(choice)}
+                          />,
+                          <label for={t(choice)}>{t(choice)}</label>,
+                          "  ",
+                        ];
+                      })}
+
+                      {/* <RadioGroup
                         row
                         aria-label="position"
                         name={item.name}
@@ -162,7 +175,7 @@ export default function EntryForm({ data }) {
                             />,
                           ];
                         })}
-                      </RadioGroup>
+                      </RadioGroup> */}
                     </div>
                     <div className="entry__error">
                       {t(displayError(errors, item.placeholder))}
