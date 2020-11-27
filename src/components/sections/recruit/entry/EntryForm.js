@@ -3,9 +3,6 @@ import "./EntryForm.css";
 import { useTranslation } from "react-i18next";
 import entryValidatation from "./EntryValidatation";
 import validate from "./ValidateInfo";
-import Radio from "@material-ui/core/Radio";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { useParams } from "react-router-dom";
 
 export default function EntryForm({ data }) {
@@ -24,7 +21,7 @@ export default function EntryForm({ data }) {
       "director",
       "designer",
       "frontend",
-      "backend",
+      "new-backend",
       "new-graduate",
     ];
     let result = false;
@@ -59,6 +56,8 @@ export default function EntryForm({ data }) {
         break;
       case "entry__gender":
         error_txt = errors.entry__gender;
+        break;
+      default:
         break;
     }
     return error_txt;
@@ -145,7 +144,6 @@ export default function EntryForm({ data }) {
                   </div>
                   <div className="entry__item">
                     <div className="entry__field">
-                      
                       {item.choices.map((choice, index) => {
                         return [
                           <input
@@ -157,25 +155,6 @@ export default function EntryForm({ data }) {
                           "  ",
                         ];
                       })}
-
-                      {/* <RadioGroup
-                        row
-                        aria-label="position"
-                        name={item.name}
-                        onChange={(e) => handleChange(item.placeholder, e)}
-                      >
-                        {item.choices.map((choice, index) => {
-                          return [
-                            <FormControlLabel
-                              value={getGender(choice)}
-                              control={<Radio color="primary" />}
-                              label={
-                                <div className="entry__radio">{t(choice)}</div>
-                              }
-                            />,
-                          ];
-                        })}
-                      </RadioGroup> */}
                     </div>
                     <div className="entry__error">
                       {t(displayError(errors, item.placeholder))}
