@@ -152,6 +152,12 @@ export const query = graphql`
           }
         }
       }
+      Contact {
+        link {
+          src
+          title
+        }
+      }
       Characteristic {
         description
         title

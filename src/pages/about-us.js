@@ -15,6 +15,15 @@ export const query = graphql`
     ourTeamJson {
       title
       description
+      pageHeader {
+        description
+        title
+        subDescription
+        image {
+          alt
+          src
+        }
+      }
       teamCharacteristic {
         title
         description
