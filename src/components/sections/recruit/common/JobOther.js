@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import ALink from '../../../common/ALink';
 import './JobOther.css';
+import ALink from '../../../common/ALink';
 
 export default function RecruitJobOther({data}) {
   const { t } = useTranslation();
