@@ -3,6 +3,7 @@ import "./RecruitHomeRecruitmentJobs.css";
 import { useTranslation } from "react-i18next";
 import { Button } from "@material-ui/core";
 import Image from "../../../common/Image";
+import ALink from "../../../common/ALink";
 
 export default function RecruitHomeRecruitmentJobs({ data }) {
   const { t } = useTranslation();
@@ -23,14 +24,15 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
               className="recruit-home-recruitment-jobs__card-description"
               dangerouslySetInnerHTML={{ __html: t(item.description) }}
             ></p>
-            <Button
-              variant="contained"
-              color="primary"
-              href={item.button.link}
-              className="recruit-home-recruitment-jobs__card-button"
-            >
-              {t(item.button.title)}
-            </Button>
+            <ALink to={item.button.link} >
+              <Button
+                variant="contained"
+                color="primary"
+                className="recruit-home-recruitment-jobs__card-button"
+              >
+                {t(item.button.title)}
+              </Button>
+            </ALink>
           </div>
         </div>
       ))}

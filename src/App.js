@@ -118,7 +118,7 @@ function App() {
                 <Graduate data={recruitNewGraduate} />
               </Route>
               <Route exact path="/recruit/:job/entry">
-                <Entry data={recruitEntry} />
+                <Entry data={recruitEntry} location={window.location} />
               </Route>
               <Route exact path="/contact">
                 <Contact data={contactJsonData} />
