@@ -228,5 +228,31 @@
   "service-agileTeam-List_title3": "フロントエンド・エンジニア",
   "service-agileTeam-List_description3": "Reactにより、Webコンポーネントベースの開発を行います。再利用性、保守性の高いコンポーネントの開発により、システムの規模が大きくなっても、開発スピードが落ちることはありません",
   "service-agileTeam-List_title4": "バックエンド・エンジニア",
-  "service-agileTeam-List_description4": "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します"
+  "service-agileTeam-List_description4": "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します",
+
+  "about-us__worldRecruitHistory__title":"ベトナム人技術者の採用",
+  "about-us__worldRecruitHistory__desc":"ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています。",
+  "about-us__relationship__title":"ベトナムと日本との関係",
+  "about-us__relationship__desc":"2009年に日・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました。",
+  "about-us__vietnamUniversity__title":"ベトナムの大学",
+  "about-us__vietnamUniversity__desc":"ワールドのITチームでは、ベトナムのトップレベル大学とMOUを締結するとともに、情報処理系学部の卒業生たちを採用しています。ITチームのメンバーの卒業大学をご紹介します。",
+  "about-us__university__title__1":"ハノイ 工科大学",
+  "about-us__uniSubDesc__title__1":"経歴",
+  "about-us__uniSubDesc__subtitle__1":"1956 創立",
+  "about-us__uniSubDesc__title__2":"特徴",
+  "about-us__uniSubDesc__title__2":"特徴",
+  "about-us__uniSubDesc__title__3":"規模",
+  "about-us__uniSubDesc__subtitle__3":"学部生：33,000名以上、大学院生：3,600名以上（修士課程学生 ：3,000名以上、博士課程学生：600名）",
+  "about-us__uniSubDesc__subtitle__4":"教職員：1,748名、（うち教授・准教授：259名, 博士：765名）",
+  "about-us__university__title__2":"ダナン工科大学",
+  "about-us__uniSubDesc__subtitle__5":"1953 創立",
+  "about-us__uniSubDesc__subtitle__6":"ダナン工科大学は、ダナン大学傘下の技術系大学。ダナン工科大学の卒業生たちの多くが専門家として、ベトナム国内の学術、経済、教育などの発展を支えている。大学の位置するダナン市は、ベトナム５大都市のひとつです",
+  "about-us__uniSubDesc__subtitle__7":"学部生：14,000名以上",
+  "about-us__uniSubDesc__subtitle__8":"教職員：830名、（うち教授・准教授：63名, 博士：295名 ）",
+  "about-us__university__title__3":"郵政電信工芸学院",
+  "about-us__uniSubDesc__subtitle__9":"1975 創立",
+  "about-us__uniSubDesc__subtitle__10":"郵政電信工芸学院は、研究力の評判の高い研究教育機関です。 情報通信技術の大学院および大学院教育があります。 アカデミーは、情報通信省の訓練機関です",
+  "about-us__uniSubDesc__subtitle__11":"学部生：15,000名以上 、大学院生：400名以上",
+  "about-us__uniSubDesc__subtitle__12":"教職員：767名、（うち 博士：112名 ）"
+
 }
