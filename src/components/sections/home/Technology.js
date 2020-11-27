@@ -6,7 +6,7 @@ import Image from '../../common/Image';
 import './Technology.css';
 import ALink from '../../common/ALink';
 
-const Technology = ({data}) => {
+const Technology = ({ data }) => {
   const { t } = useTranslation();
   return (
     <section className="technology">

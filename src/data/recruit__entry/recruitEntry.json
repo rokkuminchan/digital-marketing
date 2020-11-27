@@ -3,20 +3,13 @@
         "title": "entry__title",
         "action": "https://docs.google.com/forms/d/e/1FAIpQLScYglQwaH8k1yUejE3N_bLEpe_Wd9AC7inwaA8CoeNFMJtwvQ/formResponse",
         "submit": "entry__apply",
-        "items": [
-            {
+        "items": [{
                 "label": "entry__job-type-label",
                 "type": "select",
                 "name": "entry.1022775975",
                 "placeholder": "entry__job-type",
                 "is_required": "entry__required",
-                "option": [
-                    "entry__director",
-                    "entry__designer",
-                    "entry__frontend",
-                    "entry__backend",
-                    "entry__new-graduate"
-                ]
+                "option":["entry__director", "entry__designer", "entry__frontend", "entry__new-backend", "entry__new-graduate"]
             },
             {
                 "label": "entry__name-label",
@@ -45,10 +38,7 @@
                 "name": "entry.1908345381",
                 "placeholder": "entry__gender",
                 "is_required": "entry__required",
-                "choices": [
-                    "entry__male",
-                    "entry__female"
-                ]
+                "choices": ["entry__male", "entry__female"]
             },
             {
                 "label": "entry__current-job-label",
