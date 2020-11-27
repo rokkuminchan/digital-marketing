@@ -9,7 +9,6 @@ import {
 } from "react-icons/fa";
 
 import ALink from "../common/ALink";
-import LanguageSwitcher from "../common/LanguageSwitcher";
 import "./Footer.css";
 
 export default function Footer() {
@@ -43,7 +42,6 @@ export default function Footer() {
             お問い合わせ
           </ALink>
         </p>
-        <LanguageSwitcher />
       </div>
 
       <div className="footer__center">

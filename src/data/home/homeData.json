@@ -91,10 +91,7 @@
         "alt": "WorldRecruitHistory"
       }
     ],
-    "descriptions": [
-      "home-watashitachi__desc1",
-      "home-watashitachi__desc2"
-    ]
+    "descriptions": ["home-watashitachi__desc1", "home-watashitachi__desc2"]
   },
   "Characteristic": [
     {
@@ -157,7 +154,7 @@
           "alt": "icon3"
         },
         "title": "home-recruit__items-title3",
-        "description": "home-recruit__items-desc13"
+        "description": "home-recruit__items-desc3"
       }
     ]
   }

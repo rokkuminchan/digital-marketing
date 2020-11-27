@@ -2,6 +2,7 @@ import React from "react";
 import "./MenuHeader.css";
 import Logo from "../../images/world-logo.jpg";
 import ALink from "../common/ALink";
+import LanguageSwitcher from "../common/LanguageSwitcher";
 
 const menuClass = "menu-header__navigation";
 const menuExpandClass = "menu-header__navigation--expand";
@@ -96,6 +97,11 @@ export default function MenuHeader() {
           >
             お問い合わせ
           </ALink>
+        </li>
+        <li className="menu-header__navigation-item">
+          <div className="menu-header__navigation-link">
+            <LanguageSwitcher onAfterChangeLanguage={hideMenu} />
+          </div>
         </li>
       </ul>
     </header>
