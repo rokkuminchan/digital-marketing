@@ -74,14 +74,14 @@ export default function Footer() {
 
       <div className="footer__right">
         <div className="footer__icons">
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <FaFacebookF className="footer__facebook-icon" />
+          <a href="https://www.facebook.com/worldworks.vietnam" target="_blank">
+            <FaFacebookF className="footer__icon" />
           </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <FaTwitter className="footer__facebook-icon" />
+          <a href="https://twitter.com/world_recruit" target="_blank">
+            <FaTwitter className="footer__icon" />
           </a>
-          <a href="https://www.facebook.com/worldworks.vietnam">
-            <FaInstagram className="footer__facebook-icon" />
+          <a href="https://www.instagram.com/world_recruit/" target="_blank">
+            <FaInstagram className="footer__icon" />
           </a>
         </div>
         <p className="footer__copyright">

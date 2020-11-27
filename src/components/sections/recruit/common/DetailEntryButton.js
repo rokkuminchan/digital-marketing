@@ -1,12 +1,14 @@
 import React from "react";
+import ALink from "../../../common/ALink";
 import {useTranslation} from 'react-i18next';
 import "./DetailEntryButton.css";
 
 export default function DetailEntryButton(props) {
     const {t} = useTranslation();
     return (
-      <a href={props.path} className="recruit-detail__entry">
-        {t('recruit-entry__button')}
-      </a>
+    <ALink
+      className="recruit-detail__entry" to={props.path}>
+      {t('recruit-entry__button')}
+    </ALink>
     );
 }
