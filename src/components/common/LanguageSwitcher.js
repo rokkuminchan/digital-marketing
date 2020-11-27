@@ -39,16 +39,20 @@ export default function LanguageSwitcher() {
         }
     }
 
+    function getImageByLanguage(language) {
+        return language === "vi" ? VietnameseFlag : JapaneseFlag;
+    }
+
     function onChangeLanguage(e, language) {
         const currentLanguageIcon = document.getElementById("current-language__icon");
 
         i18n.changeLanguage(language);
-        currentLanguageIcon.src = language === "vi" ? VietnameseFlag : JapaneseFlag;
+        currentLanguageIcon.src = getImageByLanguage(language);
     }
 
     return <div className="dropdown">
         <div className="language-menu__current-language" onClick={myFunction} >
-            <Image id="current-language__icon" alt="Japanese" src={JapaneseFlag} />
+            <Image id="current-language__icon" alt="Japanese" src={getImageByLanguage(i18n.language)} />
         </div>
         <div id="language-menu" className="language-menu">
             <ALink to="#" onClick={e => onChangeLanguage(e, "jp")}>

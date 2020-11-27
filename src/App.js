@@ -41,7 +41,8 @@ import Graduate from "./components/pages/Graduate";
 import recruitEntry from "./data/recruit__entry/recruitEntry.json";
 
 i18next.init({
-  fallbackLng: "vi",
+  lng: "jp",
+  fallbackLng: "jp",
   resources: {
     jp: {
       translations: require("./locales/jp/translation.json"),
@@ -51,6 +52,8 @@ i18next.init({
     },
   },
   ns: ["translations"],
+  languages: ["jp", "vi"],
+  supportedLngs: ["jp", "vi"],
   defaultNS: "translations",
   returnObjects: true,
   debug: process.env.NODE_ENV === "development",
