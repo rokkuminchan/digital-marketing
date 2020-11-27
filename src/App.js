@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import i18next from "i18next";
 import {
-  useTranslation,
   I18nextProvider,
   withTranslation,
 } from "react-i18next";
-
-// Styles
-import "./App.css";
 
 // Components
 import Home from "./components/pages/Home";

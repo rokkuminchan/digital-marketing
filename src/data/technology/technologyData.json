@@ -1,151 +1,151 @@
 {
-    "technologyHeader":{
-       "title":"技術",
-       "image":{
-          "src":"../../images/technology__pageheader.png",
-          "alt":"Technology"
-       },
-       "description":"<p class='tech-page-header__description'><span class='strong-decs'>WORLD ITチーム</span>全員が最新の<span class='strong-decs'>テクノロジー</span>に習熟しています。オープンソース、オープンスタンダードのツールを選択し、持続性の高い開発を実現します。性能や生産性そして品質に違いが出ます</p>"
+    "technologyHeader": {
+        "title": "technology-page-header__title",
+        "image": {
+            "src": "../../images/technology__pageheader.png",
+            "alt": "Technology"
+        },
+        "description": "technology-page-header__description"
     },
-    "technologyList":{
-       "title":{
-          "large":"技術",
-          "small":"リスト"
-       },
-       "description":"<span class='technology-list__header-description'>主要な<span class='technology-list__header-description technology-list__header-description-bold'>テクノロジーやツールをご紹介しています。</span>詳細は、リンクからオフィシャル・サイトをご覧ください</span>",
-       "items":[
-          {
-             "title":"PWA",
-             "description":{
-                "bold":"PWA",
-                "normal":"とは、モバイル端末でウェブサイトを表示するときに、まるでネイティブアプリのような動作を可能にする仕組みです"
-             },
-             "link":"https://web.dev/progressive-web-apps/",
-             "image":{
-                "src":"../../images/technology__pwa.png",
-                "alt":"PWA"
-             }
-          },
-          {
-             "title":"AMP",
-             "description":{
-                "bold":"AMP",
-                "normal":"は、高速なモバイル対応のページを作るためのWebコンポーネント・フレームワークです"
-             },
-             "link":"https://amp.dev/",
-             "image":{
-                "src":"../../images/technology__amp.png",
-                "alt":"AMP"
-             }
-          },
-          {
-             "title":"BEM",
-             "description":{
-                "bold":"BEM",
-                "normal":"(Block Element Modifier)は、フロントエンドで再利用可能なコンポーネントとコード共有を実現するのに役立つ方法論です"
-             },
-             "link":"https://en.bem.info/",
-             "image":{
-                "src":"../../images/technology__bem.png",
-                "alt":"BEM"
-             }
-          },
-          {
-             "title":"GitHub",
-             "description":{
-                "bold":"GitHub",
-                "normal":"（ギットハブ）は、ソフトウェア開発のプラットフォームであり、ソースコードをホスティングするコードのバージョン管理システムです"
-             },
-             "link":"https://github.com/",
-             "image":{
-                "src":"../../images/technology__github.png",
-                "alt":"GitHub"
-             }
-          },
-          {
-             "title":"JAM Stack",
-             "description":{
-                "bold":"JAM Stack",
-                "normal":"は、パフォーマンスがく、高いセキュリティ、また安くスケールしやすいWebアプリを開発する新しいアーキテクチャです"
-             },
-             "link":"https://jamstack.org/",
-             "image":{
-                "src":"../../images/technology__jam-stack.jpg",
-                "alt":"JAM Stack"
-             }
-          },
-          {
-             "title":"JEST",
-             "description":{
-                "bold":"Jest ",
-                "normal":"はシンプルさを重視した、快適な JavaScript テスティングフレームワークです"
-             },
-             "link":"https://jestjs.io/",
-             "image":{
-                "src":"../../images/technology__jest.jpg",
-                "alt":"JEST"
-             }
-          },
-          {
-             "title":"Material Design",
-             "description":{
-                "bold":"",
-                "normal":"チームでAndroid、iOS、Flutter、およびWeb向けの高品質なデジタルエクスペリエンスを構築できるようにGoogleが作成したデザイン・システムです"
-             },
-             "link":"https://material.io/",
-             "image":{
-                "src":"../../images/technology__material-design.png",
-                "alt":"Material Design"
-             }
-          },
-          {
-             "title":"React",
-             "description":{
-                "bold":"React",
-                "normal":"は、Facebookとコミュニティによって開発されているインタラクティブなユーザインタフェース構築のためのJavaScriptライブラリです"
-             },
-             "link":"https://reactjs.org/",
-             "image":{
-                "src":"../../images/technology__react-js.png",
-                "alt":"React"
-             }
-          },
-          {
-             "title":"Trello",
-             "description":{
-                "bold":"Trello",
-                "normal":"は、アジャイル・プロジェクトに最適なタスク管理ツールです"
-             },
-             "link":"https://trello.com/",
-             "image":{
-                "src":"../../images/technology__trello.png",
-                "alt":"Trello"
-             }
-          },
-          {
-             "title":"Visual Studio Code",
-             "description":{
-                "bold":"Visual Studio Code",
-                "normal":"とは、オープンソースで開発され様々なプラットフォームで動作するエディターです"
-             },
-             "link":"https://code.visualstudio.com/",
-             "image":{
-                "src":"../../images/technology__vs-code.jpg",
-                "alt":"Visual Studio Code"
-             }
-          },
-          {
-             "title":"XD",
-             "description":{
-                "bold":"",
-                "normal":"Webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です"
-             },
-             "link":"https://www.adobe.com/jp/products/xd.html",
-             "image":{
-                "src":"../../images/technology__adobe-xd.png",
-                "alt":"Adobe XD"
-             }
-          }
-       ]
+    "technologyList": {
+        "title": {
+            "large": "technology-list__title__1",
+            "small": "technology-list__title__2"
+        },
+        "description": "technology-list-desc__1",
+        "items": [
+            {
+                "title": "technology-list__title__3",
+                "description": {
+                    "bold": "technology-list-desc-bold__1",
+                    "normal": "technology-list-desc-normal__1"
+                },
+                "link": "https://web.dev/progressive-web-apps/",
+                "image": {
+                    "src": "../../images/technology__pwa.png",
+                    "alt": "PWA"
+                }
+            },
+            {
+                "title": "technology-list__title__4",
+                "description": {
+                    "bold": "technology-list-desc-bold__2",
+                    "normal": "technology-list-desc-normal__2"
+                },
+                "link": "https://amp.dev/",
+                "image": {
+                    "src": "../../images/technology__amp.png",
+                    "alt": "AMP"
+                }
+            },
+            {
+                "title": "technology-list__title__5",
+                "description": {
+                    "bold": "technology-list-desc-bold__3",
+                    "normal": "technology-list-desc-normal__3"
+                },
+                "link": "https://en.bem.info/",
+                "image": {
+                    "src": "../../images/technology__bem.png",
+                    "alt": "BEM"
+                }
+            },
+            {
+                "title": "technology-list__title__6",
+                "description": {
+                    "bold": "technology-list-desc-bold__4",
+                    "normal": "technology-list-desc-normal__4"
+                },
+                "link": "https://github.com/",
+                "image": {
+                    "src": "../../images/technology__github.png",
+                    "alt": "GitHub"
+                }
+            },
+            {
+                "title": "technology-list__title__7",
+                "description": {
+                    "bold": "technology-list-desc-bold__5",
+                    "normal": "technology-list-desc-normal__5"
+                },
+                "link": "https://jamstack.org/",
+                "image": {
+                    "src": "../../images/technology__jam-stack.jpg",
+                    "alt": "JAM Stack"
+                }
+            },
+            {
+                "title": "technology-list__title__8",
+                "description": {
+                    "bold": "technology-list-desc-bold__6",
+                    "normal": "technology-list-desc-normal__6"
+                },
+                "link": "https://jestjs.io/",
+                "image": {
+                    "src": "../../images/technology__jest.jpg",
+                    "alt": "JEST"
+                }
+            },
+            {
+                "title": "technology-list__title__9",
+                "description": {
+                    "bold": "",
+                    "normal": "technology-list-desc-normal__7"
+                },
+                "link": "https://material.io/",
+                "image": {
+                    "src": "../../images/technology__material-design.png",
+                    "alt": "Material Design"
+                }
+            },
+            {
+                "title": "technology-list__title__10",
+                "description": {
+                    "bold": "technology-list-desc-bold__8",
+                    "normal": "technology-list-desc-normal__8"
+                },
+                "link": "https://reactjs.org/",
+                "image": {
+                    "src": "../../images/technology__react-js.png",
+                    "alt": "React"
+                }
+            },
+            {
+                "title": "technology-list__title__11",
+                "description": {
+                    "bold": "technology-list-desc-bold__9",
+                    "normal": "technology-list-desc-normal__9"
+                },
+                "link": "https://trello.com/",
+                "image": {
+                    "src": "../../images/technology__trello.png",
+                    "alt": "Trello"
+                }
+            },
+            {
+                "title": "technology-list__title__12",
+                "description": {
+                    "bold": "technology-list-desc-bold__10",
+                    "normal": "technology-list-desc-normal__10"
+                },
+                "link": "https://code.visualstudio.com/",
+                "image": {
+                    "src": "../../images/technology__vs-code.jpg",
+                    "alt": "Visual Studio Code"
+                }
+            },
+            {
+                "title": "technology-list__title__13",
+                "description": {
+                    "bold": "",
+                    "normal": "technology-list-desc-normal__11"
+                },
+                "link": "https://www.adobe.com/jp/products/xd.html",
+                "image": {
+                    "src": "../../images/technology__adobe-xd.png",
+                    "alt": "Adobe XD"
+                }
+            }
+        ]
     }
- }
+}

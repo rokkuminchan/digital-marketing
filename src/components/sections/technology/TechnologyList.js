@@ -1,16 +1,19 @@
 import React from "react";
 import "./TechnologyList.css";
 import ToolCard from "../../common/ToolCard.js";
+import { useTranslation } from "react-i18next";
 
-export default function TechnologyList({ data }) {
-  const description = `<div class="technology-list__header-description-padding">${data.description}</div>`;
+const TechnologyList = ({data}) => {
+  const { t } = useTranslation();
+// export default function TechnologyList({ data }) {
+  const description = `<div class="technology-list__header-description-padding">${t(data.description)}</div>`;
   return (
     <section className="technology-list">
       <div>
         <div className="technology-list__header">
           <div className="technology-list__header-title">
-            <span className="technology-list__header-title-large">{data.title.large}</span>
-            <span className="technology-list__header-title-small">{data.title.small}</span>
+            <span className="technology-list__header-title-large">{t(data.title.large)}</span>
+            <span className="technology-list__header-title-small">{t(data.title.small)}</span>
           </div>
           <div dangerouslySetInnerHTML={{__html: description}} />          
         </div>
@@ -23,3 +26,4 @@ export default function TechnologyList({ data }) {
     </section>
   );
 }
+export default TechnologyList;
