@@ -26,7 +26,7 @@ export default function LanguageSwitcher(props) {
     }
 
     // Close the dropdown if the user clicks outside of it
-    window.onclick = function (event) {
+    typeof window !== 'undefined' && (window.onclick = function (event) {
         if (!event.target.matches('.language-menu__current-language')) {
             var dropdowns = document.getElementsByClassName("language-menu");
             var i;
@@ -37,7 +37,7 @@ export default function LanguageSwitcher(props) {
                 }
             }
         }
-    }
+    })
 
     function getImageByLanguage(language) {
         return language === "vi" ? VietnameseFlag : JapaneseFlag;
