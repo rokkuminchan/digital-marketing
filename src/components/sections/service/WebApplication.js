@@ -5,15 +5,17 @@ import Title from "../../common/Title";
 import Description from "../../common/Description";
 import Image from "../../common/Image";
 import ALink from "../../common/ALink";
+import { useTranslation } from "react-i18next";
 
 export default function WebApplication({ data }) {
+  const { t } = useTranslation();
   return (
     <div className="web-application">
       <div className="web-application__title">
-        <Title data={data.title} />
+        <Title data={t(data.title)} />
       </div>
       <div className="web-application__desciption">
-        <Description data={data.description} />
+        <Description data={t(data.description)} />
       </div>
       <div className="web-application__items">
         {data.items.map((item, index) => (
@@ -24,16 +26,16 @@ export default function WebApplication({ data }) {
               {...item.image}
             />
             <div className="web-application__items-description">
-              <p>{item.description}</p>
+              <p>{t(item.description)}</p>
             </div>
           </div>
         ))}
       </div>
       <div className="web-application__sub-description">
-        <p>{data.subDescription1}</p>
-        <span>{data.subDescription2}</span>
+        <p>{t(data.subDescription1)}</p>
+        <span>{t(data.subDescription2)}</span>
         <span className="web-application__sub-description--link">
-          <ALink to={data.link.src}>{data.link.title}</ALink>
+          <ALink to={data.link.src}>{t(data.link.title)}</ALink>
         </span>
       </div>
       <Image className="web-application__image" {...data.image} />

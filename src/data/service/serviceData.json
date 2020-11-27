@@ -1,16 +1,16 @@
 {
   "ServiceHeader": {
-    "title": "サービス",
-    "description": "高品質な次世代型Webアプリを迅速に開発するチーム",
+    "title": "service-header__title",
+    "description": "service-header__description",
     "image": {
       "src": "../../images/service-pageheader.jpg",
       "alt": "service-page-header"
     },
-    "subDescription": "簡単なランティング・ページから高機能なWebアプリケーションまで、様々な規模のプロジェクトに対応します"
+    "subDescription": "service-header__subdesc"
   },
   "WebApplication": {
-    "title": "急速に進化を続けるWebアプリーケーション",
-    "description": "この次世代Webアプリを車に例えると、夢のような車になります",
+    "title": "service-web-application__title",
+    "description": "service-web-application__desc",
     "items": [
       {
         "cssCol": "web-application__items--left",
@@ -18,7 +18,7 @@
           "src": "../../images/service__web-app-1.jpg",
           "alt": "icon"
         },
-        "description": "10倍早く走る"
+        "description": "service-web-application__items-desc1"
       },
       {
         "cssCol": "web-application__items--right",
@@ -26,7 +26,7 @@
           "src": "../../images/service__web-app-2.jpg",
           "alt": "icon"
         },
-        "description": "燃費が10倍良い"
+        "description": "service-web-application__items-desc2"
       },
       {
         "cssCol": "web-application__items--left",
@@ -34,7 +34,7 @@
           "src": "../../images/service__web-app-3.jpg",
           "alt": "icon"
         },
-        "description": "安全性が高い"
+        "description": "service-web-application__items-desc3"
       },
       {
         "cssCol": "web-application__items--right",
@@ -42,13 +42,13 @@
           "src": "../../images/service__web-app-4.jpg",
           "alt": "icon"
         },
-        "description": "車の価格は２分の1"
+        "description": "service-web-application__items-desc4"
       }
     ],
-    "subDescription1": "PWA、JAM Stack、ヘッドレスCMOの登場により、全く姿を変えつつある現在のWebアプリケーション開発は、WORLDのITチームにお任せ下さい",
-    "subDescription2": "WORLDのITチームお勧めの最新テクノロジーは",
+    "subDescription1": "service-web-application__subdesc1",
+    "subDescription2": "service-web-application__subdesc2",
     "link": {
-      "title": "こちら",
+      "title": "service-web-application__link-title",
       "src": "/technology"
     },
     "image": {
@@ -57,17 +57,17 @@
     }
   },
   "WebApplicationRequirment": {
-    "title": "Webアプリケーション開発チームに求められる要件にとは",
+    "title": "service-web-application-requirment__title",
     "items": [
       {
         "icon": {
           "name": "MdHighQuality",
           "type": "MdHighQuality"
         },
-        "title": "生産性と品質の高さ",
+        "title": "service-web-application-requirment__items-title1",
         "descriptions": [
-          "生産性が高く、予算と納期の範囲内で製品を開発できること",
-          "短いテスト期間でも高品質な製品を開発できること"
+          "service-web-application-requirment__items-desc1-1",
+          "service-web-application-requirment__items-desc1-2"
         ]
       },
       {
@@ -75,11 +75,11 @@
           "name": "BsLightningFill",
           "type": "BsLightningFill"
         },
-        "title": "アジリティの高さ",
+        "title": "service-web-application-requirment__items-title2",
         "descriptions": [
-          "短いサイクルでリリースを繰り返し行えること",
-          "リリースを繰り返しても生産性が落ちないこと",
-          "リリース直前の変更でも受け入れられること"
+          "service-web-application-requirment__items-desc2-1",
+          "service-web-application-requirment__items-desc2-2",
+          "service-web-application-requirment__items-desc2-3"
         ]
       },
       {
@@ -87,11 +87,11 @@
           "name": "IoIosSwitch",
           "type": "IoIosSwitch"
         },
-        "title": "少人数先鋭であること *",
+        "title": "service-web-application-requirment__items-title3",
         "descriptions": [
-          "チーム編成または会議において、無駄がなく生産性が高いこと",
-          "効率的で各自のモチベーションが高いこと",
-          "お互いをフォローしあい、チームの団結力が強いこと"
+          "service-web-application-requirment__items-desc3-1",
+          "service-web-application-requirment__items-desc3-2",
+          "service-web-application-requirment__items-desc3-3"
         ]
       }
     ],
@@ -100,8 +100,8 @@
       "alt": ""
     },
     "comment": [
-      "* ピザ2枚ルールとは",
-      "ピザ2枚ルールとはAmazonのジェフ・ベゾスが提唱したルールで、1つのチームはピザ2枚を囲める人数以下にしなければならないというものです"
+      "service-web-application-requirment__comment1",
+      "service-web-application-requirment__comment2"
     ]
   },
   "AgileTeamComposition": {
