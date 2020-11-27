@@ -1,8 +1,10 @@
 import React from "react";
 import "./PageHeader.css";
 import Background from "../../../images/aboutus__page-header.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function PageHeader() {
+  const { t } = useTranslation();
   return (
     <section className="page-header">
       <div className="page-header__banner">
