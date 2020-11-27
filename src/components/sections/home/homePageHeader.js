@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import { useTranslation } from "react-i18next";
 import HomePageHeaderImage from "../../../images/home__page-header.jpg"
 
 import "./homePageHeader.css"
@@ -18,20 +19,21 @@ const HeaderImageBackground = styled.div`
 `;
 
 export default function HomePageHeader({data}) {
+    const { t } = useTranslation();
     return (
         <section className="home-page-header">
             <HeaderImageBackground className="home-page-header__bg"></HeaderImageBackground>
             <div className="home-page-header__title-container">
                 <div className="home-page-header__title-first-column"></div>
                 <div className="home-page-header__title-second-column">
-                    <h2 className="home-page-header__title">{data.title}</h2>
+                     <h2 className="home-page-header__title">{t(data.title)}</h2>
                 </div>
             </div>
 
             <div className="home-page-header__description-container">
                 <div className="home-page-header__description-first-column">
-                    <p className="home-page-header__description">{data.description}</p>
-                    <p className="home-page-header__description">{data.subDescription}</p>
+                    <p className="home-page-header__description">{t(data.description)}</p>
+                    <p className="home-page-header__description">{t(data.subDescription)}</p>
                 </div>
                 <div className="home-page-header__description-second-column"></div>
             </div>
