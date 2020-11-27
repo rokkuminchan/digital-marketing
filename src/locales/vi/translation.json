@@ -189,5 +189,15 @@
   "director-job-target__desc__1": "Tự bản thân luôn linh hoạt trong suy nghĩ và hành động",
   "director-job-target__desc__2": "Có sự chọn lọc cho kết quả đầu ra và các ý tưởng mới",
   "director-job-target__desc__3": "Có khả năng phát hiện và tự mình giải quyết vấn đề",
-  "director-job-target__desc__4": "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team"
+  "director-job-target__desc__4": "Sẵn sàng học hỏi công nghệ mới. Ngoài ra, còn có thể hỗ trợ các thành viên khác trong team",
+  "service-agileTeam-title": "Quy trình Agile",
+  "service-agileTeam-desctiption": "Đội ngũ của chúng tôi bao gồm các kĩ sư IT sở hữu những thế mạnh riêng và có thể trực tiếp tham gia Coding. Ngôn ngữ phổ biến của nhôm là HTML, CSS, JavaScript. Với những tài liệu bắt buộc tối thiểu có thể nhanh chóng phát triển thành dự án trong thực tiễn",
+  "service-agileTeam-List_title1": "Web Director",
+  "service-agileTeam-List_description1": "Là người có khả năng giao tiếp và khả năng đề ra phương hướng trong dự án",
+  "service-agileTeam-List_title2": "Designer",
+  "service-agileTeam-List_description2": "Hiểu biết về thiết kế Web responsive, nhanh chóng thể hiện các yêu cầu của khách hàng thông qua XD",
+  "service-agileTeam-List_title3": "Front-End Engineer",
+  "service-agileTeam-List_description3": "Sử dụng React chia nhỏ các thành phần giao diện của Website nhằm để tái sử dụng, dễ bảo trì dù quy mô dự án có lớn thì vẫn đảm bảo tiến độ",
+  "service-agileTeam-List_title4": "Back-End Engineer",
+  "service-agileTeam-List_description4": "Hiểu biết sâu về các dịch vụ điện toán đám mây Cloud và Serverless"
 }

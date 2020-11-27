@@ -189,5 +189,15 @@
   "director-job-target__desc__1": "柔軟性を持ち、自ら考え行動ができる",
   "director-job-target__desc__2": "新しい発想やアウトプットへのこだわりがある",
   "director-job-target__desc__3": "問題を見つけ、自ら解決までできる",
-  "director-job-target__desc__4": "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートできる方"
+  "director-job-target__desc__4": "自ら進んで新しい技術を学ぶ意欲がある方。また、他のメンバーの学習のサポートできる方",
+  "service-agileTeam-title": "アジャイル・チームの構成",
+  "service-agileTeam-desctiption": "それぞれが得意分野を持ち、全員がコーディング出来るIT技術者のチームです。チームの共通言語は、HTML、CSS、JavaScriptです。必要最小限のドキュメントで迅速に実際に動作するプロダクトを開発します",
+  "service-agileTeam-List_title1": "ウェブ・デイレクター",
+  "service-agileTeam-List_description1": "コミュニケーション能力が高く、ディレクションが出来る人材です",
+  "service-agileTeam-List_title2": "デサイナー",
+  "service-agileTeam-List_description2": "レスポンシブなWebデザインを理解し、XDにより迅速に要求を目に見える形にします",
+  "service-agileTeam-List_title3": "フロントエンド・エンジニア",
+  "service-agileTeam-List_description3": "Reactにより、Webコンポーネントベースの開発を行います。再利用性、保守性の高いコンポーネントの開発により、システムの規模が大きくなっても、開発スピードが落ちることはありません",
+  "service-agileTeam-List_title4": "バックエンド・エンジニア",
+  "service-agileTeam-List_description4": "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します"
 }
