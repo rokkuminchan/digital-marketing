@@ -10,7 +10,7 @@ import Image from "./Image";
 
 const showMenuClass = "show";
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher(props) {
     const [, i18n] = useTranslation();
 
     function myFunction(e) {
@@ -48,6 +48,7 @@ export default function LanguageSwitcher() {
 
         i18n.changeLanguage(language);
         currentLanguageIcon.src = getImageByLanguage(language);
+        props.onAfterChangeLanguage && props.onAfterChangeLanguage();
     }
 
     return <div className="dropdown">

@@ -100,7 +100,7 @@ export default function MenuHeader() {
         </li>
         <li className="menu-header__navigation-item">
           <div className="menu-header__navigation-link">
-            <LanguageSwitcher />
+            <LanguageSwitcher onAfterChangeLanguage={hideMenu} />
           </div>
         </li>
       </ul>
