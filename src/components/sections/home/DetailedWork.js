@@ -1,21 +1,21 @@
 import React from "react";
-
-import Title from "../../common/Title";
+import { useTranslation } from "react-i18next";
 import Image from "../../common/Image";
 import "./DetailedWork.css";
 import ALink from "../../common/ALink";
 
 const DetailedWork = ({ data }) => {
+  const { t } = useTranslation();
   return (
     <section className="detailedwork__wrapper">
-      <h3 className="detailedwork__title">{data.title}</h3>
+      <h3 className="detailedwork__title">{t(data.title)}</h3>
       <Image className="detailedwork__image" {...data.image} />
       <div className="detailedwork__description">
-        <p>{data.descriptions1}</p>
+        <p>{t(data.descriptions1)}</p>
         <span>
-          {data.descriptions2}
+          {t(data.descriptions2)}
           <ALink to={data.link.src} className="detailedwork__description--link">
-            {data.link.title}
+            {t(data.link.title)}
           </ALink>
         </span>
       </div>

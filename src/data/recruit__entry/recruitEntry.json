@@ -73,7 +73,8 @@
                 "name": "entry.1156664848",
                 "placeholder": "",
                 "is_required": "entry__optional"
-            },
+            }
+            ,
             {
                 "label": "entry__cv-label",
                 "type": "file",
@@ -81,7 +82,7 @@
                 "placeholder": "entry__cv",
                 "is_required": "entry__optional"
             }
-
+           
         ]
     }
 }
