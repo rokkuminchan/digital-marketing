@@ -1,13 +1,13 @@
 const path = require('path');
 
 exports.createPages = async ({ actions, graphql }) => {
-    const { createPage } = actions;
-    const jobDetailComponent = path.resolve(`src/pages/recruit/entry/index.js`);
-    const jobs = ["backend", "designer", "director", "new-graduate", "frontend"];
-    const otherLanguages = ["vi"];
-    const routePath = (job, language) => `${language ? `/${language}` : ""}/recruit/${job}/entry`;
+  const { createPage } = actions;
+  const jobDetailComponent = path.resolve(`src/pages/recruit/entry/entryPage.js`);
+  const jobs = ["backend", "designer", "director", "new-graduate", "frontend"];
+  const otherLanguages = ["vi"];
+  const routePath = (job, language) => `${language ? `/${language}` : ""}/recruit/${job}/entry`;
 
-    const result = await graphql(`
+  const result = await graphql(`
     {
         recruitEntryJson {
           EntryForm {
@@ -27,22 +27,19 @@ exports.createPages = async ({ actions, graphql }) => {
         }
       }
     `);
-    console.log("=====================")
-    console.log(result.data.recruitEntryJson.EntryForm.title);
-    console.log("=====================")
 
-    const createPageFromData = (job, language) => {
-        createPage({
-            path: routePath(job, language),
-            component: jobDetailComponent,
-            context: {
-                data: result.data.recruitEntryJson
-            }
-        });
-    };
-
-    jobs.forEach(job => {
-        createPageFromData(job);
-        otherLanguages.forEach(other => createPageFromData(job, other));
+  const createPageFromData = (job, language) => {
+    createPage({
+      path: routePath(job, language),
+      component: jobDetailComponent,
+      context: {
+        data: result.data.recruitEntryJson
+      }
     });
+  };
+
+  jobs.forEach(job => {
+    createPageFromData(job);
+    otherLanguages.forEach(other => createPageFromData(job, other));
+  });
 };
