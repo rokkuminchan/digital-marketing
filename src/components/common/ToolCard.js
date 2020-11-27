@@ -1,22 +1,20 @@
 import React from "react";
 import "./ToolCard.css";
 import Image from "./Image";
-import { useTranslation } from "react-i18next";
 
-const Card = ({data}) => {
-  const { t } = useTranslation();
+export default function Card({ data }) {
   return (
     <section className="toolcard">
       <div className="toolcard__content">
         <div className="toolcard__content-title">
-          <h3>{t(data.title)}</h3>
+          <h3>{data.title}</h3>
         </div>
         <span className="toolcard__content-description-bold">
-          {t(data.description.bold)}
+          {data.description.bold}
         </span>
-        <span>{t(data.description.normal)}</span>
+        <span>{data.description.normal}</span>
         <a className="toolcard__link" href={data.link}>
-          {t(data.link)}
+          {data.link}
         </a>
       </div>
       <div>
@@ -25,4 +23,3 @@ const Card = ({data}) => {
     </section>
   );
 }
-export default Card;
