@@ -1,0 +1,46 @@
+.language-menu__current-language {
+    background-color: #3498DB;
+    color: white;
+    padding: 2px;
+    width: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .language-menu__current-language:hover, .language-menu__current-language:focus {
+    background-color: #3987bb;
+  }
+  
+  .language-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-menu{
+    display: none;
+    position: fixed;
+    background-color:#2980B9;
+    min-width: 40px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .language-menu a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .language-menu a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  .language-menu__flag-icon {
+    height: 16px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}

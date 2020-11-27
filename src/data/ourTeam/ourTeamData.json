@@ -240,99 +240,99 @@
       ]
    },
    "worldRecruitHistory": {
-      "title": "ベトナム人技術者の採用",
-      "description": "ベトナムは若者の人国が多く、国としてもIT技術に力を入れていますので、IT業界での慢性的な人材不足を解決する国として注目されています。ワールドでも、ベトナムに注目して、2018年からIT人材の採用をしてきています",
+      "title": "about-us__worldRecruitHistory__title",
+      "description": "about-us__worldRecruitHistory__desc",
       "image": {
          "src": "../../images/aboutus__world-recruit-history.jpeg",
          "alt": "WorldRecruitHistory"
       }
    },
    "vietnamUniversity": {
-      "title": "ベトナムの大学",
-      "description": "ワールドのITチームでは、ベトナムのトップレベル大学とMOUを締結するとともに、情報処理系学部の卒業生たちを採用しています。ITチームのメンバーの卒業大学をご紹介します",
+      "title": "about-us__vietnamUniversity__title",
+      "description": "about-us__vietnamUniversity__desc",
       "items": [
          {
-            "title": "ハノイ 工科大学",
+            "title": "about-us__university__title__1",
             "image": {
                "src": "../../images/aboutus__bkhn.jpg",
                "alt": "bkhn"
             },
             "description": [
                {
-                  "title": "経歴",
+                  "title": "about-us__uniSubDesc__title__1",
                   "subtitle": [
-                     "1956 創立"
+                     "about-us__uniSubDesc__subtitle__1"
                   ]
                },
                {
-                  "title": "特徴",
+                  "title": "about-us__uniSubDesc__title__2",
                   "subtitle": [
-                     "ハノイ工科大学は、ベトナムで最初の国立工科大学として創立された。その後エンジニアの訓練のための機関や国のほとんど全ての工業部局のための科学研究のための機関としての役割を担っています"
+                     "about-us__uniSubDesc__subtitle__2"
                   ]
                },
                {
-                  "title": "規模",
+                  "title": "about-us__uniSubDesc__title__3",
                   "subtitle": [
-                     "学部生：33,000名以上, 大学院生：3,600名以上（修士課程学生 ：3,000名以上、博士課程学生：600名）",
-                     "教職員：1,748名、（うち教授・准教授：259名, 博士：765名）"
+                     "about-us__uniSubDesc__subtitle__3",
+                     "about-us__uniSubDesc__subtitle__4"
                   ]
                }
             ],
             "link": "https://hust.edu.vn/"
          },
          {
-            "title": "ダナン工科大学",
+            "title": "about-us__university__title__2",
             "image": {
                "src": "../../images/aboutus__bkdn.jpg",
                "alt": "bkdn"
             },
             "description": [
                {
-                  "title": "経歴",
+                  "title": "about-us__uniSubDesc__title__1",
                   "subtitle": [
-                     "1953 創立"
+                     "about-us__uniSubDesc__subtitle__5"
                   ]
                },
                {
-                  "title": "特徴",
+                  "title": "about-us__uniSubDesc__title__2",
                   "subtitle": [
-                     "ダナン工科大学は、ダナン大学傘下の技術系大学。ダナン工科大学の卒業生たちの多くが専門家として、ベトナム国内の学術、経済、教育などの発展を支えている。大学の位置するダナン市は、ベトナム５大都市のひとつです"
+                     "about-us__uniSubDesc__subtitle__6"
                   ]
                },
                {
-                  "title": "規模",
+                  "title": "about-us__uniSubDesc__title__3",
                   "subtitle": [
-                     "学部生：14,000名以上",
-                     "教職員：830名、（うち教授・准教授：63名,  博士：295名 ）"
+                     "about-us__uniSubDesc__subtitle__7",
+                     "about-us__uniSubDesc__subtitle__8"
                   ]
                }
             ],
             "link": "http://dut.udn.vn/"
          },
          {
-            "title": "郵政電信工芸学院",
+            "title": "about-us__university__title__3",
             "image": {
                "src": "../../images/aboutus__bcvt.jpg",
                "alt": "bcvt"
             },
             "description": [
                {
-                  "title": "経歴",
+                  "title": "about-us__uniSubDesc__title__1",
                   "subtitle": [
-                     "1975 創立"
+                     "about-us__uniSubDesc__subtitle__9"
                   ]
                },
                {
-                  "title": "特徴",
+                  "title": "about-us__uniSubDesc__title__2",
                   "subtitle": [
-                     "郵政電信工芸学院は、研究力の評判の高い研究教育機関です。 情報通信技術の大学院および大学院教育があります。 アカデミーは、情報通信省の訓練機関です"
+                     "about-us__uniSubDesc__subtitle__10"
                   ]
                },
                {
-                  "title": "規模",
+                  "title": "about-us__uniSubDesc__title__3",
                   "subtitle": [
-                     "学部生：15,000名以上 、大学院生：400名以上",
-                     "教職員：767名、（うち  博士：112名 ）"
+                     "about-us__uniSubDesc__subtitle__11",
+                     "about-us__uniSubDesc__subtitle__12"
                   ]
                }
             ],
@@ -341,8 +341,8 @@
       ]
    },
    "relationship": {
-      "title": "ベトナムと日本との関係",
-      "description": "2009年に日本・ベトナム経済連携協定を締結、貿易の自由化、ベトナム人人材の受け入れ経済的結びつきを強める下地が出来ました。2012年にEPAが発効しベトナムの看護師・介護福祉士候補者の受け入れとベトナム人労働者の受け入れが始まりました。その後、日本国内の日本語学校が急増し出稼ぎ目的の留学生が来日するようにもなっています。技能実習生の数では、2016年に中国を抜き2018年には半分を占めるほどになりました",
+      "title": "about-us__relationship__title",
+      "description": "about-us__relationship__desc",
       "image": {
          "src": "../../images/aboutus__vnjp.jpg",
          "alt": "about-us-vietnam-and-japan"
