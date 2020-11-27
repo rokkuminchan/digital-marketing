@@ -20,7 +20,7 @@ export default function Home({ data }) {
       <AboutUs data={data.Watashitachi} />
       <Technology data={data.Technology} />
       <Recruit data={data.Recruit} />
-      <Contact />
+      <Contact data={data.Contact} />
     </React.Fragment>
   );
 }

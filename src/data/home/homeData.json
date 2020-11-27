@@ -157,5 +157,11 @@
         "description": "home-recruit__items-desc3"
       }
     ]
+  },
+  "Contact": {
+       "link": {
+      "title": "home-contact__link-title",
+      "src": "/contact"
+    }
   }
 }
