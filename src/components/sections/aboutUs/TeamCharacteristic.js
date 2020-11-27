@@ -16,7 +16,7 @@ const TeamCharacteristic = ({ data }) => {
       </div>
       <div className="team-characteristic__items">
         {data.items.map((item, index) => {
-          return <DescriptiveIcon key={index} data={t(item)} />;
+          return <DescriptiveIcon key={index} data={item} />;
         })}
       </div>
     </section>

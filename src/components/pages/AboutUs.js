@@ -12,7 +12,7 @@ import VNUniversity from "../sections/aboutUs/VNUniversity";
 export default function AboutUs({ data }) {
   return (
     <React.Fragment>
-      <PageHeader />
+      <PageHeader data={data.pageHeader}/>
       <Mission data={data.mission} />
       <Vision data={data.vision} />
       <TeamCharacteristic data={data.teamCharacteristic} />

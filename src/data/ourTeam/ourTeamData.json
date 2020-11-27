@@ -1,4 +1,14 @@
 {
+   
+   "pageHeader":{
+   "title": "about-us-page-header__title",
+   "description": "about-us-page-header__description",
+   "image": {
+      "src": "",
+      "alt": "page"
+   },
+   "subDescription": "about-us-page-header__subDescription"
+   },
    "title": "about-us-page-header__title",
    "description": "about-us-page-header__description",
    "image": {

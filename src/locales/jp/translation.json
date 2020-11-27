@@ -272,8 +272,9 @@
   "service-agileTeam-List_title4": "バックエンド・エンジニア",
   "service-agileTeam-List_description4": "クラウド・バックエンド・サービスを使いこなすエンジニアです。サーバーレスにも対応します",
 
-  "about-us-page-header__title":"私たちは第二世代のベトナム人ITエンジニアのチームです",
-  "about-us-page-header__description":"高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます。また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します",
+  "about-us-page-header__title":"WORLD IT TEAM",
+  "about-us-page-header__description":"私たちは第二世代のベトナム人ITエンジニアのチームです",
+  "about-us-page-header__subDescription":"高度IT人材として日本のDXに貢献するために、普通の日本人と同じように、日本語の読み書きや会話ができ、日本の文化を理解し、尊重し、日本人の働き方を学んでいます。また、最新のIT技術を学び、仕事に役立つシステムを設計・実装します",
   "about-us-mission__title":"Mission",
   "about-us-mission__description":"高度IT人材で日本のDXに貢献する",
   "about-us-vision__title":"Vision",
