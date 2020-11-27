@@ -10,8 +10,10 @@ import {
 
 import ALink from "../common/ALink";
 import "./Footer.css";
+import {useTranslation} from 'react-i18next';
 
 export default function Footer() {
+  const {t} = useTranslation();
   return (
     <footer className="footer__distributed">
       <div className="footer__left">
@@ -19,27 +21,27 @@ export default function Footer() {
         <p className="footer__links">
           <ALink exact to="/" activeClassName="active">
             {" "}
-            ホーム{" "}
+            {t('menu-header__home')}{" "}
           </ALink>
           ｜｜
           <ALink exact to="/services" activeClassName="active">
-            サービス
+          {t('menu-header__service')}
           </ALink>
           ｜｜
           <ALink exact to="/technology" activeClassName="active">
-            技術
+          {t('menu-header__technology')}
           </ALink>
           ｜｜
           <ALink exact to="/about-us" activeClassName="active">
-            我々について
+          {t('menu-header__about-us')}
           </ALink>
           ｜｜
           <ALink exact to="/recruit" activeClassName="active">
-            採用
+          {t('menu-header__recruit')}
           </ALink>
           ｜｜
           <ALink exact to="/contact" activeClassName="active">
-            お問い合わせ
+          {t('menu-header__contact')}
           </ALink>
         </p>
       </div>
@@ -51,7 +53,7 @@ export default function Footer() {
           </div>
           <p>
             <span>〒500-8856</span>
-            岐阜県岐阜市橋本町2-8 濃飛ニッセイビル6階
+            {t('footer__address')}
           </p>
         </div>
 
