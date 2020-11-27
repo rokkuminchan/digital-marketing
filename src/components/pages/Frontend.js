@@ -7,6 +7,7 @@ import RecruitJobOther from "../sections/recruit/common/JobOther";
 import EntryButton from "../common/EntryButton";
 
 export default function Frontend({ data }) {
+<<<<<<< HEAD
   return (
     <React.Fragment>
       <JobPageHeader data={data.FrontEndHeader} />
@@ -18,3 +19,17 @@ export default function Frontend({ data }) {
     </React.Fragment>
   );
 }
+=======
+
+    return (
+        <React.Fragment>
+            <JobPageHeader data={data.FrontEndHeader} />
+            <Breadcrumb data={data.FrontEndHeader} />
+            <RecruitDetail data={data.JobDetails} />
+            <DetailEntryButton path="/frontend/entry" />
+            <RecruitJobOther data={data.JobOther} />
+            <EntryButton path="/frontend/entry" />
+        </React.Fragment>
+    );
+}
+>>>>>>> 9457392fa9a210a269ea58a3c7eb94441c513654

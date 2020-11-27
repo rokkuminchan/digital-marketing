@@ -1,10 +1,4 @@
 {
-    "Banner": {
-        "image": {
-            "src": "../../../../images/recruit__entry__banner.jpg",
-            "alt": "test"
-        }
-    },
     "EntryForm": {
         "title": "entry__title",
         "action": "https://docs.google.com/forms/d/e/1FAIpQLScYglQwaH8k1yUejE3N_bLEpe_Wd9AC7inwaA8CoeNFMJtwvQ/formResponse",
@@ -15,7 +9,7 @@
                 "name": "entry.1022775975",
                 "placeholder": "entry__job-type",
                 "is_required": "entry__required",
-                "option":["entry__director", "entry__designer", "entry__frontend", "entry__backend", "entry__new-graduate"]
+                "option":["entry__director", "entry__designer", "entry__frontend", "entry__new-backend", "entry__new-graduate"]
             },
             {
                 "label": "entry__name-label",
@@ -74,15 +68,6 @@
                 "placeholder": "",
                 "is_required": "entry__optional"
             }
-            ,
-            {
-                "label": "entry__cv-label",
-                "type": "file",
-                "name": "entry.1512529765",
-                "placeholder": "entry__cv",
-                "is_required": "entry__optional"
-            }
-           
         ]
     }
 }
