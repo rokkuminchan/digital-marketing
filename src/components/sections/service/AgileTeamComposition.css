@@ -50,10 +50,10 @@
 
 /* Color Item */
 .items-container:nth-child(1) div .AgileTeamComposition-List__text {
-  background-color: rgba(20, 114, 238, 0.5);
+  background-color: rgba(142, 185, 21, 0.5);
 }
 .items-container:nth-child(2) div .AgileTeamComposition-List__text {
-  background-color: rgba(142, 185, 21, 0.5);
+  background-color: rgba(20, 114, 238, 0.5);
 }
 .items-container:nth-child(3) div .AgileTeamComposition-List__text {
   background-color: rgba(247, 86, 37, 0.5);
