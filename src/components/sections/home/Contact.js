@@ -1,14 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import "./Contact.css";
 import ALink from "../../common/ALink";
 
-import "./Contact.css";
-
-const Contact = () => {
+const Contact = ({ data }) => {
+  const { t } = useTranslation();
   return (
     <section className="button-contain">
       <button className="button">
-        <ALink to="/contact" className="button__link">
-          お問い合わせ
+        <ALink to={data.link.src} className="button__link">
+          {t(data.link.title)}
         </ALink>
       </button>
     </section>

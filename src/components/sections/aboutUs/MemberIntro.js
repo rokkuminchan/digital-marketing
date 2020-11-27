@@ -3,12 +3,14 @@ import "./MemberIntro.css";
 import Title from "../../common/Title.js";
 import Card from "../../common/Card.js";
 import Description from "../../common/Description";
+import { useTranslation } from "react-i18next";
 
-export default function MemberIntro({ data }) {
+const MemberIntro =({ data })=> {
+  const {t}= useTranslation();
   return (
     <section className="memberIntro">
-      <Title data={data.title} />
-      <Description data={data.description} />
+      <Title data={t(data.title)} />
+      <Description data={t(data.description)} />
       <div className="memberIntro__items">
         {data.items.map((member, index) => {
           return <Card key={index} data={member} />;
@@ -16,4 +18,5 @@ export default function MemberIntro({ data }) {
       </div>
     </section>
   );
-}
+};
+export default MemberIntro;
