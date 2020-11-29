@@ -27,85 +27,98 @@ export default function MenuHeader() {
 
   return (
     <header className="menu-header">
-      <ALink to="/" className="menu-header__logo">
-        <img src={Logo} alt="" id="logo" />
-      </ALink>
-      <input
-        className="menu-header__visibility-btn"
-        onClick={toggleMenu}
-        type="checkbox"
-        id="menu-btn"
-      />
-      <label className="menu-header__icon" htmlFor="menu-btn">
-        <span className="menu-header__navicon"></span>
-      </label>
-      <ul className={menuClass}>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/"
-            activeClassName="active"
-          >
-            {t('menu-header__home')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/services"
-            activeClassName="active"
-          >
-            {t('menu-header__service')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/technology"
-            activeClassName="active"
-          >
-            {t('menu-header__technology')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/about-us"
-            activeClassName="active"
-          >
-            {t('menu-header__about-us')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/recruit"
-            activeClassName="active"
-          >
-            {t('menu-header__recruit')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item" onClick={hideMenu}>
-          <ALink
-            className="menu-header__navigation-link"
-            exact
-            to="/contact"
-            activeClassName="active"
-          >
-            {t('menu-header__contact')}
-          </ALink>
-        </li>
-        <li className="menu-header__navigation-item">
-          <div className="menu-header__navigation-link">
-            <LanguageSwitcher onAfterChangeLanguage={hideMenu} />
-          </div>
-        </li>
-      </ul>
+      <div className= "menu-header__content-left">
+        <ALink to="/" className="menu-header__logo">
+          <img src={Logo} alt="" id="logo" />
+        </ALink>
+      </div>
+
+      <div className="menu-header__content-right">
+            <div className="menu-header__content-item">
+              <label className="menu-header__icon" htmlFor="menu-btn">
+                <span className="menu-header__navicon"></span>
+              </label>
+              <ul className={menuClass}>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__home')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/services"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__service')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/technology"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__technology')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/about-us"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__about-us')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/recruit"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__recruit')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
+                    to="/contact"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__contact')}
+                  </ALink>
+                </li>
+              </ul>
+            </div>
+            
+            <div className="menu-header__content-item">
+              <input
+                  className="menu-header__visibility-btn"
+                  onClick={toggleMenu}
+                  type="checkbox"
+                  id="menu-btn"
+                />
+            </div>
+
+            <div className="menu-header__content-item">
+              <div className="menu-header__Language">
+                <LanguageSwitcher  onAfterChangeLanguage={hideMenu} />
+              </div>
+            </div>    
+      </div> 
+
+        
     </header>
   );
 }
