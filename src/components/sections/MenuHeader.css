@@ -6,6 +6,17 @@
   height: var(--header-menu-height);
   width: 100%;
   z-index: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-header__content-right {
+  display: flex;
+  margin: 0 2rem;
+}
+
+.menu-header__Language {
+  padding-top: 25px;
 }
 
 .menu-header__navigation {
@@ -91,6 +102,13 @@
 .menu-header__navigation--expand {
   max-height: none;
 }
+@media screen and (min-width: 320px) {
+  .menu-header__content-right {
+    margin: 0;
+    padding-right: 12px;
+  }
+  
+}
 
 @media screen and (min-width: 850px) {
   .menu-header__navigation-item {
@@ -109,5 +127,11 @@
 
   .menu-header__icon {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .menu-header__content-item {
+    margin-left: 2px;
   }
 }
