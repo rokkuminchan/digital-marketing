@@ -85,118 +85,114 @@ export default function EntryForm({ data, location }) {
   ) : (
     <section className="entry">
       <h3 className="entry__title">{t(data.title)}</h3>
-      <div className="entry__form">
-        <form
-          className="entry__form"
-          name="entry"
-          action={data.action}
-          onSubmit={handleSubmit}
-        >
-          {data.items.map((item, index) => {
-            switch (item.type) {
-              case "textarea":
-                return (
-                  <div className="entry__row_area">
-                    <div className="entry__label">
-                      <label className="">
-                        {t(item.label)}
-                        <rect className={setClassRequired(item.is_required)} />
-                      </label>
+      <form
+        className="entry__form"
+        name="entry"
+        action={data.action}
+        onSubmit={handleSubmit}
+      >
+        {data.items.map((item, index) => {
+          switch (item.type) {
+            case "textarea":
+              return (
+                <div className="entry__row_area">
+                  <div className="entry__label">
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
+                  </div>
+                  <div className="entry__item">
+                    <textarea
+                      className="entry__field"
+                      key={index}
+                      name={item.name}
+                    />
+                  </div>
+                </div>
+              );
+            case "select":
+              return (
+                <div className="entry__row">
+                  <div className="entry__label">
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
+                  </div>
+                  <div className="entry__item">
+                    <select
+                      className="entry__field"
+                      name={item.name}
+                      value={t("entry__" + job)}
+                      readonly
+                    >
+                      {item.option.map((option, index) => {
+                        return <option value={t(option)}>{t(option)}</option>;
+                      })}
+                    </select>
+                  </div>
+                </div>
+              );
+            case "radio":
+              return (
+                <div className="entry__row">
+                  <div className="entry__label">
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
+                  </div>
+                  <div className="entry__item">
+                    <div className="entry__field">
+                      {item.choices.map((choice, index) => {
+                        return [
+                          <input
+                            type="radio"
+                            name={item.name}
+                            value={t(choice)}
+                            onChange={(e) => handleChange(item.placeholder, e)}
+                          />,
+                          <label for={t(choice)}>{t(choice)}</label>,
+                          "  ",
+                        ];
+                      })}
                     </div>
-                    <div className="entry__item">
-                      <textarea
-                        className="entry__field"
-                        key={index}
-                        name={item.name}
-                      />
+                    <div className="entry__error">
+                      {t(displayError(errors, item.placeholder))}
                     </div>
                   </div>
-                );
-              case "select":
-                return (
-                  <div className="entry__row">
-                    <div className="entry__label">
-                      <label className="">
-                        {t(item.label)}
-                        <rect className={setClassRequired(item.is_required)} />
-                      </label>
-                    </div>
-                    <div className="entry__item">
-                      <select
-                        className="entry__field"
-                        name={item.name}
-                        value={t("entry__" + job)}
-                        readonly
-                      >
-                        {item.option.map((option, index) => {
-                          return <option value={t(option)}>{t(option)}</option>;
-                        })}
-                      </select>
-                    </div>
-                  </div>
-                );
-              case "radio":
-                return (
-                  <div className="entry__row">
-                    <div className="entry__label">
-                      <label className="">
-                        {t(item.label)}
-                        <rect className={setClassRequired(item.is_required)} />
-                      </label>
-                    </div>
-                    <div className="entry__item">
-                      <div className="entry__field">
-                        {item.choices.map((choice, index) => {
-                          return [
-                            <input
-                              type="radio"
-                              name={item.name}
-                              value={t(choice)}
-                              onChange={(e) =>
-                                handleChange(item.placeholder, e)
-                              }
-                            />,
-                            <label for={t(choice)}>{t(choice)}</label>,
-                            "  ",
-                          ];
-                        })}
-                      </div>
-                      <div className="entry__error">
-                        {t(displayError(errors, item.placeholder))}
-                      </div>
-                    </div>
-                  </div>
-                );
+                </div>
+              );
 
-              default:
-                return (
-                  <div className="entry__row">
-                    <div className="entry__label">
-                      <label className="">
-                        {t(item.label)}
-                        <rect className={setClassRequired(item.is_required)} />
-                      </label>
-                    </div>
-                    <div className="entry__item">
-                      <input
-                        className="entry__field"
-                        key={index}
-                        type={item.type}
-                        name={item.name}
-                        placeholder={t(item.placeholder)}
-                        onChange={(e) => handleChange(item.placeholder, e)}
-                      />
-                      <div className="entry__error">
-                        {t(displayError(errors, item.placeholder))}
-                      </div>
+            default:
+              return (
+                <div className="entry__row">
+                  <div className="entry__label">
+                    <label className="">
+                      {t(item.label)}
+                      <rect className={setClassRequired(item.is_required)} />
+                    </label>
+                  </div>
+                  <div className="entry__item">
+                    <input
+                      className="entry__field"
+                      key={index}
+                      type={item.type}
+                      name={item.name}
+                      placeholder={t(item.placeholder)}
+                      onChange={(e) => handleChange(item.placeholder, e)}
+                    />
+                    <div className="entry__error">
+                      {t(displayError(errors, item.placeholder))}
                     </div>
                   </div>
-                );
-            }
-          })}
-          <input type="submit" value={t(data.submit)} className="entry__btn" />
-        </form>
-      </div>
+                </div>
+              );
+          }
+        })}
+        <input type="submit" value={t(data.submit)} className="entry__btn" />
+      </form>
     </section>
   );
 }
