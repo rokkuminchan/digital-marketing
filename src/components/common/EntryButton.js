@@ -32,13 +32,13 @@ export default function EntryButton(props) {
   
   useEffect (() => {
     ScrollTrigger.create({
-      trigger: 'main',
+      trigger: '.entry-button-js',
       start: 100,
-      end: 'bottom-=500 bottom-=200',
-      onEnter: ({direction}) => fadeIn(direction),
-      onEnterBack: ({direction}) => fadeIn(direction),
-      onLeave: ({direction}) => fadeOut(direction),
-      onLeaveBack: ({direction}) => fadeOut(direction),
+      end: 'bottom-=50 bottom',
+      onEnter: () => fadeIn(),
+      onEnterBack: () => fadeIn(),
+      onLeave: () => fadeOut(),
+      onLeaveBack: () => fadeOut(),
     })
   },[])
   // useEffect(() => {

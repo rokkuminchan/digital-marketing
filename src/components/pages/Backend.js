@@ -9,10 +9,12 @@ import EntryButton from "../common/EntryButton";
 export default function Backend({ data }) {
   return (
     <React.Fragment>
-      <BackendPageHeader data={data.Header} />
-      <Breadcrumb data={data.Header} />
-      <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton id="recruit-detail__entry" path="/recruit/backend/entry" />
+      <div className = "entry-button-js">
+        <BackendPageHeader data={data.Header} />
+        <Breadcrumb data={data.Header} />
+        <RecruitDetail data={data.JobDetails} />
+        <DetailEntryButton id="recruit-detail__entry" path="/recruit/backend/entry" />
+      </div>
       <RecruitJobOther data={data.JobOther} />
       <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/backend/entry" />
     </React.Fragment>
