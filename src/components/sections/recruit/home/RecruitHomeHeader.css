@@ -47,16 +47,16 @@
   .recruit-home-header__content {
     width: 100%;
     transform: translate(0%);
-    height: 30%; 
+    height: 32%; 
   }
   .recruit-home-header__title {
     font-size: 3em; 
-    padding-top: 2.5%;
-    padding-left: 10%;
+    padding-top: 3%;
+    padding-left: 8%;
   }
   .recruit-home-header__description {
     font-size: 1.8em; 
-    padding:2.5% 10%; 
+    padding:3% 8%; 
   }  
 }
 @media only screen and (min-width: 768px){
