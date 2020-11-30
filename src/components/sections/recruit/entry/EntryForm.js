@@ -148,6 +148,8 @@ export default function EntryForm({ data, location }) {
                       {item.choices.map((choice, index) => {
                         return [
                           <input
+                            
+                            className= "entry__tiem-sex"
                             type="radio"
                             name={item.name}
                             value={t(choice)}
