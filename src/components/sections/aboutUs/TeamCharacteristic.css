@@ -9,41 +9,47 @@
   grid-template-areas:
     "imgbg imgbg"
     "items items";
+    position: relative;
 }
-.team-characteristic__title .title {
-  /* color: #3c64b1; */
-  padding-top: 6%;
-  font-size: 3.5em;
-  font-weight: bold;
+.team-characteristic__text{
+  position: absolute;
+  z-index: 3;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: auto;
 }
-
+.team-characteristic__text-wrap .title{
+  padding-top: none;
+}
 .team-characteristic__description {
 
   text-align: center;
   font-size: 2.8em;
-  letter-spacing: 1px;
-  width: 80%;
-  margin: 2% auto;
-  opacity: 1;
-  color: #ffffff;
+  height: auto;
+  color: #000000;
+  padding: 1% 4%;
+  font-weight: 500;
 }
 .team-characteristic__imgbg {
   grid-area: imgbg;
   width: 100%;
-  height: auto;
-  background: transparent url("../../../images/aboutus__teamcharacteristic.jpg")
-    0% 0% no-repeat padding-box ;
+  min-height: 30vh;
+  background: url("../../../images/aboutus__teamcharacteristic.jpg")
+    center center no-repeat;
   background-size: cover;
-  height: auto;
-  object-fit: cover;
- 
-  
+  z-index: 0;
+  position: relative;
 }
-
-.team-characteristic__imgbg ::after {
-  content: "";
-  opacity: 0.5;
- 
+.team-characteristic__solution {
+  position: absolute;
+  background-color: rgba(214, 158, 158, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .team-characteristic__items {
@@ -55,8 +61,6 @@
 
 @media only screen and (max-width: 720px) {
   .team-characteristic {
-    background: #ffffff 0% 0% no-repeat padding-box;
-    font-size: 1.4em;
     display: grid;
     height: auto;
     grid-template-columns: 1fr;
@@ -65,15 +69,9 @@
       "imgbg"
       "items";
   }
-  .team-characteristic__title .title {
-    font-size: 2em;
-    padding-top: 10%;
-  }
-  .team-characteristic__description {
-   
 
+  .team-characteristic__description {
     text-align: center;
-    margin: 5% auto 10% auto;
     font-size: 1.4em;
     letter-spacing: 1px;
   }
@@ -93,21 +91,10 @@
       "items items";
   }
   .team-characteristic__description {
-    margin: 5% auto 10% auto;
-    letter-spacing: 1px;
     font-size: 2.5em;
-  }
-  .team-characteristic__title .title {
-    padding-top: 10%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .team-characteristic__title .title {
-    padding-top: 7%;
-  }
-  .team-characteristic__description {
-    padding-bottom: 5%;
-  }
   .team-characteristic {
     height: auto;
     grid-template-columns: 1fr 1fr;
@@ -115,5 +102,8 @@
     grid-template-areas:
       "imgbg imgbg"
       "items items";
+  }
+  .team-characteristic__imgbg {
+    min-height: 45vh;
   }
 }
