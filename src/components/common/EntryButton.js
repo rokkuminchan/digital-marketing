@@ -25,8 +25,8 @@ export default function EntryButton(props) {
     return gsap.to("#entrybutton", {
       duration: 0.7,
       opacity: 0,
-      y: () => 0,
-      ease: 'power4.out'
+      y: 0,
+      ease: 'power4.in'
     })
   }
   
