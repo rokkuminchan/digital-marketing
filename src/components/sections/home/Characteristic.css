@@ -7,7 +7,7 @@
   width: 100%;
 }
 .characteristic__title h3 {
-  padding-bottom: 5%;
+  padding-bottom: 6%;
 }
 .characteristic__container {
   background-color: #fff;
@@ -51,6 +51,8 @@
 .characteristic__cardBx figure img {
   width: 100%;
   height: auto;
+  min-height: 270px;
+  
 }
 .characteristic__cardBx figcaption {
   -webkit-box-sizing: border-box;
