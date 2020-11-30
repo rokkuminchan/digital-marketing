@@ -323,10 +323,11 @@ input.entry__btn1 {
     }
     input.entry__btn1 {
         border: none;
+        background-color: #27ae60;
     }
     input.entry__btn1:hover {
         border: none;
-        background-color: #27ae60;
+        background-color: #03c253;
     }
     .entry__error {
         color: red;
