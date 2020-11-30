@@ -110,6 +110,7 @@
     "entry__backend": "バックエンドエンジニア",
     "entry__new-graduate": "新卒エンジニア",
     "entry__required_error_message": "必須項目に入力してください。",
+    "entry__email_invalid_error_message":"入力されたメールアドレスに間違いがあります。",
     "recruit-entry__breadcrum": "採用情報",
     "recruit-job-desc__title": "仕事内容",
     "recruit-job-req__title": "求めるスキル・経験",

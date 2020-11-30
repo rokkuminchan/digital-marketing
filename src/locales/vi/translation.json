@@ -108,6 +108,7 @@
   "entry__new-backend": "Back-end Engineer",
   "entry__new-graduate": "New Graduate",
   "entry__required_error_message": "Vui lòng điền vào phần được yêu cầu",
+  "entry__email_invalid_error_message":"Email nhập sai định dạng",
   "recruit-entry__breadcrum": "Thông tin tuyển dụng",
   "recruit-job-desc__title": "Nội dung công việc",
   "recruit-job-req__title": "Kỹ năng / kinh nghiệm cần thiết",
