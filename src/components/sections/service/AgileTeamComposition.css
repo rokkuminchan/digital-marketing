@@ -18,7 +18,8 @@
 .agileTeamComposition__title h3 {
   padding: 0;
   position: absolute;
-  top: 45%;
+  top: 40%;
+  width: 80%;
 }
 .agileTeamComposition__description {
   width: 80%;

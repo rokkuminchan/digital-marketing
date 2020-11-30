@@ -12,7 +12,6 @@
 
 .web-app-req-item__title > h3 {
 	font-size: 2em;
-	letter-spacing: 2px;
 	color: #373f41;
 }
 
@@ -46,11 +45,10 @@
 }
 
 .web-app-req-item__description p {
-	line-height: 2;
-	letter-spacing: 1.5px;
+	line-height: 1.8;
 	font-size: 1.4rem;
 	padding-bottom: 5px;
-	text-align: center;
+	text-align: justify;
 }
 
 .web-app-req-item__content .web-app-req-item__line {
