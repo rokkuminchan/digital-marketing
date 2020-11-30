@@ -1,5 +1,5 @@
 .vision {
-  background: #eff9ff 0% 0% no-repeat padding-box;
+  background: #eff9ff 0% 0%  no-repeat padding-box;
   padding: 10% 0;
 }
 .vision p {
@@ -9,7 +9,7 @@
 .vision-header {
   padding-top: 12%;
   padding-bottom: 40%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 .vision__title {
   font-size: 1.8em;
