@@ -193,7 +193,9 @@ export default function EntryForm({ data, location }) {
               );
           }
         })}
-        <input type="submit" value={t(data.submit)} className="entry__btn" />
+        <div className="entry__btn">
+         <input type="submit" value={t(data.submit)} className="entry__btn1" />
+        </div>
       </form>
     </section>
   );

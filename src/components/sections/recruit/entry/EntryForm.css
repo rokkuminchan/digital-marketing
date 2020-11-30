@@ -29,18 +29,25 @@ label::after [value="choice"] {
 }
 
 .entry__btn {
-  width: 40%;
-  background-color: #2ecc71;
-  color: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 1rem;
 }
-
-.entry__btn:hover {
-  background-color: #27ae60;
+input.entry__btn1 {
+  margin-top: 13px;
+  padding: 8px 10px;
+  font-size: 1.8rem;
+  background-color: #2ccc71;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
 
 /*iphone*/
@@ -51,7 +58,6 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 137vh;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -136,12 +142,6 @@ label::after [value="choice"] {
   }
 
 }
-@media screen and (min-width: 375px){
-  .entry__btn{
-    margin-bottom: 3rem;
-  }
-}
-
 /*ipad*/
 
 @media only screen and (min-width: 768px) {
@@ -150,7 +150,7 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 100vh;
+    height: 1024px;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -231,11 +231,10 @@ label::after [value="choice"] {
     background-color: #eeeeee;
     font-size: 1.8em;
   }
-  .entry__btn {
-    width: 30%;
-    margin-top: 0.3rem;
-    font-size: 1.8em;
-    padding: 1.4rem 1rem;
+  input.entry__btn1 {
+    margin-top: -12px !important;
+    padding: 20px 40px !important;
+    font-size: 2rem !important;
   }
 
   .entry__error {
@@ -254,7 +253,6 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 160vh;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -334,11 +332,12 @@ label::after [value="choice"] {
     background-color: #eeeeee;
     height: 70%;
   }
-  .entry__btn {
-    margin: 1.1% 0% 0% 0%;
-    width: 40%;
-    font-size: 2em;
-    padding: 0.8rem 1.5rem;
+  input.entry__btn1 {
+    border:none ;
+  }
+  input.entry__btn1:hover {
+    border:none ;
+    background-color: #27ae60;
   }
 
   .entry__error {
