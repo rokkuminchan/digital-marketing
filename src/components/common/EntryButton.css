@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 2em;
     right: 1em;
-    display: inline-block;
+    display: none;
     padding: 10px 5px;
     text-align: center;
     font-size: 2em;
@@ -15,9 +15,11 @@
     border-radius: 10%;
     opacity: 50%;
     transition: 0.2s;
-    z-index: 1;
+    z-index: 1000;
+}
 
-    /*transform: translate(0px);*/
+.entry-button__show{
+    display:inline-block;
 }
 
 @media all and (max-width: 768px) {
