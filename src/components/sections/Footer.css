@@ -50,11 +50,6 @@
 .footer__distributed .footer__icons {
   margin-top: 25px;
 }
-.footer__distributed .footer__icons a:hover {
-  background-color: #ffff;
-  color: #3366cc;
-}
-
 .footer__icon {
   width: 16px;
   height: 16px;
@@ -132,21 +127,6 @@
     font-size: 17px;
     line-height: 2;
   }
-
-  .footer__distributed .footer__icons a {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-size: 2.3em;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-    background-color: #3366cc;
-    color: #ffff;
-  }
 }
 
 /* Tablet */
@@ -218,21 +198,6 @@
     font-size: 17px;
     line-height: 2;
   }
-
-  .footer__distributed .footer__icons a {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-size: 2.3em;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-    background-color: #3366cc;
-    color: #ffff;
-  }
 }
 /* desktop */
 @media screen and (min-width: 1024px) {
@@ -299,19 +264,39 @@
     font-size: 18px;
     line-height: 2;
   }
-
-  .footer__distributed .footer__icons a {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    background-color: #3366cc;
-    border-radius: 2px;
-    font-size: 2.3em;
-    color: #ffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-  }
+}
+.footer__distributed .footer__icons a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 2.3em;
+  text-align: center;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer__icon-fb{
+  background-color: #3366cc;
+  color: #ffff;
+}
+.footer__icon-fb:hover{
+  background-color: #ffff;
+  color: #3366cc;
+}
+.footer__icon-tw{
+  background-color: #00aace;
+  color: #ffff;
+}
+.footer__icon-tw:hover{
+  background-color: #ffff;
+  color: #00aace;
+}
+.footer__icon-ins{
+  background-color: #e72757f8;
+  color: #ffff;
+}
+.footer__icon-ins:hover{
+  background-color: #ffff;
+  color: #e72757f8;
 }
