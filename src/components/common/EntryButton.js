@@ -39,7 +39,6 @@ export default function EntryButton(props) {
       onEnterBack: ({direction}) => fadeIn(direction),
       onLeave: ({direction}) => fadeOut(direction),
       onLeaveBack: ({direction}) => fadeOut(direction),
-      markers: true
     })
   },[])
   // useEffect(() => {
