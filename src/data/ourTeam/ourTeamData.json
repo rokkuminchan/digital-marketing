@@ -246,6 +246,22 @@
                "alt": "cuong"
             },
             "description": "about-us-member-introduction__items-description-17"
+         },
+         {
+            "title": "about-us-member-introduction__items-title-18",
+            "image": {
+               "src": "../../images/aboutus__thanh.jpg",
+               "alt": "thanh"
+            },
+            "description": "about-us-member-introduction__items-description-18"
+         },
+         {
+            "title": "about-us-member-introduction__items-title-19",
+            "image": {
+               "src": "../../images/aboutus__doan.jpg",
+               "alt": "doan"
+            },
+            "description": "about-us-member-introduction__items-description-19"
          }
       ]
    },

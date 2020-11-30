@@ -35,9 +35,7 @@ export default function MenuHeader() {
 
       <div className="menu-header__content-right">
             <div className="menu-header__content-item">
-              <label className="menu-header__icon" htmlFor="menu-btn">
-                <span className="menu-header__navicon"></span>
-              </label>
+              
               <ul className={menuClass}>
                 <li className="menu-header__navigation-item" onClick={hideMenu}>
                   <ALink
@@ -101,8 +99,17 @@ export default function MenuHeader() {
                 </li>
               </ul>
             </div>
-            
+
             <div className="menu-header__content-item">
+              <div className="menu-header__Language">
+                <LanguageSwitcher  onAfterChangeLanguage={hideMenu} />
+              </div>
+            </div>  
+
+            <div className="menu-header__content-item">
+            <label className="menu-header__icon" htmlFor="menu-btn">
+                <span className="menu-header__navicon"></span>
+              </label>
               <input
                   className="menu-header__visibility-btn"
                   onClick={toggleMenu}
@@ -111,11 +118,7 @@ export default function MenuHeader() {
                 />
             </div>
 
-            <div className="menu-header__content-item">
-              <div className="menu-header__Language">
-                <LanguageSwitcher  onAfterChangeLanguage={hideMenu} />
-              </div>
-            </div>    
+              
       </div> 
 
         
