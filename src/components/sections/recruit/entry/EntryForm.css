@@ -136,6 +136,11 @@ label::after [value="choice"] {
   }
 
 }
+@media screen and (min-width: 375px){
+  .entry__btn{
+    margin-bottom: 3rem;
+  }
+}
 
 /*ipad*/
 
@@ -207,7 +212,7 @@ label::after [value="choice"] {
   }
   .entry__field {
     font-size: 1.9em;
-    padding: 10px 12px;
+    padding: 8px 12px;
   }
   .entry__item {
     float: right;
@@ -228,6 +233,7 @@ label::after [value="choice"] {
   }
   .entry__btn {
     width: 30%;
+    margin-top: 0.3rem;
     font-size: 1.8em;
     padding: 1.4rem 1rem;
   }
