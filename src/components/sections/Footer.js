@@ -20,28 +20,28 @@ export default function Footer() {
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
           <ALink exact to="/" activeClassName="active">
-            {" "}
-            {t('menu-header__home')}{" "}
+            {' '}
+            {t('menu-header__home')}{' '}
           </ALink>
           ｜｜
           <ALink exact to="/services" activeClassName="active">
-          {t('menu-header__service')}
+            {t('menu-header__service')}
           </ALink>
           ｜｜
           <ALink exact to="/technology" activeClassName="active">
-          {t('menu-header__technology')}
+            {t('menu-header__technology')}
           </ALink>
           ｜｜
           <ALink exact to="/about-us" activeClassName="active">
-          {t('menu-header__about-us')}
+            {t('menu-header__about-us')}
           </ALink>
           ｜｜
           <ALink exact to="/recruit" activeClassName="active">
-          {t('menu-header__recruit')}
+            {t('menu-header__recruit')}
           </ALink>
           ｜｜
           <ALink exact to="/contact" activeClassName="active">
-          {t('menu-header__contact')}
+            {t('menu-header__contact')}
           </ALink>
         </p>
       </div>
@@ -74,13 +74,25 @@ export default function Footer() {
 
       <div className="footer__right">
         <div className="footer__icons">
-          <a href="https://www.facebook.com/worldworks.vietnam" target="_blank">
+          <a
+            href="https://www.facebook.com/worldworks.vietnam"
+            target="_blank"
+            className="footer__icon-fb"
+          >
             <FaFacebookF className="footer__icon" />
           </a>
-          <a href="https://twitter.com/world_recruit" target="_blank">
+          <a
+            href="https://twitter.com/world_recruit"
+            target="_blank"
+            className="footer__icon-tw"
+          >
             <FaTwitter className="footer__icon" />
           </a>
-          <a href="https://www.instagram.com/world_recruit/" target="_blank">
+          <a
+            href="https://www.instagram.com/world_recruit/"
+            target="_blank"
+            className="footer__icon-ins"
+          >
             <FaInstagram className="footer__icon" />
           </a>
         </div>
