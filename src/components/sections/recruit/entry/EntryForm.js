@@ -125,7 +125,7 @@ export default function EntryForm({ data, location }) {
                       className="entry__field"
                       name={item.name}
                       value={t("entry__" + job)}
-                      readonly
+                      disabled
                     >
                       {item.option.map((option, index) => {
                         return <option value={t(option)}>{t(option)}</option>;
