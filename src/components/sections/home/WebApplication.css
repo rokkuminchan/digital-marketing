@@ -67,12 +67,12 @@
   .web-application__items--left {
     margin-left: 10%;
     width: 30%;
-    height: 160px;
+    height: 180px;
   }
   .web-application__items--right {
     margin-right: 10%;
     width: 30%;
-    height: 160px;
+    height: 180px;
   }
 }
 /* Ipad Pro and Desktop */
