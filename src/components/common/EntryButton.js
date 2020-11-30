@@ -4,6 +4,7 @@ import ALink from "../common/ALink";
 import "./EntryButton.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { GiEntryDoor } from "react-icons/gi";
 
 gsap.registerPlugin(ScrollTrigger);
 // import "./EntryButtonAnimation";
@@ -63,7 +64,7 @@ export default function EntryButton(props) {
 
   return (
     <ALink to={props.path} id="entrybutton" className="entrybutton">
-      {t("recruit-entry__button")}
+      <GiEntryDoor />{t("recruit-entry__button")}
     </ALink>
   );
 }
