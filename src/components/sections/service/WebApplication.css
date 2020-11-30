@@ -26,13 +26,13 @@
 .web-application__items--left {
   margin-left: 8%;
   width: 38%;
-  height: 100px;
+  height: 140px;
   float: left;
 }
 .web-application__items--right {
   margin-right: 8%;
   width: 38%;
-  height: 100px;
+  height: 140px;
   float: right;
 }
 
@@ -70,12 +70,12 @@
   .web-application__items--left {
     margin-left: 10%;
     width: 30%;
-    height: 150px;
+    height: 160px;
   }
   .web-application__items--right {
     margin-right: 10%;
     width: 30%;
-    height: 150px;
+    height: 160px;
   }
   .web-application__sub-description {
     line-height: 1.8;

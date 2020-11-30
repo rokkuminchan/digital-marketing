@@ -12,9 +12,9 @@ export default function Graduate({ data }) {
       <JobPageHeader data={data.graduateHeader} />
       <Breadcrumb data={data.graduateHeader} />
       <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton path="/recruit/new-graduate/entry" />
+      <DetailEntryButton id="recruit-detail__entry" path="/recruit/new-graduate/entry" />
       <RecruitJobOther data={data.JobOther} />
-      <EntryButton path="/recruit/new-graduate/entry" />
+      <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/new-graduate/entry" />
     </React.Fragment>
   );
 }

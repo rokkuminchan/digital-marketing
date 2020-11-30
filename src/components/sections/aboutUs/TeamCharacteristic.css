@@ -24,6 +24,7 @@
   padding-top: none;
 }
 .team-characteristic__description {
+
   text-align: center;
   font-size: 2.8em;
   height: auto;
@@ -50,6 +51,7 @@
   left: 0;
   z-index: 1;
 }
+
 .team-characteristic__items {
   grid-area: items;
   display: grid;

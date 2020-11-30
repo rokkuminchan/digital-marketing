@@ -13,9 +13,9 @@ export default function Designer({ data }) {
       <DesignerHeader data={data.designer.Pageheader} />
       <Breadcrumb data={data.designer.Pageheader} />
       <RecruitDetail data={data.designer.JobDetails} />
-      <DetailEntryButton path="/recruit/designer/entry" />
+      <DetailEntryButton id="recruit-detail__entry" path="/recruit/designer/entry" />
       <RecruitJobOther data={data.designer.JobOther} />
-      <EntryButton path="/recruit/designer/entry" />
+      <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/designer/entry" />
     </React.Fragment>
   );
 }
