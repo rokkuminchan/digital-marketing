@@ -12,9 +12,9 @@ export default function Backend({ data }) {
       <BackendPageHeader data={data.Header} />
       <Breadcrumb data={data.Header} />
       <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton path="/recruit/backend/entry" />
+      <DetailEntryButton id="recruit-detail__entry" path="/recruit/backend/entry" />
       <RecruitJobOther data={data.JobOther} />
-      <EntryButton path="/recruit/backend/entry" />
+      <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/backend/entry" />
     </React.Fragment>
   );
 }

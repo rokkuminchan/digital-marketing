@@ -62,7 +62,7 @@
     padding: 9%;
     opacity: 0.8;
   }
-  form {
+  .contact__form {
     width: 80%;
     padding: 10px;
     text-align: center;
@@ -94,6 +94,7 @@
     z-index: 1;
     padding: 20px 0 0px 0;
   }
+
   .contact_title {
     font-size: 3.5em;
     color: #3c64b1;
@@ -108,9 +109,6 @@
     opacity: 0.8;
   }
   .contact__form {
-    width: 40%;
-  }
-  form {
     width: 40%;
     padding: 15px 20px;
     text-align: center;

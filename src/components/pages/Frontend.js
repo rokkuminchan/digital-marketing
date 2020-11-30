@@ -12,9 +12,9 @@ export default function Frontend({ data }) {
       <JobPageHeader data={data.FrontEndHeader} />
       <Breadcrumb data={data.FrontEndHeader} />
       <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton path="/recruit/frontend/entry" />
+      <DetailEntryButton id="recruit-detail__entry" path="/recruit/frontend/entry" />
       <RecruitJobOther data={data.JobOther} />
-      <EntryButton path="/recruit/frontend/entry" />
+      <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/frontend/entry" />
     </React.Fragment>
   );
 }
