@@ -24,7 +24,10 @@ export default function RecruitHomeRecruitmentJobs({ data }) {
               className="recruit-home-recruitment-jobs__card-description"
               dangerouslySetInnerHTML={{ __html: t(item.description) }}
             ></p>
-            <ALink to={item.button.link} >
+            <ALink
+              to={item.button.link}
+              className="recruit-home-recruitment-jobs__card-alink-button"
+            >
               <Button
                 variant="contained"
                 color="primary"
