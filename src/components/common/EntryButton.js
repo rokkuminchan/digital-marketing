@@ -17,7 +17,7 @@ export default function EntryButton(props) {
   const fadeIn = () => {
     return gsap.to("#entrybutton", {
       duration: 0.7,
-      opacity: 0.5,
+      autoAlpha: 0.5,
       y: 0,
       ease: 'power4.out'
     })
@@ -25,9 +25,9 @@ export default function EntryButton(props) {
   const fadeOut = () => {
     return gsap.to("#entrybutton", {
       duration: 0.7,
-      opacity: 0,
+      autoAlpha: 0,
       y: 0,
-      ease: 'power4.in'
+      ease: 'power4.out'
     })
   }
   
