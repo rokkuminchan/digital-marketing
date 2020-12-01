@@ -19,7 +19,7 @@
       "title": "about-us-mission__title",
       "description": "about-us-mission__description",
       "image": {
-         "src": "../../images/aboutus__mission.png",
+         "src": "../../images/aboutus__mission.jpg",
          "alt": "mission"
       }
    },
@@ -27,7 +27,7 @@
       "title": "about-us-vision__title",
       "description": "about-us-vision__description",
       "image": {
-         "src": "../../images/aboutus__vision.jpeg",
+         "src": "../../images/aboutus__vision.jpg",
          "alt": "vision"
       },
       "items": [
@@ -269,7 +269,7 @@
       "title": "about-us__worldRecruitHistory__title",
       "description": "about-us__worldRecruitHistory__desc",
       "image": {
-         "src": "../../images/aboutus__world-recruit-history.jpeg",
+         "src": "../../images/aboutus__world-recruit-history.jpg",
          "alt": "WorldRecruitHistory"
       }
    },
