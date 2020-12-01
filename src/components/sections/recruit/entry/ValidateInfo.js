@@ -5,10 +5,10 @@ export default function ValidateInfo(values, translate) {
     errors.entry__name = translate("entry__required_error_message");
   }
 
-  if (!values.entry__mail) {
+  if (!values.entry__mail.trim()) {
     errors.entry__mail = translate("entry__required_error_message");
   } else if (!/\S+@\S+\.\S+/.test(values.entry__mail)) {
-    errors.entry__mail = translate("entry__required_error_message");
+    errors.entry__mail = translate("entry__email_invalid_error_message");
   }
 
   if (!values.entry__furigana.trim()) {

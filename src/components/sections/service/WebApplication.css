@@ -39,6 +39,10 @@
 .web-application__sub-description {
   text-align: center;
   margin: 0 10% 5% 10%;
+
+}
+.web-application__sub-description--link {
+  padding-left: 2%;
 }
 
 .web-application__sub-description > p,

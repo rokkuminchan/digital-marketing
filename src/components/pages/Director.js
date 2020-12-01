@@ -9,10 +9,12 @@ import EntryButton from "../common/EntryButton";
 export default function Director({ data }) {
   return (
     <React.Fragment>
-      <DirectorPageHeader data={data.Header} />
-      <Breadcrumb data={data.Header} />
-      <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton id="recruit-detail__entry" path="/recruit/director/entry" />
+      <div className = "entry-button-js">
+        <DirectorPageHeader data={data.Header} />
+        <Breadcrumb data={data.Header} />
+        <RecruitDetail data={data.JobDetails} />
+        <DetailEntryButton id="recruit-detail__entry" path="/recruit/director/entry" />
+      </div>
       <RecruitJobOther data={data.JobOther} />
       <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/director/entry" />
     </React.Fragment>
