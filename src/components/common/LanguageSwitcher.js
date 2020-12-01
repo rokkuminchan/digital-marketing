@@ -8,6 +8,8 @@ import JapaneseFlag from "../../images/jp.svg";
 import "./LanguageSwitcher.css";
 import Image from "./Image";
 
+import dropDownIcon from "../../images/drop-down_icon.jpg";
+
 const showMenuClass = "show";
 
 export default function LanguageSwitcher(props) {
@@ -64,7 +66,7 @@ export default function LanguageSwitcher(props) {
         />
 
         <span className="language-menu__current-language-jp-vi">
-          {i18n.language === "jp" ? "日本語" : "Tiếng Việt"}
+          {i18n.language === "jp" ? "日本語" : "VN"}
         </span>
       </div>
       <div id="language-menu" className="language-menu">
@@ -85,7 +87,7 @@ export default function LanguageSwitcher(props) {
               alt="Vietnamese"
               src={VietnameseFlag}
             />
-            <span>Tiếng Việt</span>
+            <span>VN</span>
           </div>
         </ALink>
       </div>

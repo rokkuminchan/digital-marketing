@@ -2,15 +2,16 @@
   background-color: #78acfd;
   color: white;
   padding: 0px;
-  width: 100px;
+  width: 80px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   display: -webkit-box;
 }
 .language-menu__current-language-jp-vi {
-  font-size: 1em;
+  font-size: 0.7em;
   margin-left: 2px;
+  color: black;
 }
 .language-menu__current-language img {
   width: 30px;
@@ -20,9 +21,11 @@
   margin: 2px;
   margin-right: 20px;
 }
+.language-menu__current-language-jp-vi:hover,
 .language-menu__current-language:hover,
 .language-menu__current-language:focus {
-  background-color: #3987bb;
+  background-color: #78acfd;
+  color: #ffffff;
 }
 
 .language-menu {
@@ -34,7 +37,7 @@
   display: none;
   position: fixed;
   background-color: #2980b9;
-  min-width: 100px;
+  min-width: 80px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1000;
