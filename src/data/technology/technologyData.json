@@ -2,7 +2,7 @@
     "technologyHeader": {
         "title": "technology-page-header__title",
         "image": {
-            "src": "../../images/technology__pageheader.png",
+            "src": "../../images/technology__pageheader.jpg",
             "alt": "Technology"
         },
         "description": "technology-page-header__description"
@@ -22,7 +22,7 @@
                 },
                 "link": "https://web.dev/progressive-web-apps/",
                 "image": {
-                    "src": "../../images/technology__pwa.png",
+                    "src": "../../images/technology__pwa.jpg",
                     "alt": "PWA"
                 }
             },
@@ -34,7 +34,7 @@
                 },
                 "link": "https://amp.dev/",
                 "image": {
-                    "src": "../../images/technology__amp.png",
+                    "src": "../../images/technology__amp.jpg",
                     "alt": "AMP"
                 }
             },
@@ -46,7 +46,7 @@
                 },
                 "link": "https://en.bem.info/",
                 "image": {
-                    "src": "../../images/technology__bem.png",
+                    "src": "../../images/technology__bem.jpg",
                     "alt": "BEM"
                 }
             },
@@ -58,7 +58,7 @@
                 },
                 "link": "https://github.com/",
                 "image": {
-                    "src": "../../images/technology__github.png",
+                    "src": "../../images/technology__github.jpg",
                     "alt": "GitHub"
                 }
             },
@@ -94,7 +94,7 @@
                 },
                 "link": "https://material.io/",
                 "image": {
-                    "src": "../../images/technology__material-design.png",
+                    "src": "../../images/technology__material-design.jpg",
                     "alt": "Material Design"
                 }
             },
@@ -106,7 +106,7 @@
                 },
                 "link": "https://reactjs.org/",
                 "image": {
-                    "src": "../../images/technology__react-js.png",
+                    "src": "../../images/technology__react-js.jpg",
                     "alt": "React"
                 }
             },
@@ -118,7 +118,7 @@
                 },
                 "link": "https://trello.com/",
                 "image": {
-                    "src": "../../images/technology__trello.png",
+                    "src": "../../images/technology__trello.jpg",
                     "alt": "Trello"
                 }
             },
@@ -142,7 +142,7 @@
                 },
                 "link": "https://www.adobe.com/jp/products/xd.html",
                 "image": {
-                    "src": "../../images/technology__adobe-xd.png",
+                    "src": "../../images/technology__adobe-xd.jpg",
                     "alt": "Adobe XD"
                 }
             }
