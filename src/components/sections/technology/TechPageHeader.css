@@ -1,7 +1,3 @@
-:root {
-  /* --tech-page-header__block1: 45vh; */
-  /* --tech-page-header__title: 8rem; */
-}
 .tech-page-header {
   background-color: #eff9ff;
   height: calc(100vh - var(--header-menu-height));
@@ -35,6 +31,7 @@
 }
 .tech-img {
   width: 100%;
+  height: 50%;
   object-fit: cover;
 }
 .strong-decs {
@@ -62,6 +59,9 @@
   .strong-decs {
     font-size: 2.5rem;
   }
+  .tech-img {
+    height: 80%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -79,6 +79,7 @@
     font-size: 3rem;
   }
   .tech-img {
-    width: 80%;
+    width: 100%;
+    height: 100%;
   }
 }
