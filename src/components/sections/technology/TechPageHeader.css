@@ -1,59 +1,62 @@
 :root {
-  --tech-page-header__block1: 65vh;
-  --tech-page-header__title: 8rem;
+  /* --tech-page-header__block1: 45vh; */
+  /* --tech-page-header__title: 8rem; */
 }
 .tech-page-header {
   background-color: #eff9ff;
+  height: calc(100vh - var(--header-menu-height));
+  display: flex;
+  flex-direction: column;
 }
-
+.tech-page-header__block1 {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tech-page-header__block2 {
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
 .tech-page-header__title {
   font-size: 3rem;
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.5rem;
   color: #3c64b1;
 }
 
 .tech-page-header__img {
   background-image: linear-gradient(to right, #032637, #36505d);
-  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 .tech-img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 .strong-decs {
   font-size: 1.7rem;
-  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ",
-    Meiryo, Osaka, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
 }
 .tech-page-header__description {
   font-size: 1.5rem;
-  padding: 3.5rem 5rem;
+  padding: 0rem 5rem;
   text-align: center;
   line-height: 3rem;
-}
-@media screen and (min-width: 400px) {
-  .tech-page-header__img {
-    height: 170px;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .tech-page-header__title {
     font-size: 4rem;
-    padding: 3rem 0 2rem;
-  }
-  .tech-page-header__img {
-    height: 320px;
+    padding: 0.5rem;
   }
   .tech-page-header__description {
     font-size: 2rem;
-    padding: 6rem 6rem;
+    padding: 0rem 6rem;
     line-height: 4.5rem;
   }
   .strong-decs {
@@ -62,33 +65,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .tech-page-header {
-    height: calc(100vh - var(--header-menu-height));
-  }
   .tech-page-header__block1 {
-    height: var(--tech-page-header__block1);
-  }
-  .tech-page-header__title {
-    height: var(--tech-page-header__title);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-  .tech-page-header__img {
-    padding: 0;
-    height: calc(
-      var(--tech-page-header__block1) - var(--tech-page-header__title)
-    );
+    height: 70%;
   }
   .tech-page-header__block2 {
-    height: calc(
-      100vh - var(--tech-page-header__block1) - var(--header-menu-height)
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
+    height: 30%;
   }
   .tech-page-header__description {
     font-size: 2.4rem;
@@ -96,5 +77,8 @@
   }
   .strong-decs {
     font-size: 3rem;
+  }
+  .tech-img {
+    width: 80%;
   }
 }
