@@ -47,7 +47,7 @@ export default function LanguageSwitcher(props) {
   }
 
   function getLanguageText(language) {
-    return language === "vi" ? "Tiếng Việt" : "日本語";
+    return language === "vi" ? "VN" : "日本語";
   }
 
   function onChangeLanguage(language) {
@@ -85,7 +85,6 @@ export default function LanguageSwitcher(props) {
                 <span>{getLanguageText(lng)}</span>
               </div>
             </ALink>
-
           })
         }
       </div>
