@@ -19,7 +19,7 @@
       "home-web-application__desc2"
     ],
     "backgroundSrc": {
-      "src": "../../images/home__web-app.png",
+      "src": "../../images/home__web-app.jpg",
       "alt": "Image"
     },
     "items": [
@@ -68,7 +68,7 @@
   "DetailedWork": {
     "title": "home-detailed-work__title",
     "image": {
-      "src": "../../images/home__daitailed-works.png",
+      "src": "../../images/home__daitailed-works.jpg",
       "alt": "daitailed-works"
     },
     "descriptions1": "home-detailed-work__desc1",

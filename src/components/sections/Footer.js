@@ -77,23 +77,23 @@ export default function Footer() {
           <a
             href="https://www.facebook.com/worldworks.vietnam"
             target="_blank"
-            className="footer__icon-fb"
+            className="footer__icon-fb" rel="noopener"
           >
             <FaFacebookF className="footer__icon" />
           </a>
           <a
             href="https://twitter.com/world_recruit"
             target="_blank"
-            className="footer__icon-tw"
+            className="footer__icon-tw" rel="noopener"
           >
             <FaTwitter className="footer__icon" />
           </a>
           <a
             href="https://www.instagram.com/world_recruit/"
             target="_blank"
-            className="footer__icon-ins"
+            className="footer__icon-ins" rel="noopener"
           >
-            <FaInstagram className="footer__icon" />
+            <FaInstagram className="footer__icon" /> 
           </a>
         </div>
         <p className="footer__copyright">
