@@ -18,6 +18,11 @@
 	z-index: 1000;
 	transition: opacity 0.4s;
 	opacity: 0;
+	transform: rotateY(80deg);
+}
+
+.entrybutton:hover {
+	opacity: 1 !important;
 }
 
 .entrybutton svg {
@@ -29,10 +34,6 @@
 	.entrybutton {
 		font-size: 1em;
 	}
-}
-
-.entrybutton:hover {
-	opacity: 1;
 }
 
 .entrybutton:active {
