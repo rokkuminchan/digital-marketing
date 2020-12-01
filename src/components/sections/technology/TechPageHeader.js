@@ -15,9 +15,7 @@ import { useTranslation } from "react-i18next";
           <Image className="tech-img" {...data.image} />
         </div>
       </div>
-      <div className="tech-page-header__block2">
-        <div dangerouslySetInnerHTML={{__html: t(data.description)}} />
-      </div>
+        <div className="tech-page-header__block2" dangerouslySetInnerHTML={{__html: t(data.description)}} />
     </section>
   );
 }

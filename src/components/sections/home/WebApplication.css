@@ -18,6 +18,7 @@
   margin: 0 auto 50px auto;
   width: 85%;
   overflow: auto;
+  line-height: 1;
 }
 .web-application__item {
   text-align: center;

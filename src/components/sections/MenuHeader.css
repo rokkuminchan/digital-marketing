@@ -75,6 +75,7 @@
   position: absolute;
   transition: background 0.2s ease-out;
   width: 18px;
+  
 }
 
 .menu-header__navicon:before,

@@ -29,8 +29,10 @@ label::after [value="choice"] {
 }
 
 .entry__btn {
-  width: 40%;
-  background-color: #2ecc71;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #fff;
   border: none;
   outline: none;
@@ -39,8 +41,14 @@ label::after [value="choice"] {
   border-radius: 1rem;
 }
 
-.entry__btn:hover {
-  background-color: #27ae60;
+input.entry__btn1 {
+  margin-top: 13px;
+  padding: 4px 10px;
+  font-size: 1.8rem;
+  background-color: #2ccc71;
+  border: none;
+  width: 101%;
+  color: white;
 }
 
 /*iphone*/
@@ -51,7 +59,6 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 137vh;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -59,7 +66,6 @@ label::after [value="choice"] {
     z-index: 1;
     padding: 0;
   }
-
   label {
     padding: 0px 5px 2px 0;
     float: left;
@@ -81,13 +87,11 @@ label::after [value="choice"] {
     padding-top: 0px;
     padding-left: 5px;
   }
-
   .entry__label,
   .entry__item {
     width: 100%;
     margin-top: 0%;
   }
-
   .entry__field {
     font-size: 1.5em;
     padding: 2%;
@@ -100,7 +104,7 @@ label::after [value="choice"] {
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
     margin: 0 10% 10%;
-    border-radius: 25px;
+    border-radius: 2px;
   }
   .entry__title {
     font-size: 2em;
@@ -110,7 +114,6 @@ label::after [value="choice"] {
     padding-top: 6%;
     padding-bottom: 8%;
   }
-
   .entry__label {
     float: left;
     margin-top: 6px;
@@ -123,7 +126,6 @@ label::after [value="choice"] {
     font-size: 1.5em;
     padding: 0.5rem 0.5rem;
   }
-
   .entry__error {
     color: red;
     line-height: 1.5em;
@@ -134,7 +136,6 @@ label::after [value="choice"] {
     float: left;
     margin: 4px 5px;
   }
-
 }
 
 /*ipad*/
@@ -145,7 +146,7 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 100vh;
+    height: 1024px;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -153,7 +154,6 @@ label::after [value="choice"] {
     z-index: 1;
     padding: 20px 0 0px 0;
   }
-
   label {
     padding-top: 7px;
     padding-right: 10px;
@@ -162,13 +162,10 @@ label::after [value="choice"] {
     float: left;
     font-size: 0.55em;
   }
-
-
   input[type="radio"] + label {
     font-size: 0.9em;
     padding: 0px 5px;
   }
-
   .entry__row,
   .entry__row_area {
     width: 100%;
@@ -180,11 +177,10 @@ label::after [value="choice"] {
     font-size: 1.8em;
     height: 7%;
   }
-
   .entry__row_area {
     height: 10%;
   }
-  .entry__row_area .entry__label{
+  .entry__row_area .entry__label {
     padding-top: 10px;
   }
   .entry__title {
@@ -203,11 +199,11 @@ label::after [value="choice"] {
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
     margin: 0% 10% 7% 10%;
-    border-radius: 25px;
+    border-radius: 2px;
   }
   .entry__field {
     font-size: 1.9em;
-    padding: 10px 12px;
+    padding: 8px 12px;
   }
   .entry__item {
     float: right;
@@ -226,12 +222,11 @@ label::after [value="choice"] {
     background-color: #eeeeee;
     font-size: 1.8em;
   }
-  .entry__btn {
-    width: 30%;
-    font-size: 1.8em;
-    padding: 1.4rem 1rem;
+  input.entry__btn1 {
+    margin-top: -12px !important;
+    padding: 12px 35px !important;
+    font-size: 2rem !important;
   }
-
   .entry__error {
     color: red;
     line-height: 1.5em;
@@ -248,7 +243,6 @@ label::after [value="choice"] {
     flex-direction: column;
     align-items: centers;
     justify-content: center;
-    height: 160vh;
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
@@ -256,7 +250,6 @@ label::after [value="choice"] {
     z-index: 1;
     padding: 20px 0 0px 0;
   }
-
   label {
     padding-top: 0.7rem;
     padding-right: 1rem;
@@ -265,14 +258,12 @@ label::after [value="choice"] {
     float: left;
     font-size: 0.55em;
   }
-
   input[type="radio"] + label {
     font-size: 2em;
     padding-top: 0px;
     padding-left: 5px;
     padding-bottom: 0px;
   }
-
   .entry__title {
     font-size: 3.5em;
     color: #3c64b1;
@@ -303,9 +294,8 @@ label::after [value="choice"] {
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
     margin: 0% 20% 5% 20%;
-    border-radius: 25px;
+    border-radius: 2px;
   }
-
   .entry__field {
     font-size: 2em;
     padding: 0.5%;
@@ -328,27 +318,27 @@ label::after [value="choice"] {
     background-color: #eeeeee;
     height: 70%;
   }
-  .entry__btn {
-    margin: 1.1% 0% 0% 0%;
-    width: 40%;
-    font-size: 2em;
-    padding: 0.8rem 1.5rem;
+  input.entry__btn1 {
+    border: none;
+    background-color: #27ae60;
   }
-
+  input.entry__btn1:hover {
+    border: none;
+    background-color: #03c253;
+  }
   .entry__error {
     color: red;
     line-height: 1.5em;
     font-size: 1.5em;
     text-align: left;
   }
-  .entry__row_area .entry__label{
+  .entry__row_area .entry__label {
     padding-top: 7px;
   }
   input[type="radio"] {
     float: left;
     margin: 15px 10px;
   }
-
   input[type="radio"] + label {
     font-size: 0.9em;
     padding-top: 8px;

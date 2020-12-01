@@ -9,10 +9,12 @@ import EntryButton from "../common/EntryButton";
 export default function Graduate({ data }) {
   return (
     <React.Fragment>
-      <JobPageHeader data={data.graduateHeader} />
-      <Breadcrumb data={data.graduateHeader} />
-      <RecruitDetail data={data.JobDetails} />
-      <DetailEntryButton id="recruit-detail__entry" path="/recruit/new-graduate/entry" />
+      <div className = "entry-button-js">
+        <JobPageHeader data={data.graduateHeader} />
+        <Breadcrumb data={data.graduateHeader} />
+        <RecruitDetail data={data.JobDetails} />
+        <DetailEntryButton id="recruit-detail__entry" path="/recruit/new-graduate/entry" />
+      </div>
       <RecruitJobOther data={data.JobOther} />
       <EntryButton detailEntryButtonId="recruit-detail__entry" path="/recruit/new-graduate/entry" />
     </React.Fragment>
