@@ -28,21 +28,26 @@ export default function LanguageSwitcher(props) {
   }
 
   // Close the dropdown if the user clicks outside of it
-  typeof window !== 'undefined' && (window.onclick = function (event) {
-    if (!event.target.matches('.language-menu__current-language')) {
-      var dropdowns = document.getElementsByClassName("language-menu");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+  typeof window !== "undefined" &&
+    (window.onclick = function (event) {
+      if (!event.target.matches(".language-menu__current-language")) {
+        var dropdowns = document.getElementsByClassName("language-menu");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
         }
       }
-    }
-  });
+    });
 
   function getImageByLanguage(language) {
     return language === "vi" ? VietnameseFlag : JapaneseFlag;
+  }
+
+  function getLanguageText(language) {
+    return language === "vi" ? "Tiếng Việt" : "日本語";
   }
 
   function onChangeLanguage(language) {
@@ -62,17 +67,25 @@ export default function LanguageSwitcher(props) {
           alt="Japanese"
           src={getImageByLanguage(language)}
         />
+
+        <span className="language-menu__current-language-jp-vi">
+          {getLanguageText(language)}
+        </span>
       </div>
       <div id="language-menu" className="language-menu">
         {
           languages.map((lng) => {
             return <ALink to={originalPath} language={lng} onClick={(e) => onChangeLanguage(lng)}>
-              <Image
-                className="language-menu__flag-icon"
-                alt="Japanese"
-                src={getImageByLanguage(lng)}
-              />
+              <div className="language-menu__item">
+                <Image
+                  className="language-menu__flag-icon"
+                  alt="Japanese"
+                  src={getImageByLanguage(lng)}
+                />
+                <span>{getLanguageText(lng)}</span>
+              </div>
             </ALink>
+
           })
         }
       </div>
