@@ -19,7 +19,7 @@
     opacity: 0.8;
   }
   .mission__img {
-    width: 340px;
+    /* width: 340px; */
     height: 120px;
     margin: auto;
     overflow: hidden;
