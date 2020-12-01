@@ -27,7 +27,7 @@ export default function EntryButton(props) {
       duration: 0.7,
       autoAlpha: 0,
       y: 0,
-      ease: 'power4.in'
+      ease: 'power4.out'
     })
   }
   
