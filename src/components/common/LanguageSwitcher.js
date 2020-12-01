@@ -8,8 +8,6 @@ import JapaneseFlag from "../../images/jp.svg";
 import "./LanguageSwitcher.css";
 import Image from "./Image";
 
-import dropDownIcon from "../../images/drop-down_icon.jpg";
-
 const showMenuClass = "show";
 
 export default function LanguageSwitcher(props) {
