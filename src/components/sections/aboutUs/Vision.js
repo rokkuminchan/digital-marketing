@@ -1,5 +1,5 @@
 import React from "react";
-import vision from "../../../images/aboutus__vision.jpeg";
+import vision from "../../../images/aboutus__vision.jpg";
 import "./Vision.css";
 import { useTranslation } from "react-i18next";
 
