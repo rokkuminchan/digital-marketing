@@ -2,7 +2,7 @@
     "technologyHeader": {
         "title": "technology-page-header__title",
         "image": {
-            "src": "../../images/technology__pageheader.jpg",
+            "src": "../../images/technology__pageheader.png",
             "alt": "Technology"
         },
         "description": "technology-page-header__description"
@@ -22,7 +22,7 @@
                 },
                 "link": "https://web.dev/progressive-web-apps/",
                 "image": {
-                    "src": "../../images/technology__pwa.jpg",
+                    "src": "../../images/technology__pwa.png",
                     "alt": "PWA"
                 }
             },
@@ -34,7 +34,7 @@
                 },
                 "link": "https://amp.dev/",
                 "image": {
-                    "src": "../../images/technology__amp.jpg",
+                    "src": "../../images/technology__amp.png",
                     "alt": "AMP"
                 }
             },
@@ -118,7 +118,7 @@
                 },
                 "link": "https://trello.com/",
                 "image": {
-                    "src": "../../images/technology__trello.jpg",
+                    "src": "../../images/technology__trello.png",
                     "alt": "Trello"
                 }
             },
