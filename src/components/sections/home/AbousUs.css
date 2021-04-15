@@ -91,6 +91,7 @@
 @media screen and (min-width: 1024px) {
 	.about-us{
 		max-width: 1280px;
+		margin: 0 auto;
 	}
 	.about-us svg {
 		top: -75vw;

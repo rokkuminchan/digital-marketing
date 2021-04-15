@@ -40,6 +40,7 @@
 @media screen and (min-width: 1024px) {
   .technology{
     max-width: 1280px;
+    margin: 0 auto;
   }
   .technology__description {
     padding: 2% 5%;

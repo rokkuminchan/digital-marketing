@@ -80,6 +80,7 @@
 @media screen and (min-width: 1024px) {
   .web-application{
     max-width: 1280px;
+    margin: 0 auto;
   }
   .web-application__img {
     object-fit: cover;

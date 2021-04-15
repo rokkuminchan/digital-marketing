@@ -2,6 +2,7 @@
   overflow: hidden;
   background-color: #5f5e64;
   max-width: 1280px;
+  margin: 0 auto;
 }
 .webAppForDigital__wrapper {
   position: relative;
