@@ -59,6 +59,9 @@
 
 /*desktop*/
 @media screen and (min-width: 1024px) {
+  .detailedwork__wrapper{
+    max-width: 1280px;
+  }
   .detailedwork__title {
     font-size: 3.5em;
     color: #3c64b1;

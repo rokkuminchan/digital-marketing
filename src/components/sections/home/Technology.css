@@ -38,6 +38,9 @@
 
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
+  .technology{
+    max-width: 1280px;
+  }
   .technology__description {
     padding: 2% 5%;
   }

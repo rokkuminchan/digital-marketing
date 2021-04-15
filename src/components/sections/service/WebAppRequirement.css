@@ -55,6 +55,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .web-app-requirment{
+    max-width: 1280px;
+  }
   .web-app-requirment .web-app-requirment__title {
     padding: 0 22%;
     margin-bottom: 2.5rem;

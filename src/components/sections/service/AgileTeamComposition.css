@@ -116,6 +116,10 @@
 
 /* Deskstop */
 @media only screen and (min-width: 1025px) {
+  .agileTeamComposition
+  {
+    max-width: 1280px;
+  }
   .agileTeamComposition__items {
     display: grid;
     grid-template-columns: 1fr 1fr;

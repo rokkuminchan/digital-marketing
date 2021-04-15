@@ -1,6 +1,7 @@
 .webAppForDigital {
   overflow: hidden;
   background-color: #5f5e64;
+  max-width: 1280px;
 }
 .webAppForDigital__wrapper {
   position: relative;

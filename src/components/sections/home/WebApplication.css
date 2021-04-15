@@ -78,6 +78,9 @@
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
+  .web-application{
+    max-width: 1280px;
+  }
   .web-application__img {
     object-fit: cover;
     width: 80%;
