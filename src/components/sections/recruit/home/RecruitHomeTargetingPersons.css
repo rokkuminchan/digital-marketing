@@ -78,11 +78,16 @@
 }
 /* Desktop screen */
 @media screen and (min-width: 1024px) {
+  .recruit-home-targeting-persons{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .recruit-home-targeting-persons__image {
     max-width: 500px;
     height: 100%;
     max-height: 400px;
     width: 80%;
+    
   }
   .recruit-home-targeting-persons__items-title {
     width: 85%;

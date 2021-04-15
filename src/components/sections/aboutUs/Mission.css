@@ -60,6 +60,9 @@
 /*desktop*/
 
 @media screen and (min-width: 1024px) {
+  .mission{
+    max-width: 1280px;
+  }
   .mission {
     display: flex;
     flex-direction: row;

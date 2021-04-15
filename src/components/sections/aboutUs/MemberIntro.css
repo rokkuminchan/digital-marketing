@@ -21,6 +21,10 @@
 }
 /*Ipad horizontal(1024 x 768)*/
 @media screen and (min-width: 1024px) {
+  .memberIntro{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .memberIntro__items {
     padding: 0% 5%;
   }
