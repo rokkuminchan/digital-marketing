@@ -145,6 +145,54 @@
                     "src": "../../images/technology__adobe-xd.jpg",
                     "alt": "Adobe XD"
                 }
+            },
+            {
+                "title": "technology-list__title__14",
+                "description": {
+                    "bold": "",
+                    "normal": "technology-list-desc-normal__12"
+                },
+                "link": "https://www.gatsbyjs.com/",
+                "image": {
+                    "src": "../../images/technology__gatsby.png",
+                    "alt": "Gatsby"
+                }
+            },
+            {
+                "title": "technology-list__title__15",
+                "description": {
+                    "bold": "technology-list-desc-bold__13",
+                    "normal": "technology-list-desc-normal__13"
+                },
+                "link": "https://nodejs.org/",
+                "image": {
+                    "src": "../../images/technology__nodejs.png",
+                    "alt": "Nodejs"
+                }
+            },
+            {
+                "title": "technology-list__title__16",
+                "description": {
+                    "bold": "technology-list-desc-bold__14",
+                    "normal": "technology-list-desc-normal__14"
+                },
+                "link": "https://expressjs.com/",
+                "image": {
+                    "src": "../../images/technology__express.png",
+                    "alt": "Express"
+                }
+            },
+            {
+                "title": "technology-list__title__17",
+                "description": {
+                    "bold": "technology-list-desc-bold__15",
+                    "normal": "technology-list-desc-normal__15"
+                },
+                "link": "https://firebase.google.com/",
+                "image": {
+                    "src": "../../images/technology__firebase.png",
+                    "alt": "Firebase"
+                }
             }
         ]
     }

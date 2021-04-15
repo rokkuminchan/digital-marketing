@@ -392,5 +392,17 @@
     "technology-list-desc-normal__10": "とは、オープンソースで開発され様々なプラットフォームで動作するエディターです",
     "technology-list__title__13": "XD",
     "technology-list-desc-bold__11": "",
-    "technology-list-desc-normal__11": "Webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です"
+    "technology-list-desc-normal__11": "Webサイトやモバイルアプリのデザインとプロトタイプの作成が、これ1つでできるAdobeのオールインワン製品です",
+    "technology-list__title__14": "Gatsby",
+    "technology-list-desc-bold__12": "",
+    "technology-list-desc-normal__12": "React ベースの静的サイトジェネレーターです",
+    "technology-list__title__15": "Node.js",
+    "technology-list-desc-bold__13": "Node.js",
+    "technology-list-desc-normal__13": "はスケーラブルなネットワークアプリケーションを構築するために設計された非同期型のイベント駆動の JavaScript 環境です",
+    "technology-list__title__16": "Express.js",
+    "technology-list-desc-bold__14": "Express",
+    "technology-list-desc-normal__14": "は、Web アプリケーションとモバイル・アプリケーション向けの一連の堅固な機能を提供する最小限で柔軟な Node.js Web アプリケーション・フレームワークです",
+    "technology-list__title__17": "Firebase",
+    "technology-list-desc-bold__15": "Firebase",
+    "technology-list-desc-normal__15": "は、高品質のアプリを迅速に開発できる Google のモバイル プラットフォームです"
 }

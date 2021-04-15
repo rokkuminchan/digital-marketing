@@ -390,5 +390,17 @@
   "technology-list-desc-normal__10": "Một trình soạn thảo được phát triển bằng mã nguồn mở và chạy trên nhiều nền tảng khác nhau.",
   "technology-list__title__13": "XD",
   "technology-list-desc-bold__11": "",
-  "technology-list-desc-normal__11": "Đây là sản phẩm tất cả trong một của Adobe cho phép bạn thiết kế và tạo mẫu các trang web và ứng dụng di động."
+  "technology-list-desc-normal__11": "Đây là sản phẩm tất cả trong một của Adobe cho phép bạn thiết kế và tạo mẫu các trang web và ứng dụng di động.",
+  "technology-list__title__14": "Gatsby",
+  "technology-list-desc-bold__12": "",
+  "technology-list-desc-normal__12": "Là công nghệ tạo trang web tĩnh dựa trên React.",
+  "technology-list__title__15": "Node.js",
+  "technology-list-desc-bold__13": "Node.js",
+  "technology-list-desc-normal__13": " là một môi trường JavaScript hướng sự kiện không đồng bộ được thiết kế để xây dựng các ứng dụng mạng có thể mở rộng.",
+  "technology-list__title__16": "Express.js",
+  "technology-list-desc-bold__14": "Express",
+  "technology-list-desc-normal__14": " là một khung ứng dụng web Node.js tối thiểu và linh hoạt, cung cấp một bộ tính năng mạnh mẽ cho các ứng dụng web và di động.",
+  "technology-list__title__17": "Firebase",
+  "technology-list-desc-bold__15": "Firebase",
+  "technology-list-desc-normal__15": " là nền tảng di động của Google để phát triển nhanh các ứng dụng chất lượng cao."
 }
