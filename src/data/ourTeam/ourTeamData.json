@@ -128,6 +128,14 @@
             "description": "about-us-member-introduction__items-description-3"
          },
          {
+            "title": "about-us-member-introduction__items-title-2",
+            "image": {
+               "src": "../../images/aboutus__nagase.jpg",
+               "alt": "doan"
+            },
+            "description": "about-us-member-introduction__items-description-2"
+         },
+         {
             "title": "about-us-member-introduction__items-title-4",
             "image": {
                "src": "../../images/aboutus__yen.jpg",
