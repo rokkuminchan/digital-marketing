@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "world-digital-marketing"
+  },
+  "targets": {
+    "world-digital-marketing": {
+      "hosting": {
+        "pro": [
+          "world-digital-marketing"
+        ]
+      }
+    }
   }
 }
