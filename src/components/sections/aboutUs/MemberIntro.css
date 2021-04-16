@@ -21,12 +21,21 @@
 }
 /*Ipad horizontal(1024 x 768)*/
 @media screen and (min-width: 1024px) {
-  .memberIntro__items {
-    padding: 0% 5%;
+  .memberIntro {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
   }
   .memberIntro {
     margin: auto;
     padding: 0px 10px 40px 10px;
+  }
+  .memberIntro__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
   }
 }
 

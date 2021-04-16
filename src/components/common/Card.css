@@ -40,8 +40,7 @@
 /*Ipad horizontal(1024 x 768)*/
 @media screen and (min-width: 1024px) {
   .card {
-    width: 28%;
-    margin: 30px 1%;
+    width: calc(33.33% - 40px);
   }
   .card__content {
     margin: 20px;

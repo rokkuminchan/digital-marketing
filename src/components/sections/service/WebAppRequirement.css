@@ -13,7 +13,7 @@
 
 .web-app-requirment .web-app-requirment__image {
   width: 100%;
-  height: 250px;
+  height: 30vh;
   max-height: 100vh;
   object-fit: cover;
   object-position: bottom;
@@ -55,6 +55,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .web-app-requirment{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .web-app-requirment .web-app-requirment__title {
     padding: 0 22%;
     margin-bottom: 2.5rem;

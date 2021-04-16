@@ -5,7 +5,7 @@
   padding: 4rem 3rem 0;
 }
 
-/*Iphone(480 x 640)*/
+/*Iphone (480 x 640)*/
 @media screen and (min-width: 320px) {
   .title {
     font-size: 2.5em;

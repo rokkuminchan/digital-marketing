@@ -108,6 +108,8 @@
     background-image: url("../../../../images/recruit_home__reason-bgr-desktop.jpg");
     background-size: cover;
     background-attachment: fixed;
+    max-width: 1280px;
+    margin: 0 auto;
   }
   .recruit-home-reason__card {
     width: 23%;

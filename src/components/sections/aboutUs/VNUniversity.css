@@ -17,6 +17,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .vnUniversity{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   /* .vnUniversity__container {
     margin: 0 auto;
     max-width: 1140px;

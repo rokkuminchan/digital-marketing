@@ -119,8 +119,10 @@
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
-    margin: 50px;
-    width: 300px;
+    margin: 0;
+    margin-left: 40px;
+    width: calc(33.33% - 40px);
+    margin-bottom: 40px;
   }
   .toolcard:hover {
     box-shadow: 0 0 6px rgb(35 173 255);
@@ -148,7 +150,7 @@
     z-index: -2;
   }
   .toolcard__content h3:after {
-    height: 1.3px;
+    height: 1.2px;
   }
   .toolcard__content p {
     text-align: justify;

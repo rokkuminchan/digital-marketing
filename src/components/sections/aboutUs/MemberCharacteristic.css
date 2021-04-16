@@ -71,6 +71,10 @@
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
+  .member-characteristic{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   p.description {
     margin: 0 90px;
   }

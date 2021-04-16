@@ -90,9 +90,13 @@
     background-color: #eeeeee;
     position: relative;
     overflow: hidden;
-    width: 100%;
     z-index: 1;
     padding: 20px 0 0px 0;
+  }
+
+  .contact-container {
+    width: 100%;
+    max-width: 1280px;
   }
 
   .contact_title {

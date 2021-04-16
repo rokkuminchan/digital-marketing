@@ -100,12 +100,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .recruit {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .recruit__image {
-    height: 50vh;
-    width: 80%;
+    height: 35vh;
   }
   .container {
     height: 35rem;
+    padding-bottom: 5rem;
   }
   .recruit-items {
     width: 80%;

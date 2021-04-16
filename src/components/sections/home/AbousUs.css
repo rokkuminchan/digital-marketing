@@ -89,6 +89,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+	.about-us{
+		max-width: 1280px;
+		margin: 0 auto;
+	}
 	.about-us svg {
 		top: -75vw;
 		left: -10%;
@@ -106,8 +110,8 @@
 	}
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
 	.about-us__image {
 		height: 300px;
 	}
-}
+} */

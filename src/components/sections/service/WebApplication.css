@@ -104,8 +104,12 @@
 }
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
+  .web-application{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .web-application__image {
-    height: 300px;
+    height: 30vh;
     object-fit: cover;
   }
   .web-application__desciption {
