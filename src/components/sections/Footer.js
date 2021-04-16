@@ -10,38 +10,38 @@ import {
 
 import ALink from "../common/ALink";
 import "./Footer.css";
-import {useTranslation} from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <footer className="footer__distributed">
       <div className="footer__left">
         <h3>WORLD IT TEAM</h3>
         <p className="footer__links">
           <ALink exact to="/" activeClassName="active">
-            {' '}
-            {t('menu-header__home')}{' '}
+            {" "}
+            {t("menu-header__home")}{" "}
           </ALink>
           ｜｜
           <ALink exact to="/services" activeClassName="active">
-            {t('menu-header__service')}
+            {t("menu-header__service")}
           </ALink>
           ｜｜
           <ALink exact to="/technology" activeClassName="active">
-            {t('menu-header__technology')}
+            {t("menu-header__technology")}
           </ALink>
           ｜｜
           <ALink exact to="/about-us" activeClassName="active">
-            {t('menu-header__about-us')}
+            {t("menu-header__about-us")}
           </ALink>
           ｜｜
           <ALink exact to="/recruit" activeClassName="active">
-            {t('menu-header__recruit')}
+            {t("menu-header__recruit")}
           </ALink>
           ｜｜
           <ALink exact to="/contact" activeClassName="active">
-            {t('menu-header__contact')}
+            {t("menu-header__contact")}
           </ALink>
         </p>
       </div>
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
           <p>
             <span>〒500-8856</span>
-            {t('footer__address')}
+            {t("footer__address")}
           </p>
         </div>
 
@@ -77,23 +77,26 @@ export default function Footer() {
           <a
             href="https://www.facebook.com/worldworks.vietnam"
             target="_blank"
-            className="footer__icon-fb" rel="noopener"
+            className="footer__icon-fb"
+            rel="noopener noreferrer"
           >
             <FaFacebookF className="footer__icon" />
           </a>
           <a
             href="https://twitter.com/world_recruit"
             target="_blank"
-            className="footer__icon-tw" rel="noopener"
+            className="footer__icon-tw"
+            rel="noopener noreferrer"
           >
             <FaTwitter className="footer__icon" />
           </a>
           <a
             href="https://www.instagram.com/world_recruit/"
             target="_blank"
-            className="footer__icon-ins" rel="noopener"
+            className="footer__icon-ins"
+            rel="noopener noreferrer"
           >
-            <FaInstagram className="footer__icon" /> 
+            <FaInstagram className="footer__icon" />
           </a>
         </div>
         <p className="footer__copyright">

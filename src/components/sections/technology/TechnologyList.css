@@ -58,9 +58,10 @@ span.technology-list__header-description.technology-list__header-description-bol
   }
 }
 @media screen and (min-width: 1024px) {
-  .technology-list{
+  .technology-list {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 30px;
   }
   .technology-list__title {
     font-family: Roboto;
@@ -84,7 +85,9 @@ span.technology-list__header-description.technology-list__header-description-bol
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: -40px;
   }
   .technology-list__header-description {
     font-size: 2.6em;

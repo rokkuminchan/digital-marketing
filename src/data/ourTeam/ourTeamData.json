@@ -1,5 +1,5 @@
 {
-   
+
    "pageHeader":{
    "title": "about-us-page-header__title",
    "description": "about-us-page-header__description",
@@ -118,14 +118,6 @@
                "alt": "szksensei"
             },
             "description": "about-us-member-introduction__items-description-1"
-         },
-         {
-            "title": "about-us-member-introduction__items-title-2",
-            "image": {
-               "src": "../../images/aboutus__huy.jpg",
-               "alt": "huy"
-            },
-            "description": "about-us-member-introduction__items-description-2"
          },
          {
             "title": "about-us-member-introduction__items-title-3",
@@ -262,6 +254,30 @@
                "alt": "doan"
             },
             "description": "about-us-member-introduction__items-description-19"
+         },
+         {
+            "title": "about-us-member-introduction__items-title-20",
+            "image": {
+               "src": "../../images/aboutus__dinh.jpg",
+               "alt": "doan"
+            },
+            "description": "about-us-member-introduction__items-description-20"
+         },
+         {
+            "title": "about-us-member-introduction__items-title-21",
+            "image": {
+               "src": "../../images/aboutus__theanh.jpg",
+               "alt": "doan"
+            },
+            "description": "about-us-member-introduction__items-description-21"
+         },
+         {
+            "title": "about-us-member-introduction__items-title-22",
+            "image": {
+               "src": "../../images/aboutus__phuong.jpg",
+               "alt": "doan"
+            },
+            "description": "about-us-member-introduction__items-description-22"
          }
       ]
    },
