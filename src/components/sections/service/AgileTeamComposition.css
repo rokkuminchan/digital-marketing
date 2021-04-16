@@ -127,7 +127,7 @@
     grid-template-rows: 1fr 1fr;
   }
   .agileTeamComposition__title {
-    height: 60vh;
+    height: 35vh;
   }
   .agileTeamComposition__title h3 {
     font-size: 4.5em;
@@ -164,7 +164,7 @@
     margin: 10% auto 0% auto;
   }
   .agileTeamComposition__items {
-    width: 85%;
+    /* width: 85%; */
     margin: auto;
   }
   .items-content {

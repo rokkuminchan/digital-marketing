@@ -109,7 +109,7 @@
     margin: 0 auto;
   }
   .web-application__image {
-    height: 300px;
+    height: 30vh;
     object-fit: cover;
   }
   .web-application__desciption {
