@@ -1,86 +1,84 @@
-.job-other{
+.job-other {
   position: relative;
   z-index: 2;
 }
-.job-other__button{
+.job-other__button {
   background-color: white;
   border-style: none;
   border-radius: 10px;
-  color: #3C64B1;
-  text-decoration: none; 
-  font-weight: bold; 
+  color: #3c64b1;
+  text-decoration: none;
+  font-weight: bold;
   text-align: center;
-  
 }
 /*mobile */
 @media screen and (min-width: 320px) {
-  .job-other{
-      background-color: #C1E1FF;
-      padding: 3rem 0;
-     
+  .job-other {
+    background-color: #c1e1ff;
+    padding: 3rem 0;
   }
 
-  .job-other__content{
+  .job-other__content {
     display: grid;
     align-items: center;
     padding: 2%;
   }
 
-  .job-other__title{
+  .job-other__title {
     font-size: 2.5rem;
     letter-spacing: 1.5px;
     text-align: center;
     color: #3e66af;
   }
 
-  .job-other__button{
-        margin: 1rem 6rem;
-        padding: 1.6rem 0rem;
-        box-shadow: 2px 2px 10px #888888;;
- 
-  }  
+  .job-other__button {
+    margin: 1rem 6rem;
+    padding: 1.6rem 0rem;
+    box-shadow: 2px 2px 10px #888888;
+  }
 }
 
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
-  .job-other__content{
+  .job-other__content {
     display: grid;
-    grid-template-columns: 50%  50%;
-    grid-template-rows: 120px 120px;  
-    align-items: center;   
-    padding: 2% 7%; 
-    
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 120px;
+    align-items: center;
+    padding: 2% 7%;
   }
-  .job-other__button{
-        margin: 1rem 3rem;
-        padding: 2rem 0rem;
+  .job-other__button {
+    margin: 1rem 3rem;
+    padding: 2rem 0rem;
   }
 }
 
 /* Ipad Pro and Desktop */
 @media screen and (min-width: 1024px) {
-  .job-other__title{
+  .job-other__container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .job-other__title {
     font-size: 4rem;
   }
 
-  .job-other__content{
+  .job-other__content {
     display: grid;
-    grid-template-columns: 50%  50%;
-    grid-template-rows: 140px 140px ;  
-    align-items: center;   
-    padding: 2% 15%;
-   
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 140px 140px;
+    align-items: center;
   }
-  .job-other__button{
+  .job-other__button {
     margin: 1rem 5rem;
     padding: 2.5rem 0rem;
     border-radius: 10px;
     transition: 0.6s;
     box-shadow: 5px 10px 18px #888888;
   }
-  
-  .job-other__button:hover{
-      background-color: #2379DB;
-      color: white;
-  } 
+
+  .job-other__button:hover {
+    background-color: #2379db;
+    color: white;
+  }
 }

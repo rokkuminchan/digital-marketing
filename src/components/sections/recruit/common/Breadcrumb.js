@@ -3,8 +3,8 @@ import { emphasize, withStyles } from "@material-ui/core/styles";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Chip from "@material-ui/core/Chip";
 import HomeIcon from "@material-ui/icons/Home";
-import {useTranslation} from 'react-i18next';
-import ALink from '../../../common/ALink';
+import { useTranslation } from "react-i18next";
+import ALink from "../../../common/ALink";
 
 const StyledBreadcrumb = withStyles((theme) => ({
   root: {
@@ -22,14 +22,14 @@ const StyledBreadcrumb = withStyles((theme) => ({
   },
 }))(Chip);
 
-
 export default function Breadcrumb({ data }) {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <Breadcrumbs
       aria-label="breadcrumb"
       style={{
         margin: `2px auto`,
+        maxWidth: "1280px",
       }}
     >
       <ALink
