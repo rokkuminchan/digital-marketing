@@ -1,8 +1,8 @@
 .characteristic {
-  margin: 0;
   padding: 0;
   height: auto;
-  margin: 10% auto auto auto;
+  margin: 6rem auto 0;
+  padding-bottom: 6rem;
   background-color: #5f5e64;
   width: 100%;
 }
@@ -44,7 +44,6 @@
   width: 100%;
   height: auto;
   min-height: 270px;
-  
 }
 .characteristic__cardBx figcaption {
   box-sizing: border-box;
@@ -91,12 +90,13 @@
   .characteristic__cardBx .solution {
     opacity: 1;
   }
-  .characteristic__container:nth-child(2){
+  .characteristic__container:nth-child(2) {
     padding-bottom: 5%;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   .characteristic {
+    margin: 12rem auto 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;

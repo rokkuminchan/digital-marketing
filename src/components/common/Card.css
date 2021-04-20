@@ -82,7 +82,6 @@
   opacity: 0.9;
 }
 .card__img {
-  cursor: pointer;
   display: block;
   margin: 0px auto;
   object-fit: cover;

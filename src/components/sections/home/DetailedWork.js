@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../../common/Title";
 import { useTranslation } from "react-i18next";
 import Image from "../../common/Image";
 import "./DetailedWork.css";
@@ -8,7 +9,9 @@ const DetailedWork = ({ data }) => {
   const { t } = useTranslation();
   return (
     <section className="detailedwork__wrapper">
-      <h3 className="detailedwork__title">{t(data.title)}</h3>
+      <div className="detailedwork__title">
+        <Title data={t(data.title)} />
+      </div>
       <Image className="detailedwork__image" {...data.image} />
       <div className="detailedwork__description">
         <p>{t(data.descriptions1)}</p>
