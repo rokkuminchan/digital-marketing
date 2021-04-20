@@ -1,16 +1,7 @@
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {
   .detailedwork__title {
-<<<<<<< HEAD
-    font-size: 3.5em;
-    color: #3c64b1;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-=======
     padding: 0 3rem 3rem 3rem;
->>>>>>> recruit-dev
   }
   .detailedwork__image {
     width: 100%;
@@ -57,16 +48,7 @@
     margin: 0 auto;
   }
   .detailedwork__title {
-<<<<<<< HEAD
-    font-size: 3.5em;
-    color: #3c64b1;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-=======
     padding: 0rem 0 3.5rem 0;
->>>>>>> recruit-dev
   }
   .detailedwork__image {
     height: 360px;
