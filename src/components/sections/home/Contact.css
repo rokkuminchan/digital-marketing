@@ -92,11 +92,10 @@
     position: relative;
     overflow: hidden;
     background-color: #ebf2fd;
-    height: 25rem;
+    height: 36rem;
     border-width: 50px 18px 0;
     max-width: 1280px;
     margin: 0 auto;
-
   }
   .button-contain:before {
     content: "";
@@ -105,9 +104,9 @@
     border-radius: 0;
     background-color: #72aed3;
     position: absolute;
-    left: 33%;
-    top: -85%;
-    transform: rotate(20deg) scale(2);
+    left: 39%;
+    top: -10%;
+    transform: rotate(34deg) scale(3);
     background-origin: 0 45px 35px;
   }
 }

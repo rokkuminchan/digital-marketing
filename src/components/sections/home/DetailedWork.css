@@ -5,6 +5,7 @@
   }
   .detailedwork__image {
     width: 100%;
+    height: 200px;
     object-fit: cover;
   }
   .detailedwork__description {
@@ -26,6 +27,9 @@
 @media screen and (min-width: 768px) {
   .detailedwork__title {
     padding: 0 11rem 3rem 11rem;
+  }
+  .detailedwork__image {
+    height: 300px;
   }
   .detailedwork__description {
     text-align: justify;

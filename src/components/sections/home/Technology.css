@@ -17,6 +17,7 @@
   }
   .technology__image {
     width: 100%;
+    height: 200px;
     object-fit: cover;
   }
 }
@@ -29,6 +30,9 @@
   .technology__description p,
   a {
     font-size: 20px;
+  }
+  .technology__image {
+    height: 300px;
   }
 }
 
