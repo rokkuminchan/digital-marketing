@@ -36,7 +36,6 @@
   color: #fff;
 }
 .digital-image {
-  height: 150px;
   width: 100%;
   object-fit: cover;
 }
@@ -49,9 +48,6 @@
   }
   .webAppForDigital__title {
     padding: 0 11rem 3rem 11rem;
-  }
-  .digital-image {
-    height: 250px;
   }
   .webAppForDigital__desc > .description {
     font-size: 2rem;
@@ -67,12 +63,9 @@
     border-radius: 50%;
     transform: translateX(-50%) scale(1);
   }
-  .webAppForDigital__wrapper {
-    max-width: 80vw;
-    margin: 0 auto;
-  }
+
   .webAppForDigital__title {
-    padding: 2rem 0 5rem 0;
+    padding: 0 0 3.5rem 0;
   }
   .webAppForDigital__image {
     display: flex;
@@ -80,7 +73,7 @@
     align-items: center;
   }
   .digital-image {
-    height: 30vh;
+    height: 360px;
   }
   .webAppForDigital__desc {
     padding-top: 2rem;

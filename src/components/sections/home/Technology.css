@@ -16,8 +16,8 @@
     font-size: 15px;
   }
   .technology__image {
-    height: 150px;
     width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -29,10 +29,6 @@
   .technology__description p,
   a {
     font-size: 20px;
-  }
-  .technology__image {
-    height: 250px;
-    width: 100%;
   }
 }
 
@@ -50,7 +46,6 @@
     font-size: 20px;
   }
   .technology__image {
-    height: 30vh;
-    object-fit: cover;
+    height: 360px;
   }
 }
