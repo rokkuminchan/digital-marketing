@@ -52,8 +52,9 @@
 
 .web-application__image {
   margin-bottom: 15%;
-  height: 150px;
+  height: 200px;
   width: 100%;
+  object-fit: cover;
 }
 /*Ipad vertical(768 x 1024)*/
 @media screen and (min-width: 768px) {
@@ -61,8 +62,7 @@
     padding: 0 11rem 3rem 11rem;
   }
   .web-application__image {
-    height: 250px;
-    object-fit: cover;
+    height: 300px;
   }
   .web-application__desciption {
     padding-top: 2%;
@@ -114,8 +114,7 @@
     margin: 0 auto;
   }
   .web-application__image {
-    height: 30vh;
-    object-fit: cover;
+    height: 360px;
   }
   .web-application__desciption {
     padding-top: 0;
@@ -125,12 +124,5 @@
   }
   .web-application__image {
     margin-bottom: 7%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .web-application__image {
-    height: 150px;
-    object-fit: cover;
   }
 }
