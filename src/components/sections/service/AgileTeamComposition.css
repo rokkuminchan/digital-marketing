@@ -7,9 +7,9 @@
 }
 
 .agileTeamComposition__title {
-  background: url("../../../images/service__agile.jpg") no-repeat 0% 100%;
+  background: url("../../../images/service__agile.jpg") no-repeat center;
   background-size: cover;
-  height: 25vh;
+  height: 200px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -83,6 +83,9 @@
 }
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .agileTeamComposition__title {
+    height: 300px;
+  }
   .agileTeamComposition__items {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -116,8 +119,10 @@
 
 /* Deskstop */
 @media only screen and (min-width: 1025px) {
-  .agileTeamComposition
-  {
+  .agileTeamComposition__title {
+    height: 360px;
+  }
+  .agileTeamComposition {
     max-width: 1280px;
     margin: 0 auto;
   }

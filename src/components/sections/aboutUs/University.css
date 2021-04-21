@@ -31,7 +31,6 @@
 .university__desc {
   padding: 2rem 0;
   opacity: 0.8;
-  
 }
 .university__link {
   font-size: 1.4rem;
@@ -72,7 +71,6 @@
     align-items: center;
     padding: 0;
     max-width: 1280px;
-    margin: 0 auto;
   }
   .university:first-child {
     margin-top: 4rem;
