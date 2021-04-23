@@ -3,6 +3,7 @@ import ServicePageHeader from "../../components/sections/service/ServicePageHead
 import WebApplication from "../../components/sections/service/WebApplication";
 import WebAppRequirment from "../../components/sections/service/WebAppRequirement";
 import AgileTeamComposition from "../../components/sections/service/AgileTeamComposition";
+import SiteRefenence from "../../components/sections/service/SiteRefenence"
 export default function Services({ data }) {
 
   return (
@@ -11,6 +12,7 @@ export default function Services({ data }) {
       <WebApplication data={data.WebApplication} />
       <WebAppRequirment data={data.WebApplicationRequirment} />
       <AgileTeamComposition data={data.AgileTeamComposition} />
+      <SiteRefenence data={data.SiteRefenence} />
     </React.Fragment>
   );
 }

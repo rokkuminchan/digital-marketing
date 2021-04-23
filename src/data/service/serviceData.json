@@ -145,5 +145,46 @@
         "description": "service-agileTeam-List_description4"
       }
     ]
+  },
+  "SiteRefenence": {
+    "title": "site-refenence-title",
+    "description": "site-refenence-description",
+    "items": [
+      {
+        "title": "WORLD IT DOJO",
+        "image": {
+          "src": "../../images/other-link-1.png",
+          "alt": ""
+        },
+
+        "link": {
+          "subTitle": "site-refenence-subtitle1",
+          "src": "https://it-dojo-world-works.web.app/"
+        }
+      },
+      {
+        "title": "WORLD IT TEAM",
+        "image": {
+          "src": "../../images/other-link-2.png",
+          "alt": ""
+        },
+        "link": {
+          "subTitle": "site-refenence-subtitle2",
+          "src": "https://it.world-works.co.jp/"
+        }
+      },
+      {
+        "title": "WORLD JAPANESE DOJO FANPAGE",
+        "image": {
+          "src": "../../images/other-link-3.png",
+          "alt": ""
+        },
+        "link": {
+          "subTitle": "site-refenence-subtitle3",
+          "src": "https://www.facebook.com/World.Japanese.Dojo/"
+        }
+
+      }
+    ]
   }
 }
