@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import i18next from "i18next";
 import {
-  I18nextProvider,
-  withTranslation,
-} from "react-i18next";
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useParams,
+} from "react-router-dom";
+import i18next from "i18next";
+import { I18nextProvider, withTranslation } from "react-i18next";
 
 // Components
 import Home from "./components/pages/Home";
@@ -19,6 +21,9 @@ import Designer from "./components/pages/Designer";
 import Frontend from "./components/pages/Frontend";
 import Backend from "./components/pages/Backend";
 import Entry from "./components/pages/Entry";
+import BlogDetail from "./components/blog/pageContents/BlogDetail";
+import TagsPage from "./components/blog/pageContents/TagsPage";
+import BlogNews from "./components/blog/pageContents/BlogNews";
 
 // Data
 import ourTeamJsonData from "./data/ourTeam/ourTeamData.json";
@@ -35,6 +40,56 @@ import recruitBackend from "./data/recruit__backend/recruitBackend.json";
 import recruitFontend from "./data/recruit__frontend/recruit_Front.json";
 import Graduate from "./components/pages/Graduate";
 import recruitEntry from "./data/recruit__entry/recruitEntry.json";
+var JSONData = {
+  blogNews: [],
+  isLoaded: false,
+};
+function readJsonFilesInFolder() {
+  for (let index = 7; index >= 1; index--) {
+    JSONData.blogNews.push(require(`./data/blog/blog_news${index}.json`));
+  }
+}
+// function BlogDetailWrapper(props) {
+//   let { blogId } = useParams();
+//   let blogDetailData = props.data.find((x) => x.id === blogId);
+//   let tagsData = [];
+//   props.data.forEach((i) => {
+//     if (i.id !== blogDetailData.id) {
+//       for (let item of blogDetailData.tags) {
+//         if (i.tags.indexOf(item) !== -1) {
+//           if (tagsData.indexOf(i) === -1) {
+//             tagsData.push(i);
+//             break;
+//           }
+//         }
+//       }
+//     }
+//   });
+//   return <BlogDetail data={blogDetailData} otherNews={tagsData} />;
+// }
+
+// function BlogTagName(props) {
+//   let { tagName } = useParams();
+//   let tag;
+//   let tagData = [];
+//   props.data.filter((item) => {
+//     item.tags.map((tagItem) => {
+//       const value = tagItem
+//         .normalize("NFD")
+//         .replace(/[\u0300-\u036f]/g, "")
+//         .replace(/ /g, "-")
+//         .replace(/Đ/g, "D")
+//         .replace(/đ/g, "d")
+//         .toLowerCase();
+//       if (value === tagName) {
+//         tagData.push(item);
+//         tag = tagItem;
+//       }
+//     });
+//   });
+
+//   return <TagsPage data={tagData} tags={tag} />;
+// }
 
 i18next.init({
   lng: "jp",
@@ -81,6 +136,7 @@ const LanguageSupportLayout = withTrans(Layout);
 
 // Recruit Dev
 function App() {
+  readJsonFilesInFolder();
   return (
     <div className="App">
       <Router>
@@ -123,6 +179,15 @@ function App() {
               <Route exact path="/contact">
                 <Contact data={contactJsonData} />
               </Route>
+              <Route exact path="/blog">
+                <BlogNews data={JSONData.blogNews} />
+              </Route>
+              {/* <Route exact path="/blog/:blogId">
+                <BlogDetailWrapper data={JSONData.blogNews} />
+              </Route>
+              <Route exact path="/blog/tag/:tagName">
+                <BlogTagName data={JSONData.blogNews} />
+              </Route> */}
             </Switch>
           </LanguageSupportLayout>
         </ScrollToTop>
