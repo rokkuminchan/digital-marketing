@@ -1,178 +1,22 @@
-import React from "react";
-import { graphql } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
 
-import Home from "../components/pages/Home";
-import Layout from "../components/layout";
+import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
 
-//Home page
-const IndexPage = ({ data }) => (
+const IndexPage = () => (
   <Layout>
-    <Home data={data.homeJson} />
+    <SEO title="Home" />
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Image />
+    </div>
+    <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
-);
+)
 
-export default IndexPage;
-
-export const query = graphql`
-  {
-    homeJson {
-      WebApplication {
-        backgroundSrc {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-        description
-        title
-        items {
-          cssCol
-          description
-          image {
-            alt
-            src {
-              childImageSharp {
-                fluid {
-                  srcSet
-                }
-              }
-            }
-          }
-        }
-        icon {
-          name
-          type
-        }
-      }
-      WebAppForDigital {
-        title
-        description
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-      }
-      Watashitachi {
-        descriptions
-        subtitle
-        title
-        images {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-      }
-      Technology {
-        description
-        subtitle
-        title
-        link {
-          src
-          title
-        }
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-      }
-      HomePageHeader {
-        description
-        subDescription
-        title
-        image {
-          alt
-          src
-        }
-      }
-      DetailedWork {
-        title
-        link {
-          src
-          title
-        }
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-        descriptions2
-        descriptions1
-      }
-      Recruit {
-        title
-        subtitle
-        items {
-          description
-          title
-          image {
-            alt
-            src {
-              childImageSharp {
-                fluid {
-                  srcSet
-                }
-              }
-            }
-          }
-        }
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-      }
-      Contact {
-        link {
-          src
-          title
-        }
-      }
-      Characteristic {
-        description
-        title
-        image {
-          alt
-          src {
-            childImageSharp {
-              fluid {
-                srcSet
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`
-
+export default IndexPage

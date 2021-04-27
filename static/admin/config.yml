@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: cms
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: blog
+    label: Blog
+    extension: "json"
+    folder: src/data/blog
+    media_folder: ../../media/blog
+    slug: "{{title}}"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - { label: "Title (example: blog_news1)", name: "title", widget: "string" }
+      - { label: "Order", name: "order", widget: "number", value_type: "int",min: 1 }
+      - { label: "News", name: "news", widget: "string" }
+      - { label: "ID", name: "id", widget: "uuid" }
+      - label: "Image"
+        name: "img"
+        widget: "object"
+        fields:
+          - { label: "Src", name: "src", widget: "image" }
+          - { label: "Alt", name: "alt", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - label : "Tags"
+        name : "tags"
+        widget: "list"
+        summary: "{{fields.sentence}}"
+        field: { label: Dòng, name: sentence, widget: string }
+      - label: "date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        time_format: "HH:mm"
+        date_format: "DD/MM/YYYY"
+        format: "HH:mm DD/MM/YYYY"
+        picker_utc: false
+      - { label: "Summary", name: "summary", widget: "markdown" }
+      - { label: "Content ", name: "content", widget: "markdown" }

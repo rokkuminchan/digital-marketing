@@ -1,9 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `ワールドのITチーム`,
-    description: `ワールドのITチームのご紹介サイト`,
-    site_name: `WORLD IT TEAM`,
-    url: `https://it.world-works.co.jp`,
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -13,14 +11,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `DigitalMarketingData`,
-        path: `${__dirname}/src/data/`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -34,27 +24,36 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-      }
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
     },
     {
-      resolve: `gatsby-plugin-react-i18next`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/src/locales`,
-        languages: [`jp`, `vi`],
-        defaultLanguage: `jp`,
-        redirect: false,
-        siteUrl: "http://localhost:8000",
-        // you can pass any i18next options
-        // pass following options to allow message content as a key
-        i18nextOptions: {
-          interpolation: {
-            escapeValue: false // not needed for react as it escapes by default
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 630,
+            },
           },
-          keySeparator: false,
-          nsSeparator: false
-        }
-      }
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
     }
-  ]
-};
+  ],
+}
