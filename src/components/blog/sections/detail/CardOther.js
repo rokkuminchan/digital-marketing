@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
-import Image from "../../../common/Image";
+import Image from "../../common/Image";
 import CardMeta from "../common/CardMeta";
-// import ALink from "../../../common/Alink";
+import ALink from "../../../common/ALink";
 
 const useStyles = makeStyles(() => ({
   bigcontent: {
@@ -47,19 +47,19 @@ export default function CardOther({ data }) {
 
   return (
     <Card className={classes.bigcontent}>
-      {/* <ALink to={`/blog/${data.id}`} className={classes.titleLink}> */}
-      <div>
-        <Image className={classes.img} src={data.img.src} alt={data.img.alt} />
-        <Typography
-          className={classes.title}
-          variant="body2"
-          color="primary"
-          component="h6"
-        >
-          {data.news}
-        </Typography>
-      </div>
-      {/* </ALink> */}
+      <ALink to={`/blog/${data.id}`} className={classes.titleLink}>
+        <div>
+          <Image className={classes.img} src={data.img.src} alt={data.img.alt} />
+          <Typography
+            className={classes.title}
+            variant="body2"
+            color="primary"
+            component="h6"
+          >
+            {data.news}
+          </Typography>
+        </div>
+      </ALink>
       <CardMeta id={data.id} news={data.news} />
     </Card>
   );

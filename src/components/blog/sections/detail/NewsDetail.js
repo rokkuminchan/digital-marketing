@@ -12,8 +12,8 @@ import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import PersonIcon from "@material-ui/icons/Person";
 import LocalOfferRoundedIcon from "@material-ui/icons/LocalOfferRounded";
 
-// import ALink from "../../../common/Alink";
-// import MarkdownViewer from "../../../common/MarkdownViewer";
+import ALink from "../../../common/ALink";
+import MarkdownViewer from "../../common/MarkdownViewer";
 import LeftTime from "../../common/LeftTime";
 import CardMeta from "../common/CardMeta";
 
@@ -140,12 +140,12 @@ export default function NewsDetail({ data }) {
 
   return (
     <Container className={classes.container}>
-      {/* <ALink to="/blog" className={classes.allArticlesLink}> */}
-      <Typography className={classes.allArticlesDesc}>
-        <KeyboardArrowLeftIcon className={classes.allArticlesLinkIcon} />
+      <ALink to="/blog" className={classes.allArticlesLink}>
+        <Typography className={classes.allArticlesDesc}>
+          <KeyboardArrowLeftIcon className={classes.allArticlesLinkIcon} />
         Tất cả bài viết
       </Typography>
-      {/* </ALink> */}
+      </ALink>
       <Paper className={classes.contentDetail}>
         <div>
           <Typography className={classes.title} variant="h5" component="h2">
@@ -161,7 +161,7 @@ export default function NewsDetail({ data }) {
             </Typography>
           </div>
           <Typography align="justify" className={classes.content}>
-            {/* <MarkdownViewer data={data.content} /> */}
+            <MarkdownViewer data={data.content} />
           </Typography>
         </div>
 
@@ -176,7 +176,7 @@ export default function NewsDetail({ data }) {
             <p>Tags :</p>
           </div>
           <div>
-            {/* {data.tags.map((tag) => {
+            {data.tags.map((tag) => {
               return (
                 <ALink
                   to={`/blog/tag/${tag
@@ -191,7 +191,7 @@ export default function NewsDetail({ data }) {
                   {tag}
                 </ALink>
               );
-            })} */}
+            })}
           </div>
         </div>
       </Paper>

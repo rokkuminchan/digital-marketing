@@ -3,7 +3,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import { makeStyles } from "@material-ui/core/styles";
 import { useState } from "react";
 import ListNewsElement from "./ListNewsElement";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { Container } from "@material-ui/core";
 import Pagination from "@material-ui/lab/Pagination";
 
@@ -76,7 +75,6 @@ export default function SearchBlogs({ data }) {
   const LastBlog = page * blogsPerPage;
   const FirstBlog = LastBlog - blogsPerPage;
   const currentBlogs = filteredNews.slice(FirstBlog, LastBlog);
-  const desktopViewport = useMediaQuery("(min-width:768px)");
 
   const handleChange = (event, value) => {
     setPage(value);

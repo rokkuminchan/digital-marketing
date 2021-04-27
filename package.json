@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "gsap": "^3.5.1",
     "i18next": "^19.8.3",
+    "marked": "^2.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.3",

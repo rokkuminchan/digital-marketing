@@ -63,8 +63,6 @@ const useStyles = makeStyles(() => ({
     },
   },
 }));
-// TODO: tạo component dùng chung cho image
-// Truong: OK
 export default function HotNews({ data }) {
   const classes = useStyles();
   return (

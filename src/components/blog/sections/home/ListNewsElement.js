@@ -1,13 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Image from "../../../common/Image";
+import Image from "../../common/Image";
 import CardSummary from "./CardSummary";
 import CardMeta from "../common/CardMeta";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-// import Alink from "../../../common/Alink";
+import Alink from "../../../common/ALink";
 import { Typography } from "@material-ui/core";
-import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -90,13 +89,13 @@ export default function ListNewsElement({ data }) {
     <div className={classes.root}>
       <Grid container spacing={5}>
         <Grid item xs={12} sm={5} container classes={{ item: classes.left }}>
-          {/* <Alink to={`/blog/${data.id}`} className={classes.titleLink}> */}
-          <Image
-            className={classes.img}
-            src={data.img.src}
-            alt={data.img.alt}
-          />
-          {/* </Alink> */}
+          <Alink to={`/blog/${data.id}`} className={classes.titleLink}>
+            <Image
+              className={classes.img}
+              src={data.img.src}
+              alt={data.img.alt}
+            />
+          </Alink>
         </Grid>
         <Grid item xs={12} sm={7} container classes={{ item: classes.right }}>
           <Grid
@@ -119,7 +118,7 @@ export default function ListNewsElement({ data }) {
                 >
                   {data.news}
                 </Typography>
-                // </Alink>
+                //  </Alink>
               )}
             </Grid>
             <Grid item xs classes={{ item: classes.iconButton }}>

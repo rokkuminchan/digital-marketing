@@ -3,10 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import PersonIcon from "@material-ui/icons/Person";
-import { Paper } from "@material-ui/core";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
-// import ALink from "../../../common/Alink";
-// import MarkdownViewer from "../../../common/MarkdownViewer";
+import ALink from "../../../common/ALink";
+import MarkdownViewer from "../../common/MarkdownViewer";
 import LeftTime from "../../common/LeftTime";
 
 const useStyles = makeStyles({
@@ -70,22 +69,21 @@ const useStyles = makeStyles({
     },
   },
 });
-// TODO: tạo function ở file riêng
-// Truong: OK
+
 export default function CardSummary(data) {
   const classes = useStyles();
   return (
     <CardContent className={classes.cardContent}>
-      {/* <ALink to={`/blog/${data.data.id}`} className={classes.titleLink}> */}
-      <Typography
-        className={classes.title}
-        variant="h5"
-        color="primary"
-        component="h5"
-      >
-        {data.data.news}
-      </Typography>
-      {/* </ALink> */}
+      <ALink to={`/blog/${data.data.id}`} className={classes.titleLink}>
+        <Typography
+          className={classes.title}
+          variant="h5"
+          color="primary"
+          component="h5"
+        >
+          {data.data.news}
+        </Typography>
+      </ALink>
       <div className={classes.newsInfo}>
         <PersonIcon />
         <Typography className={classes.author} variant="h5">
@@ -97,7 +95,7 @@ export default function CardSummary(data) {
         </Typography>
       </div>
       <Typography variant="h5" align="justify" className={classes.summary}>
-        {/* <MarkdownViewer data={data.data.summary} /> */}
+        <MarkdownViewer data={data.data.summary} />
       </Typography>
     </CardContent>
   );

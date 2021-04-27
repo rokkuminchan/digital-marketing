@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import Image from "../../../common/Image";
+import Image from "../../common/Image";
 import CardSummary from "./CardSummary";
-// import Alink from "../../../common/Alink";
+import Alink from "../../../common/ALink";
 
 const useStyles = makeStyles({
   root: {
@@ -30,13 +30,13 @@ export default function HotCardLeft(data) {
   const classes = useStyles();
   return (
     <Card className={classes.root} elevation={0} variant="outlined">
-      {/* <Alink to={`/blog/${data.data.id}`} className={classes.titleLink}> */}
-      <Image
-        className={classes.img}
-        src={data.data.img.src}
-        alt={data.data.img.alt}
-      />
-      {/* </Alink> */}
+      <Alink to={`/blog/${data.data.id}`} className={classes.titleLink}>
+        <Image
+          className={classes.img}
+          src={data.data.img.src}
+          alt={data.data.img.alt}
+        />
+      </Alink>
       <CardSummary data={data.data} />
     </Card>
   );

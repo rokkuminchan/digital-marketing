@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import Image from "../../../common/Image";
-// import Alink from "../../../common/Alink";
+import Image from "../../common/Image";
+import Alink from "../../../common/ALink";
 import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -46,21 +46,21 @@ export default function HotCardRight(data) {
   const classes = useStyles();
   return (
     <Card className={classes.root} elevation={0} variant="outlined">
-      {/* <Alink to={`/blog/${data.data.id}`} className={classes.titleLink}> */}
-      <Image
-        className={classes.img}
-        src={data.data.img.src}
-        alt={data.data.img.alt}
-      />
-      <Typography
-        className={classes.newsTitle}
-        variant="body2"
-        color="primary"
-        component="h5"
-      >
-        {data.data.news}
-      </Typography>
-      {/* </Alink> */}
+      <Alink to={`/blog/${data.data.id}`} className={classes.titleLink}>
+        <Image
+          className={classes.img}
+          src={data.data.img.src}
+          alt={data.data.img.alt}
+        />
+        <Typography
+          className={classes.newsTitle}
+          variant="body2"
+          color="primary"
+          component="h5"
+        >
+          {data.data.news}
+        </Typography>
+      </Alink>
     </Card>
   );
 }

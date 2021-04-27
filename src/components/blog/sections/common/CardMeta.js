@@ -69,13 +69,13 @@ export default function CardMeta(props) {
         </Button>
       </FacebookShareButton>
 
-      <Typography className={classes.meta}>
+      {/* <Typography className={classes.meta}>
         {viewCount} <VisibilityIcon className={classes.icon} />
       </Typography>
 
       <div className={classes.favorites}>
-        {/* <FavoriteButton id={props.id} news={props.news} /> */}
-      </div>
+        <FavoriteButton id={props.id} news={props.news} />
+      </div> */}
     </CardActions>
   );
 }
