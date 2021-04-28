@@ -30,9 +30,15 @@ const useStyles = makeStyles({
   },
   title: {
     marginBottom: "10px",
-    textAlign: "justify",
+    // textAlign: "justify",
+    fontWeight:　700,
+    color:"#1E88E5",
     "&:hover": {
       color: "#1f65b7",
+    },
+    "@media screen and (min-width: 1024px)": {
+      fontSize:"25px",
+      fontWeight:"700",
     },
   },
   newsInfo: {
@@ -42,10 +48,10 @@ const useStyles = makeStyles({
     marginBottom: "0.8rem",
   },
   author: {
-    fontSize: "18px",
     paddingTop: "5px",
     marginLeft: "0.8rem",
     marginRight: "3rem",
+
   },
   date: {
     fontSize: "18px",

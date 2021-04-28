@@ -10,6 +10,8 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "10px",
     paddingBottom: "477px",
     transition: "all .3s ease-in-out",
+    backgroundColor:"#F5F5F6",
+
     [theme.breakpoints.up("sm")]: {
       paddingBottom: "230px",
     },

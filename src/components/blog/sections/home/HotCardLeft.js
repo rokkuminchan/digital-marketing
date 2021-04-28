@@ -36,7 +36,7 @@ export default function HotCardLeft(data) {
           src={data.data.img.src}
           alt={data.data.img.alt}
         />
-      </Alink>
+      </Alink>  
       <CardSummary data={data.data} />
     </Card>
   );

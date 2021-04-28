@@ -110,7 +110,7 @@ export default function ListNewsElement({ data }) {
               {desktopViewport ? (
                 <CardSummary data={data} />
               ) : (
-                // <Alink to={`/blog/${data.id}`} className={classes.titleLink}>
+                <Alink to={`/blog/${data.id}`} className={classes.titleLink}>
                 <Typography
                   className={classes.title}
                   variant="h5"
@@ -118,7 +118,7 @@ export default function ListNewsElement({ data }) {
                 >
                   {data.news}
                 </Typography>
-                //  </Alink>
+                  </Alink>
               )}
             </Grid>
             <Grid item xs classes={{ item: classes.iconButton }}>

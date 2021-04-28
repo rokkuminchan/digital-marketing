@@ -21,13 +21,15 @@ const useStyles = makeStyles(() => ({
     color: "#EAEAEA",
     justifyContent: "flex-end",
     alignItems: "center",
+    fontSize:"1.5em",
     "@media screen and (max-width: 767px)": {
       paddingTop: "1rem",
     },
   },
   searchIcon: {
     color: "#111",
-    marginLeft: 10,
+    marginLeft: 5,
+    fontSize:"2.5em"
   },
   pagination: {
     margin: "16px auto",

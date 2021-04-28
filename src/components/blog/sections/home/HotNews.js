@@ -12,6 +12,7 @@ const useStyles = makeStyles(() => ({
     paddingLeft: "5%",
     paddingBottom: "50px",
     position: "relative",
+    backgroundColor:"#F5F5F6",
     "&:before": {
       content: `''`,
       width: "90%",
@@ -28,6 +29,7 @@ const useStyles = makeStyles(() => ({
     fontSize: "45px",
     marginBottom: "20px",
     position: "relative",
+    fontWeight: 700,
     "&:before": {
       content: `''`,
       position: "absolute",
