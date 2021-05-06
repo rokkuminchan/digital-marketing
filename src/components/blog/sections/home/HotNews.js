@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
   title: {
     backgroundColor: "#fde314",
     color: "#ffffff",
-    padding: "3px 0px 1px 60px",
+    padding: "3px 0px 1px 30px",
     fontSize: "45px",
     marginBottom: "20px",
     position: "relative",

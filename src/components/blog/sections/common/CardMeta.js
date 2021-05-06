@@ -10,21 +10,7 @@ import { Typography } from "@material-ui/core";
 //import { getViewCountByBlogNewsId } from "../../../../api/blog.service";
 
 const useStyles = makeStyles((theme) => ({
-  listMeta: {
-    position: "relative",
-    height: "4rem",
-    padding: theme.spacing(0, 1, 0, 1),
 
-    "&:before": {
-      content: `''`,
-      width: "calc(100% - 24px)",
-      top: "0px",
-      left: "12px",
-      height: "1px",
-      position: "absolute",
-      backgroundColor: "#DEDEDE",
-    },
-  },
   meta: {
     display: "flex",
     alignItems: "center",
@@ -32,14 +18,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     fontWeight: "bold",
     textTransform: "none",
-    marginRight: theme.spacing(1),
+    // marginRight: theme.spacing(1),
+    boxSizing:"border-box",
   },
-  icon: {
-    marginLeft: theme.spacing(0.5),
-  },
-  favorites: {
-    marginLeft: "auto",
-  },
+
+
 }));
 export default function CardMeta(props) {
   const classes = useStyles();
@@ -64,9 +47,9 @@ export default function CardMeta(props) {
         hashtag={"#WorldITDojo"}
         description={"Học lập trình tại World IT Dojo"}
       >
-        <Button className={classes.meta} aria-label="share">
+        <div className={classes.meta} aria-label="share">
           Share <ShareIcon className={classes.icon} />
-        </Button>
+        </div>
       </FacebookShareButton>
 
       {/* <Typography className={classes.meta}>

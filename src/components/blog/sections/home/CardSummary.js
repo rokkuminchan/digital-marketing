@@ -30,12 +30,15 @@ const useStyles = makeStyles({
   },
   title: {
     marginBottom: "10px",
-    // textAlign: "justify",
+    textAlign: "justify",
     fontWeight:　700,
     color:"#1E88E5",
     "&:hover": {
       color: "#1f65b7",
     },
+    "@media screen and (min-width: 768px)":{
+   fontSize: "22px",
+},
     "@media screen and (min-width: 1024px)": {
       fontSize:"25px",
       fontWeight:"700",
@@ -46,17 +49,28 @@ const useStyles = makeStyles({
     alignItems: "center",
     color: "#0000008a",
     marginBottom: "0.8rem",
+    fontWeight:700,
+
+
+  },
+  Icon:{
+    width:"1em",
+    height:"1em",
+    fontSize:"20px",
   },
   author: {
     paddingTop: "5px",
     marginLeft: "0.8rem",
     marginRight: "3rem",
-
+    fontWeight:700,
+    fontSize: "18px",
   },
   date: {
+    fontWeight:　700,
     fontSize: "18px",
     paddingTop: "4px",
     marginLeft: "0.8rem",
+    fontStyle: "blod",
   },
   summary: {
     display: "-webkit-box",
@@ -64,6 +78,8 @@ const useStyles = makeStyles({
     overflow: "hidden",
     textOverflow: "ellipsis",
     WebkitLineClamp: "3",
+    fontWeight:600,
+
     "& div": {
       padding: "0px",
       "& p": {
@@ -74,6 +90,7 @@ const useStyles = makeStyles({
       },
     },
   },
+
 });
 
 export default function CardSummary(data) {
@@ -91,12 +108,12 @@ export default function CardSummary(data) {
         </Typography>
       </ALink>
       <div className={classes.newsInfo}>
-        <PersonIcon />
-        <Typography className={classes.author} variant="h5">
+        <PersonIcon className={classes.Icon}/>
+        <Typography className={classes.author}>
           {data.data.author}
         </Typography>
-        <AccessTimeIcon />
-        <Typography className={classes.date} variant="h5">
+        <AccessTimeIcon className={classes.Icon}/>
+        <Typography className={classes.date}>
           <LeftTime time={data.data.date} />
         </Typography>
       </div>

@@ -37,8 +37,17 @@ const useStyles = makeStyles({
   newsTitle: {
     fontWeight: "bold",
     color:"#1E88E5",
+    display: "-webkit-box",
+    boxOrient: "vertical",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    WebkitLineClamp: "3",
+    fontWeight:600,
     "&:hover": {
       color: "#1f65b7",
+    },
+    "@media screen and (max-width: 768px)": {
+      fontSize:"16px",
     },
     "@media screen and (min-width: 1024px)": {
       fontSize:"18px",

@@ -14,6 +14,13 @@ const useStyles = makeStyles(() => ({
     marginTop: "25px",
     borderBottom: "solid 1px #DEDEDE ",
   },
+  root1: {
+    "@media screen and (min-width: 768px)": {
+      display: "grid",
+      flexDirection: "row",
+      gridTemplateColumns: "1fr 2fr",
+    },
+  },
   left: {
     marginBottom: "15px",
     "@media screen and (max-width: 767px)": {
@@ -21,7 +28,7 @@ const useStyles = makeStyles(() => ({
     },
   },
   right: {
-    paddingBottom: "15px",
+    padding: "0 0 15px 15px",
     "@media screen and (max-width: 767px)": {
       marginBottom: "0px",
     },
@@ -62,15 +69,23 @@ const useStyles = makeStyles(() => ({
     "@media screen and (max-width: 767px)": {
       maxWidth: "none",
     },
+    "@media screen and (min-width: 768px)": {
+      padding: "0 15px 15px 15px",
+    },
   },
   titleLink: {
     textDecoration: "none",
     display: "block",
   },
   title: {
-    color: "#1f65b7",
-    fontSize: "18px",
+    color: "#1E88E5",
     textAlign: "justify",
+    fontFamily:"'Roboto', sans-serif",
+    "@media screen and (max-width: 767px)": {
+      fontSize: "18px",
+      fontWeight: 700,
+      paddingTop:"1em",
+    },
   },
   iconButton: {
     "@media screen and (max-width: 767px)": {
@@ -87,8 +102,8 @@ export default function ListNewsElement({ data }) {
   const desktopViewport = useMediaQuery("(min-width:768px)");
   return (
     <div className={classes.root}>
-      <Grid container spacing={5}>
-        <Grid item xs={12} sm={5} container classes={{ item: classes.left }}>
+      <div className={classes.root1}>
+        <div classes={classes.left}>
           <Alink to={`/blog/${data.id}`} className={classes.titleLink}>
             <Image
               className={classes.img}
@@ -96,37 +111,24 @@ export default function ListNewsElement({ data }) {
               alt={data.img.alt}
             />
           </Alink>
-        </Grid>
-        <Grid item xs={12} sm={7} container classes={{ item: classes.right }}>
-          <Grid
-            item
-            xs
-            container
-            direction="column"
-            spacing={2}
-            className={classes.grid}
-          >
-            <Grid item xs>
+        </div>
+        <div classes={classes.right}>
+          <div className={classes.grid}>
+            <div>
               {desktopViewport ? (
                 <CardSummary data={data} />
               ) : (
                 <Alink to={`/blog/${data.id}`} className={classes.titleLink}>
-                <Typography
-                  className={classes.title}
-                  variant="h5"
-                  component="h5"
-                >
-                  {data.news}
-                </Typography>
-                  </Alink>
+                  <Typography className={classes.title}>{data.news}</Typography>
+                </Alink>
               )}
-            </Grid>
-            <Grid item xs classes={{ item: classes.iconButton }}>
+            </div>
+            <div classes={{ item: classes.iconButton }}>
               <CardMeta id={data.id} news={data.news} />
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

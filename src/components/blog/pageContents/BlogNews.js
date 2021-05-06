@@ -8,15 +8,15 @@ import SearchBlogs from "../sections/home/SearchBlogs";
 const useStyles = makeStyles((theme) => ({
   blogNews: {
     paddingTop: "10px",
-    paddingBottom: "477px",
+    // paddingBottom: "477px",
     transition: "all .3s ease-in-out",
     backgroundColor:"#F5F5F6",
 
     [theme.breakpoints.up("sm")]: {
-      paddingBottom: "230px",
+      // paddingBottom: "230px",
     },
     [theme.breakpoints.up("md")]: {
-      paddingBottom: "233px",
+      // paddingBottom: "233px",
     },
     "@media screen and (max-width: 356px)": {
       paddingBottom: "496px",
