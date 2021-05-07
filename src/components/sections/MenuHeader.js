@@ -71,6 +71,16 @@ export default function MenuHeader() {
                   <ALink
                     className="menu-header__navigation-link"
                     exact
+                    to="/blog"
+                    activeClassName="active"
+                  >
+                    {t('menu-header__blog')}
+                  </ALink>
+                </li>
+                <li className="menu-header__navigation-item" onClick={hideMenu}>
+                  <ALink
+                    className="menu-header__navigation-link"
+                    exact
                     to="/about-us"
                     activeClassName="active"
                   >
